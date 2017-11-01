@@ -8,7 +8,7 @@
           {% assign current = 'sidebar-nav-active' %}
         {% endif %}
         <li class="{{ current }}">
-          <a href="{{ link.url }}">{{ link.text }}</a>
+          <a href="{{ site.baseurl}}{{ link.url }}">{{ link.text }}</a>
         </li>
       {% endfor %}
     </ul>
