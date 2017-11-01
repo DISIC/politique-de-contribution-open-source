@@ -9,7 +9,7 @@ exclude:
 # Site metadata
 name: "Modalités d'ouverture des codes sources"
 description: "Achieving Efficiency, Transparency, and Innovation through Reusable and Open Source Software"
-# baseurl: https:// A DETERMINER
+baseurl: https://disic.github.io/politique-de-contribution-open-source/
 
 # GitHub information
 org_name: DISIC
