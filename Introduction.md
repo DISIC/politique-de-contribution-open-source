@@ -38,6 +38,12 @@ Sont concernés, l'ensemble des codes sources :
  *  développés en interne par l'administration
  *  développés pour le compte de l'administration
 
+Cette politique de contribution concerne essentiellement les *nouveaux* développements afin qu'ils respectent dès le départ
+les meilleures pratiques. Celles-ci s'appliquent bien évidemment à l'ouverture de code source existant, mais des actions
+complémentaires sont nécessaires dans ce cas qui vont au dela du périmètre de ce guide. Celles-ci concernent notamment
+la définition du périmètre d'ouverture du code, sa revue qualité, sa revue sécurité, l'analyse de conformité et l'analyse
+de la propriété intellectuelle.
+
 Les fonctions publiques hospitalières et territoriales sont hors périmètre de cette politique de contribution, 
 mais elles peuvent s'en inspirer librement.
 
