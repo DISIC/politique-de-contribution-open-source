@@ -22,10 +22,13 @@ administratifs communicables et réutilisables. Dans le cas où il est possible 
 [n° 2017-638 du 27 avril 2017][DecretLicences link] précise les familles de licences qui peuvent être utilisées. La liste 
 détaillée des licences avec leurs versions est disponible sur le site [data.gouv.fr][Licenses link].
 
-Les objectifs de cette politique de contribution open-source interministérielle sont:
- * de fixer les règles et principes à respecter pour l'ouverture des codes sources
- * d'accompagner les ministères sur l'ouverture des codes sources et de partager les meilleures pratiques 
- * de cadrer la gouvernance des politiques de contribution open-source ministérielles et interministérielle
+Les objectifs de cette politique de contribution open-source interministérielle sont de:
+ * fixer les règles et principes à respecter pour l'ouverture des codes sources
+ * accompagner les ministères et de partager les meilleures pratiques 
+ * cadrer la gouvernance autour des politiques de contribution open-source ministérielles et interministérielle
+
+Ce document est à destination des développeurs ou de leur managers qu'ils soient agents publiques (titulaires ou contractuels), 
+ou travaillant dans le secteur privé pour le compte de l'administration
 
 ## Périmètre
 
@@ -37,7 +40,11 @@ Sont concernés, l'ensemble des codes sources :
  *  développés en interne par l'administration
  *  développés pour le compte de l'administration
 
-
+La politique de contribution est décomposée de la manière suivante:
+ * Principes d'ouverture des codes sources
+ * Modalités et meilleures pratiques
+ * Instanciation de politique de contribution ministérielle
+ * Gouvernance associée
 
 [Logo LO]: https://www.etalab.gouv.fr/wp-content/uploads/2011/10/licence-ouverte-open-licence.gif
 [LO link]: https://github.com/DISIC/politique-de-contribution-open-source/raw/master/LICENSE.pdf
