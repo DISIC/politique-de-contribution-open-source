@@ -19,12 +19,12 @@ branch: master
 # Navigation
 navigation:
 - text: Introduction
-  url: /Introduction
+  url: politique-de-contribution-open-source/Introduction
 - text: 1 - Modalités d'ouverture
-  url: /Ouverture
+  url: politique-de-contribution-open-source/Ouverture
 - text: 2 - Meilleurs pratiques
-  url: /Pratique
+  url: politique-de-contribution-open-source/Pratique
 - text: 3 - Instanciation 
-  url: /Instanciation
+  url: politique-de-contribution-open-source/Instanciation
 - text: 4 - Gouvernance
-  url: /Gouvernance
+  url: politique-de-contribution-open-source/Gouvernance
