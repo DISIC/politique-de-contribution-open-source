@@ -19,7 +19,7 @@ branch: master
 # Navigation
 navigation:
 - text: Introduction
-  url: /
+  url: /Introduction
 - text: 1 - Modalités d'ouverture
   url: /Ouverture
 - text: 2 - Meilleurs pratiques
@@ -27,4 +27,4 @@ navigation:
 - text: 3 - Instanciation 
   url: /Instanciation
 - text: 4 - Gouvernance
-url: /Gouvernance
+  url: /Gouvernance
