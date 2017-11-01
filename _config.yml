@@ -4,7 +4,7 @@ exclude:
 - ".gitignore"
 - README.md
 - CONTRIBUTING.md
-- LICENSE.md
+- LICENSE.pdf
 
 # Site metadata
 name: "Modalités d'ouverture des codes sources"
