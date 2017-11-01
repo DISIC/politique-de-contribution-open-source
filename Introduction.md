@@ -24,18 +24,20 @@ détaillée des licences avec leurs versions est disponible sur le site [data.go
 
 Les objectifs de cette politique de contribution open-source interministérielle sont:
  * de fixer les règles et principes à respecter pour l'ouverture des codes sources
- * d'accompagner les ministères et de partager les meilleures pratiques opérationnelles
- * de cadrer la gouvernance de sa mise à jour et des politiques de contribution open-source ministérielle et 
+ * d'accompagner les ministères sur l'ouverture des codes sources et de partager les meilleures pratiques 
+ * de cadrer la gouvernance des politiques de contribution open-source ministérielles et interministérielle
 
 ## Périmètre
 
-Cette politique de contribution s'applique au périmètre du système d'information et de communication de l'Etat conformément à 
-l'article 1 du Décret [n° 2014-879 du 1er août 2014][DecretDINSIC link]. Chaque administration de l'Etat à la possibilité 
-d'instancier sa propre politique de contribution conformément à la section "Instanciation" de cette politique.
+Cette politique de contribution interministérielle s'applique au système d'information et de communication de l'Etat 
+conformément à l'article 1 du Décret [n° 2014-879 du 1er août 2014][DecretDINSIC link]. Chaque administration de l'Etat 
+a la possibilité d'instancier sa propre politique de contribution pour la préciser et l'amender. 
 
 Sont concernés, l'ensemble des codes sources :
  *  développés en interne par l'administration
- *  développés p
+ *  développés pour le compte de l'administration
+
+
 
 [Logo LO]: https://www.etalab.gouv.fr/wp-content/uploads/2011/10/licence-ouverte-open-licence.gif
 [LO link]: https://github.com/DISIC/politique-de-contribution-open-source/raw/master/LICENSE.pdf
