@@ -13,8 +13,6 @@ __Historique et versions__
 
 Ce document est en *ALPHA*, ie sous modification intensive sans nécessairement de changement de numéro de version.
 
-[![LO][Logo LO]][LO link] Document publié en [**Licence Ouverte 2.0**][LO link]
-
 ## Objectifs
 
 La Loi pour une République Numérique du [7 octobre 2016][LoiRepNum link] ajoute spécifiquement les codes sources aux documents 
@@ -27,8 +25,8 @@ Les objectifs de cette politique de contribution open-source interministérielle
  * accompagner les ministères et de partager les meilleures pratiques 
  * cadrer la gouvernance autour des politiques de contribution open-source ministérielles et interministérielle
 
-Ce document est à destination des développeurs ou de leur managers qu'ils soient agents publiques (titulaires ou contractuels), 
-ou travaillant dans le secteur privé pour le compte de l'administration
+Ce document est à destination des développeurs ou de leurs responsables qu'ils soient agents publiques (titulaires 
+ou contractuels), ou travaillant dans le secteur privé pour le compte de l'administration.
 
 ## Périmètre
 
@@ -40,11 +38,38 @@ Sont concernés, l'ensemble des codes sources :
  *  développés en interne par l'administration
  *  développés pour le compte de l'administration
 
+Les fonctions publiques hospitalières et territoriales sont hors périmètre de cette politique de contribution, 
+mais elles peuvent s'en inspirer librement.
+
+## Structure du document
+
 La politique de contribution est décomposée de la manière suivante:
  * Principes d'ouverture des codes sources
  * Modalités et meilleures pratiques
  * Instanciation de politique de contribution ministérielle
  * Gouvernance associée
+
+Afin d'en faciliter la lecture chaque partie débute par une section TL,DR (Too Long, Didn't read) qui en résume l'essentiel.
+
+## Propriété du document
+
+La DINSIC est propriétaire de ce document, le maintient, et en assure sa bonne application et le support associé. Pour toute question, ou demande
+d'évolutions, veuillez vous référer à la partie *Gouvernance*.
+
+[![LO][Logo LO]][LO link] Ce document publié en [**Licence Ouverte 2.0**][LO link]
+
+## Références externes
+
+Ce document a été élaborés grâce aux nombreux travaux ci-dessous:
+ * Open Government Partnership collaboration : https://github.com/DISIC/foss-contrib-policy-template
+ * USA 18F: https://github.com/18F/open-source-policy/blob/master/CONTRIBUTING.md
+ * Whitehouse source code policy: https://sourcecode.cio.gov
+ * UK GDS : http://gds-operations.github.io/guidelines/
+ * Canada British Columbia : https://github.com/bcgov/BC-Policy-Framework-For-GitHub
+ * Linux Foundation open-source guides: https://www.linuxfoundation.org/resources/open-source-guides/ 
+ * Core Infrastructure Initiative: https://bestpractices.coreinfrastructure.org/
+ * Open-Source Guide:  https://opensource.guide/
+ * Google open-source: http://opensource.google.com/ 
 
 [Logo LO]: https://www.etalab.gouv.fr/wp-content/uploads/2011/10/licence-ouverte-open-licence.gif
 [LO link]: https://github.com/DISIC/politique-de-contribution-open-source/raw/master/LICENSE.pdf
