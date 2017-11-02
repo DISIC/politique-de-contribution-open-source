@@ -62,7 +62,7 @@ Afin d'en faciliter la lecture chaque partie débute par une section TL,DR (Too 
 La DINSIC est propriétaire de ce document, le maintient, et en assure sa bonne application et le support associé. Pour toute question, ou demande
 d'évolutions, veuillez vous référer à la partie *Gouvernance*.
 
-[![LO][Logo LO]][LO link] Ce document est publié sous la [**Licence Ouverte 2.0**][LO link]
+[![Logo LO][Logo LO]][LO link] Ce document est publié sous la [**Licence Ouverte 2.0**][LO link]
 
 ## Références externes
 
@@ -77,7 +77,7 @@ Ce document a été élaborés grâce aux nombreux travaux ci-dessous:
  * Open-Source Guide:  https://opensource.guide/
  * Google open-source: http://opensource.google.com/ 
 
-[Logo LO]: https://www.etalab.gouv.fr/wp-content/uploads/2011/10/licence-ouverte-open-licence.gif =30x
+[Logo LO]: https://www.etalab.gouv.fr/wp-content/uploads/2011/10/licence-ouverte-open-licence.gif 
 [LO link]: https://github.com/DISIC/politique-de-contribution-open-source/raw/master/LICENSE.pdf
 [LoiRepNum link]: https://www.legifrance.gouv.fr/affichTexte.do;jsessionid=6E9C9BD1F4AAF6E6FD525E8FE902A615.tplgfr26s_2?cidTexte=JORFTEXT000033202746&categorieLien=id
 [DecretDINSIC link]:  https://www.legifrance.gouv.fr/affichTexte.do;jsessionid=6E9C9BD1F4AAF6E6FD525E8FE902A615.tplgfr26s_2?cidTexte=JORFTEXT000029337021&idArticle=&dateTexte=20171101
