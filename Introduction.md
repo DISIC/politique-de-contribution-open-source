@@ -50,10 +50,10 @@ mais elles peuvent s'en inspirer librement.
 ## Structure du document
 
 La politique de contribution est décomposée de la manière suivante:
- * Principes d'ouverture des codes sources
- * Modalités et meilleures pratiques
- * Instanciation de politique de contribution ministérielle
- * Gouvernance associée
+ * [Principes d'ouverture des codes sources](/Ouverture)
+ * [Modalités et meilleures pratiques](/Pratique)
+ * [Instanciation de politique de contribution ministérielle](/Instanciation)
+ * [Gouvernance associée](/Gouvernance)
 
 Afin d'en faciliter la lecture chaque partie débute par une section TL,DR (Too Long, Didn't read) qui en résume l'essentiel.
 
