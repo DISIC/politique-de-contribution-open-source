@@ -9,10 +9,11 @@ layout: default
 
  * Principe de subsidirarité : la politique peut être instanciée localement avec une priorité plus forte
  * Reconnaissance individuelle des dévelopeurs
- * Distinction des contributions professionnelles (via mail pro) / personnelles
- * Pas d'engagements (ni support / acceptation de modification)
+ * Distinction des contributions professionnelles / personnelles
+ * Pas d'engagements (ni support / ni suggestions de modification)
  * Autorisation par défaut de contribuer aux projets sous licenses FSF ou OSI
  * Autorisation par défaut de contribuer un nouveau projet avcec les licences du décret
+ * Recommandation d'utiliser les familles de licences permissives dans le cas général
  * Autorisation par défaut de signer un iCLA (individual CLA) avec les organismes pour lesquels la DINSIC a signé un global CLA
  * Utilisation nécessaire d'un système de suivi de version distribué (git, bitbucket, mercurial) et possibilité d'utiliser toute plateforme (github, gitlab, framagit, ...)
  * Utilisation possible des DCO (developper's certificate of origin) et interdiction d'exiger des CLA
@@ -23,12 +24,10 @@ layout: default
 ### Reconnaissance individuelle
 
  > Reconnaissance individuelle des dévelopeurs
- 
+
+Utilisation de leur adresses emails pour tracer leurs contributions.
 Possibilité d'utiliser des pseudonyme.
 Pas d'utilisation de mails génériques / anonymes
-
- * Pour les agents : utilisation des adresses emails en .gouv.fr
- * Pour les prestataires : utilisation de leur mail de société avec
  
 ### Distinction des contributions pro / perso
 
@@ -37,4 +36,22 @@ Pas d'utilisation de mails génériques / anonymes
 
 ### Autorisation par défaut de contribuer à des projets sous licenses FSF ou OSI
 
-Les licenses de type WTFL ou beerware ne sont pas autorisées et une demande doit être faite.
+Les licences validées par les organismes Free Software Foundation et Open Source Initiative et recensées sur leurs pages respectives:
+ * FSF : https://www.gnu.org/licenses/license-list.fr.html 
+ * OSI : https://opensource.org/licenses/alphabetical
+
+A l'inverse les licenses de type WTFL ou beerware ne rentrent pas dans le cadre de l'autorisation par défaut.
+
+### Recommandation d'utiliser des licences permissives dans le cas général
+
+Pour l’administration, par défaut, les licences de la familles permissives sont privilégiées afin de ne pas introduire de biais de concurrence et empêcher un acteur (commercial et propriétaire) de bénéficier du code développé par l’administration. Ainsi de nouveaux services à valeur ajoutée peuvent être développés par des acteurs tiers, même si ces derniers restent propriétaires (et payant).
+
+Toutefois, le choix d’une licence de partage à l’identique peut être pertinent dans les cas suivant pour prévenir toute appropriation propriétaire :
+ *	Service d’intérêt général
+ *	Service « contributif » : service en ligne dont la valeur est issue des contributions des utilisateurs du service. 
+ *	Service qui organise un écosystème. Permet de partager les évolutions avec l’ensemble des acteurs.
+ *	Service décentralisé qui est instancié de nombreuses fois et dont les instances doivent communiquer entre elles.
+ *	Service qui établit un lien fort avec le citoyen qui doit être préservé sans que d’autres services puissent l’encapsuler
+A noter que les licences de partage à l’identique sont plus complexes notamment sur leur clause de distribution (lien statique/dynamique, accès distant, etc.)
+
+A l’inverse, si c’est un service de base ou d’infrastructure qui a vocation à être inclus dans d’autres services ou appelé par d’autres services, la balance penche plutôt pour des licences permissives.
