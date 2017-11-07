@@ -25,9 +25,7 @@ layout: default
 
 ### Reconnaissance individuelle
 
- > Reconnaissance individuelle des dévelopeurs
-
-Utilisation de leur adresses emails pour tracer leurs contributions.
+Reconnaissance individuelle des dévelopeurs :  Utilisation de leur adresses emails pour tracer leurs contributions.
 
 Possibilité d'utiliser des pseudonyme.
 
