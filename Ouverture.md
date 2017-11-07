@@ -23,6 +23,8 @@ layout: default
 
 ### Subsidiarité
 
+Voir instanciation si vous souhaitez décliner cette politique au sein de votre organisation
+
 ### Reconnaissance individuelle
 
 Reconnaissance individuelle des dévelopeurs :  Utilisation de leur adresses emails pour tracer leurs contributions.
@@ -46,6 +48,12 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
  * OSI : https://opensource.org/licenses/alphabetical
 
 A l'inverse les licenses de type WTFL ou beerware ne rentrent pas dans le cadre de l'autorisation par défaut.
+
+### Autorisation par défaut de contribuer un nouveau projet avcec les licences du décret
+
+L'Etat n'a pas vocation a être éditeur logiciel. En dehors des trois exceptions prévues à la loi république numérique pour lesquelles vous pouvez contacter le mail de support en cas de question, il n'y a pas d'autorisation préalable à demander auprès de la DINSIC. Pour autant veuillez vous référer à votre manager direct avant la publication d'un nouveau projet dans le compte de votre organisation.
+
+Pour rappel, les licences à utiliser sont disponible par décret sur le site : http://www.data.gouv.fr/fr/licences
 
 ### Recommandation d'utiliser des licences permissives dans le cas général
 
