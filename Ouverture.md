@@ -16,8 +16,10 @@ layout: default
  * Recommandation d'utiliser les familles de licences permissives dans le cas général
  * Autorisation par défaut de signer un iCLA (individual CLA) avec les organismes pour lesquels la DINSIC a signé un global CLA
  * Utilisation nécessaire d'un système de suivi de version distribué (git, bitbucket, mercurial) et possibilité d'utiliser toute plateforme (github, gitlab, framagit, ...)
- * Utilisation possible des DCO (developper's certificate of origin) et interdiction d'exiger des CLA
- * Assistance sur la politique de contribution disponible
+ * Vérification en termes de sécurité de la non-divulgation de secrets ou données personnnelles
+ * Inventaire des comptes d'organisation gouvernementaux
+ * Utilisation possible des DCO (developper's certificate of origin) et ne pas exiger des CLA
+ * Assistance sur la politique de contribution disponible pour toute question
 
 ### Subsidiarité
 
@@ -26,13 +28,18 @@ layout: default
  > Reconnaissance individuelle des dévelopeurs
 
 Utilisation de leur adresses emails pour tracer leurs contributions.
+
 Possibilité d'utiliser des pseudonyme.
+
 Pas d'utilisation de mails génériques / anonymes
  
 ### Distinction des contributions pro / perso
 
+Possibilité de contribuer sur un même projet en pro ou en perso. Le mail pro doit être utilisé sur le temps professionnel.
+
 ### Pas d'engagements
 
+Aucune obligation d'étudier les pull requests transmises. Pas de support ni de garantie conformément aux licenses.
 
 ### Autorisation par défaut de contribuer à des projets sous licenses FSF ou OSI
 
@@ -55,3 +62,11 @@ Toutefois, le choix d’une licence de partage à l’identique peut être perti
 A noter que les licences de partage à l’identique sont plus complexes notamment sur leur clause de distribution (lien statique/dynamique, accès distant, etc.)
 
 A l’inverse, si c’est un service de base ou d’infrastructure qui a vocation à être inclus dans d’autres services ou appelé par d’autres services, la balance penche plutôt pour des licences permissives.
+
+### Pré-autorisation de signer un iCLA auprès de certaines communautés
+
+A ce stade aucun corporate CLA n'a été signé avec des communautés. La DINSIC prendra contact et établira les communautés prioritaires avec qui ces contributions seront facilitées.
+
+### Assistance sur la politique de contribution
+
+Contacter `opensource @ data.gouv.fr` pour toute question sur cette politique
