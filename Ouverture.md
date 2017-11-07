@@ -19,7 +19,7 @@ layout: default
  * Vérification en termes de sécurité de la non-divulgation de secrets ou données personnnelles
  * Inventaire des comptes d'organisation gouvernementaux
  * Utilisation possible des DCO (developper's certificate of origin) et ne pas exiger des CLA
- * Assistance sur la politique de contribution disponible pour toute question
+ * Support: Contacter `opensource @ data.gouv.fr` pour toute question
 
 ### Subsidiarité
 
