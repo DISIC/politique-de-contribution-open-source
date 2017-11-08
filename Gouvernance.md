@@ -3,7 +3,7 @@ title: Gouvernance
 layout: default
 ---
 
-## Gouvenrance
+## Gouvernance
 
 Deux rôles sont distingués:
 * DINSIC
