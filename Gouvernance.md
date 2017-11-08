@@ -13,4 +13,4 @@ Cette politique est éditée par la DINSIC. Elle peut être modifiée pour des c
 
 Des compléments et ajustement peuvent être effectué avec une mise à jour du MINEUR de version directement par la DINSIC et la revue d'1 ministère
 
-Des modifications de règles ou ajout de règles substantielles nécessitent l'accord de 3 ministères au moins pour être validés.
+Des modifications de règles ou ajout de règles substantielles nécessitent l'accord de la DINSIC et de 3 ministères au moins pour être validées.
