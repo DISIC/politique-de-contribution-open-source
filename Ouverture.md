@@ -28,6 +28,8 @@ Voir instanciation si vous souhaitez décliner cette politique au sein de votre 
 ### Reconnaissance individuelle
 
 Reconnaissance individuelle des dévelopeurs :  Utilisation de leur adresses emails pour tracer leurs contributions.
+ * Pour les agents: utilisation du mail professionnel en .gouv.fr
+ * Pour les prestataires de services, utilisation du mail de leur société d'attachement (pas de mail prestataire en .gouv.fr)
 
 Possibilité d'utiliser des pseudonyme.
 
