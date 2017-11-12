@@ -30,13 +30,13 @@ Deux propriétaires par repository
 
 ### Inventaire des comptes d'organisation
 
-Si sur Github, referencer le compte d'organisation comme un compte gouvernemental
+Si sur Github, référencer le compte d'organisation comme un compte gouvernemental
 
 ### Distinction des contributions personnelles / Professionnelles
 
 Utilisation du compte professionnel avec le mail en ```.gouv.fr```
 
-Créer de repository, configurés de la manière suivante:
+Créer le repository, configuré de la manière suivante:
 
 * Repository professionnel
 
@@ -78,7 +78,7 @@ Sinon, les licences recommandées par défaut sont:
 
 ### Gestion des versions
 
-Avoir une politique de gestion des versions est recommandé. Le guide de versioning semantique (http://semver.org/) est un bon exemple à suivre.
+Avoir une politique de gestion des versions est recommandé. Le guide de versioning sémantique (http://semver.org/) est un bon exemple à suivre.
 
 ### Fichiers présents dans le repository
 
