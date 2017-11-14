@@ -18,6 +18,7 @@ layout: default
 * Gestion des versions
 * Fichiers par défaut dans un repository
 * Headers de fichiers source
+* Tracabilité des developpements (DCO)
 * Gestion de la qualité
 * Gestion de la communauté
 * Outillage
@@ -101,6 +102,50 @@ Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING and LICENSE.
 * NFR: Choix d'architecture technique du projet qui ne correspondent pas à des exigences fonctionnelles.
 
 Ces fichiers doivent être en texte simple ou avec du maruage minimum (ie Markdown). Il n'est pas recommandé d'utiliser des formats binaires (ie PDF)
+
+### Headers de fichiers source
+
+Conformément aux recommandations détaillées dans [https://software.reuse](https://software.reuse) chaque fichier de code source
+doit disposer de son auteur, de son identifiant de licence SPDX, ainsi que d'une copie de la licence dans le repository local.
+
+ *  Exemples de fichiers headers:
+
+```
+/*
+  * Copyright (c) 2017 Alice Commit <alice@example.com>
+  * 
+  * SPDX-License-Identifier: BSD-2-Clause
+  * License-Filename: LICENSES/BSD-2-Clause_Alice.txt
+  */
+
+```
+
+ou dans le cas d'un projet faisant un suivi automatique de ses contributeurs:
+
+```
+ /*
+  * This file is part of project X. It's copyrighted by the contributors
+  * recorded in the version control history of the file, available from
+  * its original location http://git.example.com/X/filename.c
+  * 
+  * SPDX-License-Identifier: BSD-2-Clause
+  * License-Filename: LICENSES/BSD-2-Clause_Charlie.txt
+  *
+```
+
+Ces identifiants permettent de générer automatiquement des inventaires des licences sous la forme de "Bill of Material", afin de
+garantir la conformité du logiciel.
+
+L'ensemble des identifiants SPDX est disponible à cette adresse: [https://spdx.org/licenses/](https://spdx.org/licenses/)
+
+### Tracabilité des developpements (DCO)
+
+Afin de garantir l'origine des contributions soumises, la mise en oeuvre d'un Developer's Certificate of Origin est recommandée.  
+Celui-ci est traduit en français
+
+Pour l'instant le sign-off ne se fait qu'en anglais en utilisant la command
+
+`git commit --signoff`
 
 ### Sécurité
 
