@@ -77,6 +77,8 @@ Ce document a été élaborés grâce aux nombreux travaux ci-dessous:
  * Open-Source Guide: [https://opensource.guide/](https://opensource.guide/)
  * Google open-source: [http://opensource.google.com](http://opensource.google.com)
 
+There is also an on-going work by the Government of Canada : https://github.com/canada-ca/Open_First_Whitepaper
+
 [Logo LO]: https://www.etalab.gouv.fr/wp-content/uploads/2011/10/licence-ouverte-open-licence.gif
 [LO link]: https://github.com/DISIC/politique-de-contribution-open-source/raw/master/LICENSE.pdf
 [LoiRepNum link]: https://www.legifrance.gouv.fr/affichTexte.do;jsessionid=6E9C9BD1F4AAF6E6FD525E8FE902A615.tplgfr26s_2?cidTexte=JORFTEXT000033202746&categorieLien=id
