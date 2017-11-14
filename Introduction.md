@@ -78,7 +78,7 @@ Ce document a été élaborés grâce aux nombreux travaux ci-dessous:
  * FSFE software reuse: [https://reuse.software/](https://reuse.software/)
  * Google open-source: [http://opensource.google.com](http://opensource.google.com)
 
-There is also an on-going work by the Government of Canada : [https://github.com/canada-ca/Open_First_Whitepaper](https://github.com/canada-ca/Open_First_Whitepaper)
+Un travail est également en cours par le gouvernement du Canada : [https://github.com/canada-ca/Open_First_Whitepaper](https://github.com/canada-ca/Open_First_Whitepaper)
 
 [Logo LO]: https://www.etalab.gouv.fr/wp-content/uploads/2011/10/licence-ouverte-open-licence.gif
 [LO link]: https://github.com/DISIC/politique-de-contribution-open-source/raw/master/LICENSE.pdf
