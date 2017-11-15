@@ -150,7 +150,7 @@ Pour l'instant le sign-off ne se fait qu'en anglais en utilisant la command
 ### Sécurité
 
  * Outil de scan de sécurité
- * Guide de sécurité méthodologie agile ANSSI / DINSIC
+ * Guide de sécurité méthodologie agile ANSSI / DINSIC: [https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf](https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf)
 
 ### Outillage
 
