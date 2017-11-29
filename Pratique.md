@@ -16,8 +16,8 @@ layout: default
 * Suivi des anomalies
 * Tests
 * Gestion des versions
-* Fichiers par défaut dans un repository
-* Headers de fichiers source
+* Fichiers par défaut dans un dépot (repository)
+* Entêtes (Headers) de fichiers source
 * Tracabilité des developpements (DCO)
 * Gestion de la qualité
 * Gestion de la communauté
@@ -25,17 +25,17 @@ layout: default
 
 ### Gestion des comptes personnels et organisation
 
-Utilisation de repository au sein de comptes d'organisation
-
-Deux propriétaires par repository
+Utilisation de dépots au sein de comptes d'organisation
+ francisat
+Deux propriétaires par dépot
 
 ### Inventaire des comptes d'organisation
 
-Des reflexions sont en cours sur la capacité de proposer un inventaire automatique tant du point de vue des repositories
+Des reflexions sont en cours sur la capacité de proposer un inventaire automatique tant du point de vue des dépots
 d'organisation que de l'inventaire des services.
 
  > Spécifiquement pour Github, référencer le compte d'organisation comme un compte gouvernemental
- > 
+ >  francisat
  >  * Inscrivez vous si ce n'est pas déjà fait dans la communauté [https://github.com/government/welcome](https://github.com/government/welcome)
  >  * Référencez votre compte d'organisation en l'ajoutant sur la page : [https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml](https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) conformément à la page [https://government.github.com/community/](https://government.github.com/community/)
 
@@ -43,13 +43,13 @@ d'organisation que de l'inventaire des services.
 
 Utilisation du compte professionnel avec le mail en ```.gouv.fr```
 
-Créer le repository, configuré de la manière suivante:
+Créer le dépot, configuré de la manière suivante:
 
-* Repository professionnel
+* Dépot professionnel
 
 `git config user.email <prenom.nom@ministere.gouv.fr>`
 
-* Repository personnel
+* Dépot personnel
 
 `git config user.email <email@perso.fr>`
 
@@ -85,9 +85,9 @@ Sinon, les licences recommandées par défaut sont:
 
 ### Gestion des versions
 
-Avoir une politique de gestion des versions est recommandé. Le guide de versioning sémantique (http://semver.org/) est un bon exemple à suivre.
+Avoir une politique de gestion des versions est recommandé. Le guide de versioning sémantique (https://semver.org/lang/fr/) est un bon exemple à suivre.
 
-### Fichiers présents dans le repository
+### Fichiers présents dans le dépot
 
 Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING and LICENSE.
 
@@ -109,12 +109,12 @@ Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING and LICENSE.
 
 Ces fichiers doivent être en texte simple ou avec du maruage minimum (ie Markdown). Il n'est pas recommandé d'utiliser des formats binaires (ie PDF)
 
-### Headers de fichiers source
+### Entête de fichiers source
 
 Conformément aux recommandations détaillées dans [https://software.reuse](https://software.reuse) chaque fichier de code source
 doit disposer de son auteur, de son identifiant de licence SPDX, ainsi que d'une copie de la licence dans le repository local.
-
- *  Exemples de fichiers headers:
+ francisat
+ *  Exemples de fichiers Entête  (headers):
 
 ```
 /*
