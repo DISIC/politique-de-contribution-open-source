@@ -26,8 +26,9 @@ layout: default
 ### Gestion des comptes personnels et organisation
 
 Utilisation de dépots au sein de comptes d'organisation
- francisat
-Deux propriétaires par dépot
+ 
+ * Deux propriétaires (owner) par dépot
+ * Pas de projets au sein des comptes personnels
 
 ### Inventaire des comptes d'organisation
 
@@ -35,7 +36,6 @@ Des reflexions sont en cours sur la capacité de proposer un inventaire automati
 d'organisation que de l'inventaire des services.
 
  > Spécifiquement pour Github, référencer le compte d'organisation comme un compte gouvernemental
- >  francisat
  >  * Inscrivez vous si ce n'est pas déjà fait dans la communauté [https://github.com/government/welcome](https://github.com/government/welcome)
  >  * Référencez votre compte d'organisation en l'ajoutant sur la page : [https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml](https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) conformément à la page [https://government.github.com/community/](https://government.github.com/community/)
 
@@ -113,8 +113,7 @@ Ces fichiers doivent être en texte simple ou avec du maruage minimum (ie Markdo
 
 Conformément aux recommandations détaillées dans [https://software.reuse](https://software.reuse) chaque fichier de code source
 doit disposer de son auteur, de son identifiant de licence SPDX, ainsi que d'une copie de la licence dans le repository local.
- francisat
- *  Exemples de fichiers Entête  (headers):
+  *  Exemples de fichiers Entête  (headers):
 
 ```
 /*
