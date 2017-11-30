@@ -3,7 +3,7 @@ title: Introduction
 layout: default
 ---
 
-# Politique de contribution open-source
+# Politique de contribution open-source de l'Etat
 
 __Historique et versions__
 
