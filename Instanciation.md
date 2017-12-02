@@ -1,6 +1,5 @@
 ---
 title: Instanciation
-layout: default
 ---
 
 ## Instanciation

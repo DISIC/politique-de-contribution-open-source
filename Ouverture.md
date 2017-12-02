@@ -1,6 +1,5 @@
 ---
 title: Ouverture
-layout: default
 ---
 
 ## Principes d'ouverture des codes sources

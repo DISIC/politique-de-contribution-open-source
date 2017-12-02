@@ -1,6 +1,5 @@
 ---
 title: Meilleures Pratiques
-layout: default
 ---
 
 ## Meilleures pratiques

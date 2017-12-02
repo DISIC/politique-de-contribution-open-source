@@ -1,6 +1,5 @@
 ---
 title: Gouvernance
-layout: default
 ---
 
 ## Gouvernance

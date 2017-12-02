@@ -1,6 +1,5 @@
 ---
 title: Introduction
-layout: default
 ---
 
 # Politique de contribution open-source de l'Etat
