@@ -5,7 +5,7 @@ weight = 10
   identifier = "introduction"
 +++
 
-# Politique de contribution open-source de l'Etat
+# Politique de contribution open-source de l'État
 
 __Historique et versions__
 
@@ -26,15 +26,15 @@ Les objectifs de cette politique de contribution open-source interministérielle
 
  * fixer les règles et principes à respecter pour l'ouverture des codes sources
  * accompagner les ministères et partager les meilleures pratiques 
- * définir la gouvernance des politiques de contribution open-source de l'Etat.
+ * définir la gouvernance des politiques de contribution open-source de l'État.
 
 Ce document est à destination des développeurs ou de leurs responsables, qu'ils soient agents publics (titulaires 
 ou contractuels) ou prestataires.
 
 ## Périmètre
 
-Cette politique de contribution s'applique au système d'information et de communication de l'Etat 
-conformément à l'article 1er du Décret [n° 2014-879 du 1er août 2014][DecretDINSIC link]. Chaque administration de l'Etat 
+Cette politique de contribution s'applique au système d'information et de communication de l'État 
+conformément à l'article 1er du Décret [n° 2014-879 du 1er août 2014][DecretDINSIC link]. Chaque administration de l'État 
 a la possibilité d'instancier sa propre politique de contribution pour la préciser et l'amender. 
 
 Sont concernés, l'ensemble des codes sources :
