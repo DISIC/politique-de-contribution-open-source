@@ -19,7 +19,8 @@ administratifs communicables et réutilisables. Dans le cas où il est possible 
 [n° 2017-638 du 27 avril 2017][DecretLicences link] précise les familles de licences qui peuvent être utilisées. La liste 
 détaillée des licences avec leurs versions est disponible sur le site [data.gouv.fr][Licenses link].
 
-Les objectifs de cette politique de contribution open-source interministérielle sont de:
+Les objectifs de cette politique de contribution open-source interministérielle sont de :
+
  * fixer les règles et principes à respecter pour l'ouverture des codes sources
  * accompagner les ministères et partager les meilleures pratiques 
  * définir la gouvernance des politiques de contribution open-source de l'Etat.
@@ -34,6 +35,7 @@ conformément à l'article 1er du Décret [n° 2014-879 du 1er août 2014][Decre
 a la possibilité d'instancier sa propre politique de contribution pour la préciser et l'amender. 
 
 Sont concernés, l'ensemble des codes sources :
+
  *  développés en interne par l'administration
  *  développés pour le compte de l'administration.
 
@@ -44,6 +46,7 @@ Les fonctions publiques hospitalières et territoriales sont hors périmètre de
 ## Structure du document
 
 La politique de contribution est composée de :
+
  * [Principes d'ouverture des codes sources](Ouverture.md)
  * [Modalités et meilleures pratiques](Pratique.md)
  * [Instanciation de politique de contribution ministérielle](Instanciation.md)
@@ -55,11 +58,14 @@ Afin d'en faciliter la lecture chaque partie débute par une section TL;DR (Too 
 
 La DINSIC produit et maintient ce document ; elle veille à sa mise en oeuvre et assure le support associé. Pour toute question, ou demande d'évolutions, veuillez vous référer à la partie *Gouvernance*.
 
-[![Logo LO][Logo LO]{:height="60px"}][LO link] Ce document est publié sous la [**Licence Ouverte 2.0**][LO link]
+[![Logo LO][Logo LO]{:height="60px"}][LO link]
+
+Ce document est publié sous la [**Licence Ouverte 2.0**][LO link]
 
 ## Références externes
 
-Ce document a été élaborés grâce aux nombreux travaux ci-dessous:
+Ce document a été élaborés grâce aux nombreux travaux ci-dessous :
+
  * Open Government Partnership collaboration : [https://github.com/DISIC/foss-contrib-policy-template](https://github.com/DISIC/foss-contrib-policy-template)
  * USA 18F: [https://github.com/18F/open-source-policy/blob/master/CONTRIBUTING.md](https://github.com/18F/open-source-policy/blob/master/CONTRIBUTING.md)
  * Whitehouse source code policy: [https://sourcecode.cio.gov](https://sourcecode.cio.gov)
