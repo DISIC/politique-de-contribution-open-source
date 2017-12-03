@@ -5,8 +5,6 @@ weight = 40
   identifier = "instanciation"
 +++
 
-# Instanciation
-
 ## TL;DR
 
  * Possibilité d’instancier et de reprendre toute cette politique

@@ -5,8 +5,6 @@ weight = 50
   identifier = "gouvernance"
 +++
 
-# Gouvernance
-
 Deux organisations sont distinguées :
 
 * DINSIC

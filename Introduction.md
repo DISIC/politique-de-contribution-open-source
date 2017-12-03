@@ -1,13 +1,11 @@
 +++
-title = "Introduction"
+title = "Politique de contribution open-source de l’État"
 weight = 10
 [menu.main]
   identifier = "introduction"
 +++
 
-# Politique de contribution open-source de l’État
-
-__Historique et versions__
+## Historique et versions
 
 | Version | Commentaire    | Date       |
 | --------|----------------|------------|

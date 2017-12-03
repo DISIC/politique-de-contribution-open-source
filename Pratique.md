@@ -5,8 +5,6 @@ weight = 30
   identifier = "pratique"
 +++
 
-# Meilleures pratiques
-
 ## TL;DR
 
 * Gestion des comptes personnels et d’organisations

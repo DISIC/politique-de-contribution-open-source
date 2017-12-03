@@ -1,11 +1,9 @@
 +++
-title = "Modalités d’ouverture"
+title = "Principes d’ouverture des codes sources"
 weight = 20 
 [menu.main]
   identifier = "ouverture"
 +++
-
-# Principes d’ouverture des codes sources
 
 ## TL:DR
 
