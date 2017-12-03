@@ -1,26 +1,26 @@
 +++
-title = "Modalités d'ouverture"
+title = "Modalités d’ouverture"
 weight = 20 
 [menu.main]
   identifier = "ouverture"
 +++
 
-# Principes d'ouverture des codes sources
+# Principes d’ouverture des codes sources
 
 ## TL:DR
 
  * Principe de subsidiarité : la politique peut être instanciée localement avec une priorité plus forte
  * Reconnaissance individuelle des développeurs
  * Distinction des contributions professionnelles / personnelles
- * Pas d'engagements (ni support / ni suggestions de modification)
+ * Pas d’engagements (ni support / ni suggestions de modification)
  * Autorisation par défaut de contribuer aux projets sous licenses FSF ou OSI
  * Autorisation par défaut de contribuer un nouveau projet avec les licences du décret
- * Recommandation d'utiliser les familles de licences permissives dans le cas général
+ * Recommandation d’utiliser les familles de licences permissives dans le cas général
  * Autorisation par défaut de signer un iCLA (individual CLA) avec les organismes pour lesquels la DINSIC a signé un global CLA
- * Utilisation nécessaire d'un système de suivi de version distribué (git, bitbucket, mercurial) et possibilité d'utiliser toute plateforme (github, gitlab, framagit, ...)
+ * Utilisation nécessaire d’un système de suivi de version distribué (git, bitbucket, mercurial) et possibilité d’utiliser toute plateforme (github, gitlab, framagit, ...)
  * Vérification en termes de sécurité de la non-divulgation de secrets ou données personnnelles
- * Inventaire des comptes d'organisation gouvernementaux
- * Utilisation possible des DCO (developper's certificate of origin) et ne pas exiger des CLA
+ * Inventaire des comptes d’organisation gouvernementaux
+ * Utilisation possible des DCO (developper’s certificate of origin) et ne pas exiger des CLA
  * Support: Contacter `opensource @ data.gouv.fr` pour toute question
 
 ## Subsidiarité
@@ -32,19 +32,19 @@ Voir instanciation si vous souhaitez décliner cette politique au sein de votre 
 Reconnaissance individuelle des développeurs :  Utilisation de leur adresses emails pour tracer leurs contributions.
 
  * Pour les agents: utilisation du mail professionnel en .gouv.fr
- * Pour les prestataires de services, utilisation du mail de leur société d'attachement (pas de mail prestataire en .gouv.fr)
+ * Pour les prestataires de services, utilisation du mail de leur société d’attachement (pas de mail prestataire en .gouv.fr)
 
-Possibilité d'utiliser des pseudonymes.
+Possibilité d’utiliser des pseudonymes.
 
-Pas d'utilisation de mails génériques / anonymes
+Pas d’utilisation de mails génériques / anonymes
  
 ## Distinction des contributions professionnelles / personnelles
 
 Possibilité de contribuer sur un même projet dans le cadre du milieu professionnel ou à titre personnel. Le mail professionnel doit être utilisé sur le temps professionnel.
 
-## Pas d'engagements
+## Pas d’engagements
 
-Aucune obligation d'étudier les pull requests transmises. Pas de support ni de garantie conformément aux licenses.
+Aucune obligation d’étudier les pull requests transmises. Pas de support ni de garantie conformément aux licenses.
 
 ## Autorisation par défaut de contribuer à des projets sous licenses FSF ou OSI
 
@@ -53,15 +53,15 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
  * FSF : https://www.gnu.org/licenses/license-list.fr.html 
  * OSI : https://opensource.org/licenses/alphabetical
 
-A l'inverse les licenses de type WTFL ou beerware ne rentrent pas dans le cadre de l'autorisation par défaut.
+A l’inverse les licenses de type WTFL ou beerware ne rentrent pas dans le cadre de l’autorisation par défaut.
 
 ## Autorisation par défaut de contribuer un nouveau projet avec les licences du décret
 
-L'État n'a pas vocation à être éditeur logiciel. En dehors des trois exceptions prévues à la loi république numérique pour lesquelles vous pouvez contacter le mail de support en cas de question, il n'y a pas d'autorisation préalable à demander auprès de la DINSIC. Pour autant veuillez vous référer à votre manager direct avant la publication d'un nouveau projet dans le compte de votre organisation.
+L’État n’a pas vocation à être éditeur logiciel. En dehors des trois exceptions prévues à la loi république numérique pour lesquelles vous pouvez contacter le mail de support en cas de question, il n’y a pas d’autorisation préalable à demander auprès de la DINSIC. Pour autant veuillez vous référer à votre manager direct avant la publication d’un nouveau projet dans le compte de votre organisation.
 
 Pour rappel, les licences à utiliser sont disponibles par décret sur le site : http://www.data.gouv.fr/fr/licences
 
-## Recommandation d'utiliser des licences permissives dans le cas général
+## Recommandation d’utiliser des licences permissives dans le cas général
 
 Pour l’administration, par défaut, les licences de la famille permissives sont privilégiées afin de ne pas introduire de biais de concurrence et empêcher un acteur (commercial et propriétaire) de bénéficier du code développé par l’administration. Ainsi de nouveaux services à valeur ajoutée peuvent être développés par des acteurs tiers, même si ces derniers restent propriétaires (et payants).
 
@@ -79,7 +79,7 @@ A l’inverse, si c’est un service de base ou d’infrastructure qui a vocatio
 
 ## Pré-autorisation de signer un iCLA auprès de certaines communautés
 
-A ce stade aucun corporate CLA n'a été signé avec des communautés. La DINSIC prendra contact et établira les communautés prioritaires avec qui ces contributions seront facilitées.
+A ce stade aucun corporate CLA n’a été signé avec des communautés. La DINSIC prendra contact et établira les communautés prioritaires avec qui ces contributions seront facilitées.
 
 ## Assistance sur la politique de contribution
 

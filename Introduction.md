@@ -5,7 +5,7 @@ weight = 10
   identifier = "introduction"
 +++
 
-# Politique de contribution open-source de l'État
+# Politique de contribution open-source de l’État
 
 __Historique et versions__
 
@@ -24,42 +24,42 @@ détaillée des licences avec leurs versions est disponible sur le site [data.go
 
 Les objectifs de cette politique de contribution open-source interministérielle sont de :
 
- * fixer les règles et principes à respecter pour l'ouverture des codes sources
+ * fixer les règles et principes à respecter pour l’ouverture des codes sources
  * accompagner les ministères et partager les meilleures pratiques 
- * définir la gouvernance des politiques de contribution open-source de l'État.
+ * définir la gouvernance des politiques de contribution open-source de l’État.
 
-Ce document est à destination des développeurs ou de leurs responsables, qu'ils soient agents publics (titulaires 
+Ce document est à destination des développeurs ou de leurs responsables, qu’ils soient agents publics (titulaires 
 ou contractuels) ou prestataires.
 
 ## Périmètre
 
-Cette politique de contribution s'applique au système d'information et de communication de l'État 
-conformément à l'article 1er du Décret [n° 2014-879 du 1er août 2014][DecretDINSIC link]. Chaque administration de l'État 
-a la possibilité d'instancier sa propre politique de contribution pour la préciser et l'amender. 
+Cette politique de contribution s’applique au système d’information et de communication de l’État 
+conformément à l’article 1er du Décret [n° 2014-879 du 1er août 2014][DecretDINSIC link]. Chaque administration de l’État 
+a la possibilité d’instancier sa propre politique de contribution pour la préciser et l’amender. 
 
-Sont concernés, l'ensemble des codes sources :
+Sont concernés, l’ensemble des codes sources :
 
- *  développés en interne par l'administration
- *  développés pour le compte de l'administration.
+ *  développés en interne par l’administration
+ *  développés pour le compte de l’administration.
 
-Cette politique de contribution concerne les *nouveaux* développements afin qu'ils respectent les meilleures pratiques. Pour l'ouverture de codes source existant, des actions complémentaires seront nécessaires, telles que la définition du périmètre d'ouverture du code, sa revue qualité, sa revue sécurité, l'analyse de conformité et l'analyse de la propriété intellectuelle.
+Cette politique de contribution concerne les *nouveaux* développements afin qu’ils respectent les meilleures pratiques. Pour l’ouverture de codes source existant, des actions complémentaires seront nécessaires, telles que la définition du périmètre d’ouverture du code, sa revue qualité, sa revue sécurité, l’analyse de conformité et l’analyse de la propriété intellectuelle.
 
-Les fonctions publiques hospitalières et territoriales sont hors périmètre de cette politique de contribution, mais elles peuvent s'en inspirer librement.
+Les fonctions publiques hospitalières et territoriales sont hors périmètre de cette politique de contribution, mais elles peuvent s’en inspirer librement.
 
 ## Structure du document
 
 La politique de contribution est composée de :
 
- * [Principes d'ouverture des codes sources](Ouverture.md)
+ * [Principes d’ouverture des codes sources](Ouverture.md)
  * [Modalités et meilleures pratiques](Pratique.md)
  * [Instanciation de politique de contribution ministérielle](Instanciation.md)
  * [Gouvernance associée](Gouvernance.md)
 
-Afin d'en faciliter la lecture chaque partie débute par une section TL;DR (Too Long ; Didn't read) qui en résume l'essentiel.
+Afin d’en faciliter la lecture chaque partie débute par une section TL;DR (Too Long ; Didn’t read) qui en résume l’essentiel.
 
 ## Responsabilité du document
 
-La DINSIC produit et maintient ce document ; elle veille à sa mise en oeuvre et assure le support associé. Pour toute question, ou demande d'évolutions, veuillez vous référer à la partie *Gouvernance*.
+La DINSIC produit et maintient ce document ; elle veille à sa mise en oeuvre et assure le support associé. Pour toute question, ou demande d’évolutions, veuillez vous référer à la partie *Gouvernance*.
 
 {{< figure
   src="/_assets/images/logo-licence-ouverte-open-licence.png"
