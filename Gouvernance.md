@@ -1,6 +1,9 @@
----
-title: Gouvernance
----
++++
+title = "Gouvernance"
+weight = 50
+[menu.main]
+  identifier = "gouvernance"
++++
 
 ## Gouvernance
 

@@ -1,6 +1,9 @@
----
-title: Introduction
----
++++
+title = "Introduction"
+weight = 10
+[menu.main]
+  identifier = "introduction"
++++
 
 # Politique de contribution open-source de l'Etat
 
@@ -58,7 +61,12 @@ Afin d'en faciliter la lecture chaque partie débute par une section TL;DR (Too 
 
 La DINSIC produit et maintient ce document ; elle veille à sa mise en oeuvre et assure le support associé. Pour toute question, ou demande d'évolutions, veuillez vous référer à la partie *Gouvernance*.
 
-[![Logo LO][Logo LO]{:height="60px"}][LO link]
+{{< figure
+  src="/_assets/images/logo-licence-ouverte-open-licence.png"
+  width="300px"
+  alt="licence ouverte"
+  link="https://github.com/DISIC/politique-de-contribution-open-source/raw/master/LICENSE.pdf"
+>}}
 
 Ce document est publié sous la [**Licence Ouverte 2.0**][LO link]
 

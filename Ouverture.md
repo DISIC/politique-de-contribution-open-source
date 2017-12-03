@@ -1,6 +1,9 @@
----
-title: Ouverture
----
++++
+title = "Modalités d'ouverture"
+weight = 20 
+[menu.main]
+  identifier = "ouverture"
++++
 
 ## Principes d'ouverture des codes sources
 

@@ -1,6 +1,9 @@
----
-title: Instanciation
----
++++
+title = "Instanciation"
+weight = 40
+[menu.main]
+  identifier = "instanciation"
++++
 
 ## Instanciation
 

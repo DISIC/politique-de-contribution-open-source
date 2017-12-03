@@ -1,6 +1,9 @@
----
-title: Meilleures Pratiques
----
++++
+title = "Meilleures Pratiques"
+weight = 30 
+[menu.main]
+  identifier = "pratique"
++++
 
 ## Meilleures pratiques
 
