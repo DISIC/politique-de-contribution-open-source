@@ -5,9 +5,9 @@ weight = 30
   identifier = "pratique"
 +++
 
-## Meilleures pratiques
+# Meilleures pratiques
 
-### TL;DR
+## TL;DR
 
 * Gestion des comptes personnels et d'organisations
 * Inventaire des comptes d'organisation
@@ -25,14 +25,14 @@ weight = 30
 * Gestion de la communauté
 * Outillage
 
-### Gestion des comptes personnels et organisation
+## Gestion des comptes personnels et organisation
 
 Utilisation de dépots au sein de comptes d'organisation
  
  * Deux propriétaires (owner) par dépot
  * Pas de projets au sein des comptes personnels
 
-### Inventaire des comptes d'organisation
+## Inventaire des comptes d'organisation
 
 Des reflexions sont en cours sur la capacité de proposer un inventaire automatique tant du point de vue des dépots
 d'organisation que de l'inventaire des services.
@@ -41,7 +41,7 @@ d'organisation que de l'inventaire des services.
  >  * Inscrivez vous si ce n'est pas déjà fait dans la communauté [https://github.com/government/welcome](https://github.com/government/welcome)
  >  * Référencez votre compte d'organisation en l'ajoutant sur la page : [https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml](https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) conformément à la page [https://government.github.com/community/](https://government.github.com/community/)
 
-### Distinction des contributions personnelles / Professionnelles
+## Distinction des contributions personnelles / Professionnelles
 
 Utilisation du compte professionnel avec le mail en ```.gouv.fr```
 
@@ -59,7 +59,7 @@ Afin de vérifier que la commande a bien été prise en compte
 
 `git config --get user.email`
 
-### Aide au choix de la plateforme 
+## Aide au choix de la plateforme 
 
 En plus du système de suivi de version de code source, une plateforme propose un ensemble d'outils collaboratifs associés et visent une communauté de développeurs.
 
@@ -75,7 +75,7 @@ Certaines sont libres, d'autres publient leur données anonymisées en open-data
 
 Par défaut, github offre la plus grande communuauté de développeurs au niveau international.
 
-### Aide au choix de la licence
+## Aide au choix de la licence
 
 Le choix d'une licence est aussi le choix d'une communauté de developpeurs et d'un écosystème d'outils associés. Une fois la famille de licence déterminée, c'est avant tout la communauté visée qui doit déterminer le choix.
 
@@ -85,11 +85,11 @@ Sinon, les licences recommandées par défaut sont:
 
  > Multilicensing : il est possible de fournir un logiciel sous plusieurs licenses simultanément, bien que cela puisse entrainer de la confusion
 
-### Gestion des versions
+## Gestion des versions
 
 Avoir une politique de gestion des versions est recommandé. Le guide de versioning sémantique (https://semver.org/lang/fr/) est un bon exemple à suivre.
 
-### Fichiers présents dans le dépot
+## Fichiers présents dans le dépot
 
 Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING and LICENSE.
 
@@ -111,7 +111,7 @@ Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING and LICENSE.
 
 Ces fichiers doivent être en texte simple ou avec du maruage minimum (ie Markdown). Il n'est pas recommandé d'utiliser des formats binaires (ie PDF)
 
-### Entête de fichiers source
+## Entête de fichiers source
 
 Conformément aux recommandations détaillées dans [https://software.reuse](https://software.reuse) chaque fichier de code source
 doit disposer de son auteur, de son identifiant de licence SPDX, ainsi que d'une copie de la licence dans le repository local.
@@ -145,7 +145,7 @@ garantir la conformité du logiciel.
 
 L'ensemble des identifiants SPDX est disponible à cette adresse: [https://spdx.org/licenses/](https://spdx.org/licenses/)
 
-### Tracabilité des developpements (DCO)
+## Tracabilité des developpements (DCO)
 
 Afin de garantir l'origine des contributions soumises, la mise en oeuvre d'un Developer's Certificate of Origin est recommandée.  
 Celui-ci est traduit en français
@@ -154,11 +154,11 @@ Pour l'instant le sign-off ne se fait qu'en anglais en utilisant la command
 
 `git commit --signoff`
 
-### Sécurité
+## Sécurité
 
  * Outil de scan de sécurité
  * Guide de sécurité méthodologie agile ANSSI / DINSIC: [https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf](https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf)
 
-### Outillage
+## Outillage
 
 Se référer à https://www.linuxfoundation.org/tools-managing-open-source-programs/#1 

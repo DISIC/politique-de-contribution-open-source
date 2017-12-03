@@ -5,7 +5,7 @@ weight = 50
   identifier = "gouvernance"
 +++
 
-## Gouvernance
+# Gouvernance
 
 Deux organisations sont distinguées :
 
