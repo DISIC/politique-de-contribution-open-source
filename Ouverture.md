@@ -38,7 +38,8 @@ Possibilité de contribuer sur un même projet dans le cadre du milieu professio
 
 ### Pas d'engagements
 
-Aucune obligation d'étudier les pull requests transmises. Pas de support ni de garantie conformément aux licenses.
+* Aucune obligation de support et de prise en compte des demandes des utilisateurs ni plus généralement d'animer la communauté. 
+* Pas de garanties au-delà de ce qui est prévu par la licence.
 
 ### Autorisation par défaut de contribuer à des projets sous licenses FSF ou OSI
 
