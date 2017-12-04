@@ -15,7 +15,7 @@ layout: default
  * Autorisation par défaut de contribuer un nouveau projet avec les licences du décret
  * Recommandation d'utiliser les familles de licences permissives dans le cas général
  * Autorisation par défaut de signer un iCLA (individual CLA) avec les organismes pour lesquels la DINSIC a signé un global CLA
- * Utilisation possible des DCO (developper's certificate of origin) et ne pas exiger des CLA
+ * Utilisation des DCO (developper's certificate of origin) et ne pas exiger des CLA
  * Support: Contacter `opensource @ data.gouv.fr` pour toute question
 
 ### Subsidiarité
