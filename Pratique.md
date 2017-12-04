@@ -21,7 +21,7 @@ layout: default
 
 ### Système de suivi de version
 
-L'utilisation d'un système de suivi de version distribué tel que git, bitbucket ou mercurial est nécessaire. Les systèmes svn ou cvs ne sont pas recommandés.
+L'utilisation d'un système de suivi de version distribué tel que git, bitbucket ou mercurial est recommandée. Les systèmes svn ou cvs ne sont pas conseillés.
 
 ### Aide au choix de la plateforme 
 
