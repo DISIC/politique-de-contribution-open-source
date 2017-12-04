@@ -135,7 +135,7 @@ ou dans le cas d'un projet faisant un suivi automatique de ses contributeurs:
   * 
   * SPDX-License-Identifier: BSD-2-Clause
   * License-Filename: LICENSES/BSD-2-Clause_Charlie.txt
-  *
+  */
 ```
 
 Ces identifiants permettent de générer automatiquement des inventaires des licences sous la forme de "Bill of Material", afin de
