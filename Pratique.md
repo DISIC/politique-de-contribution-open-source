@@ -7,21 +7,33 @@ layout: default
 
 ### TL;DR
 
+* Utilisation nécessaire d'un système de suivi de version distribué (git, bitbucket, mercurial) 
+* Aide au choix d'une plateforme de publication
 * Gestion des comptes personnels et d'organisations
 * Inventaire des comptes d'organisation
 * Distinction des contributions professionnelles / personnelles
-* Aide au choix d'une plateforme de publication
 * Aide au choix de la licence
-* Diffusion initiale
-* Suivi des anomalies
-* Tests
 * Gestion des versions
 * Fichiers par défaut dans un dépot (repository)
 * Entêtes (Headers) de fichiers source
 * Tracabilité des developpements (DCO)
-* Gestion de la qualité
-* Gestion de la communauté
 * Outillage
+
+### Aide au choix de la plateforme 
+
+En plus du système de suivi de version de code source, une plateforme propose un ensemble d'outils collaboratifs associés et visent une communauté de développeurs.
+
+Des exemples de plateformes possibles sont:
+ * Github : https://github.com/
+ * Gitlab : http://gitlab.com/
+ * Framagit : http://framagit.org/ (gitlab)
+ * Adullact : http://gitlab.adullact.net/ (gitlab)
+ * FSFE: https://git.fsfe.org/ (gitea)
+ * FSF : https://git.savannah.gnu.org (raw)
+
+Certaines sont libres, d'autres publient leur données anonymisées en open-data, leur portée géographique peut varier... La liste est incomplète.
+
+Par défaut, github offre la plus grande communuauté de développeurs au niveau international.
 
 ### Gestion des comptes personnels et organisation
 
@@ -56,22 +68,6 @@ Créer le dépot, configuré de la manière suivante:
 Afin de vérifier que la commande a bien été prise en compte
 
 `git config --get user.email`
-
-### Aide au choix de la plateforme 
-
-En plus du système de suivi de version de code source, une plateforme propose un ensemble d'outils collaboratifs associés et visent une communauté de développeurs.
-
-Des exemples de plateformes possibles sont:
- * Github : https://github.com/
- * Gitlab : http://gitlab.com/
- * Framagit : http://framagit.org/ (gitlab)
- * Adullact : http://gitlab.adullact.net/ (gitlab)
- * FSFE: https://git.fsfe.org/ (gitea)
- * FSF : https://git.savannah.gnu.org (raw)
-
-Certaines sont libres, d'autres publient leur données anonymisées en open-data, leur portée géographique peut varier... La liste est incomplète.
-
-Par défaut, github offre la plus grande communuauté de développeurs au niveau international.
 
 ### Aide au choix de la licence
 
