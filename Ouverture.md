@@ -43,7 +43,7 @@ Aucune obligation d'étudier les pull requests transmises. Pas de support ni de 
 ### Autorisation par défaut de contribuer à des projets sous licenses FSF ou OSI
 
 Les licences validées par les organismes Free Software Foundation et Open Source Initiative et recensées sur leurs pages respectives:
- * FSF : https://www.gnu.org/licenses/license-list.fr.html 
+ * FSF : https://www.gnu.org/licenses/license-list.fr.html (en excluant les licences non-libres présentées comme telles)
  * OSI : https://opensource.org/licenses/alphabetical
 
 A l'inverse les licenses de type WTFL ou beerware ne rentrent pas dans le cadre de l'autorisation par défaut.
