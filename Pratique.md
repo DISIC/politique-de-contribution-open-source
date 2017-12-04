@@ -19,6 +19,10 @@ layout: default
 * Tracabilité des developpements (DCO)
 * Outillage
 
+### Système de suivi de version
+
+L'utilisation d'un système de suivi de version distribué tel que git, bitbucket ou mercurial est nécessaire. Les systèmes svn ou cvs ne sont pas recommandés.
+
 ### Aide au choix de la plateforme 
 
 En plus du système de suivi de version de code source, une plateforme propose un ensemble d'outils collaboratifs associés et visent une communauté de développeurs.
@@ -33,18 +37,18 @@ Des exemples de plateformes possibles sont:
 
 Certaines sont libres, d'autres publient leur données anonymisées en open-data, leur portée géographique peut varier... La liste est incomplète.
 
-Par défaut, github offre la plus grande communuauté de développeurs au niveau international.
+Actuellement, github offre la plus grande communuauté de développeurs au niveau international.
 
 ### Gestion des comptes personnels et organisation
 
-Utilisation de dépots au sein de comptes d'organisation
+Utilisation de dépots au sein de comptes d'organisation. Les dépots de comptes personnels sont à proscrire et ne doivent
+être utilisés que pour des développements personnels.
  
- * Deux propriétaires (owner) par dépot
- * Pas de projets au sein des comptes personnels
+Il est recommandé d'avoir deux propriétaires (owner) par dépot.
 
 ### Inventaire des comptes d'organisation
 
-Des reflexions sont en cours sur la capacité de proposer un inventaire automatique tant du point de vue des dépots
+Des réflexions sont en cours sur la capacité de proposer un inventaire automatique tant du point de vue des dépots
 d'organisation que de l'inventaire des services.
 
  > Spécifiquement pour Github, référencer le compte d'organisation comme un compte gouvernemental
@@ -71,9 +75,9 @@ Afin de vérifier que la commande a bien été prise en compte
 
 ### Aide au choix de la licence
 
-Le choix d'une licence est aussi le choix d'une communauté de developpeurs et d'un écosystème d'outils associés. Une fois la famille de licence déterminée, c'est avant tout la communauté visée qui doit déterminer le choix.
+Le choix d'une licence est aussi le choix d'une communauté de developpeurs et d'un écosystème d'outils associés. Une fois la famille de licence trouvée, c'est avant tout la communauté visée qui détermine le choix.
 
-Sinon, les licences recommandées par défaut sont:
+Les licences recommandées par défaut sont:
   * Permissive : Apache 2.0
   * Avec partage à l'identique : GNU GPL v3 (standard, lesser ou affero en fonction)
 
