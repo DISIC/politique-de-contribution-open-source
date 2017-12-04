@@ -1,6 +1,6 @@
 # Modalités d'ouverture des codes sources
 
-Bienvenue sur la politique de contribution open-source de la DINSIC.
+Bienvenue sur la politique de contribution aux logiciels libres de la DINSIC.
 
 Ce document est un travail en cours et une première version est planifiée pour fin janvier 2018.
 
