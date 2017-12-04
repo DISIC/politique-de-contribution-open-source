@@ -56,7 +56,7 @@ Afin d'en faciliter la lecture chaque partie débute par une section TL;DR (Too 
 
 La DINSIC produit et maintient ce document ; elle veille à sa mise en oeuvre et assure le support associé. Pour toute question, ou demande d'évolutions, veuillez vous référer à la partie *Gouvernance*.
 
-[![Logo LO][Logo LO]{:height="60px"}][LO link] Ce document est publié sous la [**Licence Ouverte 2.0**][LO link]
+Ce document est publié sous la [**Licence Ouverte 2.0**][LO link]
 
 ## Références externes
 
