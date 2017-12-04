@@ -20,7 +20,7 @@ layout: default
 
 ### Subsidiarité
 
-Voir instanciation si vous souhaitez décliner cette politique au sein de votre organisation
+Voir [instanciation](Instanciation.md) si vous souhaitez décliner cette politique au sein de votre organisation
 
 ### Reconnaissance individuelle
 
