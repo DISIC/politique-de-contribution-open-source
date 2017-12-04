@@ -51,7 +51,7 @@ A l'inverse les licenses de type WTFL ou beerware ne rentrent pas dans le cadre 
 
 ### Autorisation par défaut de contribuer un nouveau projet avec les licences du décret
 
-L'Etat n'a pas vocation à être éditeur logiciel. En dehors des trois exceptions prévues à la loi république numérique pour lesquelles vous pouvez contacter le mail de support en cas de question, il n'y a pas d'autorisation préalable à demander auprès de la DINSIC. Pour autant veuillez vous référer à votre manager direct avant la publication d'un nouveau projet dans le compte de votre organisation.
+L'Etat n'a pas vocation à être éditeur logiciel. En dehors des trois exceptions prévues à la loi république numérique pour lesquelles vous pouvez contacter le mail de support en cas de question, il n'y a pas d'autorisation préalable à demander auprès de la DINSIC. Pour autant, veuillez vous référer à votre supérieur hiérarchique avant la publication d'un nouveau projet dans le compte de votre organisation.
 
 Pour rappel, les licences à utiliser sont disponibles par décret sur le site : http://www.data.gouv.fr/fr/licences
 
