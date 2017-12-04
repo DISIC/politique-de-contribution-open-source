@@ -38,7 +38,7 @@ Possibilité de contribuer sur un même projet dans le cadre du milieu professio
 
 ### Pas d'engagements
 
-* Aucune obligation de support et de prise en compte des demandes des utilisateurs ni plus généralement d'animer la communauté. 
+* Aucune obligation de support et de prise en compte des demandes des utilisateurs ni plus généralement d'obligation d'animer la communauté. 
 * Pas de garanties au-delà de ce qui est prévu par la licence.
 
 ### Autorisation par défaut de contribuer à des projets sous licenses FSF ou OSI
