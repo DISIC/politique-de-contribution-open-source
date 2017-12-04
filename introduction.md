@@ -1,8 +1,7 @@
 +++
 title = "Politique de contribution open-source de l’État"
 weight = 10
-[menu.main]
-  identifier = "introduction"
+menuName = "introduction"
 +++
 
 ## Historique et versions

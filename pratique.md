@@ -1,8 +1,7 @@
 +++
 title = "Meilleures Pratiques"
 weight = 30 
-[menu.main]
-  identifier = "pratique"
+menuName = "pratique"
 +++
 
 ## TL;DR

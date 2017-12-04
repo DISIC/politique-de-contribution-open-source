@@ -1,8 +1,7 @@
 +++
 title = "Gouvernance"
 weight = 50
-[menu.main]
-  identifier = "gouvernance"
+menuName = "gouvernance"
 +++
 
 Deux organisations sont distinguées :

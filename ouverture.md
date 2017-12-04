@@ -1,8 +1,7 @@
 +++
 title = "Principes d’ouverture des codes sources"
 weight = 20 
-[menu.main]
-  identifier = "ouverture"
+menuName = "ouverture"
 +++
 
 ## TL:DR
