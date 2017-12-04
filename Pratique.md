@@ -142,9 +142,9 @@ L'ensemble des identifiants SPDX est disponible à cette adresse: [https://spdx.
 ### Tracabilité des developpements (DCO)
 
 Afin de garantir l'origine des contributions soumises, la mise en oeuvre d'un Developer's Certificate of Origin est recommandée.  
-Celui-ci est traduit en français
+Une traduction française est mise à disposition [DCO-Fr.txt](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt)
 
-Pour l'instant le sign-off ne se fait qu'en anglais en utilisant la command
+Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
 
 `git commit --signoff`
 
