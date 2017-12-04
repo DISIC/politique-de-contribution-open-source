@@ -3,7 +3,7 @@ title: Introduction
 layout: default
 ---
 
-# Politique de contribution open-source de l'Etat
+# Politique de contribution aux logiciels libres  de l'Etat
 
 __Historique et versions__
 
@@ -16,7 +16,7 @@ Ce document est en *ALPHA*, ie sous modification intensive sans nécessairement 
 ## Objectifs
 
 Conformément à la Loi pour une République Numérique du [7 octobre 2016][LoiRepNum link], les codes sources sont des documents 
-administratifs communicables et réutilisables. Dans le cas où il est possible de choisir la licence open-source, le décret
+administratifs communicables et réutilisables. Dans le cas où il est possible de choisir une licence libre, le décret
 [n° 2017-638 du 27 avril 2017][DecretLicences link] précise les familles de licences qui peuvent être utilisées. La liste 
 détaillée des licences avec leurs versions est disponible sur le site [data.gouv.fr][Licenses link].
 
