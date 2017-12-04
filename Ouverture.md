@@ -17,7 +17,6 @@ layout: default
  * Autorisation par défaut de signer un iCLA (individual CLA) avec les organismes pour lesquels la DINSIC a signé un global CLA
  * Utilisation nécessaire d'un système de suivi de version distribué (git, bitbucket, mercurial) et possibilité d'utiliser toute plateforme (github, gitlab, framagit, ...)
  * Vérification en termes de sécurité de la non-divulgation de secrets ou données personnnelles
- * Inventaire des comptes d'organisation gouvernementaux
  * Utilisation possible des DCO (developper's certificate of origin) et ne pas exiger des CLA
  * Support: Contacter `opensource @ data.gouv.fr` pour toute question
 
