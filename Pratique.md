@@ -74,6 +74,9 @@ Afin de vérifier que la commande a bien été prise en compte
 
 `git config --get user.email`
 
+Les pseudonymes sont gérés de la même manière. Un email (ou alias) doit donc être mis à disposition par le ministère
+pour permettre l'utilisation du pseudonyme.
+
 ### Aide au choix de la licence
 
 Le choix d'une licence est aussi le choix d'une communauté de developpeurs et d'un écosystème d'outils associés. Une fois la famille de licence trouvée, c'est avant tout la communauté visée qui détermine le choix.
