@@ -20,11 +20,11 @@ administratifs communicables et réutilisables. Dans le cas où il est possible 
 [n° 2017-638 du 27 avril 2017][DecretLicences link] précise les familles de licences qui peuvent être utilisées. La liste 
 détaillée des licences avec leurs versions est disponible sur le site [data.gouv.fr][Licenses link].
 
-Les objectifs de cette politique de contribution open-source interministérielle sont de :
+Les objectifs de cette politique interministérielle de contribution aux logiciels libres sont de :
 
  * fixer les règles et principes à respecter pour l'ouverture des codes sources
  * accompagner les ministères et partager les meilleures pratiques 
- * définir la gouvernance des politiques de contribution open-source de l'État.
+ * définir la gouvernance des politiques de contribution de l'État.
 
 Ce document est à destination des développeurs ou de leurs responsables, qu'ils soient agents publics (titulaires 
 ou contractuels) ou prestataires.
