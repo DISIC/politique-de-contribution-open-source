@@ -10,7 +10,7 @@ layout: default
  * Principe de subsidiarité : la politique peut être instanciée localement avec une priorité plus forte
  * Reconnaissance individuelle des développeurs
  * Distinction des contributions professionnelles / personnelles
- * Pas d'engagements (ni support / ni suggestions de modification)
+ * Pas d'engagements (ni support / ni revue des suggestions de modification)
  * Autorisation par défaut de contribuer aux projets sous licenses FSF ou OSI
  * Autorisation par défaut de contribuer un nouveau projet avec les licences du décret
  * Recommandation d'utiliser les familles de licences permissives dans le cas général
