@@ -5,7 +5,7 @@ layout: default
 
 ## Gouvernance
 
-Deux organisations sont distinguées:
+Deux organisations sont distinguées :
 * DINSIC
 * Ministère
 

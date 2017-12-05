@@ -16,7 +16,7 @@ layout: default
  * Recommandation d'utiliser les familles de licences permissives dans le cas général
  * Autorisation par défaut de signer un iCLA (individual CLA) avec les organismes pour lesquels la DINSIC a signé un global CLA
  * Utilisation des DCO (developper's certificate of origin) et ne pas exiger des CLA
- * Support: Contacter `opensource @ data.gouv.fr` pour toute question
+ * Support : Contacter `opensource @ data.gouv.fr` pour toute question
 
 ### Subsidiarité
 
@@ -25,7 +25,7 @@ Voir [instanciation](Instanciation.md) si vous souhaitez décliner cette politiq
 ### Reconnaissance individuelle
 
 Reconnaissance individuelle des développeurs :  Utilisation de leur adresses emails pour tracer leurs contributions.
- * Pour les agents: utilisation du mail professionnel en .gouv.fr
+ * Pour les agents : utilisation du mail professionnel en .gouv.fr
  * Pour les prestataires de services, utilisation du mail de leur société d'attachement (pas de mail prestataire en .gouv.fr)
 
 Possibilité d'utiliser des pseudonymes.
@@ -43,7 +43,7 @@ Possibilité de contribuer sur un même projet dans le cadre du milieu professio
 
 ### Autorisation par défaut de contribuer à des projets sous licenses FSF ou OSI
 
-Les licences validées par les organismes Free Software Foundation et Open Source Initiative et recensées sur leurs pages respectives:
+Les licences validées par les organismes Free Software Foundation et Open Source Initiative et recensées sur leurs pages respectives :
  * FSF : https://www.gnu.org/licenses/license-list.fr.html (en excluant les licences non-libres présentées comme telles)
  * OSI : https://opensource.org/licenses/alphabetical
 

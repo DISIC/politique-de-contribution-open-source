@@ -27,12 +27,12 @@ L'utilisation d'un système de suivi de version distribué tel que git, bitbucke
 
 En plus du système de suivi de version de code source, une plateforme propose un ensemble d'outils collaboratifs associés et visent une communauté de développeurs.
 
-Des exemples de plateformes possibles sont:
+Des exemples de plateformes possibles sont :
  * Github : https://github.com/
  * Gitlab : http://gitlab.com/
  * Framagit : http://framagit.org/ (gitlab)
  * Adullact : http://gitlab.adullact.net/ (gitlab)
- * FSFE: https://git.fsfe.org/ (gitea)
+ * FSFE : https://git.fsfe.org/ (gitea)
  * FSF : https://git.savannah.gnu.org (raw)
 
 Certaines sont libres, d'autres publient leur données anonymisées en open-data, leur portée géographique peut varier... La liste est incomplète.
@@ -59,7 +59,7 @@ d'organisation que de l'inventaire des services.
 
 Utilisation du compte professionnel avec le mail en ```.gouv.fr```
 
-Créer le dépot, configuré de la manière suivante:
+Créer le dépot, configuré de la manière suivante :
 
 * Dépot professionnel
 
@@ -77,7 +77,7 @@ Afin de vérifier que la commande a bien été prise en compte
 
 Le choix d'une licence est aussi le choix d'une communauté de developpeurs et d'un écosystème d'outils associés. Une fois la famille de licence trouvée, c'est avant tout la communauté visée qui détermine le choix.
 
-Les licences recommandées par défaut sont:
+Les licences recommandées par défaut sont :
   * Permissive : Apache 2.0
   * Avec partage à l'identique : GNU GPL v3 (standard, lesser ou affero en fonction)
 
@@ -91,21 +91,21 @@ Avoir une politique de gestion des versions est recommandé. Le guide de version
 
 Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING and LICENSE.
 
-* README: description du projet. Peut décrire l'objectif et l'administration à l'origine de la publication.
+* README : description du projet. Peut décrire l'objectif et l'administration à l'origine de la publication.
 
-* CONTRIBUTING: guide de contribution, comment s'impliquer et identification du processus de contribution et des licences associées
+* CONTRIBUTING : guide de contribution, comment s'impliquer et identification du processus de contribution et des licences associées
 
-* LICENSE: licence de publication du logiciel
+* LICENSE : licence de publication du logiciel
 
-* MAINTAINERS: liste des mainteneurs du projet (avec des droits de vote ou de commit généralement)
+* MAINTAINERS : liste des mainteneurs du projet (avec des droits de vote ou de commit généralement)
 
-* ROADMAP: feuille de route publique
+* ROADMAP : feuille de route publique
 
-* CONDUCT: un code de conduite pour réguler la communauté de contributeurs. Des exemples peuvent être trouvés:  [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/) et [https://github.com/18F/code-of-conduct](https://github.com/18F/code-of-conduct)
+* CONDUCT : un code de conduite pour réguler la communauté de contributeurs. Des exemples peuvent être trouvés :  [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/) et [https://github.com/18F/code-of-conduct](https://github.com/18F/code-of-conduct)
 
-* GOVERNANCE: décrit la gouvernance du projet, les rôles et les drois de votes. Un exemple est le fichier 
+* GOVERNANCE : décrit la gouvernance du projet, les rôles et les drois de votes. Un exemple est le fichier 
 
-* NFR: Choix d'architecture technique du projet qui ne correspondent pas à des exigences fonctionnelles.
+* NFR : Choix d'architecture technique du projet qui ne correspondent pas à des exigences fonctionnelles.
 
 Ces fichiers doivent être en texte simple ou avec du maruage minimum (ie Markdown). Il n'est pas recommandé d'utiliser des formats binaires (ie PDF)
 
@@ -113,7 +113,7 @@ Ces fichiers doivent être en texte simple ou avec du maruage minimum (ie Markdo
 
 Conformément aux recommandations détaillées dans [https://software.reuse](https://software.reuse) chaque fichier de code source
 doit disposer de son auteur, de son identifiant de licence SPDX, ainsi que d'une copie de la licence dans le repository local.
-  *  Exemples de fichiers Entête  (headers):
+  *  Exemples de fichiers Entête  (headers) :
 
 ```
 /*
@@ -125,7 +125,7 @@ doit disposer de son auteur, de son identifiant de licence SPDX, ainsi que d'une
 
 ```
 
-ou dans le cas d'un projet faisant un suivi automatique de ses contributeurs:
+ou dans le cas d'un projet faisant un suivi automatique de ses contributeurs :
 
 ```
  /*
@@ -141,7 +141,7 @@ ou dans le cas d'un projet faisant un suivi automatique de ses contributeurs:
 Ces identifiants permettent de générer automatiquement des inventaires des licences sous la forme de "Bill of Material", afin de
 garantir la conformité du logiciel.
 
-L'ensemble des identifiants SPDX est disponible à cette adresse: [https://spdx.org/licenses/](https://spdx.org/licenses/)
+L'ensemble des identifiants SPDX est disponible à cette adresse : [https://spdx.org/licenses/](https://spdx.org/licenses/)
 
 ### Tracabilité des developpements (DCO)
 
@@ -155,7 +155,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
 ### Sécurité
 
  * Outil de scan de sécurité
- * Guide de sécurité méthodologie agile ANSSI / DINSIC: [https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf](https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf)
+ * Guide de sécurité méthodologie agile ANSSI / DINSIC : [https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf](https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf)
 
 ### Outillage
 
