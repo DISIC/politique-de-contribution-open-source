@@ -223,7 +223,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
      * [Sécurité et langage Java](https://www.ssi.gouv.fr/javasec/)
      * [Sécurité et langages fonctionnels](https://www.ssi.gouv.fr/lafosec/)
  * Eliminer tous les messages de *debug* (par compilation
-   conditionnelle ou contrôlé par une variable à l'exécution), et toute
+   conditionnelle ou par un contrôle via une variable à l'exécution), et toute
    information inutile pour l'utilisateur dans les messages d'erreur
    (e.g.  trace d'appel Java/PHP/Python) lors de la mise en production
  * Eliminer tout le code <<mort>> (*i.e.* code non appelé/non
@@ -245,7 +245,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
        attaquant
  * Toutes les entrées externes (e.g. de l'utilisateur) doivent être
    filtrées en explicitant uniquement les cas acceptés (filtrage par
-   liste blanche) **avant** leur utilisation/stockage
+   liste blanche) **avant** leur manipulation/stockage
 
 #### Données secrètes/sensibles, cryptographie
 
