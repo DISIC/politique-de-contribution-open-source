@@ -7,7 +7,7 @@ layout: default
 
 Deux types d'organisations sont distinguées :
 
-* Interministériel: DINSIC et ANSSI
+* Interministériel : DINSIC et ANSSI
 * Ministère
 
 avec un seul rôle par organisation (droit d'écriture sur cette politique). La DINSIC est propriétaire du dépôt pour la gestion des droits d'écriture et est la responsable de cette politique de contribution.
