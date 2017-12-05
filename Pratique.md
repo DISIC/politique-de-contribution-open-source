@@ -272,6 +272,8 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
  * Utiliser, le cas échéant, des logiciels et des bibliothèques
    tierces maintenus et à jour des correctifs sécurité; préférer des
    bibliothèques (re)connues, et les plus simples possibles
+ * Activer les messages d'avertissement du compilateur (e.g. `-Wall -Werror -Wextra`)
+   et traiter les messages d'avertissement générés
  * Utiliser les mécanismes de protection offerts par le
    compilateur/la machine virtuelle/le moteur d'exécution utilisé
    (e.g. protection/détection des débordements dans la pile, dans le
