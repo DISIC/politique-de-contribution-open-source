@@ -158,11 +158,138 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
 
 `git commit --signoff`
 
+### Bonnes pratiques de développement
+
+ * Ecrire du code lisible et intelligible
+   * choisir (pour un nouveau projet) et respecter une unique
+     convention de développement (*coding style*) au sein d'un même projet
+     * [https://github.com/google/styleguide]()
+     * [https://www.gnu.org/prep/standards/]()
+     * [https://www.kernel.org/doc/Documentation/process/coding-style.rst]()
+     * [http://www.php-fig.org/psr/psr-2/]()
+     * [http://pear.php.net/manual/en/standards.php]()
+   * choisir (pour un nouveau projet) et respecter une unique
+     convention de nommage pour les constantes, les variables, les
+     fonctions, *etc.*, respectueuse de la *convention de codage*
+     utilisée pour le projet (voir [https://en.wikipedia.org/wiki/Naming_convention_(programming)]())
+ * Découper et factoriser tant que possible le code en
+   paquetages/bibliothèques/modules internes au projet afin de
+   maximiser la réutilisation de code mais aussi d'isoler les
+   éventuelles sources d'erreur; avoir recours à des dépôts distincts
+   facilite ce cloisonnement
+ * Initialiser systématiquement toutes les variables allouées
+ * Tester et traiter de manière exhaustive les codes de
+   retour/exceptions des fonctions appelées
+ * Utiliser le plus finement possible le mécanisme de typage offert par le langage
+ * Tester la validité des pointeurs et des références (e.g. `!= null`)
+   **avant** de les utiliser; de même pour les bornes d'accès aux
+   tableaux
+ * Documenter, hors du code et des commentaires
+     * l'architecture logicielle du projet (*i.e.* découpage en modules
+       fonctionnels et/ou avec des privilèges particuliers)
+     * les interfaces exposées par chaque module, la nature et le
+       format des informations échangées/stockées
+     * les processus d'installation, de configuration et de mise en
+       production
+ * Commenter le code pour les comportements non triviaux comme
+     * les effets de bord sur des paramètres passés par référence à
+       une fonction
+     * les conditions d'usage qui ne peuvent être assurées par un
+       typage approprié, et les effets associés en cas de non respect;
+       par exemple, une fonction qui réalise une division pour
+       laquelle la charge incombe à l'appelant de vérifier que le
+       dénominateur n'est pas nul sous peine de générer une erreur à
+       l'exécution
+
+
 ### Sécurité
 
-L'ouverture de code source implique de ne pas diffuser des secrets, données confidentielles ou personnelles, ni des paramétrages d'environnements.
+ Il est recommandé d'identifier un responsable de la sécurité du
+ projet qui sera garant de vérifier le respect des bonnes pratiques
+ mises en oeuvre durant le développement, et de traiter les éventuels
+ incidents de sécurité. Il est également préférable d'avoir recours à
+ une adresse mail dédiée, à destination du responsable identifié au
+ moins, pour traiter des incidents de sécurité qui se produiraient ou
+ qui seraient découverts par un tiers.
 
- * Guide de sécurité méthodologie agile ANSSI / DINSIC : [https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf](https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf)
+#### Développement sécurisé
+
+ * Ecrire du code qui respecte des pratiques de sécurité reconnues et
+   qui ne fait pas usage de constructions dangereuses dans le langage utilisé
+     * [SEI CERT Coding Standards](https://wiki.sei.cmu.edu/confluence/display/seccode/SEI+CERT+Coding+Standards)
+     * [PHP The Right Way](http://eilgin.github.io/php-the-right-way/)
+     * [Importance des langages pour la sécurité](https://www.ssi.gouv.fr/agence/publication/mind-your-languages-nouvel-article-sur-limportance-des-langages-pour-la-securite/)
+     * [Sécurité et langage Java](https://www.ssi.gouv.fr/javasec/)
+     * [Sécurité et langages fonctionnels](https://www.ssi.gouv.fr/lafosec/)
+ * Eliminer tous les messages de *debug* (par compilation
+   conditionnelle ou contrôlé par une variable à l'exécution), et toute
+   information inutile pour l'utilisateur dans les messages d'erreur
+   (e.g.  trace d'appel Java/PHP/Python) lors de la mise en production
+ * Eliminer tout le code <<mort>> (*i.e.* code non appelé/non
+   atteignable) car il pourrait porter à confusion et/ou laisser
+   penser qu'il est toujours fonctionnel et testé; ce code, non
+   maintenu, pourrait être réintégré à tort par un développeur
+ * Restreindre au strict nécessaire les droits/privilèges attribués
+   à chaque module/processus (*i.e.* appliquer une politique de *moindre
+   privilège*)
+ * Les appels à des fonctions d'exécution de commande système (`exec`,
+   `system`, *etc*) doivent être proscrits; si un usage légitime se
+   présente:
+     * isoler cet appel dans un modules/processus disposant
+       **uniquement** des privilèges **strictement nécessaires** aux
+       commandes exécutées
+     * effectuer un contrôle très strict (e.g. par liste blanche), à défaut d'avoir des
+       commandes constantes/fixes, de tous les paramètres passés afin
+       d'empêcher l'exécution de commandes arbitraires par un
+       attaquant
+ * Toutes les entrées externes (e.g. de l'utilisateur) doivent être
+   filtrées en explicitant uniquement les cas acceptés (filtrage par
+   liste blanche) **avant** leur utilisation/stockage
+
+#### Données secrètes/sensibles, cryptographie
+
+ * Aucun élément secret (tel qu'un mot de passe ou une clé
+   cryptographique) ne doit être stocké dans le code ou dans les
+   commentaires; avoir recours à des fichiers de configuration qui ne
+   sont pas versionnés (*cf* `.gitignore`)
+ * Aucun élément secret ne doit être écrit par le programme en clair dans un fichier (y
+   compris un fichier de journalisation) ou dans une base de données,
+   toujours préférer une version <<hachée>> par une fonction de hachage
+   reconnue à l'état de l'art et correctement utilisée (*i.e* <<salée>>
+   pour chaque entrée)
+     * [Référentiel général de sécurité - Annexe B3](https://www.ssi.gouv.fr/uploads/2014/11/RGS_v-2-0_B3.pdf)
+ * Aucun élément secret ne doit transiter en clair sur le réseau
+ * Ne pas implémenter soi-même de mécanisme cryptographique mais
+   utiliser des bibliothèques reconnues en utilisant des paramètres
+   et des suites cryptographiques robustes
+     * [Recommandations de sécurité relatives à TLS](https://www.ssi.gouv.fr/nt-tls/)
+     * [Référentiel général de sécurité - Annexe B3](https://www.ssi.gouv.fr/uploads/2014/11/RGS_v-2-0_B3.pdf)
+
+
+#### Outils de développement et dépendances
+
+ * Utiliser, le cas échéant, des logiciels et des bibliothèques
+   tierces maintenus et à jour des correctifs sécurité; préférer des
+   bibliothèques (re)connues, et les plus simples possibles
+ * Utiliser les mécanismes de protection offerts par le
+   compilateur/la machine virtuelle/le moteur d'exécution utilisé
+   (e.g. protection/détection des débordements dans la pile, dans le
+   tas, ou hors des bornes des tableaux)
+ * Utiliser les services d'analyse de code offerts par la plateforme
+   d'hébergement (e.g. Github), et traiter systématiquement avant intégration les
+   problèmes remontés
+ * Ne pousser que des *commits* de code qui compile, testé et
+   fonctionnel, accompagné des tests unitaires correspondants;
+   certaines plateformes, comme Github, offrent la possibilité de
+   rejouer automatiquement les tests unitaires d'un projet afin
+   d'assurer la non-régression (e.g [Homu](https://github.com/servo/homu))
+ * Créer un *tag* (e.g. v2.0.1) pour chaque version (e.g. 2.0.1), et le signer cryptographiquement (voir [GPG signature verification](https://github.com/blog/2144-gpg-signature-verification))
+ * Respecter les recommandations et bonnes pratiques de sécurité émises
+   par l'ANSSI applicables au projet
+     * [Bonnes pratiques de l'ANSSI](https://www.ssi.gouv.fr/administration/bonnes-pratiques/)
+     * [Guide de sécurité méthodologie agile ANSSI / DINSIC](https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf)
+
+
 
 ### Outillage
 
