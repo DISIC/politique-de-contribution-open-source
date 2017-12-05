@@ -160,9 +160,11 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
 
 ### Sécurité
 
- * Outil de scan de sécurité
+L'ouverture de code source implique de ne pas diffuser des secrets, données confidentielles ou personnelles, ni des paramétrages d'environnements.
+
  * Guide de sécurité méthodologie agile ANSSI / DINSIC : [https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf](https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf)
 
 ### Outillage
 
-Se référer à https://www.linuxfoundation.org/tools-managing-open-source-programs/#1 
+La politique de contribution n'a pas vocation à proposer un outillage particulier. Toutefois spécifiquement pour la gestion
+de code ouvert, vous pourrez trouver les outils référencés sur https://www.linuxfoundation.org/tools-managing-open-source-programs/#1 utiles.
