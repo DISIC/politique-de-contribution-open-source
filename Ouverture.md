@@ -25,6 +25,7 @@ Voir [instanciation](Instanciation.md) si vous souhaitez décliner cette politiq
 ### Reconnaissance individuelle
 
 Reconnaissance individuelle des développeurs :  Utilisation de leur adresses emails pour tracer leurs contributions.
+
  * Pour les agents : utilisation du mail professionnel en .gouv.fr
  * Pour les prestataires de services, utilisation du mail de leur société d'attachement (pas de mail prestataire en .gouv.fr)
 
@@ -44,6 +45,7 @@ Possibilité de contribuer sur un même projet dans le cadre du milieu professio
 ### Autorisation par défaut de contribuer à des projets sous licenses FSF ou OSI
 
 Les licences validées par les organismes Free Software Foundation et Open Source Initiative et recensées sur leurs pages respectives :
+
  * FSF : https://www.gnu.org/licenses/license-list.fr.html (en excluant les licences non-libres présentées comme telles)
  * OSI : https://opensource.org/licenses/alphabetical
 
@@ -60,11 +62,13 @@ Pour rappel, les licences à utiliser sont disponibles par décret sur le site :
 Par défaut, les licences de la famille permissives sont privilégiées par l'administration afin de faciliter la diffusion des codes sources et leur réutilisation en limitant les risques d'incompatibilités avec les licences préexistantes. Ces licences seront particulièrement adaptées pour couvrir les codes sources implémentant un service de base ou d’infrastructure qui a vocation à être inclus dans d’autres services ou appelé par d’autres services (bibliothèques, frameworks...).
 
 Cependant, le choix d’une licence de partage à l’identique peut être pertinent dans les cas suivants pour prévenir toute appropriation propriétaire :
+
  *	Service d’intérêt général
  *	Service « contributif » : service en ligne dont la valeur est issue des contributions des utilisateurs du service. 
  *	Service qui organise un écosystème. Permet de partager les évolutions avec l’ensemble des acteurs.
  *	Service décentralisé qui est instancié de nombreuses fois et dont les instances doivent communiquer entre elles.
  *	Service qui établit un lien fort avec le citoyen qui doit être préservé sans que d’autres services puissent l’encapsuler
+
 A noter que les licences de partage à l’identique sont plus complexes notamment sur leur clause de distribution (lien statique/dynamique, accès distant, etc.)
 
 ### Pré-autorisation de signer un iCLA auprès de certaines communautés

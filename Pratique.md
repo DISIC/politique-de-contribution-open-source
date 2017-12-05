@@ -28,6 +28,7 @@ L'utilisation d'un système de suivi de version distribué tel que git, bitbucke
 En plus du système de suivi de version de code source, une plateforme propose un ensemble d'outils collaboratifs associés et visent une communauté de développeurs.
 
 Des exemples de plateformes possibles sont :
+
  * Github : https://github.com/
  * Gitlab : http://gitlab.com/
  * Framagit : http://framagit.org/ (gitlab)
@@ -78,6 +79,7 @@ Afin de vérifier que la commande a bien été prise en compte
 Le choix d'une licence est aussi le choix d'une communauté de developpeurs et d'un écosystème d'outils associés. Une fois la famille de licence trouvée, c'est avant tout la communauté visée qui détermine le choix.
 
 Les licences recommandées par défaut sont :
+
   * Permissive : Apache 2.0
   * Avec partage à l'identique : GNU GPL v3 (standard, lesser ou affero en fonction)
 
@@ -113,10 +115,11 @@ Ces fichiers doivent être en texte simple ou avec du maruage minimum (ie Markdo
 
 Conformément aux recommandations détaillées dans [https://software.reuse](https://software.reuse) chaque fichier de code source
 doit disposer de son auteur, de son identifiant de licence SPDX, ainsi que d'une copie de la licence dans le repository local.
+
   *  Exemples de fichiers Entête  (headers) :
 
 ```
-/*
+ /*
   * Copyright (c) 2017 Alice Commit <alice@example.com>
   * 
   * SPDX-License-Identifier: BSD-2-Clause
