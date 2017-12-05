@@ -218,6 +218,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
    qui ne fait pas usage de constructions dangereuses dans le langage utilisé
      * [SEI CERT Coding Standards](https://wiki.sei.cmu.edu/confluence/display/seccode/SEI+CERT+Coding+Standards)
      * [PHP The Right Way](http://eilgin.github.io/php-the-right-way/)
+     * [Secure Coding Guidelines for Java SE](http://www.oracle.com/technetwork/java/seccodeguide-139067.html)
      * [Importance des langages pour la sécurité](https://www.ssi.gouv.fr/agence/publication/mind-your-languages-nouvel-article-sur-limportance-des-langages-pour-la-securite/)
      * [Sécurité et langage Java](https://www.ssi.gouv.fr/javasec/)
      * [Sécurité et langages fonctionnels](https://www.ssi.gouv.fr/lafosec/)
