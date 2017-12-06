@@ -19,3 +19,5 @@ Des compléments et ajustements peuvent être effectués avec une mise à jour d
 Des modifications de règles ou ajout de règles substantielles nécessitent l'accord de la DINSIC et de 3 ministères au moins pour être validées avec une mise à jour du MAJEUR du numéro de version.
 
 Toutes les modifications peuvent être faites au fil de l'eau. Les discussions et commentaires sont tracées dans les commentaires de la pull request.
+
+L'ensemble des contributeurs avec les droits d'écriture sont listés dans le fichier [MAINTAINERS](MAINTAINERS)
