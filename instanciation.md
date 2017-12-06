@@ -1,5 +1,5 @@
 ---
-title: Instanciation
+title: Instanciation des politiques de contribution ministérielles
 layout: default
 ---
 
