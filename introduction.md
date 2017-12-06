@@ -47,10 +47,10 @@ Les fonctions publiques hospitalières et territoriales sont hors périmètre de
 
 La politique de contribution est composée de :
 
- * [Principes d'ouverture des codes sources](ouverture.md)
- * [Modalités et meilleures pratiques](pratique.md)
- * [Instanciation de politique de contribution ministérielle](instanciation.md)
- * [Gouvernance associée](gouvernance.md)
+ * [Principes d’ouverture des codes sources]({{< relref "ouverture.md" >}} )
+ * [Modalités et meilleures pratiques]({{< relref "pratique.md" >}})
+ * [Instanciation de politique de contribution ministérielle]({{< relref "instanciation.md" >}})
+ * [Gouvernance associée]({{< relref "gouvernance.md" >}})
 
 Afin d'en faciliter la lecture chaque partie débute par une section TL;DR (Too Long ; Didn't read) qui en résume l'essentiel.
 
