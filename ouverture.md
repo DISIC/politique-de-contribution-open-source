@@ -5,7 +5,7 @@ layout: default
 
 ## Principes d'ouverture des codes sources
 
-### TL:DR
+### En résumé
 
  * Principe de subsidiarité : la politique peut être instanciée localement avec une priorité plus forte
  * Reconnaissance individuelle des développeurs
