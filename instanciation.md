@@ -1,7 +1,7 @@
 ---
 title: Instanciation des politiques de contribution ministérielles
-weight: 10
-menuName: introduction
+weight: 40
+menuName: instanciation
 ---
 
 ## En résumé

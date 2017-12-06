@@ -1,8 +1,8 @@
 ---
-title: Introduction
+title: Politique de contribution aux logiciels libres de l'État
+weight: 10
+menuName: introduction
 ---
-
-# Politique de contribution aux logiciels libres  de l'État
 
 __Historique et versions__
 
