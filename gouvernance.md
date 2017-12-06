@@ -3,8 +3,6 @@ title: Gouvernance
 layout: default
 ---
 
-## Gouvernance
-
 Deux types d'organisations sont distinguées :
 
 * Interministériel : DINSIC et ANSSI
