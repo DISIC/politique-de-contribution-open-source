@@ -1,6 +1,5 @@
 ---
 title: Introduction
-layout: default
 ---
 
 # Politique de contribution aux logiciels libres  de l'État

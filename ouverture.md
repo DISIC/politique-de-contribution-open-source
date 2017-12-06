@@ -1,6 +1,7 @@
 ---
 title: Principes d'ouverture des codes sources
-layout: default
+weight: 20 
+menuName: ouverture
 ---
 
 ## En résumé

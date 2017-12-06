@@ -1,6 +1,6 @@
 ---
 title: Meilleures Pratiques
-layout: default
+menuName: pratique
 ---
 
 ## En résumé
