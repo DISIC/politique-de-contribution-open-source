@@ -1,11 +1,9 @@
 ---
-title: Ouverture
+title: Principes d'ouverture des codes sources
 layout: default
 ---
 
-## Principes d'ouverture des codes sources
-
-### En résumé
+## En résumé
 
  * Principe de subsidiarité : la politique peut être instanciée localement avec une priorité plus forte
  * Reconnaissance individuelle des développeurs
@@ -18,11 +16,11 @@ layout: default
  * Utilisation des DCO (developper's certificate of origin) et ne pas exiger des CLA
  * Support : Contacter `opensource @ data.gouv.fr` pour toute question
 
-### Subsidiarité
+## Subsidiarité
 
 Voir la section [instanciation](Instanciation.md) si vous souhaitez décliner cette politique au sein de votre organisation
 
-### Reconnaissance individuelle
+## Reconnaissance individuelle
 
 Reconnaissance individuelle des développeurs :  Utilisation de leur adresses emails pour tracer leurs contributions.
 
@@ -33,16 +31,16 @@ Possibilité d'utiliser des pseudonymes.
 
 Pas d'utilisation de mails génériques / anonymes
  
-### Distinction des contributions professionnelles / personnelles
+## Distinction des contributions professionnelles / personnelles
 
 Possibilité de contribuer sur un même projet dans le cadre du milieu professionnel ou à titre personnel. Le mail professionnel doit être utilisé sur le temps professionnel.
 
-### Pas d'engagements
+## Pas d'engagements
 
 * Aucune obligation de support et de prise en compte des demandes des utilisateurs ni plus généralement d'obligation d'animer la communauté. 
 * Pas de garanties au-delà de ce qui est prévu par la licence.
 
-### Autorisation par défaut de contribuer à des projets sous licenses FSF ou OSI
+## Autorisation par défaut de contribuer à des projets sous licenses FSF ou OSI
 
 Les licences validées par les organismes Free Software Foundation et Open Source Initiative et recensées sur leurs pages respectives :
 
@@ -51,13 +49,13 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
 
 A l'inverse les licenses de type WTFL ou beerware ne rentrent pas dans le cadre de l'autorisation par défaut (et ne devraient pas être utilisées).
 
-### Autorisation par défaut de contribuer un nouveau projet avec les licences du décret
+## Autorisation par défaut de contribuer un nouveau projet avec les licences du décret
 
 L'État n'a pas vocation à être éditeur logiciel. En dehors des trois exceptions prévues à la loi république numérique pour lesquelles vous pouvez contacter le mail de support en cas de question, il n'y a pas d'autorisation préalable à demander auprès de la DINSIC. Pour autant, veuillez vous référer à votre supérieur hiérarchique avant la publication d'un nouveau projet dans le compte de votre organisation.
 
 Pour rappel, les licences à utiliser sont disponibles par décret sur le site : http://www.data.gouv.fr/fr/licences
 
-### Recommandation d'utiliser des licences permissives dans le cas général
+## Recommandation d'utiliser des licences permissives dans le cas général
 
 Par défaut, les licences de la famille permissives sont privilégiées par l'administration afin de faciliter la diffusion des codes sources et leur réutilisation en limitant les risques d'incompatibilités avec les licences préexistantes. Ces licences seront particulièrement adaptées pour couvrir les codes sources implémentant un service de base ou d’infrastructure qui a vocation à être inclus dans d’autres services ou appelé par d’autres services (bibliothèques, frameworks...).
 
@@ -71,10 +69,10 @@ Cependant, le choix d’une licence de partage à l’identique peut être perti
 
 A noter que les licences de partage à l’identique sont plus complexes notamment sur leur clause de distribution (lien statique/dynamique, accès distant, etc.)
 
-### Pré-autorisation de signer un iCLA auprès de certaines communautés
+## Pré-autorisation de signer un iCLA auprès de certaines communautés
 
 A ce stade aucun corporate CLA n'a été signé avec des communautés. La DINSIC prendra contact et établira les communautés prioritaires avec qui ces contributions seront facilitées.
 
-### Assistance sur la politique de contribution
+## Assistance sur la politique de contribution
 
 Contacter `opensource @ data.gouv.fr` pour toute question sur cette politique
