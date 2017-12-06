@@ -5,7 +5,7 @@ layout: default
 
 ## Instanciation
 
-### TL;DR
+### En résumé
 
  * Possibilité d'instancier et de reprendre cette politique
  * Contacter la politique "mère" pour informer de la déclinaison
