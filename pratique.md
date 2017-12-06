@@ -3,9 +3,7 @@ title: Meilleures Pratiques
 layout: default
 ---
 
-## Meilleures pratiques
-
-### En résumé
+## En résumé
 
 * Utilisation nécessaire d'un système de suivi de version distribué (git, bitbucket, mercurial) 
 * Aide au choix d'une plateforme de publication
@@ -19,11 +17,11 @@ layout: default
 * Tracabilité des developpements (DCO)
 * Outillage
 
-### Système de suivi de version
+## Système de suivi de version
 
 L'utilisation d'un système de suivi de version distribué tel que git, bitbucket ou mercurial est recommandée. Les systèmes svn ou cvs sont déconseillés.
 
-### Aide au choix de la plateforme 
+## Aide au choix de la plateforme 
 
 En plus du système de suivi de version de code source, une plateforme propose un ensemble d'outils collaboratifs associés et visent une communauté de développeurs.
 
@@ -40,14 +38,14 @@ Certaines sont libres, d'autres publient leur données anonymisées en open-data
 
 Actuellement, github offre la plus grande communuauté de développeurs au niveau international.
 
-### Gestion des comptes personnels et organisation
+## Gestion des comptes personnels et organisation
 
 Utilisation de dépots au sein de comptes d'organisation. Les dépots de comptes personnels sont à proscrire et ne doivent
 être utilisés que pour des développements personnels.
  
 Il est recommandé d'avoir deux propriétaires (owner) par dépot.
 
-### Inventaire des comptes d'organisation
+## Inventaire des comptes d'organisation
 
 Des réflexions sont en cours sur la capacité de proposer un inventaire automatique tant du point de vue des dépots
 d'organisation que de l'inventaire des services.
@@ -56,7 +54,7 @@ d'organisation que de l'inventaire des services.
  >  * Inscrivez vous si ce n'est pas déjà fait dans la communauté [https://github.com/government/welcome](https://github.com/government/welcome)
  >  * Référencez votre compte d'organisation en l'ajoutant sur la page : [https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml](https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) conformément à la page [https://government.github.com/community/](https://government.github.com/community/)
 
-### Distinction des contributions personnelles / Professionnelles
+## Distinction des contributions personnelles / Professionnelles
 
 Utilisation du compte professionnel avec le mail en ```.gouv.fr```
 
@@ -77,7 +75,7 @@ Afin de vérifier que la commande a bien été prise en compte
 Les pseudonymes sont gérés de la même manière. Un email (ou alias) doit donc être mis à disposition par le ministère
 pour permettre l'utilisation du pseudonyme.
 
-### Aide au choix de la licence
+## Aide au choix de la licence
 
 Le choix d'une licence est aussi le choix d'une communauté de developpeurs et d'un écosystème d'outils associés. Une fois la famille de licence trouvée, c'est avant tout la communauté visée qui détermine le choix.
 
@@ -88,11 +86,11 @@ Les licences recommandées par défaut sont :
 
  > Multilicensing : il est possible de fournir un logiciel sous plusieurs licenses simultanément, bien que cela puisse entrainer de la confusion
 
-### Gestion des versions
+## Gestion des versions
 
 Avoir une politique de gestion des versions est recommandé. Le guide de versioning sémantique (https://semver.org/lang/fr/) est un bon exemple à suivre.
 
-### Fichiers présents dans le dépot
+## Fichiers présents dans le dépot
 
 Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING and LICENSE.
 
@@ -114,7 +112,7 @@ Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING and LICENSE.
 
 Ces fichiers doivent être en texte simple ou avec du maruage minimum (ie Markdown). Il n'est pas recommandé d'utiliser des formats binaires (ie PDF)
 
-### Entête de fichiers source
+## Entête de fichiers source
 
 Conformément aux recommandations détaillées dans [https://software.reuse](https://software.reuse) chaque fichier de code source
 doit disposer de son auteur, de son identifiant de licence SPDX, ainsi que d'une copie de la licence dans le repository local.
@@ -149,7 +147,7 @@ garantir la conformité du logiciel.
 
 L'ensemble des identifiants SPDX est disponible à cette adresse : [https://spdx.org/licenses/](https://spdx.org/licenses/)
 
-### Tracabilité des developpements (DCO)
+## Tracabilité des developpements (DCO)
 
 Afin de garantir l'origine des contributions soumises, la mise en oeuvre d'un Developer's Certificate of Origin est recommandée.  
 Une traduction française est mise à disposition [DCO-Fr.txt](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt)
@@ -158,7 +156,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
 
 `git commit --signoff`
 
-### Bonnes pratiques de développement
+## Bonnes pratiques de développement
 
  * Ecrire du code lisible et intelligible
    * choisir (pour un nouveau projet) et respecter une unique
@@ -202,7 +200,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
        l'exécution
 
 
-### Sécurité
+## Sécurité
 
  Il est recommandé d'identifier un responsable de la sécurité du
  projet qui sera garant de vérifier le respect des bonnes pratiques
@@ -212,7 +210,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
  moins, pour traiter des incidents de sécurité qui se produiraient ou
  qui seraient découverts par un tiers.
 
-#### Développement sécurisé
+### Développement sécurisé
 
  * Ecrire du code qui respecte des pratiques de sécurité reconnues et
    qui ne fait pas usage de constructions dangereuses dans le langage utilisé
@@ -247,7 +245,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
    filtrées en explicitant uniquement les cas acceptés (filtrage par
    liste blanche) **avant** leur manipulation/stockage
 
-#### Données secrètes/sensibles, cryptographie
+### Données secrètes/sensibles, cryptographie
 
  * Aucun élément secret (tel qu'un mot de passe ou une clé
    cryptographique) ne doit être stocké dans le code ou dans les
@@ -267,7 +265,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
      * [Référentiel général de sécurité - Annexe B3](https://www.ssi.gouv.fr/uploads/2014/11/RGS_v-2-0_B3.pdf)
 
 
-#### Outils de développement et dépendances
+### Outils de développement et dépendances
 
  * Utiliser, le cas échéant, des logiciels et des bibliothèques
    tierces maintenus et à jour des correctifs sécurité; préférer des
@@ -294,7 +292,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
 
 
 
-### Outillage
+## Outillage
 
 La politique de contribution n'a pas vocation à proposer un outillage particulier. Toutefois spécifiquement pour la gestion
 de code ouvert, vous pourrez trouver les outils référencés sur https://www.linuxfoundation.org/tools-managing-open-source-programs/#1 utiles.
