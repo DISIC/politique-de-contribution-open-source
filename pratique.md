@@ -5,7 +5,7 @@ layout: default
 
 ## Meilleures pratiques
 
-### TL;DR
+### En résumé
 
 * Utilisation nécessaire d'un système de suivi de version distribué (git, bitbucket, mercurial) 
 * Aide au choix d'une plateforme de publication
