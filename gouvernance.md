@@ -1,5 +1,5 @@
 ---
-title: Gouvernance
+title: Gouvernance de la politique de contribution interministérielle
 layout: default
 ---
 
