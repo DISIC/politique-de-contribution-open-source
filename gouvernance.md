@@ -1,6 +1,7 @@
 ---
 title: Gouvernance de la politique de contribution interministérielle
-layout: default
+weight: 50
+menuName: gouvernance
 ---
 
 Deux types d'organisations sont distinguées :
