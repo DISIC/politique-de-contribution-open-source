@@ -246,8 +246,8 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
    sont pas versionnés (*cf* `.gitignore`)
  * Aucun élément secret ne doit être écrit par le programme en clair dans un fichier (y
    compris un fichier de journalisation) ou dans une base de données,
-   toujours préférer une version <<hachée>> par une fonction de hachage
-   reconnue à l'état de l'art et correctement utilisée (*i.e* <<salée>>
+   toujours préférer une version hachée par une fonction de hachage
+   reconnue à l'état de l'art et correctement utilisée (*i.e* salée
    pour chaque entrée)
      * [Référentiel général de sécurité - Annexe B3](https://www.ssi.gouv.fr/uploads/2014/11/RGS_v-2-0_B3.pdf)
  * Aucun élément secret ne doit transiter en clair sur le réseau
