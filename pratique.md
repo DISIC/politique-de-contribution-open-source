@@ -175,13 +175,6 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
    maximiser la réutilisation de code mais aussi d'isoler les
    éventuelles sources d'erreur; avoir recours à des dépôts distincts
    facilite ce cloisonnement
- * Initialiser systématiquement toutes les variables allouées
- * Tester et traiter de manière exhaustive les codes de
-   retour/exceptions des fonctions appelées
- * Utiliser le plus finement possible le mécanisme de typage offert par le langage
- * Tester la validité des pointeurs et des références (e.g. `!= null`)
-   **avant** de les utiliser; de même pour les bornes d'accès aux
-   tableaux
  * Documenter, hors du code et des commentaires
      * l'architecture logicielle du projet (*i.e.* découpage en modules
        fonctionnels et/ou avec des privilèges particuliers)
@@ -270,12 +263,6 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
  * Utiliser, le cas échéant, des logiciels et des bibliothèques
    tierces maintenus et à jour des correctifs sécurité; préférer des
    bibliothèques (re)connues, et les plus simples possibles
- * Activer les messages d'avertissement du compilateur (e.g. `-Wall -Werror -Wextra`)
-   et traiter les messages d'avertissement générés
- * Utiliser les mécanismes de protection offerts par le
-   compilateur/la machine virtuelle/le moteur d'exécution utilisé
-   (e.g. protection/détection des débordements dans la pile, dans le
-   tas, ou hors des bornes des tableaux)
  * Utiliser les services d'analyse de code offerts par la plateforme
    d'hébergement (e.g. Github), et traiter systématiquement avant intégration les
    problèmes remontés
@@ -283,7 +270,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
    fonctionnels, accompagnés des tests unitaires correspondants;
    certaines plateformes, comme Github, offrent la possibilité de
    rejouer automatiquement les tests unitaires d'un projet afin
-   d'assurer la non-régression (e.g [Homu](https://github.com/servo/homu))
+   d'assurer la non-régression (e.g [Travis](https://docs.travis-ci.com/), [Homu](https://github.com/servo/homu))
  * Créer un *tag* (e.g. v2.0.1) pour chaque version (e.g. 2.0.1), et le signer cryptographiquement (voir [GPG signature verification](https://github.com/blog/2144-gpg-signature-verification))
  * Respecter les recommandations et bonnes pratiques de sécurité émises
    par l'ANSSI applicables au projet
