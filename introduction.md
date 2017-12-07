@@ -52,8 +52,6 @@ La politique de contribution est composée de :
  * [Instanciation de politique de contribution ministérielle]({{< relref "instanciation.md" >}})
  * [Gouvernance associée]({{< relref "gouvernance.md" >}})
 
-Afin d'en faciliter la lecture chaque partie débute par une section TL;DR (Too Long ; Didn't read) qui en résume l'essentiel.
-
 ## Responsabilité du document
 
 La DINSIC produit et maintient ce document ; elle veille à sa mise en oeuvre et assure le support associé. Pour toute question, ou demande d'évolutions, veuillez vous référer à la partie *Gouvernance*.
