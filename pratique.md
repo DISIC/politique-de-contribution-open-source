@@ -96,17 +96,17 @@ Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING and LICENSE.
 
 * README : description du projet. Peut décrire l'objectif et l'administration à l'origine de la publication.
 
-* CONTRIBUTING : guide de contribution, comment s'impliquer et identification du processus de contribution et des licences associées
+* CONTRIBUTING : guide de contribution, comment s'impliquer et identification du processus de contribution et des licences associées. Exemple: [https://github.com/moby/moby/blob/master/CONTRIBUTING.md](https://github.com/moby/moby/blob/master/CONTRIBUTING.md)
 
 * LICENSE : licence de publication du logiciel
 
-* MAINTAINERS : liste des mainteneurs du projet (avec des droits de vote ou de commit généralement)
+* MAINTAINERS : liste des mainteneurs du projet (avec des droits de vote ou de commit généralement). Exemple: [https://github.com/moby/moby/blob/master/MAINTAINERS](https://github.com/moby/moby/blob/master/MAINTAINERS)
 
 * ROADMAP : feuille de route publique
 
 * CONDUCT : un code de conduite pour réguler la communauté de contributeurs. Des exemples peuvent être trouvés :  [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/) et [https://github.com/18F/code-of-conduct](https://github.com/18F/code-of-conduct)
 
-* GOVERNANCE : décrit la gouvernance du projet, les rôles et les drois de votes. Un exemple est le fichier 
+* GOVERNANCE : décrit la gouvernance du projet, les rôles et les drois de votes. Un exemple est disponible dans ce dépôt [gouvernance.md]({{< relref "gouvernance.md" >}})
 
 * NFR : Choix d'architecture technique du projet qui ne correspondent pas à des exigences fonctionnelles.
 
