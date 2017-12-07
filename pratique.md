@@ -5,7 +5,7 @@ menuName: pratique
 
 ## En résumé
 
-* Utilisation nécessaire d'un système de suivi de version distribué (git, bitbucket, mercurial) 
+* Utilisation nécessaire d'un système de suivi de version distribué (git, bitkeeper, mercurial) 
 * Aide au choix d'une plateforme de publication
 * Gestion des comptes personnels et d'organisations
 * Inventaire des comptes d'organisation
@@ -19,7 +19,7 @@ menuName: pratique
 
 ## Système de suivi de version
 
-L'utilisation d'un système de suivi de version distribué tel que git, bitbucket ou mercurial est recommandée. Les systèmes svn ou cvs sont déconseillés.
+L'utilisation d'un système de suivi de version distribué tel que git est recommandée. Les systèmes svn ou cvs sont déconseillés.
 
 ## Aide au choix de la plateforme 
 
