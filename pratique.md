@@ -161,11 +161,11 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
  * Ecrire du code lisible et intelligible
    * choisir (pour un nouveau projet) et respecter une unique
      convention de développement (*coding style*) au sein d'un même projet
-     * [https://github.com/google/styleguide]()
-     * [https://www.gnu.org/prep/standards/]()
-     * [https://www.kernel.org/doc/Documentation/process/coding-style.rst]()
-     * [http://www.php-fig.org/psr/psr-2/]()
-     * [http://pear.php.net/manual/en/standards.php]()
+     * [https://github.com/google/styleguide](https://github.com/google/styleguide)
+     * [https://www.gnu.org/prep/standards/](https://www.gnu.org/prep/standards/)
+     * [https://www.kernel.org/doc/Documentation/process/coding-style.rst](https://www.kernel.org/doc/Documentation/process/coding-style.rst)
+     * [http://www.php-fig.org/psr/psr-2/](http://www.php-fig.org/psr/psr-2/)
+     * [http://pear.php.net/manual/en/standards.php](http://pear.php.net/manual/en/standards.php)
    * choisir (pour un nouveau projet) et respecter une unique
      convention de nommage pour les constantes, les variables, les
      fonctions, *etc.*, respectueuse de la *convention de codage*
@@ -224,7 +224,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
    conditionnelle ou par un contrôle via une variable à l'exécution), et toute
    information inutile pour l'utilisateur dans les messages d'erreur
    (e.g.  trace d'appel Java/PHP/Python) lors de la mise en production
- * Eliminer tout le code <<mort>> (*i.e.* code non appelé/non
+ * Eliminer tout le code mort (*i.e.* code non appelé/non
    atteignable) car il pourrait porter à confusion et/ou laisser
    penser qu'il est toujours fonctionnel et testé; ce code, non
    maintenu, pourrait être réintégré à tort par un développeur
@@ -279,8 +279,8 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
  * Utiliser les services d'analyse de code offerts par la plateforme
    d'hébergement (e.g. Github), et traiter systématiquement avant intégration les
    problèmes remontés
- * Ne pousser que des *commits* de code qui compile, testé et
-   fonctionnel, accompagné des tests unitaires correspondants;
+ * Ne pousser que des *commits* de code qui compilent, testés et
+   fonctionnels, accompagnés des tests unitaires correspondants;
    certaines plateformes, comme Github, offrent la possibilité de
    rejouer automatiquement les tests unitaires d'un projet afin
    d'assurer la non-régression (e.g [Homu](https://github.com/servo/homu))
