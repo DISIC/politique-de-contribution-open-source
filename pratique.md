@@ -7,14 +7,14 @@ menuName: pratique
 
 * Utilisation nécessaire d'un système de suivi de version distribué (git, bitkeeper, mercurial) 
 * Aide au choix d'une plateforme de publication
-* Gestion des comptes personnels et d'organisations
+* Gestion des comptes personnels et d'organisation
 * Inventaire des comptes d'organisation
 * Distinction des contributions professionnelles / personnelles
 * Aide au choix de la licence
 * Gestion des versions
-* Fichiers par défaut dans un dépot (repository)
-* Entêtes (Headers) de fichiers source
-* Tracabilité des developpements (DCO)
+* Fichiers par défaut dans un dépôt (repository)
+* Entêtes (headers) de fichiers sources
+* Traçabilité des développements (DCO)
 * Outillage
 
 ## Système de suivi de version
@@ -23,7 +23,7 @@ L'utilisation d'un système de suivi de version distribué tel que git est recom
 
 ## Aide au choix de la plateforme 
 
-En plus du système de suivi de version de code source, une plateforme propose un ensemble d'outils collaboratifs associés et visent une communauté de développeurs.
+En plus du système de suivi de version de code source, une plateforme propose un ensemble d'outils collaboratifs associés et vise une communauté de développeurs.
 
 Des exemples de plateformes possibles sont :
 
@@ -34,41 +34,41 @@ Des exemples de plateformes possibles sont :
  * FSFE : https://git.fsfe.org/ (gitea)
  * FSF : https://git.savannah.gnu.org (raw)
 
-Certaines sont libres, d'autres publient leur données anonymisées en open-data, leur portée géographique peut varier... La liste est incomplète.
+Certaines sont libres, d'autres publient leurs données anonymisées en open-data, leur portée géographique peut varier... La liste est incomplète.
 
-Actuellement, github offre la plus grande communuauté de développeurs au niveau international.
+Actuellement, github offre la plus grande communuauté de développeurs au plan international.
 
-## Gestion des comptes personnels et organisation
+## Gestion des comptes personnels et d'organisation
 
-Utilisation de dépots au sein de comptes d'organisation. Les dépots de comptes personnels sont à proscrire et ne doivent
+Utilisation de dépôts au sein de comptes d'organisation. Les dépôts de comptes personnels sont à proscrire et ne doivent
 être utilisés que pour des développements personnels.
  
-Il est recommandé d'avoir deux propriétaires (owner) par dépot.
+Il est recommandé d'avoir deux propriétaires (owner) par dépôt.
 
 ## Inventaire des comptes d'organisation
 
-Des réflexions sont en cours sur la capacité de proposer un inventaire automatique tant du point de vue des dépots
+Des réflexions sont en cours sur la capacité de proposer un inventaire automatique tant du point de vue des dépôts
 d'organisation que de l'inventaire des services.
 
  > Spécifiquement pour Github, référencer le compte d'organisation comme un compte gouvernemental
  >  * Inscrivez vous si ce n'est pas déjà fait dans la communauté [https://github.com/government/welcome](https://github.com/government/welcome)
  >  * Référencez votre compte d'organisation en l'ajoutant sur la page : [https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml](https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) conformément à la page [https://government.github.com/community/](https://government.github.com/community/)
 
-## Distinction des contributions personnelles / Professionnelles
+## Distinction des contributions personnelles / professionnelles
 
 Utilisation du compte professionnel avec le mail en ```.gouv.fr```
 
-Créer le dépot, configuré de la manière suivante :
+Créer le dépôt, configuré de la manière suivante :
 
-* Dépot professionnel
+* Dépôt professionnel
 
 `git config user.email <prenom.nom@ministere.gouv.fr>`
 
-* Dépot personnel
+* Dépôt personnel
 
 `git config user.email <email@perso.fr>`
 
-Afin de vérifier que la commande a bien été prise en compte
+Afin de vérifier que la commande a bien été prise en compte :
 
 `git config --get user.email`
 
@@ -77,47 +77,47 @@ pour permettre l'utilisation du pseudonyme.
 
 ## Aide au choix de la licence
 
-Le choix d'une licence est aussi le choix d'une communauté de developpeurs et d'un écosystème d'outils associés. Une fois la famille de licence trouvée, c'est avant tout la communauté visée qui détermine le choix.
+Le choix d'une licence est aussi le choix d'une communauté de développeurs et d'un écosystème d'outils associés. Une fois la famille de licence trouvée, c'est avant tout la communauté visée qui détermine le choix.
 
 Les licences recommandées par défaut sont :
 
   * Permissive : Apache 2.0
   * Avec partage à l'identique : GNU GPL v3 (standard, lesser ou affero en fonction)
 
- > Multilicensing : il est possible de fournir un logiciel sous plusieurs licenses simultanément, bien que cela puisse entrainer de la confusion
+ > Multilicensing : il est possible de fournir un logiciel sous plusieurs licenses simultanément, bien que cela puisse entraîner de la confusion.
 
 ## Gestion des versions
 
 Avoir une politique de gestion des versions est recommandé. Le guide de versioning sémantique (https://semver.org/lang/fr/) est un bon exemple à suivre.
 
-## Fichiers présents dans le dépot
+## Fichiers présents dans le dépôt
 
-Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING and LICENSE.
+Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING et LICENSE.
 
 * README : description du projet. Peut décrire l'objectif et l'administration à l'origine de la publication.
 
 * CONTRIBUTING : guide de contribution, comment s'impliquer et identification du processus de contribution et des licences associées. Exemple: [https://github.com/moby/moby/blob/master/CONTRIBUTING.md](https://github.com/moby/moby/blob/master/CONTRIBUTING.md)
 
-* LICENSE : licence de publication du logiciel
+* LICENSE : licence de publication du logiciel.
 
 * MAINTAINERS : liste des mainteneurs du projet (avec des droits de vote ou de commit généralement). Exemple: [https://github.com/moby/moby/blob/master/MAINTAINERS](https://github.com/moby/moby/blob/master/MAINTAINERS)
 
-* ROADMAP : feuille de route publique
+* ROADMAP : feuille de route publique.
 
-* CONDUCT : un code de conduite pour réguler la communauté de contributeurs. Des exemples peuvent être trouvés :  [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/) et [https://github.com/18F/code-of-conduct](https://github.com/18F/code-of-conduct)
+* CONDUCT : un code de conduite pour réguler la communauté de contributeurs. Des exemples peuvent être trouvés :  [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/) et [https://github.com/18F/code-of-conduct](https://github.com/18F/code-of-conduct).
 
 * GOVERNANCE : décrit la gouvernance du projet, les rôles et les drois de votes. Un exemple est disponible dans ce dépôt [gouvernance.md]({{< relref "gouvernance.md" >}})
 
-* NFR : Choix d'architecture technique du projet qui ne correspondent pas à des exigences fonctionnelles.
+* NFR : choix d'architecture technique du projet qui ne correspondent pas à des exigences fonctionnelles.
 
-Ces fichiers doivent être en texte simple ou avec du maruage minimum (ie Markdown). Il n'est pas recommandé d'utiliser des formats binaires (ie PDF)
+Ces fichiers doivent être en texte simple ou avec du marquage minimum (ie Markdown). Il n'est pas recommandé d'utiliser des formats binaires (ie PDF)
 
-## Entête de fichiers source
+## Entête des fichiers sources
 
 Conformément aux recommandations détaillées dans [https://software.reuse](https://software.reuse) chaque fichier de code source
 doit disposer de son auteur, de son identifiant de licence SPDX, ainsi que d'une copie de la licence dans le repository local.
 
-  *  Exemples de fichiers Entête  (headers) :
+  *  Exemples d'entête de fichier (headers) :
 
 ```
  /*
@@ -147,9 +147,9 @@ garantir la conformité du logiciel.
 
 L'ensemble des identifiants SPDX est disponible à cette adresse : [https://spdx.org/licenses/](https://spdx.org/licenses/)
 
-## Tracabilité des developpements (DCO)
+## Traçabilité des developpements (DCO)
 
-Afin de garantir l'origine des contributions soumises, la mise en oeuvre d'un Developer's Certificate of Origin est recommandée.  
+Afin de garantir l'origine des contributions soumises, la mise en �uvre d'un Developer's Certificate of Origin est recommandée.  
 Une traduction française est mise à disposition [DCO-Fr.txt](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt)
 
 Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
@@ -182,11 +182,11 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
        format des informations échangées/stockées
      * les processus d'installation, de configuration et de mise en
        production
- * Commenter le code pour les comportements non triviaux comme
+ * Commenter le code pour les comportements non triviaux comme :
      * les effets de bord sur des paramètres passés par référence à
        une fonction
      * les conditions d'usage qui ne peuvent être assurées par un
-       typage approprié, et les effets associés en cas de non respect;
+       typage approprié et les effets associés en cas de non-respect ;
        par exemple, une fonction qui réalise une division pour
        laquelle la charge incombe à l'appelant de vérifier que le
        dénominateur n'est pas nul sous peine de générer une erreur à
@@ -197,7 +197,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
 
  Il est recommandé d'identifier un responsable de la sécurité du
  projet qui sera garant de vérifier le respect des bonnes pratiques
- mises en oeuvre durant le développement, et de traiter les éventuels
+ mises en œuvre durant le développement, et de traiter les éventuels
  incidents de sécurité. Il est également préférable d'avoir recours à
  une adresse mail dédiée, à destination du responsable identifié au
  moins, pour traiter des incidents de sécurité qui se produiraient ou
@@ -205,7 +205,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
 
 ### Développement sécurisé
 
- * Ecrire du code qui respecte des pratiques de sécurité reconnues et
+ * Écrire du code qui respecte des pratiques de sécurité reconnues et
    qui ne fait pas usage de constructions dangereuses dans le langage utilisé
      * [SEI CERT Coding Standards](https://wiki.sei.cmu.edu/confluence/display/seccode/SEI+CERT+Coding+Standards)
      * [PHP The Right Way](http://eilgin.github.io/php-the-right-way/)
@@ -213,11 +213,11 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
      * [Importance des langages pour la sécurité](https://www.ssi.gouv.fr/agence/publication/mind-your-languages-nouvel-article-sur-limportance-des-langages-pour-la-securite/)
      * [Sécurité et langage Java](https://www.ssi.gouv.fr/javasec/)
      * [Sécurité et langages fonctionnels](https://www.ssi.gouv.fr/lafosec/)
- * Eliminer tous les messages de *debug* (par compilation
-   conditionnelle ou par un contrôle via une variable à l'exécution), et toute
+ * Éliminer tous les messages de *debug* (par compilation
+   conditionnelle ou par un contrôle via une variable à l'exécution) et toute
    information inutile pour l'utilisateur dans les messages d'erreur
    (e.g.  trace d'appel Java/PHP/Python) lors de la mise en production
- * Eliminer tout le code mort (*i.e.* code non appelé/non
+ * �liminer tout le code mort (*i.e.* code non appelé/non
    atteignable) car il pourrait porter à confusion et/ou laisser
    penser qu'il est toujours fonctionnel et testé; ce code, non
    maintenu, pourrait être réintégré à tort par un développeur
@@ -225,9 +225,9 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
    à chaque module/processus (*i.e.* appliquer une politique de *moindre
    privilège*)
  * Les appels à des fonctions d'exécution de commande système (`exec`,
-   `system`, *etc*) doivent être proscrits; si un usage légitime se
+   `system`, *etc*) doivent être proscrits ; si un usage légitime se
    présente:
-     * isoler cet appel dans un modules/processus disposant
+     * isoler cet appel dans un module/processus disposant
        **uniquement** des privilèges **strictement nécessaires** aux
        commandes exécutées
      * effectuer un contrôle très strict (e.g. par liste blanche), à défaut d'avoir des
@@ -264,7 +264,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
    tierces maintenus et à jour des correctifs sécurité; préférer des
    bibliothèques (re)connues, et les plus simples possibles
  * Utiliser les services d'analyse de code offerts par la plateforme
-   d'hébergement (e.g. Github), et traiter systématiquement avant intégration les
+   d'hébergement (e.g. Github) et traiter systématiquement avant intégration les
    problèmes remontés
  * Ne pousser que des *commits* de code qui compilent, testés et
    fonctionnels, accompagnés des tests unitaires correspondants;
