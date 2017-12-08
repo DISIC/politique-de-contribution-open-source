@@ -149,7 +149,7 @@ L'ensemble des identifiants SPDX est disponible à cette adresse : [https://spdx
 
 ## Traçabilité des developpements (DCO)
 
-Afin de garantir l'origine des contributions soumises, la mise en �uvre d'un Developer's Certificate of Origin est recommandée.  
+Afin de garantir l'origine des contributions soumises, la mise en œuvre d'un Developer's Certificate of Origin est recommandée.  
 Une traduction française est mise à disposition [DCO-Fr.txt](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt)
 
 Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
@@ -217,7 +217,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
    conditionnelle ou par un contrôle via une variable à l'exécution) et toute
    information inutile pour l'utilisateur dans les messages d'erreur
    (e.g.  trace d'appel Java/PHP/Python) lors de la mise en production
- * �liminer tout le code mort (*i.e.* code non appelé/non
+ * Éliminer tout le code mort (*i.e.* code non appelé/non
    atteignable) car il pourrait porter à confusion et/ou laisser
    penser qu'il est toujours fonctionnel et testé; ce code, non
    maintenu, pourrait être réintégré à tort par un développeur
