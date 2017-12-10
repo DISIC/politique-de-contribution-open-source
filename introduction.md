@@ -6,9 +6,10 @@ menuName: introduction
 
 __Historique et versions__
 
-| Version | Commentaire    | Date       |
-| --------|----------------|------------|
-| 0.1     | Initialisation | 01/11/2017 |
+| Version | Commentaire                                     | Date       |
+| --------|-------------------------------------------------|------------|
+| 0.1     | Initialisation                                  | 01/11/2017 |
+| 0.2     | Ouverture de l'appel à commentaires             | 06/12/2017 |
 
 Ce document est en *ALPHA*, ie sous modification intensive sans nécessairement de changement de numéro de version.
 
