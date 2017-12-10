@@ -1,5 +1,5 @@
 ---
-title: Politique de contribution aux logiciels libres de l'État
+title: Politique de contribution aux logiciels libres de l’État
 weight: 10
 menuName: introduction
 ---

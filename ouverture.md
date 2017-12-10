@@ -1,5 +1,5 @@
 ---
-title: Principes d'ouverture des codes sources
+title: Principes d’ouverture des codes sources
 weight: 20 
 menuName: ouverture
 ---
