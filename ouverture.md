@@ -48,7 +48,7 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
  * FSF : https://www.gnu.org/licenses/license-list.fr.html (en excluant les licences non libres présentées comme telles) ;
  * OSI : https://opensource.org/licenses/alphabetical.
 
-À l'inverse les licenses de type WTFL ou beerware ne rentrent pas dans le cadre de l'autorisation par défaut (et ne devraient pas être utilisées).
+À l'inverse les licenses de type beerware ne rentrent pas dans le cadre de l'autorisation par défaut (et ne devraient pas être utilisées).
 
 ## Autorisation par défaut de contribuer à un nouveau projet avec les licences du décret
 
