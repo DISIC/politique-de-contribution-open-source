@@ -1,5 +1,5 @@
 ---
-title: Meilleures Pratiques
+title: Bonnes pratiques
 menuName: pratique
 ---
 
