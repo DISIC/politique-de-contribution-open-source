@@ -8,6 +8,6 @@ L'objectif de ce document est de décrire COMMENT ouvrir les codes sources en re
 
 Pour savoir quels sont les codes sources qui doivent être ouverts, veuillez vous référer à la loi pour une République numérique.
 
-Ce document est publié sous la [**Licence Ouverte 2.0**][LO link].
+Ce document est publié sous la [Licence Ouverte 2.0][LO link].
 
 [LO link]: https://github.com/DISIC/politique-de-contribution-open-source/raw/master/LICENSE.pdf
