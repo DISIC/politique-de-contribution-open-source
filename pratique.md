@@ -83,7 +83,7 @@ Le choix d'une licence est aussi le choix d'une communauté de développeurs et 
 Les licences recommandées par défaut sont :
 
   * Permissive : Apache 2.0
-  * Avec partage à l'identique : GNU GPL v3 (standard, lesser ou affero en fonction)
+  * Avec garantie de réciprocité : GNU GPL v3 (standard, lesser ou affero en fonction)
 
  > Multilicensing : il est possible de fournir un logiciel sous plusieurs licenses simultanément, bien que cela puisse entraîner de la confusion.
 
