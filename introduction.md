@@ -67,6 +67,7 @@ Ce document a été élaboré grâce aux nombreux travaux ci-dessous :
  * Whitehouse Source Code Policy : [https://sourcecode.cio.gov](https://sourcecode.cio.gov)
  * UK GDS (Governement Digital Service) : [http://gds-operations.github.io/guidelines/](http://gds-operations.github.io/guidelines/)
  * Canada British Columbia : [https://github.com/bcgov/BC-Policy-Framework-For-GitHub](https://github.com/bcgov/BC-Policy-Framework-For-GitHub)
+ * Australia Digital Transformation Agency: [https://www.dta.gov.au/standard/8-make-source-code-open/](https://www.dta.gov.au/standard/8-make-source-code-open/)
  * Linux Foundation Open Source Guides : [https://www.linuxfoundation.org/resources/open-source-guides/](https://www.linuxfoundation.org/resources/open-source-guides/)
  * Core Infrastructure Initiative : [https://bestpractices.coreinfrastructure.org/](https://bestpractices.coreinfrastructure.org/)
  * Open Source Guides : [https://opensource.guide/](https://opensource.guide/)
