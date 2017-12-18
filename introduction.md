@@ -63,17 +63,28 @@ Ce document est publié sous la [**Licence Ouverte 2.0**][LO link]
 
 Ce document a été élaboré grâce aux nombreux travaux ci-dessous :
 
- * Open Government Partnership collaboration : [https://github.com/DISIC/foss-contrib-policy-template](https://github.com/DISIC/foss-contrib-policy-template)
- * USA 18F Open Source Policy : [https://github.com/18F/open-source-policy/blob/master/CONTRIBUTING.md](https://github.com/18F/open-source-policy/blob/master/CONTRIBUTING.md)
- * Whitehouse Source Code Policy : [https://sourcecode.cio.gov](https://sourcecode.cio.gov)
- * UK GDS (Governement Digital Service) : [http://gds-operations.github.io/guidelines/](http://gds-operations.github.io/guidelines/)
- * Canada British Columbia : [https://github.com/bcgov/BC-Policy-Framework-For-GitHub](https://github.com/bcgov/BC-Policy-Framework-For-GitHub)
- * Australia Digital Transformation Agency: [https://www.dta.gov.au/standard/8-make-source-code-open/](https://www.dta.gov.au/standard/8-make-source-code-open/)
- * Linux Foundation Open Source Guides : [https://www.linuxfoundation.org/resources/open-source-guides/](https://www.linuxfoundation.org/resources/open-source-guides/)
- * Core Infrastructure Initiative : [https://bestpractices.coreinfrastructure.org/](https://bestpractices.coreinfrastructure.org/)
- * Open Source Guides : [https://opensource.guide/](https://opensource.guide/)
- * FSFE software reuse : [https://reuse.software/](https://reuse.software/)
- * Google Open Source : [http://opensource.google.com](http://opensource.google.com)
+ * Open Government Partnership collaboration : 
+ <br>[https://github.com/DISIC/foss-contrib-policy-template](https://github.com/DISIC/foss-contrib-policy-template)
+ * USA 18F Open Source Policy : 
+ <br>[https://github.com/18F/open-source-policy/blob/master/CONTRIBUTING.md](https://github.com/18F/open-source-policy/blob/master/CONTRIBUTING.md)
+ * Whitehouse Source Code Policy : 
+ <br>[https://sourcecode.cio.gov](https://sourcecode.cio.gov)
+ * UK GDS (Governement Digital Service) : 
+ <br>[http://gds-operations.github.io/guidelines/](http://gds-operations.github.io/guidelines/)
+ * Canada British Columbia : 
+ <br>[https://github.com/bcgov/BC-Policy-Framework-For-GitHub](https://github.com/bcgov/BC-Policy-Framework-For-GitHub)
+ * Australia Digital Transformation Agency : 
+ <br>[https://www.dta.gov.au/standard/8-make-source-code-open/](https://www.dta.gov.au/standard/8-make-source-code-open/)
+ * Linux Foundation Open Source Guides : 
+ <br>[https://www.linuxfoundation.org/resources/open-source-guides/](https://www.linuxfoundation.org/resources/open-source-guides/)
+ * Core Infrastructure Initiative : 
+ <br>[https://bestpractices.coreinfrastructure.org/](https://bestpractices.coreinfrastructure.org/)
+ * Open Source Guides : 
+ <br>[https://opensource.guide/](https://opensource.guide/)
+ * FSFE software reuse : 
+ <br>[https://reuse.software/](https://reuse.software/)
+ * Google Open Source : 
+ <br>[http://opensource.google.com](http://opensource.google.com)
 
 Un travail est également en cours par le gouvernement du Canada : [https://github.com/canada-ca/Open_First_Whitepaper](https://github.com/canada-ca/Open_First_Whitepaper)
 
