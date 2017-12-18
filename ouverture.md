@@ -58,7 +58,7 @@ Pour rappel, les licences à utiliser sont disponibles par décret sur le site :
 
 ## Recommandation d'utiliser des licences permissives dans le cas général
 
-Par défaut, les licences de la famille permissives sont privilégiées par l'administration afin de faciliter la diffusion des codes sources et leur réutilisation en limitant les risques d'incompatibilités avec les licences préexistantes. Ces licences seront particulièrement adaptées pour couvrir les codes sources implémentant un service de base ou d’infrastructure qui a vocation à être inclus dans d’autres services ou appelé par d’autres services (bibliothèques, frameworks...).
+Par défaut, les licences de la famille des licences permissives sont privilégiées par l'administration afin de faciliter la diffusion des codes sources et leur réutilisation en limitant les risques d'incompatibilités avec les licences préexistantes. Ces licences seront particulièrement adaptées pour couvrir les codes sources implémentant un service de base ou d’infrastructure qui a vocation à être inclus dans d’autres services ou appelé par d’autres services (bibliothèques, frameworks...).
 
 Cependant, le choix d’une licence de partage à l’identique peut être pertinent dans les cas suivants pour prévenir toute appropriation propriétaire :
 
