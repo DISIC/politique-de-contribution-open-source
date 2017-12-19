@@ -7,7 +7,7 @@ menuName: instanciation
 ## En résumé
 
  * Possibilité d'instancier et de reprendre cette politique
- * Contacter la politique "mère" pour informer de la déclinaison
+ * Contacter la politique « mère » pour informer de la déclinaison
  * Fournir obligatoirement un moyen de contact pour la politique instanciée
 
 ## Inventaires des politiques ministérielles instanciées
