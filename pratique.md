@@ -143,7 +143,7 @@ ou dans le cas d'un projet faisant un suivi automatique de ses contributeurs :
   */
 ```
 
-Ces identifiants permettent de générer automatiquement des inventaires des licences sous la forme de "Bill of Material", afin de
+Ces identifiants permettent de générer automatiquement des inventaires des licences sous la forme de « Bill of Material », afin de
 garantir la conformité du logiciel.
 
 L'ensemble des identifiants SPDX est disponible à cette adresse : [https://spdx.org/licenses/](https://spdx.org/licenses/)
