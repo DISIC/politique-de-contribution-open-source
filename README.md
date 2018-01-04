@@ -2,7 +2,9 @@
 
 Bienvenue sur la politique de contribution aux logiciels libres de la DINSIC.
 
-Ce document est un travail en cours et une première version est planifiée pour fin janvier 2018.
+Ce document est un travail en cours et une première version est planifiée pour fin février 2018.
+
+> MISE A JOUR du 4 janvier 2018: L'appel à commentaire est prolongé jusqu'au **28 janvier 2018**.
 
 L'objectif de ce document est de décrire COMMENT ouvrir les codes sources en respectant les meilleures pratiques.
 
