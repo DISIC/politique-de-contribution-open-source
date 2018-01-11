@@ -23,7 +23,7 @@ détaillée des licences avec leurs versions est disponible sur le site [data.go
 Les objectifs de cette politique interministérielle de contribution aux logiciels libres sont de :
 
  * fixer les règles et principes à respecter pour l'ouverture des codes sources
- * accompagner les ministères et partager les meilleures pratiques 
+ * accompagner les ministères et partager les bonnes pratiques 
  * définir la gouvernance des politiques de contribution de l'État.
 
 Ce document est à destination des développeurs ou de leurs responsables, qu'ils soient agents publics (titulaires 
@@ -40,7 +40,7 @@ Sont concernés l'ensemble des codes sources :
  *  développés en interne par l'administration
  *  développés pour le compte de l'administration.
 
-Cette politique de contribution vise les *nouveaux* développements afin qu'ils respectent les meilleures pratiques. Pour l'ouverture de codes sources existants, des actions complémentaires seront nécessaires, telles que la définition du périmètre d'ouverture du code, sa revue qualité, sa revue sécurité, l'analyse de conformité et l'analyse de la propriété intellectuelle.
+Cette politique de contribution vise les *nouveaux* développements afin qu'ils respectent les bonnes pratiques. Pour l'ouverture de codes sources existants, des actions complémentaires seront nécessaires, telles que la définition du périmètre d'ouverture du code, sa revue qualité, sa revue sécurité, l'analyse de conformité et l'analyse de la propriété intellectuelle.
 
 Les fonctions publiques hospitalières et territoriales sont hors périmètre de cette politique de contribution mais elles peuvent s'en inspirer librement.
 
@@ -49,7 +49,7 @@ Les fonctions publiques hospitalières et territoriales sont hors périmètre de
 La politique de contribution est composée de :
 
  * [Principes d’ouverture des codes sources]({{< relref "ouverture.md" >}} )
- * [Modalités et meilleures pratiques]({{< relref "pratique.md" >}})
+ * [Modalités et bonnes pratiques]({{< relref "pratique.md" >}})
  * [Instanciation de politique de contribution ministérielle]({{< relref "instanciation.md" >}})
  * [Gouvernance associée]({{< relref "gouvernance.md" >}})
 
