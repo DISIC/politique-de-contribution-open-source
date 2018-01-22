@@ -25,7 +25,7 @@ Voir la section [instanciation](Instanciation.md) si vous souhaitez décliner ce
 
 Reconnaissance individuelle des développeurs :  utilisation de leur adresse email pour tracer leurs contributions.
 
- * Pour les agents : utilisation du mail professionnel en .gouv.fr
+ * Pour les agents : utilisation du mail professionnel.
  * Pour les prestataires de services, utilisation du mail de leur société d'attachement (pas de mail prestataire en .gouv.fr)
 
 Possibilité d'utiliser des pseudonymes.
