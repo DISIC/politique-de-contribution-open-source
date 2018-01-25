@@ -4,19 +4,6 @@ weight: 20
 menuName: ouverture
 ---
 
-## En résumé
-
- * Principe de subsidiarité : la politique peut être instanciée localement avec une priorité plus forte
- * Support : Contacter `opensource @ data.gouv.fr` pour toute question
- * Reconnaissance individuelle des développeurs
- * Distinction des contributions professionnelles / personnelles
- * Autorisation par défaut de contribuer aux projets sous license FSF ou OSI
- * Autorisation par défaut de signer un iCLA (individual CLA) avec les organismes pour lesquels la DINSIC a signé un global CLA
- * Pas d'engagements (ni support / ni revue des suggestions de modification)
- * Autorisation par défaut de contribuer un nouveau projet avec les licences du décret
- * Recommandation d'utiliser les familles de licences permissives dans le cas général
- * Utilisation des DCO (developper's certificate of origin) et ne pas exiger des CLA
-
 ## Préambule
 
 ### Principe de subsidiarité
