@@ -7,19 +7,23 @@ menuName: ouverture
 ## En résumé
 
  * Principe de subsidiarité : la politique peut être instanciée localement avec une priorité plus forte
+ * Support : Contacter `opensource @ data.gouv.fr` pour toute question
  * Reconnaissance individuelle des développeurs
  * Distinction des contributions professionnelles / personnelles
- * Pas d'engagements (ni support / ni revue des suggestions de modification)
  * Autorisation par défaut de contribuer aux projets sous license FSF ou OSI
+ * Autorisation par défaut de signer un iCLA (individual CLA) avec les organismes pour lesquels la DINSIC a signé un global CLA
+ * Pas d'engagements (ni support / ni revue des suggestions de modification)
  * Autorisation par défaut de contribuer un nouveau projet avec les licences du décret
  * Recommandation d'utiliser les familles de licences permissives dans le cas général
- * Autorisation par défaut de signer un iCLA (individual CLA) avec les organismes pour lesquels la DINSIC a signé un global CLA
  * Utilisation des DCO (developper's certificate of origin) et ne pas exiger des CLA
- * Support : Contacter `opensource @ data.gouv.fr` pour toute question
 
 ## Subsidiarité
 
 Voir la section [instanciation](Instanciation.md) si vous souhaitez décliner cette politique au sein de votre organisation.
+
+## Assistance sur la politique de contribution
+
+Contacter `opensource @ data.gouv.fr` pour toute question sur cette politique.
 
 ## Reconnaissance individuelle
 
@@ -36,11 +40,6 @@ Pas d'utilisation de mails génériques / anonymes.
 
 Possibilité de contribuer sur un même projet dans le cadre du milieu professionnel ou à titre personnel. Le mail professionnel doit être utilisé sur le temps professionnel.
 
-## Pas d'engagements
-
-* Aucune obligation de support et de prise en compte des demandes des utilisateurs ni plus généralement d'obligation d'animer la communauté. 
-* Pas de garanties au-delà de ce qui est prévu par la licence.
-
 ## Autorisation par défaut de contribuer à des projets sous license FSF ou OSI
 
 Les licences validées par les organismes Free Software Foundation et Open Source Initiative et recensées sur leurs pages respectives :
@@ -49,6 +48,15 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
  * OSI : https://opensource.org/licenses/alphabetical.
 
 À l'inverse les licenses de type beerware ne rentrent pas dans le cadre de l'autorisation par défaut (et ne devraient pas être utilisées).
+
+## Pré-autorisation de signer un iCLA auprès de certaines communautés
+
+À ce stade aucun corporate CLA n'a été signé avec des communautés. La DINSIC prendra contact et établira les communautés prioritaires avec qui ces contributions seront facilitées.
+
+## Pas d'engagements
+
+* Aucune obligation de support et de prise en compte des demandes des utilisateurs ni plus généralement d'obligation d'animer la communauté. 
+* Pas de garanties au-delà de ce qui est prévu par la licence.
 
 ## Autorisation par défaut de contribuer un nouveau projet avec les licences du décret
 
@@ -70,10 +78,3 @@ Cependant, le choix d’une licence avec obligation de réciprocité peut être 
 
 À noter que les licences avec obligation de réciprocité sont plus complexes, notamment sur leur clause de distribution (lien statique/dynamique, accès distant, etc.)
 
-## Pré-autorisation de signer un iCLA auprès de certaines communautés
-
-À ce stade aucun corporate CLA n'a été signé avec des communautés. La DINSIC prendra contact et établira les communautés prioritaires avec qui ces contributions seront facilitées.
-
-## Assistance sur la politique de contribution
-
-Contacter `opensource @ data.gouv.fr` pour toute question sur cette politique.
