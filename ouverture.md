@@ -17,17 +17,21 @@ menuName: ouverture
  * Recommandation d'utiliser les familles de licences permissives dans le cas général
  * Utilisation des DCO (developper's certificate of origin) et ne pas exiger des CLA
 
-## Subsidiarité
+## Préambule
+
+### Subsidiarité
 
 Voir la section [instanciation](Instanciation.md) si vous souhaitez décliner cette politique au sein de votre organisation.
 
-## Assistance sur la politique de contribution
+### Assistance sur la politique de contribution
 
 Contacter `opensource @ data.gouv.fr` pour toute question sur cette politique.
 
-## Reconnaissance individuelle
+## Gérer l'identité des contributions
 
-Reconnaissance individuelle des développeurs :  utilisation de leur adresse email pour tracer leurs contributions.
+### Reconnaissance individuelle
+
+Reconnaissance individuelle des développeurs : utilisation de leur adresse email pour tracer leurs contributions.
 
  * Pour les agents : utilisation du mail professionnel.
  * Pour les prestataires de services, utilisation du mail de leur société d'attachement (pas de mail prestataire en .gouv.fr)
@@ -36,11 +40,13 @@ Possibilité d'utiliser des pseudonymes.
 
 Pas d'utilisation de mails génériques / anonymes.
  
-## Distinction des contributions professionnelles / personnelles
+### Distinction des contributions professionnelles / personnelles
 
 Possibilité de contribuer sur un même projet dans le cadre du milieu professionnel ou à titre personnel. Le mail professionnel doit être utilisé sur le temps professionnel.
 
-## Autorisation par défaut de contribuer à des projets sous license FSF ou OSI
+## Contribuer à des projets tiers
+
+### Autorisation par défaut de contribuer à des projets sous license FSF ou OSI
 
 Les licences validées par les organismes Free Software Foundation et Open Source Initiative et recensées sur leurs pages respectives :
 
@@ -49,22 +55,24 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
 
 À l'inverse les licenses de type beerware ne rentrent pas dans le cadre de l'autorisation par défaut (et ne devraient pas être utilisées).
 
-## Pré-autorisation de signer un iCLA auprès de certaines communautés
+### Pré-autorisation de signer un iCLA auprès de certaines communautés
 
 À ce stade aucun corporate CLA n'a été signé avec des communautés. La DINSIC prendra contact et établira les communautés prioritaires avec qui ces contributions seront facilitées.
 
-## Pas d'engagements
+## Contribuer en publiant un nouveau projet
+
+### Pas d'engagements
 
 * Aucune obligation de support et de prise en compte des demandes des utilisateurs ni plus généralement d'obligation d'animer la communauté. 
 * Pas de garanties au-delà de ce qui est prévu par la licence.
 
-## Autorisation par défaut de contribuer un nouveau projet avec les licences du décret
+### Autorisation par défaut de contribuer un nouveau projet avec les licences du décret
 
 L'État n'a pas vocation à être éditeur logiciel. En dehors des trois exceptions prévues à la loi pour une République numérique pour lesquelles vous pouvez contacter le mail de support en cas de question, il n'y a pas d'autorisation préalable à demander auprès de la DINSIC. Pour autant, veuillez vous référer à votre supérieur hiérarchique avant la publication d'un nouveau projet dans le compte de votre organisation.
 
 Pour rappel, les licences à utiliser sont disponibles par décret sur le site : http://www.data.gouv.fr/fr/licences.
 
-## Recommandation d'utiliser des licences permissives dans le cas général
+### Recommandation d'utiliser des licences permissives dans le cas général
 
 Par défaut, les licences de la famille des licences permissives sont privilégiées par l'administration afin de faciliter la diffusion des codes sources et leur réutilisation en limitant les risques d'incompatibilités avec les licences préexistantes.
 
@@ -77,4 +85,3 @@ Cependant, le choix d’une licence avec obligation de réciprocité peut être 
  *	Service qui établit un lien fort avec le citoyen qui doit être préservé sans que d’autres services puissent l’encapsuler.
 
 À noter que les licences avec obligation de réciprocité sont plus complexes, notamment sur leur clause de distribution (lien statique/dynamique, accès distant, etc.)
-
