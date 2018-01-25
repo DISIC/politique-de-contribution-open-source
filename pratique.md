@@ -171,6 +171,10 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
      convention de nommage pour les constantes, les variables, les
      fonctions, *etc.*, respectueuse de la *convention de codage*
      utilisée pour le projet - voir [https://fr.wikipedia.org/wiki/Convention_de_nommage](https://fr.wikipedia.org/wiki/Convention_de_nommage)
+ * Respecter les référentiels en vigueur dans l'administration
+   * [Référentiel général d'interopérabilité](http://references.modernisation.gouv.fr/interoperabilite)
+   * [Référentiel général d'accessibilité pour les administrations](http://references.modernisation.gouv.fr/rgaa-accessibilite/)
+   * [Référentiel général de sécurité](https://www.ssi.gouv.fr/administration/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/)
  * Découper et factoriser tant que possible le code en
    paquetages/bibliothèques/modules internes au projet afin de
    maximiser la réutilisation de code mais aussi d'isoler les
