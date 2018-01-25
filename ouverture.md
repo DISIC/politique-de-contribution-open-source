@@ -19,7 +19,9 @@ menuName: ouverture
 
 ## Préambule
 
-### Subsidiarité
+### Principe de subsidiarité
+
+La politique peut être instanciée localement avec une priorité plus forte.
 
 Voir la section [instanciation](Instanciation.md) si vous souhaitez décliner cette politique au sein de votre organisation.
 
