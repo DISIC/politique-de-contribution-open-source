@@ -41,7 +41,7 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
  * FSF : https://www.gnu.org/licenses/license-list.fr.html (en excluant les licences non libres présentées comme telles) ;
  * OSI : https://opensource.org/licenses/alphabetical.
 
-À l'inverse les licenses de type beerware ne rentrent pas dans le cadre de l'autorisation par défaut (et ne devraient pas être utilisées).
+À l'inverse les licences de type beerware ne rentrent pas dans le cadre de l'autorisation par défaut (et ne devraient pas être utilisées).
 
 ### Pré-autorisation de signer un iCLA auprès de certaines communautés
 
