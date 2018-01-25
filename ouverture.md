@@ -43,7 +43,7 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
 
 À l'inverse les licences de type beerware ne rentrent pas dans le cadre de l'autorisation par défaut (et ne devraient pas être utilisées).
 
-### Pré-autorisation de signer un iCLA auprès de certaines communautés
+### Signature des *Corporate Contributor License Agreement*
 
 À ce stade aucun corporate CLA n'a été signé avec des communautés. La DINSIC prendra contact et établira les communautés prioritaires avec qui ces contributions seront facilitées.
 
