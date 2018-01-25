@@ -60,16 +60,6 @@ L'État n'a pas vocation à être éditeur de logiciels. En dehors des trois exc
 
 Pour rappel, les licences à utiliser sont disponibles par décret sur le site : http://www.data.gouv.fr/fr/licences.
 
-### Recommandation d'utiliser des licences permissives dans le cas général
+### Éléments à considérer dans le choix de la licence libre
 
-Par défaut, les licences de la famille des licences permissives sont privilégiées par l'administration afin de faciliter la diffusion des codes sources et leur réutilisation en limitant les risques d'incompatibilités avec les licences préexistantes.
-
-Cependant, le choix d’une licence avec obligation de réciprocité peut être pertinent dans les cas suivants pour prévenir toute appropriation propriétaire :
-
- *	Service d’intérêt général.
- *	Service « contributif » : service en ligne dont la valeur est issue des contributions des utilisateurs du service. 
- *	Service qui organise un écosystème. Permet de partager les évolutions avec l’ensemble des acteurs.
- *	Service décentralisé qui est instancié de nombreuses fois et dont les instances doivent communiquer entre elles.
- *	Service qui établit un lien fort avec le citoyen qui doit être préservé sans que d’autres services puissent l’encapsuler.
-
-À noter que les licences avec obligation de réciprocité sont plus complexes, notamment sur leur clause de distribution (lien statique/dynamique, accès distant, etc.)
+Pour les cas où l'administration veut garantir que les modifications apportées par un tiers au logiciel libre qu'elle publie sont accessibles sous les mêmes conditions, elle envisagera une licence à réciprocité.  En particulier, s'il s'agit d'un logiciel qui est à la base d'un service en ligne, elle pourra considérer la licence GNU Affero General Public License.  Dans les autres cas, elle considérera les licences permissives.
