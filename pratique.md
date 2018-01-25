@@ -23,9 +23,9 @@ L'utilisation d'un système de suivi de version distribué tel que git est recom
 
 ## Aide au choix de la plateforme 
 
-En plus du système de suivi de version de code source, une plateforme propose un ensemble d'outils collaboratifs associés et vise une communauté de développeurs.
+En plus du système de suivi de version de code source, une plateforme propose un ensemble d'outils collaboratifs associés et vise une communauté de développeurs. Ces plateformes peuvent être hébergées par un tiers ou par une adminsitration.
 
-Des exemples de plateformes possibles sont :
+Des exemples de plateformes hébergées par un tiers sont :
 
  * Github : https://github.com/
  * Gitlab : http://gitlab.com/
