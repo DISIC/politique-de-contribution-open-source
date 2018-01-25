@@ -170,7 +170,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
    * choisir (pour un nouveau projet) et respecter une unique
      convention de nommage pour les constantes, les variables, les
      fonctions, *etc.*, respectueuse de la *convention de codage*
-     utilisée pour le projet (voir [https://en.wikipedia.org/wiki/Naming_convention_(programming)]())
+     utilisée pour le projet - voir [https://fr.wikipedia.org/wiki/Convention_de_nommage](https://fr.wikipedia.org/wiki/Convention_de_nommage)
  * Découper et factoriser tant que possible le code en
    paquetages/bibliothèques/modules internes au projet afin de
    maximiser la réutilisation de code mais aussi d'isoler les
