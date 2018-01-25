@@ -65,3 +65,7 @@ Pour rappel, les licences à utiliser sont disponibles par décret sur le site :
 Pour les cas où l'administration veut garantir que les modifications apportées par un tiers au logiciel libre qu'elle publie sont accessibles sous les mêmes conditions, elle envisagera une licence à réciprocité.  En particulier, s'il s'agit d'un logiciel qui est à la base d'un service en ligne, elle pourra considérer la licence GNU Affero General Public License.  Dans les autres cas, elle considérera les licences permissives.
 
 À noter que les solutions logicielles sont souvent modulaires et que la question de la licence peut se poser à plusieurs niveaux.  Par exemple, pour une solution de site web, les modules de l'interface web pourront être publiés sous une licence différente de celle qui couvre le code source côté serveur.
+
+### Certification de l'origine des contributions (DCO)
+
+Les projets publiés par l'État n'exigent pas de droits spécifiques des contributeurs en dehors de ceux accordés par leurs licences respectives. En revanche, il est demandé aux contributeurs de signer un Certificat d'origine des contributions (*Developer Certificate of Origin*). Afin de s'insérer dans les standards en usage, il a été choisi d'utiliser une traduction française du texte utilisé pour le noyau Linux et repris par de nombreux autres projets.
