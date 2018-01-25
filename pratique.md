@@ -73,8 +73,7 @@ Afin de vérifier que la commande a bien été prise en compte :
 
 `git config --get user.email`
 
-Les pseudonymes sont gérés de la même manière. Un email (ou alias) doit donc être mis à disposition par le ministère
-pour permettre l'utilisation du pseudonyme.
+Les pseudonymes sont gérés de la même manière. Une adresse électronique (ou alias) doit donc être mise à disposition par le ministère pour permettre l'utilisation du pseudonyme.
 
 ## Aide au choix de la licence
 
@@ -204,7 +203,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
  projet qui sera garant de vérifier le respect des bonnes pratiques
  mises en œuvre durant le développement, et de traiter les éventuels
  incidents de sécurité. Il est également préférable d'avoir recours à
- une adresse mail dédiée, à destination du responsable identifié au
+ une adresse électronique dédiée, à destination du responsable identifié au
  moins, pour traiter des incidents de sécurité qui se produiraient ou
  qui seraient découverts par un tiers.
 

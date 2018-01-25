@@ -19,18 +19,18 @@ Contacter `opensource @ data.gouv.fr` pour toute question sur cette politique.
 ## Gérer l'identité des contributions
 ### Attribuer les contributions aux individus
 
-Reconnaissance individuelle des développeurs : utilisation de leur adresse email pour tracer leurs contributions.
+Reconnaissance individuelle des développeurs : utilisation de leur adresse électronique pour tracer leurs contributions.
 
- * Pour les agents : utilisation du mail professionnel.
- * Pour les prestataires de services, utilisation du mail de leur société d'attachement (pas de mail prestataire en .gouv.fr)
+ * Pour les agents : utilisation de l'adresse électronique professionnelle.
+ * Pour les prestataires de services, utilisation de l'adresse électronique de leur société d'attachement (pas d'adresse prestataire en `.gouv.fr`)
 
 Possibilité d'utiliser des pseudonymes.
 
-Pas d'utilisation de mails génériques / anonymes.
+Pas d'utilisation d'adresses électroniques génériques ou anonymes.
  
 ### Distinguer les contributions professionnelles et personnelles
 
-Possibilité de contribuer sur un même projet dans le cadre du milieu professionnel ou à titre personnel. Le mail professionnel doit être utilisé sur le temps professionnel.
+Possibilité de contribuer sur un même projet dans le cadre du milieu professionnel ou à titre personnel. L'adresse électronique professionnelle doit être utilisée sur le temps professionnel.
 
 ## Contribuer à des projets tiers
 
@@ -56,7 +56,7 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
 
 ### Autorisation par défaut de contribuer un nouveau projet avec les licences du décret
 
-L'État n'a pas vocation à être éditeur logiciel. En dehors des trois exceptions prévues à la loi pour une République numérique pour lesquelles vous pouvez contacter le mail de support en cas de question, il n'y a pas d'autorisation préalable à demander auprès de la DINSIC. Pour autant, veuillez vous référer à votre supérieur hiérarchique avant la publication d'un nouveau projet dans le compte de votre organisation.
+L'État n'a pas vocation à être éditeur logiciel. En dehors des trois exceptions prévues à la loi pour une République numérique pour lesquelles vous pouvez contacter l'adresse électronique de support en cas de question, il n'y a pas d'autorisation préalable à demander auprès de la DINSIC. Pour autant, veuillez vous référer à votre supérieur hiérarchique avant la publication d'un nouveau projet dans le compte de votre organisation.
 
 Pour rappel, les licences à utiliser sont disponibles par décret sur le site : http://www.data.gouv.fr/fr/licences.
 
