@@ -23,20 +23,27 @@ L'utilisation d'un système de suivi de version distribué tel que git est recom
 
 ## Aide au choix de la plateforme 
 
-En plus du système de suivi de version de code source, une plateforme propose un ensemble d'outils collaboratifs associés et vise une communauté de développeurs. Ces plateformes peuvent être hébergées par un tiers ou par une adminsitration.
+En plus du système de suivi de version du code source, une plateforme Web propose une panoplie d'outils collaboratifs associés et vise à mobiliser une communauté de développeurs.  Ces plateformes peuvent être hébergées par un tiers ou par l'administration.
 
-Des exemples de plateformes hébergées par un tiers sont :
+Exemples de plateformes Web hébergées par un tiers :
 
- * Github : https://github.com/
- * Gitlab : http://gitlab.com/
- * Framagit : http://framagit.org/ (gitlab)
- * Adullact : http://gitlab.adullact.net/ (gitlab)
- * FSFE : https://git.fsfe.org/ (gitea)
- * FSF : https://git.savannah.gnu.org (raw)
+ * Github : https://github.com
+ * Bitbucket : https://bitbucket.org
+ * Gitlab : http://gitlab.com
+ * Framagit : http://framagit.org - utilisant [Gitlab](https://about.gitlab.com/installation/)
+ * Adullact : http://gitlab.adullact.net - utilisant [Gitlab](https://about.gitlab.com/installation/)
+ * FSFE : https://git.fsfe.org - utilisant [Gitea](https://gitea.io/)
+ * FSF : https://git.savannah.gnu.org/cgit/ - utilisant [cgit](https://git.zx2c4.com/cgit/)
 
-Certaines sont libres, d'autres publient leurs données anonymisées en open-data, leur portée géographique peut varier... La liste est incomplète.
+Bitbucket et Github ne publient pas le code source de leur plateforme Web ; certaines plateformes publient des données anonymisées en open data ; leurs portées géographiques peuvent varier, etc.  La liste est incomplète.
 
-Actuellement, github offre la plus grande communuauté de développeurs au plan international.
+Actuellement, Github permet d'atteindre la plus grande communauté de développeurs au plan international.
+
+Exemples de logiciels libres permettant d'héberger sa plate-forme soi-même :
+
+ * [Gitlab](https://about.gitlab.com/installation/) : suite la plus complète
+ * [Gogs](http://gogs.io) : écrit en Go; installation simple
+ * [Gitea](http://gitea.io) : fourché de Gogs, installation similaire
 
 ## Gestion des comptes personnels et d'organisation
 
@@ -50,7 +57,7 @@ Il est recommandé d'avoir deux propriétaires (owner) par dépôt.
 Des réflexions sont en cours sur la capacité de proposer un inventaire automatique tant du point de vue des dépôts
 d'organisation que de l'inventaire des services.
 
-> Spécifiquement pour Github, référencer le compte d'organisation comme un compte gouvernemental
+> Pour référencer le compte d'organisation comme un compte gouvernemental dans Github :
 >
 >  * Inscrivez vous si ce n'est pas déjà fait dans la communauté [https://github.com/government/welcome](https://github.com/government/welcome)
 >  * Référencez votre compte d'organisation en l'ajoutant sur la page : [https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml](https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) conformément à la page [https://government.github.com/community/](https://government.github.com/community/)
@@ -268,14 +275,17 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
    tierces maintenus et à jour des correctifs sécurité; préférer des
    bibliothèques (re)connues, et les plus simples possibles
  * Utiliser les services d'analyse de code offerts par la plateforme
-   d'hébergement (e.g. Github) et traiter systématiquement avant intégration les
+   d'hébergement et traiter systématiquement avant intégration les
    problèmes remontés
  * Ne pousser que des *commits* de code qui compilent, testés et
-   fonctionnels, accompagnés des tests unitaires correspondants;
-   certaines plateformes, comme Github, offrent la possibilité de
-   rejouer automatiquement les tests unitaires d'un projet afin
-   d'assurer la non-régression (e.g [Travis](https://docs.travis-ci.com/), [Homu](https://github.com/servo/homu))
- * Créer un *tag* (e.g. v2.0.1) pour chaque version (e.g. 2.0.1), et le signer cryptographiquement (voir [GPG signature verification](https://github.com/blog/2144-gpg-signature-verification))
+   fonctionnels, accompagnés des tests unitaires correspondants ;
+   certaines plateformes offrent la possibilité de rejouer
+   automatiquement les tests unitaires d'un projet afin d'assurer la
+   non-régression (e.g [Travis](https://docs.travis-ci.com/),
+   [Homu](https://github.com/servo/homu))
+ * Créer un *tag* (e.g. v2.0.1) pour chaque version (e.g. 2.0.1), et
+   le signer cryptographiquement (voir [GPG signature
+   verification](https://github.com/blog/2144-gpg-signature-verification))
  * Respecter les recommandations et bonnes pratiques de sécurité émises
    par l'ANSSI applicables au projet
      * [Bonnes pratiques de l'ANSSI](https://www.ssi.gouv.fr/administration/bonnes-pratiques/)
