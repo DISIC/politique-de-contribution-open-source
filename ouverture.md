@@ -30,8 +30,7 @@ Voir la section [instanciation](Instanciation.md) si vous souhaitez décliner ce
 Contacter `opensource @ data.gouv.fr` pour toute question sur cette politique.
 
 ## Gérer l'identité des contributions
-
-### Reconnaissance individuelle
+### Attribuer les contributions aux individus
 
 Reconnaissance individuelle des développeurs : utilisation de leur adresse email pour tracer leurs contributions.
 
@@ -42,13 +41,13 @@ Possibilité d'utiliser des pseudonymes.
 
 Pas d'utilisation de mails génériques / anonymes.
  
-### Distinction des contributions professionnelles / personnelles
+### Distinguer les contributions professionnelles et personnelles
 
 Possibilité de contribuer sur un même projet dans le cadre du milieu professionnel ou à titre personnel. Le mail professionnel doit être utilisé sur le temps professionnel.
 
 ## Contribuer à des projets tiers
 
-### Autorisation par défaut de contribuer à des projets sous license FSF ou OSI
+### Autorisation par défaut de contribuer à des projets sous licence FSF ou OSI
 
 Les licences validées par les organismes Free Software Foundation et Open Source Initiative et recensées sur leurs pages respectives :
 
@@ -63,7 +62,7 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
 
 ## Contribuer en publiant un nouveau projet
 
-### Pas d'engagements
+### La publication du code source ne crée ni obligation ni garantie
 
 * Aucune obligation de support et de prise en compte des demandes des utilisateurs ni plus généralement d'obligation d'animer la communauté. 
 * Pas de garanties au-delà de ce qui est prévu par la licence.
