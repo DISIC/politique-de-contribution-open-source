@@ -4,6 +4,10 @@ weight: 50
 menuName: FAQ
 ---
 
-* Suis-je concerné(e) ?
-* Doit-on utiliser son email pro pour contribuer à un projet open-source tiers sur lequel nous contribuons historiquement avec notre compte perso ?
+* Suis-je concerné(e) par cette politique de contribution open source ?
+
+* Quelle adresse électronique utiliser pour contribuer à un projet ?
+
 * Comment choisir parmi les différentes licences proposées ?
+
+* Les instituts de recherche relèvent-ils d'un régime particulier ?
