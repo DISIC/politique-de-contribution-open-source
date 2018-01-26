@@ -7,9 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="generator" content="Hugo 0.31" />
+  <meta name="generator" content="Hugo 0.31.1" />
 
-  <title>Meilleures Pratiques | Modalités d’ouverture des codes sources</title>
+  <title>Bonnes pratiques | Modalités d’ouverture des codes sources</title>
 
   <link rel="stylesheet" href="https://disic.github.io/politique-de-contribution-open-source/_assets/css/styles.css">
 
@@ -130,7 +130,7 @@
       <article>
 
         <header class="article-header">
-          <h1>Meilleures Pratiques</h1>
+          <h1>Bonnes pratiques</h1>
         </header>
 
         <div class="two-columns">
@@ -206,17 +206,17 @@
 
             <h2 id="aide-au-choix-de-la-plateforme">Aide au choix de la plateforme</h2>
 
-            <p>En plus du système de suivi de version de code source, une plateforme propose un ensemble d&rsquo;outils collaboratifs associés et vise une communauté de développeurs.</p>
+            <p>En plus du système de suivi de version de code source, une plateforme propose un ensemble d&rsquo;outils collaboratifs associés et vise une communauté de développeurs. Ces plateformes peuvent être hébergées par un tiers ou par une adminsitration.</p>
 
-            <p>Des exemples de plateformes possibles sont :</p>
+            <p>Des exemples de plateformes hébergées par un tiers sont :</p>
 
             <ul>
-              <li>Github : <a href="https://github.com/">https://github.com/</a></li>
-              <li>Gitlab : <a href="http://gitlab.com/">http://gitlab.com/</a></li>
-              <li>Framagit : <a href="http://framagit.org/">http://framagit.org/</a> (gitlab)</li>
-              <li>Adullact : <a href="http://gitlab.adullact.net/">http://gitlab.adullact.net/</a> (gitlab)</li>
-              <li>FSFE : <a href="https://git.fsfe.org/">https://git.fsfe.org/</a> (gitea)</li>
-              <li>FSF : <a href="https://git.savannah.gnu.org">https://git.savannah.gnu.org</a> (raw)</li>
+              <li>Github : <a href="https://github.com/">https://github.com/</a></li>
+              <li>Gitlab : <a href="http://gitlab.com/">http://gitlab.com/</a></li>
+              <li>Framagit : <a href="http://framagit.org/">http://framagit.org/</a> (gitlab)</li>
+              <li>Adullact : <a href="http://gitlab.adullact.net/">http://gitlab.adullact.net/</a> (gitlab)</li>
+              <li>FSFE : <a href="https://git.fsfe.org/">https://git.fsfe.org/</a> (gitea)</li>
+              <li>FSF : <a href="https://git.savannah.gnu.org">https://git.savannah.gnu.org</a> (raw)</li>
             </ul>
 
             <p>Certaines sont libres, d&rsquo;autres publient leurs données anonymisées en open-data, leur portée géographique peut varier&hellip; La liste est incomplète.</p>
@@ -238,15 +238,15 @@
 
               <ul>
                 <li>Inscrivez vous si ce n&rsquo;est pas déjà fait dans la communauté <a href="https://github.com/government/welcome">https://github.com/government/welcome</a></li>
-                <li>Référencez votre compte d&rsquo;organisation en l&rsquo;ajoutant sur la page : <a href="https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml">https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml</a>                  conformément à la page <a href="https://government.github.com/community/">https://government.github.com/community/</a></li>
+                <li>Référencez votre compte d&rsquo;organisation en l&rsquo;ajoutant sur la page : <a href="https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml">https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml</a>                  conformément à la page <a href="https://government.github.com/community/">https://government.github.com/community/</a></li>
               </ul>
             </blockquote>
 
             <h2 id="distinction-des-contributions-personnelles-professionnelles">Distinction des contributions personnelles / professionnelles</h2>
 
-            <p>Utilisation du compte professionnel avec le mail en <code>.gouv.fr</code></p>
+            <p>Utilisation du compte professionnel, par exemple avec un mail en <code>.gouv.fr</code> ou <code>.cnrs.fr</code>.</p>
 
-            <p>Créer le dépôt, configuré de la manière suivante :</p>
+            <p>Créer le dépôt, configuré de la manière suivante :</p>
 
             <ul>
               <li>Dépôt professionnel</li>
@@ -260,7 +260,7 @@
 
             <p><code>git config user.email &lt;email@perso.fr&gt;</code></p>
 
-            <p>Afin de vérifier que la commande a bien été prise en compte :</p>
+            <p>Afin de vérifier que la commande a bien été prise en compte :</p>
 
             <p><code>git config --get user.email</code></p>
 
@@ -270,7 +270,7 @@
 
             <p>Le choix d&rsquo;une licence est aussi le choix d&rsquo;une communauté de développeurs et d&rsquo;un écosystème d&rsquo;outils associés. Une fois la famille de licence trouvée, c&rsquo;est avant tout la communauté visée qui détermine le choix.</p>
 
-            <p>Les licences recommandées par défaut sont :</p>
+            <p>Les licences recommandées par défaut sont :</p>
 
             <ul>
               <li>Permissive : Apache 2.0</li>
@@ -278,7 +278,7 @@
             </ul>
 
             <blockquote>
-              <p>Multilicensing : il est possible de fournir un logiciel sous plusieurs licenses simultanément, bien que cela puisse entraîner de la confusion.</p>
+              <p>Multilicensing : il est possible de fournir un logiciel sous plusieurs licenses simultanément, bien que cela puisse entraîner de la confusion.</p>
             </blockquote>
 
             <h2 id="gestion-des-versions">Gestion des versions</h2>
@@ -291,35 +291,35 @@
 
             <ul>
               <li>
-                <p>README : description du projet. Peut décrire l&rsquo;objectif et l&rsquo;administration à l&rsquo;origine de la publication.</p>
+                <p>README : description du projet. Peut décrire l&rsquo;objectif et l&rsquo;administration à l&rsquo;origine de la publication.</p>
               </li>
 
               <li>
-                <p>CONTRIBUTING : guide de contribution, comment s&rsquo;impliquer et identification du processus de contribution et des licences associées. Exemple: <a href="https://github.com/moby/moby/blob/master/CONTRIBUTING.md">https://github.com/moby/moby/blob/master/CONTRIBUTING.md</a></p>
+                <p>CONTRIBUTING : guide de contribution, comment s&rsquo;impliquer et identification du processus de contribution et des licences associées. Exemple: <a href="https://github.com/moby/moby/blob/master/CONTRIBUTING.md">https://github.com/moby/moby/blob/master/CONTRIBUTING.md</a></p>
               </li>
 
               <li>
-                <p>LICENSE : licence de publication du logiciel.</p>
+                <p>LICENSE : licence de publication du logiciel.</p>
               </li>
 
               <li>
-                <p>MAINTAINERS : liste des mainteneurs du projet (avec des droits de vote ou de commit généralement). Exemple: <a href="https://github.com/moby/moby/blob/master/MAINTAINERS">https://github.com/moby/moby/blob/master/MAINTAINERS</a></p>
+                <p>MAINTAINERS : liste des mainteneurs du projet (avec des droits de vote ou de commit généralement). Exemple: <a href="https://github.com/moby/moby/blob/master/MAINTAINERS">https://github.com/moby/moby/blob/master/MAINTAINERS</a></p>
               </li>
 
               <li>
-                <p>ROADMAP : feuille de route publique.</p>
+                <p>ROADMAP : feuille de route publique.</p>
               </li>
 
               <li>
-                <p>CONDUCT : un code de conduite pour réguler la communauté de contributeurs. Des exemples peuvent être trouvés : <a href="https://www.djangoproject.com/conduct/">https://www.djangoproject.com/conduct/</a> et <a href="https://github.com/18F/code-of-conduct">https://github.com/18F/code-of-conduct</a>.</p>
+                <p>CONDUCT : un code de conduite pour réguler la communauté de contributeurs. Des exemples peuvent être trouvés : <a href="https://www.djangoproject.com/conduct/">https://www.djangoproject.com/conduct/</a> et <a href="https://github.com/18F/code-of-conduct">https://github.com/18F/code-of-conduct</a>.</p>
               </li>
 
               <li>
-                <p>GOVERNANCE : décrit la gouvernance du projet, les rôles et les drois de votes. Un exemple est disponible dans ce dépôt <a href="/politique-de-contribution-open-source/gouvernance/">gouvernance.md</a></p>
+                <p>GOVERNANCE : décrit la gouvernance du projet, les rôles et les drois de votes. Un exemple est disponible dans ce dépôt <a href="/politique-de-contribution-open-source/gouvernance/">gouvernance.md</a></p>
               </li>
 
               <li>
-                <p>NFR : choix d&rsquo;architecture technique du projet qui ne correspondent pas à des exigences fonctionnelles.</p>
+                <p>NFR : choix d&rsquo;architecture technique du projet qui ne correspondent pas à des exigences fonctionnelles.</p>
               </li>
             </ul>
 
@@ -331,7 +331,7 @@
               dans le repository local.</p>
 
             <ul>
-              <li>Exemples d&rsquo;entête de fichier (headers) :</li>
+              <li>Exemples d&rsquo;entête de fichier (headers) :</li>
             </ul>
 
             <pre><code> /*
@@ -343,7 +343,7 @@
 
 </code></pre>
 
-            <p>ou dans le cas d&rsquo;un projet faisant un suivi automatique de ses contributeurs :</p>
+            <p>ou dans le cas d&rsquo;un projet faisant un suivi automatique de ses contributeurs :</p>
 
             <pre><code> /*
   * This file is part of project X. It's copyrighted by the contributors
@@ -355,9 +355,9 @@
   */
 </code></pre>
 
-            <p>Ces identifiants permettent de générer automatiquement des inventaires des licences sous la forme de &ldquo;Bill of Material&rdquo;, afin de garantir la conformité du logiciel.</p>
+            <p>Ces identifiants permettent de générer automatiquement des inventaires des licences sous la forme de « Bill of Material », afin de garantir la conformité du logiciel.</p>
 
-            <p>L&rsquo;ensemble des identifiants SPDX est disponible à cette adresse : <a href="https://spdx.org/licenses/">https://spdx.org/licenses/</a></p>
+            <p>L&rsquo;ensemble des identifiants SPDX est disponible à cette adresse : <a href="https://spdx.org/licenses/">https://spdx.org/licenses/</a></p>
 
             <h2 id="traçabilité-des-developpements-dco">Traçabilité des developpements (DCO)</h2>
 
@@ -397,11 +397,11 @@
                   </li>
                 </ul>
               </li>
-              <li>Commenter le code pour les comportements non triviaux comme :
+              <li>Commenter le code pour les comportements non triviaux comme :
 
                 <ul>
                   <li>les effets de bord sur des paramètres passés par référence à une fonction</li>
-                  <li>les conditions d&rsquo;usage qui ne peuvent être assurées par un typage approprié et les effets associés en cas de non-respect ; par exemple, une fonction qui réalise une division pour laquelle la charge incombe à l&rsquo;appelant de
+                  <li>les conditions d&rsquo;usage qui ne peuvent être assurées par un typage approprié et les effets associés en cas de non-respect ; par exemple, une fonction qui réalise une division pour laquelle la charge incombe à l&rsquo;appelant de
                     vérifier que le dénominateur n&rsquo;est pas nul sous peine de générer une erreur à l&rsquo;exécution
                   </li>
                 </ul>
@@ -429,12 +429,12 @@
               </li>
               <li>Éliminer tous les messages de <em>debug</em> (par compilation conditionnelle ou par un contrôle via une variable à l&rsquo;exécution) et toute information inutile pour l&rsquo;utilisateur dans les messages d&rsquo;erreur (e.g. trace d&rsquo;appel
                 Java/PHP/Python) lors de la mise en production</li>
-              <li>Éliminer tout le code mort (<em>i.e.</em> code non appelé/non atteignable) car il pourrait porter à confusion et/ou laisser penser qu&rsquo;il est toujours fonctionnel et testé; ce code, non maintenu, pourrait être réintégré à tort par un
-                développeur</li>
+              <li>Éliminer tout le code mort (<em>i.e.</em> code non appelé/non atteignable) car il pourrait prêter à confusion et/ou laisser penser qu&rsquo;il est toujours fonctionnel et testé ; ce code, non maintenu, pourrait être réintégré à tort par
+                un développeur</li>
               <li>Restreindre au strict nécessaire les droits/privilèges attribués à chaque module/processus (<em>i.e.</em> appliquer une politique de <em>moindre
 privilège</em>)</li>
               <li>Les appels à des fonctions d&rsquo;exécution de commande système (<code>exec</code>,
-                <code>system</code>, <em>etc</em>) doivent être proscrits ; si un usage légitime se présente:
+                <code>system</code>, <em>etc</em>) doivent être proscrits ; si un usage légitime se présente:
 
                 <ul>
                   <li>isoler cet appel dans un module/processus disposant
@@ -519,7 +519,7 @@ privilège</em>)</li>
               <strong>Version :</strong> v0.2
             </p>
             <p>
-              <strong>Publiée le :</strong> 18/12/2017
+              <strong>Publiée le :</strong> 26/01/2018
             </p>
             <p>
               <strong>Licence :</strong> Licence Ouverte 2.0

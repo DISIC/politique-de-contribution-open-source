@@ -36,7 +36,7 @@ Objectifs Conformément à la Loi pour une République numérique du 7 octobre 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://disic.github.io/politique-de-contribution-open-source/instanciation/</guid>
-      <description>En résumé  Possibilité d&amp;rsquo;instancier et de reprendre cette politique Contacter la politique &amp;ldquo;mère&amp;rdquo; pour informer de la déclinaison Fournir obligatoirement un moyen de contact pour la politique instanciée  Inventaires des politiques ministérielles instanciées  Aucune politique ministérielle instanciée à ce jour Exemple : : http://reference.url/politique-ministerielle  Procédure d&amp;rsquo;instanciation  Fourcher ce dépot pour initier votre politique ministérielle Faire une pull request sur ce fichier pour lister la politique de contribution fille et son URL Contacter le support de cette politique et valider le moyen de contact principal de la politique fille  N&amp;rsquo;hésitez pas à prendre contact avec nous pour toute question.</description>
+      <description>En résumé  Possibilité d&amp;rsquo;instancier et de reprendre cette politique Contacter la politique « mère » pour informer de la déclinaison Fournir obligatoirement un moyen de contact pour la politique instanciée  Inventaires des politiques ministérielles instanciées  Aucune politique ministérielle instanciée à ce jour Exemple : : http://reference.url/politique-ministerielle  Procédure d&amp;rsquo;instanciation  Fourcher ce dépot pour initier votre politique ministérielle Faire une pull request sur ce fichier pour lister la politique de contribution fille et son URL Contacter le support de cette politique et valider le moyen de contact principal de la politique fille  N&amp;rsquo;hésitez pas à prendre contact avec nous pour toute question.</description>
     </item>
     
     <item>
@@ -52,19 +52,28 @@ Des compléments et ajustements peuvent être effectués avec une mise à jour d
     </item>
     
     <item>
+      <title>Foire aux questions</title>
+      <link>https://disic.github.io/politique-de-contribution-open-source/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://disic.github.io/politique-de-contribution-open-source/faq/</guid>
+      <description> Suis-je concerné(e) ? Doit-on utiliser son email pro pour contribuer à un projet open-source tiers sur lequel nous contribuons historiquement avec notre compte perso ? Comment choisir parmi les différentes licences proposées ?  </description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://disic.github.io/politique-de-contribution-open-source/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://disic.github.io/politique-de-contribution-open-source/readme/</guid>
       <description>Modalités d&amp;rsquo;ouverture des codes sources Bienvenue sur la politique de contribution aux logiciels libres de la DINSIC.
-Ce document est un travail en cours et une première version est planifiée pour fin janvier 2018.
-L&amp;rsquo;objectif de ce document est de décrire COMMENT ouvrir les codes sources en respectant les meilleures pratiques.
-Pour savoir quels sont les codes sources qui doivent être ouverts, veuillez vous référer à la loi pour une République numérique.</description>
+Ce document est un travail en cours et une première version est planifiée pour fin février 2018.
+ MISE A JOUR du 4 janvier 2018: L&amp;rsquo;appel à commentaire est prolongé jusqu&amp;rsquo;au 28 janvier 2018.
+ L&amp;rsquo;objectif de ce document est de décrire COMMENT ouvrir les codes sources en respectant les bonnes pratiques.</description>
     </item>
     
     <item>
-      <title>Meilleures Pratiques</title>
+      <title>Bonnes pratiques</title>
       <link>https://disic.github.io/politique-de-contribution-open-source/pratique/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
