@@ -21,7 +21,7 @@ menuName: pratique
 
 L'utilisation d'un système de suivi de version distribué tel que git est recommandée. Les systèmes svn ou cvs sont déconseillés.
 
-## Aide au choix de la plateforme 
+## Aide au choix d'une plateforme Web
 
 En plus du système de suivi de version du code source, une plateforme Web propose une panoplie d'outils collaboratifs associés et vise à mobiliser une communauté de développeurs.  Ces plateformes peuvent être hébergées par un tiers ou par l'administration.
 
@@ -34,9 +34,11 @@ Exemples de plateformes Web hébergées par un tiers :
  * FSFE : https://git.fsfe.org - utilisant [Gitea](https://gitea.io/)
  * FSF : https://git.savannah.gnu.org/cgit/ - utilisant [cgit](https://git.zx2c4.com/cgit/)
 
-Le code source de github n'est pas libre tout comme certains modules de gitlab.com; certaines plateformes publient des données anonymisées en open data ; leurs portées géographiques peuvent varier, de même que le nombre de développeurs qu'elles drainent.  La liste est incomplète et le choix de créer un compte d'organisation au sein d'une forge existante relève de l'administration qui peut disposer également de sa propre forge publique. Le positionnement d'un projet sur une forge doit se faire en fonction du niveau de collaboration attendu et des interfaces avec les dépots privés et le reste de la plateforme de développement.
+Le code source de github.com n'est pas libre tout comme certains modules de gitlab.com ; certaines plateformes publient des données anonymisées en open data ; leurs portées géographiques peuvent varier, de même que le nombre de développeurs qui l'utilisent.  La liste est incomplète.  Actuellement, github.com permet d'atteindre la plus grande communauté de développeurs au plan international.
 
-Actuellement, Github permet d'atteindre la plus grande communauté de développeurs au plan international.
+Le choix de créer un compte d'organisation au sein d'une plateforme Web existante relève de l'administration, qui peut également héberger sa propre forge publique.
+
+Le positionnement d'un projet sur une forge doit se faire en fonction du niveau de collaboration attendu et des interfaces avec les dépots privés et le reste de la plateforme de développement.
 
 ## Gestion des comptes personnels et d'organisation
 
