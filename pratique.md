@@ -28,22 +28,15 @@ En plus du système de suivi de version du code source, une plateforme Web propo
 Exemples de plateformes Web hébergées par un tiers :
 
  * Github : https://github.com
- * Bitbucket : https://bitbucket.org
- * Gitlab : http://gitlab.com
+ * Gitlab : http://gitlab.com (version entreprise)
  * Framagit : http://framagit.org - utilisant [Gitlab](https://about.gitlab.com/installation/)
  * Adullact : http://gitlab.adullact.net - utilisant [Gitlab](https://about.gitlab.com/installation/)
  * FSFE : https://git.fsfe.org - utilisant [Gitea](https://gitea.io/)
  * FSF : https://git.savannah.gnu.org/cgit/ - utilisant [cgit](https://git.zx2c4.com/cgit/)
 
-Bitbucket et Github ne publient pas le code source de leur plateforme Web ; certaines plateformes publient des données anonymisées en open data ; leurs portées géographiques peuvent varier, etc.  La liste est incomplète.
+Le code source de github n'est pas libre tout comme certains modules de gitlab.com; certaines plateformes publient des données anonymisées en open data ; leurs portées géographiques peuvent varier, de même que le nombre de développeurs qu'elles drainent.  La liste est incomplète et le choix de créer un compte d'organisation au sein d'une forge existante relève de l'administration qui peut disposer également de sa propre forge publique. Le positionnement d'un projet sur une forge doit se faire en fonction du niveau de collaboration attendu et des interfaces avec les dépots privés et le reste de la plateforme de développement.
 
 Actuellement, Github permet d'atteindre la plus grande communauté de développeurs au plan international.
-
-Exemples de logiciels libres permettant d'héberger sa plate-forme soi-même :
-
- * [Gitlab](https://about.gitlab.com/installation/) : suite la plus complète
- * [Gogs](http://gogs.io) : écrit en Go; installation simple
- * [Gitea](http://gitea.io) : fourché de Gogs, installation similaire
 
 ## Gestion des comptes personnels et d'organisation
 
