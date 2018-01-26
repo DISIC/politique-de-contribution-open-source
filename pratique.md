@@ -23,20 +23,20 @@ L'utilisation d'un système de suivi de version distribué tel que git est recom
 
 ## Aide au choix de la plateforme 
 
-En plus du système de suivi de version de code source, une plateforme propose un ensemble d'outils collaboratifs associés et vise une communauté de développeurs. Ces plateformes peuvent être hébergées par un tiers ou par une adminsitration.
+En plus du système de suivi de version du code source, une plateforme Web propose une panoplie d'outils collaboratifs associés et vise à mobiliser une communauté de développeurs.  Ces plateformes peuvent être hébergées par un tiers ou par l'administration.
 
-Des exemples de plateformes hébergées par un tiers sont :
+Exemples de plateformes Web hébergées par un tiers :
 
- * Github : https://github.com/
- * Gitlab : http://gitlab.com/
- * Framagit : http://framagit.org/ (gitlab)
- * Adullact : http://gitlab.adullact.net/ (gitlab)
- * FSFE : https://git.fsfe.org/ (gitea)
- * FSF : https://git.savannah.gnu.org (raw)
+ * Github : https://github.com
+ * Gitlab : http://gitlab.com (version entreprise)
+ * Framagit : http://framagit.org - utilisant [Gitlab](https://about.gitlab.com/installation/)
+ * Adullact : http://gitlab.adullact.net - utilisant [Gitlab](https://about.gitlab.com/installation/)
+ * FSFE : https://git.fsfe.org - utilisant [Gitea](https://gitea.io/)
+ * FSF : https://git.savannah.gnu.org/cgit/ - utilisant [cgit](https://git.zx2c4.com/cgit/)
 
-Certaines sont libres, d'autres publient leurs données anonymisées en open-data, leur portée géographique peut varier... La liste est incomplète.
+Le code source de github n'est pas libre tout comme certains modules de gitlab.com; certaines plateformes publient des données anonymisées en open data ; leurs portées géographiques peuvent varier, de même que le nombre de développeurs qu'elles drainent.  La liste est incomplète et le choix de créer un compte d'organisation au sein d'une forge existante relève de l'administration qui peut disposer également de sa propre forge publique. Le positionnement d'un projet sur une forge doit se faire en fonction du niveau de collaboration attendu et des interfaces avec les dépots privés et le reste de la plateforme de développement.
 
-Actuellement, github offre la plus grande communuauté de développeurs au plan international.
+Actuellement, Github permet d'atteindre la plus grande communauté de développeurs au plan international.
 
 ## Gestion des comptes personnels et d'organisation
 
@@ -50,7 +50,7 @@ Il est recommandé d'avoir deux propriétaires (owner) par dépôt.
 Des réflexions sont en cours sur la capacité de proposer un inventaire automatique tant du point de vue des dépôts
 d'organisation que de l'inventaire des services.
 
-> Spécifiquement pour Github, référencer le compte d'organisation comme un compte gouvernemental
+> Pour référencer le compte d'organisation comme un compte gouvernemental dans Github :
 >
 >  * Inscrivez vous si ce n'est pas déjà fait dans la communauté [https://github.com/government/welcome](https://github.com/government/welcome)
 >  * Référencez votre compte d'organisation en l'ajoutant sur la page : [https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml](https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) conformément à la page [https://government.github.com/community/](https://government.github.com/community/)
@@ -73,8 +73,7 @@ Afin de vérifier que la commande a bien été prise en compte :
 
 `git config --get user.email`
 
-Les pseudonymes sont gérés de la même manière. Un email (ou alias) doit donc être mis à disposition par le ministère
-pour permettre l'utilisation du pseudonyme.
+Les pseudonymes sont gérés de la même manière. Une adresse électronique (ou alias) doit donc être mise à disposition par le ministère pour permettre l'utilisation du pseudonyme.
 
 ## Aide au choix de la licence
 
@@ -170,7 +169,11 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
    * choisir (pour un nouveau projet) et respecter une unique
      convention de nommage pour les constantes, les variables, les
      fonctions, *etc.*, respectueuse de la *convention de codage*
-     utilisée pour le projet (voir [https://en.wikipedia.org/wiki/Naming_convention_(programming)]())
+     utilisée pour le projet - voir [https://fr.wikipedia.org/wiki/Convention_de_nommage](https://fr.wikipedia.org/wiki/Convention_de_nommage)
+ * Respecter les référentiels en vigueur dans l'administration
+   * [Référentiel général d'interopérabilité](http://references.modernisation.gouv.fr/interoperabilite)
+   * [Référentiel général d'accessibilité pour les administrations](http://references.modernisation.gouv.fr/rgaa-accessibilite/)
+   * [Référentiel général de sécurité](https://www.ssi.gouv.fr/administration/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/)
  * Découper et factoriser tant que possible le code en
    paquetages/bibliothèques/modules internes au projet afin de
    maximiser la réutilisation de code mais aussi d'isoler les
@@ -200,7 +203,7 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
  projet qui sera garant de vérifier le respect des bonnes pratiques
  mises en œuvre durant le développement, et de traiter les éventuels
  incidents de sécurité. Il est également préférable d'avoir recours à
- une adresse mail dédiée, à destination du responsable identifié au
+ une adresse électronique dédiée, à destination du responsable identifié au
  moins, pour traiter des incidents de sécurité qui se produiraient ou
  qui seraient découverts par un tiers.
 
@@ -265,14 +268,17 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
    tierces maintenus et à jour des correctifs sécurité; préférer des
    bibliothèques (re)connues, et les plus simples possibles
  * Utiliser les services d'analyse de code offerts par la plateforme
-   d'hébergement (e.g. Github) et traiter systématiquement avant intégration les
+   d'hébergement et traiter systématiquement avant intégration les
    problèmes remontés
  * Ne pousser que des *commits* de code qui compilent, testés et
-   fonctionnels, accompagnés des tests unitaires correspondants;
-   certaines plateformes, comme Github, offrent la possibilité de
-   rejouer automatiquement les tests unitaires d'un projet afin
-   d'assurer la non-régression (e.g [Travis](https://docs.travis-ci.com/), [Homu](https://github.com/servo/homu))
- * Créer un *tag* (e.g. v2.0.1) pour chaque version (e.g. 2.0.1), et le signer cryptographiquement (voir [GPG signature verification](https://github.com/blog/2144-gpg-signature-verification))
+   fonctionnels, accompagnés des tests unitaires correspondants ;
+   certaines plateformes offrent la possibilité de rejouer
+   automatiquement les tests unitaires d'un projet afin d'assurer la
+   non-régression (e.g [Travis](https://docs.travis-ci.com/),
+   [Homu](https://github.com/servo/homu))
+ * Créer un *tag* (e.g. v2.0.1) pour chaque version (e.g. 2.0.1), et
+   le signer cryptographiquement (voir [GPG signature
+   verification](https://github.com/blog/2144-gpg-signature-verification))
  * Respecter les recommandations et bonnes pratiques de sécurité émises
    par l'ANSSI applicables au projet
      * [Bonnes pratiques de l'ANSSI](https://www.ssi.gouv.fr/administration/bonnes-pratiques/)
