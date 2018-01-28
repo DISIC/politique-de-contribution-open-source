@@ -16,13 +16,14 @@ Voir la section [instanciation](Instanciation.md) si vous souhaitez décliner ce
 
 Contacter `opensource @ data.gouv.fr` pour toute question sur cette politique.
 
-## Gérer l'identité des contributions
+## Principe de reconnaissance des contributions
+
 ### Attribuer les contributions aux individus
 
 Reconnaissance individuelle des développeurs : utilisation de leur adresse électronique pour tracer leurs contributions.
 
  * Pour les agents : utilisation de l'adresse électronique professionnelle.
- * Pour les prestataires de services, utilisation de l'adresse électronique de leur société d'attachement (pas d'adresse prestataire en `.gouv.fr`)
+ * Pour les prestataires de services, utilisation de l'adresse électronique de leur société d'attachement (pas d'adresse prestataire fournie par l'administration)
 
 Possibilité d'utiliser des pseudonymes.
 
@@ -45,7 +46,9 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
 
 ### Signature des *Corporate Contributor License Agreement*
 
-À ce stade aucun corporate CLA n'a été signé avec des communautés. La DINSIC prendra contact et établira les communautés prioritaires avec qui ces contributions seront facilitées.
+À ce stade aucun corporate contributor license agreement (CLA) n'a été signé avec des communautés, ce qui permettrait de faciliter et de pré-autoriser la signature de CLA individuels.
+
+a DINSIC prendra contact et établira les communautés prioritaires avec qui ces contributions seront facilitées.
 
 ## Contribuer en publiant un nouveau projet
 
@@ -62,14 +65,14 @@ Pour rappel, les licences à utiliser sont disponibles par décret sur le site :
 
 ### Éléments à considérer dans le choix de la licence libre
 
-Pour les cas où l'administration veut garantir que les modifications apportées par un tiers au logiciel libre qu'elle publie sont accessibles sous les mêmes conditions, elle envisagera une licence à réciprocité.  En particulier, s'il s'agit d'un logiciel qui est à la base d'un service en ligne, elle pourra considérer la licence GNU Affero General Public License.  Dans les autres cas, elle considérera les licences permissives.
+Pour les cas où l'administration a des raisons de garantir que les modifications apportées par un tiers au logiciel libre qu'elle publie sont accessibles sous les mêmes conditions, elle envisagera une licence à réciprocité.  En particulier, s'il s'agit d'un logiciel qui est à la base d'un service en ligne pour lequel elle souhaite se prémunir de toute réappropriation, elle pourra considérer la licence GNU Affero General Public License.  Dans les autres cas, elle considérera les licences permissives.
 
 Le choix de la licence d'un projet devra également prendre en compte celles des composants Open Source tiers constituant son cadre technique, selon les modalités de leurs relations techniques.
 
-La sensibilité culturelle sur le sujet de l'écosystème où s'insère le projet pourra aussi aiguiller le choix de la licence, dans la limite de la latitude laissée par les critères précédents.
+L'écosystème où s'insère le projet pourra aussi aiguiller le choix de la licence, dans la limite de la latitude laissée par les critères précédents.
 
 À noter que les solutions logicielles sont souvent modulaires et que la question de la licence peut se poser à plusieurs niveaux.  Par exemple, pour une solution de site web, les modules de l'interface web pourront être publiés sous une licence différente de celle qui couvre le code source côté serveur.
 
 ### Certification de l'origine des contributions (DCO)
 
-Les projets publiés par l'État n'exigent pas de droits spécifiques des contributeurs en dehors de ceux accordés par leurs licences respectives. En revanche, il est demandé aux contributeurs de signer un Certificat d'origine des contributions (*Developer Certificate of Origin*). Afin de s'insérer dans les standards en usage, il a été choisi d'utiliser une traduction française du texte utilisé pour le noyau Linux et repris par de nombreux autres projets.
+Les projets publiés par l'État n'exigent pas de droits spécifiques des contributeurs en dehors de ceux accordés par leurs licences respectives (pas d'utilisation de CLA). En revanche, il est demandé aux contributeurs de signer un Certificat d'origine des contributions (*Developer Certificate of Origin*). Afin de s'insérer dans les standards en usage, il a été choisi d'utiliser une traduction française du texte utilisé pour le noyau Linux et repris par de nombreux autres projets.
