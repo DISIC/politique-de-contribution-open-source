@@ -3,25 +3,11 @@ title: Bonnes pratiques
 menuName: pratique
 ---
 
-## En résumé
-
-* Utilisation nécessaire d'un système de suivi de version distribué (git, bitkeeper, mercurial) 
-* Aide au choix d'une plateforme de publication
-* Gestion des comptes personnels et d'organisation
-* Inventaire des comptes d'organisation
-* Distinction des contributions professionnelles / personnelles
-* Aide au choix de la licence
-* Gestion des versions
-* Fichiers par défaut dans un dépôt (repository)
-* Entêtes (headers) de fichiers sources
-* Traçabilité des développements (DCO)
-* Outillage
-
-## Système de suivi de version
+## Système de suivi de version de code source
 
 L'utilisation d'un système de suivi de version distribué tel que git est recommandée. Les systèmes svn ou cvs sont déconseillés.
 
-## Partage du code source sur une plateforme Web
+## Aide au choix d'une plateforme Web 
 
 En plus du système de suivi de version du code source, une plateforme Web propose une panoplie d'outils collaboratifs associés et vise à mobiliser une communauté de développeurs.  Ces plateformes peuvent être hébergées par un tiers ou par l'administration.
 
