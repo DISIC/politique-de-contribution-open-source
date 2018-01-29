@@ -71,10 +71,10 @@
 
       <div class="site-banner-note">
         <p>
-          <strong>Version :</strong> v0.2
+          <strong>Version :</strong> v0.3
         </p>
         <p>
-          <strong>Statut :</strong> Appel à commentaires
+          <strong>Statut :</strong> Fin de l’appel à commentaires
         </p>
 
       </div>
@@ -107,7 +107,7 @@
 
         <li class="nav-item">
           <a class="nav-link" href="https://disic.github.io/politique-de-contribution-open-source/pratique/">
-          Meilleures pratiques
+          Bonnes pratiques
         </a>
         </li>
         <li class="nav-item">
@@ -119,6 +119,12 @@
         <li class="nav-item">
           <a class="nav-link" href="https://disic.github.io/politique-de-contribution-open-source/gouvernance/">
           Gouvernance
+        </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://disic.github.io/politique-de-contribution-open-source/faq/">
+          <abbr title="Foire aux questions">FAQ</abbr>
         </a>
         </li>
 
@@ -142,16 +148,32 @@
                 <ul>
                   <li>
                     <ul>
-                      <li><a href="#en-résumé">En résumé</a></li>
-                      <li><a href="#subsidiarité">Subsidiarité</a></li>
-                      <li><a href="#reconnaissance-individuelle">Reconnaissance individuelle</a></li>
-                      <li><a href="#distinction-des-contributions-professionnelles-personnelles">Distinction des contributions professionnelles / personnelles</a></li>
-                      <li><a href="#pas-d-engagements">Pas d&rsquo;engagements</a></li>
-                      <li><a href="#autorisation-par-défaut-de-contribuer-à-des-projets-sous-license-fsf-ou-osi">Autorisation par défaut de contribuer à des projets sous license FSF ou OSI</a></li>
-                      <li><a href="#autorisation-par-défaut-de-contribuer-un-nouveau-projet-avec-les-licences-du-décret">Autorisation par défaut de contribuer un nouveau projet avec les licences du décret</a></li>
-                      <li><a href="#recommandation-d-utiliser-des-licences-permissives-dans-le-cas-général">Recommandation d&rsquo;utiliser des licences permissives dans le cas général</a></li>
-                      <li><a href="#pré-autorisation-de-signer-un-icla-auprès-de-certaines-communautés">Pré-autorisation de signer un iCLA auprès de certaines communautés</a></li>
-                      <li><a href="#assistance-sur-la-politique-de-contribution">Assistance sur la politique de contribution</a></li>
+                      <li><a href="#préambule">Préambule</a>
+                        <ul>
+                          <li><a href="#principe-de-subsidiarité">Principe de subsidiarité</a></li>
+                          <li><a href="#assistance-sur-la-politique-de-contribution">Assistance sur la politique de contribution</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#principe-de-reconnaissance-des-contributions">Principe de reconnaissance des contributions</a>
+                        <ul>
+                          <li><a href="#attribuer-les-contributions-aux-individus">Attribuer les contributions aux individus</a></li>
+                          <li><a href="#distinguer-les-contributions-professionnelles-et-personnelles">Distinguer les contributions professionnelles et personnelles</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#contribuer-à-des-projets-tiers">Contribuer à des projets tiers</a>
+                        <ul>
+                          <li><a href="#autorisation-par-défaut-de-contribuer-à-des-projets-sous-licence-fsf-ou-osi">Autorisation par défaut de contribuer à des projets sous licence FSF ou OSI</a></li>
+                          <li><a href="#signature-des-corporate-contributor-license-agreement">Signature des <em>Corporate Contributor License Agreement</em></a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#contribuer-en-publiant-un-nouveau-projet">Contribuer en publiant un nouveau projet</a>
+                        <ul>
+                          <li><a href="#la-publication-du-code-source-ne-crée-ni-obligation-ni-garantie">La publication du code source ne crée ni obligation ni garantie</a></li>
+                          <li><a href="#autorisation-par-défaut-de-contribuer-un-nouveau-projet-avec-les-licences-du-décret">Autorisation par défaut de contribuer un nouveau projet avec les licences du décret</a></li>
+                          <li><a href="#éléments-à-considérer-dans-le-choix-de-la-licence-libre">Éléments à considérer dans le choix de la licence libre</a></li>
+                          <li><a href="#certification-de-l-origine-des-contributions-dco">Certification de l&rsquo;origine des contributions (DCO)</a></li>
+                        </ul>
+                      </li>
                     </ul>
                   </li>
                 </ul>
@@ -174,50 +196,40 @@
 
           <div class="article" id="content">
 
-            <h2 id="en-résumé">En résumé</h2>
+            <h2 id="préambule">Préambule</h2>
 
-            <ul>
-              <li>Principe de subsidiarité : la politique peut être instanciée localement avec une priorité plus forte</li>
-              <li>Reconnaissance individuelle des développeurs</li>
-              <li>Distinction des contributions professionnelles / personnelles</li>
-              <li>Pas d&rsquo;engagements (ni support / ni revue des suggestions de modification)</li>
-              <li>Autorisation par défaut de contribuer aux projets sous license FSF ou OSI</li>
-              <li>Autorisation par défaut de contribuer un nouveau projet avec les licences du décret</li>
-              <li>Recommandation d&rsquo;utiliser les familles de licences permissives dans le cas général</li>
-              <li>Autorisation par défaut de signer un iCLA (individual CLA) avec les organismes pour lesquels la DINSIC a signé un global CLA</li>
-              <li>Utilisation des DCO (developper&rsquo;s certificate of origin) et ne pas exiger des CLA</li>
-              <li>Support : Contacter <code>opensource @ data.gouv.fr</code> pour toute question</li>
-            </ul>
+            <h3 id="principe-de-subsidiarité">Principe de subsidiarité</h3>
 
-            <h2 id="subsidiarité">Subsidiarité</h2>
+            <p>La politique peut être instanciée localement avec une priorité plus forte.</p>
 
             <p>Voir la section <a href="Instanciation.md">instanciation</a> si vous souhaitez décliner cette politique au sein de votre organisation.</p>
 
-            <h2 id="reconnaissance-individuelle">Reconnaissance individuelle</h2>
+            <h3 id="assistance-sur-la-politique-de-contribution">Assistance sur la politique de contribution</h3>
 
-            <p>Reconnaissance individuelle des développeurs : utilisation de leur adresse email pour tracer leurs contributions.</p>
+            <p>Contacter <code>opensource @ data.gouv.fr</code> pour toute question sur cette politique.</p>
+
+            <h2 id="principe-de-reconnaissance-des-contributions">Principe de reconnaissance des contributions</h2>
+
+            <h3 id="attribuer-les-contributions-aux-individus">Attribuer les contributions aux individus</h3>
+
+            <p>Reconnaissance individuelle des développeurs : utilisation de leur adresse électronique pour tracer leurs contributions.</p>
 
             <ul>
-              <li>Pour les agents : utilisation du mail professionnel.</li>
-              <li>Pour les prestataires de services, utilisation du mail de leur société d&rsquo;attachement (pas de mail prestataire en .gouv.fr)</li>
+              <li>Pour les agents : utilisation de l&rsquo;adresse électronique professionnelle.</li>
+              <li>Pour les prestataires de services, utilisation de l&rsquo;adresse électronique de leur société d&rsquo;attachement (pas d&rsquo;adresse prestataire fournie par l&rsquo;administration)</li>
             </ul>
 
             <p>Possibilité d&rsquo;utiliser des pseudonymes.</p>
 
-            <p>Pas d&rsquo;utilisation de mails génériques / anonymes.</p>
+            <p>Pas d&rsquo;utilisation d&rsquo;adresses électroniques génériques ou anonymes.</p>
 
-            <h2 id="distinction-des-contributions-professionnelles-personnelles">Distinction des contributions professionnelles / personnelles</h2>
+            <h3 id="distinguer-les-contributions-professionnelles-et-personnelles">Distinguer les contributions professionnelles et personnelles</h3>
 
-            <p>Possibilité de contribuer sur un même projet dans le cadre du milieu professionnel ou à titre personnel. Le mail professionnel doit être utilisé sur le temps professionnel.</p>
+            <p>Possibilité de contribuer sur un même projet dans le cadre du milieu professionnel ou à titre personnel. L&rsquo;adresse électronique professionnelle doit être utilisée sur le temps professionnel.</p>
 
-            <h2 id="pas-d-engagements">Pas d&rsquo;engagements</h2>
+            <h2 id="contribuer-à-des-projets-tiers">Contribuer à des projets tiers</h2>
 
-            <ul>
-              <li>Aucune obligation de support et de prise en compte des demandes des utilisateurs ni plus généralement d&rsquo;obligation d&rsquo;animer la communauté.</li>
-              <li>Pas de garanties au-delà de ce qui est prévu par la licence.</li>
-            </ul>
-
-            <h2 id="autorisation-par-défaut-de-contribuer-à-des-projets-sous-license-fsf-ou-osi">Autorisation par défaut de contribuer à des projets sous license FSF ou OSI</h2>
+            <h3 id="autorisation-par-défaut-de-contribuer-à-des-projets-sous-licence-fsf-ou-osi">Autorisation par défaut de contribuer à des projets sous licence FSF ou OSI</h3>
 
             <p>Les licences validées par les organismes Free Software Foundation et Open Source Initiative et recensées sur leurs pages respectives :</p>
 
@@ -226,40 +238,48 @@
               <li>OSI : <a href="https://opensource.org/licenses/alphabetical">https://opensource.org/licenses/alphabetical</a>.</li>
             </ul>
 
-            <p>À l&rsquo;inverse les licenses de type beerware ne rentrent pas dans le cadre de l&rsquo;autorisation par défaut (et ne devraient pas être utilisées).</p>
+            <p>À l&rsquo;inverse les licences de type beerware ne rentrent pas dans le cadre de l&rsquo;autorisation par défaut (et ne devraient pas être utilisées).</p>
 
-            <h2 id="autorisation-par-défaut-de-contribuer-un-nouveau-projet-avec-les-licences-du-décret">Autorisation par défaut de contribuer un nouveau projet avec les licences du décret</h2>
+            <h3 id="signature-des-corporate-contributor-license-agreement">Signature des <em>Corporate Contributor License Agreement</em></h3>
 
-            <p>L&rsquo;État n&rsquo;a pas vocation à être éditeur logiciel. En dehors des trois exceptions prévues à la loi pour une République numérique pour lesquelles vous pouvez contacter le mail de support en cas de question, il n&rsquo;y a pas d&rsquo;autorisation
-              préalable à demander auprès de la DINSIC. Pour autant, veuillez vous référer à votre supérieur hiérarchique avant la publication d&rsquo;un nouveau projet dans le compte de votre organisation.</p>
+            <p>À ce stade aucun corporate contributor license agreement (CLA) n&rsquo;a été signé avec des communautés, ce qui permettrait de faciliter et de pré-autoriser la signature de CLA individuels.</p>
+
+            <p>La DINSIC prendra contact et établira les communautés prioritaires avec qui ces contributions seront facilitées.</p>
+
+            <h2 id="contribuer-en-publiant-un-nouveau-projet">Contribuer en publiant un nouveau projet</h2>
+
+            <h3 id="la-publication-du-code-source-ne-crée-ni-obligation-ni-garantie">La publication du code source ne crée ni obligation ni garantie</h3>
+
+            <ul>
+              <li>Aucune obligation de support et de prise en compte des demandes des utilisateurs ni plus généralement d&rsquo;obligation d&rsquo;animer la communauté.</li>
+              <li>Pas de garanties au-delà de ce qui est prévu par la licence.</li>
+            </ul>
+
+            <h3 id="autorisation-par-défaut-de-contribuer-un-nouveau-projet-avec-les-licences-du-décret">Autorisation par défaut de contribuer un nouveau projet avec les licences du décret</h3>
+
+            <p>L&rsquo;État n&rsquo;a pas vocation à être éditeur de logiciels. En dehors des trois exceptions prévues à la loi pour une République numérique pour lesquelles vous pouvez contacter l&rsquo;adresse électronique de support en cas de question,
+              il n&rsquo;y a pas d&rsquo;autorisation préalable à demander auprès de la DINSIC. Pour autant, veuillez vous référer à votre supérieur hiérarchique avant la publication d&rsquo;un nouveau projet dans le compte de votre organisation.</p>
 
             <p>Pour rappel, les licences à utiliser sont disponibles par décret sur le site : <a href="http://www.data.gouv.fr/fr/licences">http://www.data.gouv.fr/fr/licences</a>.</p>
 
-            <h2 id="recommandation-d-utiliser-des-licences-permissives-dans-le-cas-général">Recommandation d&rsquo;utiliser des licences permissives dans le cas général</h2>
+            <h3 id="éléments-à-considérer-dans-le-choix-de-la-licence-libre">Éléments à considérer dans le choix de la licence libre</h3>
 
-            <p>Par défaut, les licences de la famille des licences permissives sont privilégiées par l&rsquo;administration afin de faciliter la diffusion des codes sources et leur réutilisation en limitant les risques d&rsquo;incompatibilités avec les licences
-              préexistantes. Ces licences seront particulièrement adaptées pour couvrir les codes sources implémentant un service de base ou d’infrastructure qui a vocation à être inclus dans d’autres services ou appelé par d’autres services (bibliothèques,
-              frameworks&hellip;).</p>
+            <p>Pour les cas où l&rsquo;administration a des raisons de garantir que les modifications apportées par un tiers au logiciel libre qu&rsquo;elle publie sont accessibles sous les mêmes conditions, elle envisagera une licence à réciprocité. En
+              particulier, s&rsquo;il s&rsquo;agit d&rsquo;un logiciel qui est à la base d&rsquo;un service en ligne pour lequel elle souhaite se prémunir de toute réappropriation, elle pourra considérer la licence GNU Affero General Public License. Dans
+              les autres cas, elle considérera les licences permissives.</p>
 
-            <p>Cependant, le choix d’une licence avec obligation de réciprocité peut être pertinent dans les cas suivants pour prévenir toute appropriation propriétaire :</p>
+            <p>Le choix de la licence d&rsquo;un projet devra également prendre en compte celles des composants Open Source tiers constituant son cadre technique, selon les modalités de leurs relations techniques.</p>
 
-            <ul>
-              <li>Service d’intérêt général.</li>
-              <li>Service « contributif » : service en ligne dont la valeur est issue des contributions des utilisateurs du service.</li>
-              <li>Service qui organise un écosystème. Permet de partager les évolutions avec l’ensemble des acteurs.</li>
-              <li>Service décentralisé qui est instancié de nombreuses fois et dont les instances doivent communiquer entre elles.</li>
-              <li>Service qui établit un lien fort avec le citoyen qui doit être préservé sans que d’autres services puissent l’encapsuler.</li>
-            </ul>
+            <p>L&rsquo;écosystème où s&rsquo;insère le projet pourra aussi aiguiller le choix de la licence, dans la limite de la latitude laissée par les critères précédents.</p>
 
-            <p>À noter que les licences avec obligation de réciprocité sont plus complexes, notamment sur leur clause de distribution (lien statique/dynamique, accès distant, etc.)</p>
+            <p>À noter que les solutions logicielles sont souvent modulaires et que la question de la licence peut se poser à plusieurs niveaux. Par exemple, pour une solution de site web, les modules de l&rsquo;interface web pourront être publiés sous une
+              licence différente de celle qui couvre le code source côté serveur.</p>
 
-            <h2 id="pré-autorisation-de-signer-un-icla-auprès-de-certaines-communautés">Pré-autorisation de signer un iCLA auprès de certaines communautés</h2>
+            <h3 id="certification-de-l-origine-des-contributions-dco">Certification de l&rsquo;origine des contributions (DCO)</h3>
 
-            <p>À ce stade aucun corporate CLA n&rsquo;a été signé avec des communautés. La DINSIC prendra contact et établira les communautés prioritaires avec qui ces contributions seront facilitées.</p>
-
-            <h2 id="assistance-sur-la-politique-de-contribution">Assistance sur la politique de contribution</h2>
-
-            <p>Contacter <code>opensource @ data.gouv.fr</code> pour toute question sur cette politique.</p>
+            <p>Les projets publiés par l&rsquo;État n&rsquo;exigent pas de droits spécifiques des contributeurs en dehors de ceux accordés par leurs licences respectives (pas d&rsquo;utilisation de CLA). En revanche, il est demandé aux contributeurs de signer
+              un Certificat d&rsquo;origine des contributions (<em>Developer Certificate of Origin</em>). Afin de s&rsquo;insérer dans les standards en usage, il a été choisi d&rsquo;utiliser une traduction française du texte utilisé pour le noyau Linux
+              et repris par de nombreux autres projets.</p>
 
           </div>
         </div>
@@ -286,13 +306,13 @@
 
           <div class="info-doc">
             <p>
-              <strong>Statut :</strong> Appel à commentaires
+              <strong>Statut :</strong> Fin de l’appel à commentaires
             </p>
             <p>
-              <strong>Version :</strong> v0.2
+              <strong>Version :</strong> v0.3
             </p>
             <p>
-              <strong>Publiée le :</strong> 26/01/2018
+              <strong>Publiée le :</strong> 29/01/2018
             </p>
             <p>
               <strong>Licence :</strong> Licence Ouverte 2.0

@@ -71,10 +71,10 @@
 
       <div class="site-banner-note">
         <p>
-          <strong>Version :</strong> v0.2
+          <strong>Version :</strong> v0.3
         </p>
         <p>
-          <strong>Statut :</strong> Appel à commentaires
+          <strong>Statut :</strong> Fin de l’appel à commentaires
         </p>
 
       </div>
@@ -107,7 +107,7 @@
 
         <li class="nav-item">
           <a class="nav-link" href="https://disic.github.io/politique-de-contribution-open-source/pratique/">
-          Meilleures pratiques
+          Bonnes pratiques
         </a>
         </li>
         <li class="nav-item">
@@ -119,6 +119,12 @@
         <li class="nav-item">
           <a class="nav-link" href="https://disic.github.io/politique-de-contribution-open-source/gouvernance/">
           Gouvernance
+        </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link is-active" href="https://disic.github.io/politique-de-contribution-open-source/faq/">
+          <abbr title="Foire aux questions">FAQ</abbr>
         </a>
         </li>
 
@@ -138,6 +144,36 @@
           <aside class="article-aside" id="aside">
             <div class="aside-toc">
               <h2 class="h3">Table des matières</h2>
+              <nav id="TableOfContents">
+                <ul>
+                  <li>
+                    <ul>
+                      <li><a href="#suis-je-concerné-e-par-cette-politique-de-contribution-open-source">Suis-je concerné(e) par cette politique de contribution open source ?</a>
+                        <ul>
+                          <li><a href="#et-si-j-appartiens-à-un-établissement-de-recherche">et si j&rsquo;appartiens à un établissement de recherche ?</a></li>
+                          <li><a href="#et-si-je-suis-salarié-d-une-esn-ssii">et si je suis salarié d&rsquo;une ESN / SSII ?</a></li>
+                          <li><a href="#et-si-je-suis-indépendant-auto-entrepreneur">et si je suis indépendant / auto-entrepreneur ?</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#quels-sont-les-codes-qui-ont-vocation-à-être-ouvert">Quels sont les codes qui ont vocation à être ouvert ?</a></li>
+                      <li><a href="#j-ai-besoin-d-une-aide-juridique-sur-une-licence-open-source-qui-puis-je-contacter">J&rsquo;ai besoin d&rsquo;une aide juridique sur une licence open-source, qui puis-je contacter ?</a></li>
+                      <li><a href="#quelle-adresse-électronique-utiliser-pour-contribuer-à-un-projet-nbsp">Quelle adresse électronique utiliser pour contribuer à un projet&nbsp;?</a>
+                        <ul>
+                          <li><a href="#et-si-je-suis-salarié-d-une-esn-ssii-1">et si je suis salarié d&rsquo;une ESN / SSII ?</a></li>
+                          <li><a href="#et-si-je-suis-indépendant-auto-entrepreneur-1">et si je suis indépendant / auto-entrepreneur ?</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#dois-je-utiliser-mon-mail-pro-si-je-contribue-depuis-longtemps-à-un-projet-à-titre-personnel">Dois-je utiliser mon mail pro si je contribue depuis longtemps à un projet à titre personnel ?</a></li>
+                      <li><a href="#comment-choisir-parmi-les-différentes-licences-proposées">Comment choisir parmi les différentes licences proposées ?</a></li>
+                      <li><a href="#dois-je-obtenir-une-validation-avant-de-publier-du-code">Dois-je obtenir une validation avant de publier du code ?</a></li>
+                      <li><a href="#mon-administration-n-a-pas-de-compte-d-organisation-sur-le-service-en-ligne-d-hébergement-de-code-que-je-souhaite-utiliser-que-faire">Mon administration n&rsquo;a pas de compte d&rsquo;organisation sur le service en ligne d&rsquo;hébergement de code que je souhaite utiliser. Que faire ?</a></li>
+                      <li><a href="#je-n-ose-pas-faire-mon-premier-commit-en-public-puis-je-obtenir-de-l-aide">Je n&rsquo;ose pas faire mon premier commit en public, puis-je obtenir de l&rsquo;aide ?</a></li>
+                      <li><a href="#j-ai-un-doute-sur-l-ouverture-d-un-code-source-vers-qui-puis-je-me-renseigner">J&rsquo;ai un doute sur l&rsquo;ouverture d&rsquo;un code source, vers qui puis-je me renseigner ?</a></li>
+                      <li><a href="#puis-je-coder-dans-une-langue-autre-que-le-français">Puis-je coder dans une langue autre que le Français ?</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
 
               <hr>
               <h2 class="h3">Contribuer</h2>
@@ -155,11 +191,68 @@
           </aside>
 
           <div class="article" id="content">
-            <ul>
-              <li>Suis-je concerné(e) ?</li>
-              <li>Doit-on utiliser son email pro pour contribuer à un projet open-source tiers sur lequel nous contribuons historiquement avec notre compte perso ?</li>
-              <li>Comment choisir parmi les différentes licences proposées ?</li>
-            </ul>
+
+            <h2 id="suis-je-concerné-e-par-cette-politique-de-contribution-open-source">Suis-je concerné(e) par cette politique de contribution open source ?</h2>
+
+            <p>Comme indiqué dans l&rsquo;introduction, si la loi République Numérique s&rsquo;applique à toute l&rsquo;administration, le périmètre de la DINSIC se concentre sur la fonction publique d&rsquo;Etat (avec quelques exceptions selon le décret
+              n° 2014-879 du 1er août 2014). Si vous faites partie d&rsquo;une collectivité territoriale, cette politique ne vous concerne pas, bien que la loi République Numérique s&rsquo;applique. Si vous faites partie d&rsquo;un opérateur ou d&rsquo;un
+              établissement public sous la tutelle d&rsquo;un ministère, vous êtes concernés.</p>
+
+            <h3 id="et-si-j-appartiens-à-un-établissement-de-recherche">et si j&rsquo;appartiens à un établissement de recherche ?</h3>
+
+            <p>La loi République Numérique s&rsquo;applique de la même manière.</p>
+
+            <h3 id="et-si-je-suis-salarié-d-une-esn-ssii">et si je suis salarié d&rsquo;une ESN / SSII ?</h3>
+
+            <p>Si vous intervenez dans le cadre d&rsquo;un marché public, vous êtes concernés. Toutefois, le détail des obligations contractuelles dépendra du CCTP et du CCAP.</p>
+
+            <h3 id="et-si-je-suis-indépendant-auto-entrepreneur">et si je suis indépendant / auto-entrepreneur ?</h3>
+
+            <p>Si vous travaillez pour une administration au périmètre de la DINSIC, vous êtes également concerné.</p>
+
+            <h2 id="quels-sont-les-codes-qui-ont-vocation-à-être-ouvert">Quels sont les codes qui ont vocation à être ouvert ?</h2>
+
+            <p>L&rsquo;obligation d&rsquo;ouverture des codes est liée à la loi République Numérique. Différents décrets d&rsquo;application séquencent les obligations d&rsquo;ouverture.</p>
+
+            <h2 id="j-ai-besoin-d-une-aide-juridique-sur-une-licence-open-source-qui-puis-je-contacter">J&rsquo;ai besoin d&rsquo;une aide juridique sur une licence open-source, qui puis-je contacter ?</h2>
+
+            <p>Si vous faites partie de l&rsquo;administration, vous pouvez contacter l&rsquo;adresse email de contact proposée dans la politique.</p>
+
+            <h2 id="quelle-adresse-électronique-utiliser-pour-contribuer-à-un-projet-nbsp">Quelle adresse électronique utiliser pour contribuer à un projet&nbsp;?</h2>
+
+            <p>Tout est détaillé dans la page Ouverture / Attribuer les contributions aux individus</p>
+
+            <h3 id="et-si-je-suis-salarié-d-une-esn-ssii-1">et si je suis salarié d&rsquo;une ESN / SSII ?</h3>
+
+            <p>Tout est détaillé dans la page Ouverture / Attribuer les contributions aux individus.</p>
+
+            <h3 id="et-si-je-suis-indépendant-auto-entrepreneur-1">et si je suis indépendant / auto-entrepreneur ?</h3>
+
+            <p>Dans ce cas précis, l&rsquo;identité prime et l&rsquo;utilisation d&rsquo;un mail profesionnel ou personnel est équivalent. Choisissez ce que vous voulez.</p>
+
+            <h2 id="dois-je-utiliser-mon-mail-pro-si-je-contribue-depuis-longtemps-à-un-projet-à-titre-personnel">Dois-je utiliser mon mail pro si je contribue depuis longtemps à un projet à titre personnel ?</h2>
+
+            <p>Si les contributions se font dans le cadre professionnel, il vous est effectivement demandé d&rsquo;utiliser votre mail professionnel.</p>
+
+            <h2 id="comment-choisir-parmi-les-différentes-licences-proposées">Comment choisir parmi les différentes licences proposées ?</h2>
+
+            <p>Voici quelques exemples de choix de licences qui pourront vous guider. N&rsquo;hésitez pas à revenir vers nous en utilisant l&rsquo;adresse de contact pour toute question ou conseil. A COMPLETER</p>
+
+            <h2 id="dois-je-obtenir-une-validation-avant-de-publier-du-code">Dois-je obtenir une validation avant de publier du code ?</h2>
+
+            <p>Bien qu&rsquo;une pré-autorisation par défaut soit proposée par la DINSIC, il peut être nécessaire d&rsquo;obtenir l&rsquo;accord de votre supérieur hierarchique.</p>
+
+            <h2 id="mon-administration-n-a-pas-de-compte-d-organisation-sur-le-service-en-ligne-d-hébergement-de-code-que-je-souhaite-utiliser-que-faire">Mon administration n&rsquo;a pas de compte d&rsquo;organisation sur le service en ligne d&rsquo;hébergement de code que je souhaite utiliser. Que faire ?</h2>
+
+            <h2 id="je-n-ose-pas-faire-mon-premier-commit-en-public-puis-je-obtenir-de-l-aide">Je n&rsquo;ose pas faire mon premier commit en public, puis-je obtenir de l&rsquo;aide ?</h2>
+
+            <h2 id="j-ai-un-doute-sur-l-ouverture-d-un-code-source-vers-qui-puis-je-me-renseigner">J&rsquo;ai un doute sur l&rsquo;ouverture d&rsquo;un code source, vers qui puis-je me renseigner ?</h2>
+
+            <p>Si vous faites partie de l&rsquo;administration, vous pouvez contacter l&rsquo;adresse email de contact proposée dans la politique.</p>
+
+            <h2 id="puis-je-coder-dans-une-langue-autre-que-le-français">Puis-je coder dans une langue autre que le Français ?</h2>
+
+            <p>Le nom des variables et des fonctions, ainsi que les commentaires de code peuvent être redigés dans la langue de la communauté de développeurs visée. Toutefois, la documentation utilisateur devra être disponible en Français.</p>
 
           </div>
         </div>
@@ -186,13 +279,13 @@
 
           <div class="info-doc">
             <p>
-              <strong>Statut :</strong> Appel à commentaires
+              <strong>Statut :</strong> Fin de l’appel à commentaires
             </p>
             <p>
-              <strong>Version :</strong> v0.2
+              <strong>Version :</strong> v0.3
             </p>
             <p>
-              <strong>Publiée le :</strong> 26/01/2018
+              <strong>Publiée le :</strong> 29/01/2018
             </p>
             <p>
               <strong>Licence :</strong> Licence Ouverte 2.0

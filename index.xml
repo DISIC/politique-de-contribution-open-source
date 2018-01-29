@@ -17,8 +17,8 @@
       
       <guid>https://disic.github.io/politique-de-contribution-open-source/introduction/</guid>
       <description>Historique et versions
-   Version Commentaire Date     0.1 Initialisation 01/11/2017   0.2 Ouverture de l&amp;rsquo;appel à commentaires 06/12/2017    Ce document est en ALPHA, ie sous modification intensive sans nécessairement de changement de numéro de version.
-Objectifs Conformément à la Loi pour une République numérique du 7 octobre 2016, les codes sources sont des documents administratifs communicables et réutilisables. Dans le cas où il est possible de choisir une licence libre, le décret n° 2017-638 du 27 avril 2017 précise les familles de licences qui peuvent être utilisées.</description>
+   Version Commentaire Date     0.1 Initialisation 01/11/2017   0.2 Ouverture de l&amp;rsquo;appel à commentaires 06/12/2017   0.3 Fin de l&amp;rsquo;appel à commentaires 28/01/2018    Ce document est en ALPHA, ie sous modification intensive sans nécessairement de changement de numéro de version.
+Objectifs Conformément à la Loi pour une République numérique du 7 octobre 2016, les codes sources sont des documents administratifs communicables et réutilisables.</description>
     </item>
     
     <item>
@@ -27,7 +27,10 @@ Objectifs Conformément à la Loi pour une République numérique du 7 octobre 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://disic.github.io/politique-de-contribution-open-source/ouverture/</guid>
-      <description>En résumé  Principe de subsidiarité : la politique peut être instanciée localement avec une priorité plus forte Reconnaissance individuelle des développeurs Distinction des contributions professionnelles / personnelles Pas d&amp;rsquo;engagements (ni support / ni revue des suggestions de modification) Autorisation par défaut de contribuer aux projets sous license FSF ou OSI Autorisation par défaut de contribuer un nouveau projet avec les licences du décret Recommandation d&amp;rsquo;utiliser les familles de licences permissives dans le cas général Autorisation par défaut de signer un iCLA (individual CLA) avec les organismes pour lesquels la DINSIC a signé un global CLA Utilisation des DCO (developper&amp;rsquo;s certificate of origin) et ne pas exiger des CLA Support : Contacter opensource @ data.</description>
+      <description>Préambule Principe de subsidiarité La politique peut être instanciée localement avec une priorité plus forte.
+Voir la section instanciation si vous souhaitez décliner cette politique au sein de votre organisation.
+Assistance sur la politique de contribution Contacter opensource @ data.gouv.fr pour toute question sur cette politique.
+Principe de reconnaissance des contributions Attribuer les contributions aux individus Reconnaissance individuelle des développeurs : utilisation de leur adresse électronique pour tracer leurs contributions.</description>
     </item>
     
     <item>
@@ -57,7 +60,7 @@ Des compléments et ajustements peuvent être effectués avec une mise à jour d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://disic.github.io/politique-de-contribution-open-source/faq/</guid>
-      <description> Suis-je concerné(e) ? Doit-on utiliser son email pro pour contribuer à un projet open-source tiers sur lequel nous contribuons historiquement avec notre compte perso ? Comment choisir parmi les différentes licences proposées ?  </description>
+      <description>Suis-je concerné(e) par cette politique de contribution open source ? Comme indiqué dans l&amp;rsquo;introduction, si la loi République Numérique s&amp;rsquo;applique à toute l&amp;rsquo;administration, le périmètre de la DINSIC se concentre sur la fonction publique d&amp;rsquo;Etat (avec quelques exceptions selon le décret n° 2014-879 du 1er août 2014). Si vous faites partie d&amp;rsquo;une collectivité territoriale, cette politique ne vous concerne pas, bien que la loi République Numérique s&amp;rsquo;applique. Si vous faites partie d&amp;rsquo;un opérateur ou d&amp;rsquo;un établissement public sous la tutelle d&amp;rsquo;un ministère, vous êtes concernés.</description>
     </item>
     
     <item>
@@ -68,8 +71,7 @@ Des compléments et ajustements peuvent être effectués avec une mise à jour d
       <guid>https://disic.github.io/politique-de-contribution-open-source/readme/</guid>
       <description>Modalités d&amp;rsquo;ouverture des codes sources Bienvenue sur la politique de contribution aux logiciels libres de la DINSIC.
 Ce document est un travail en cours et une première version est planifiée pour fin février 2018.
- MISE A JOUR du 4 janvier 2018: L&amp;rsquo;appel à commentaire est prolongé jusqu&amp;rsquo;au 28 janvier 2018.
- L&amp;rsquo;objectif de ce document est de décrire COMMENT ouvrir les codes sources en respectant les bonnes pratiques.</description>
+ MISE A JOUR du 28 janvier 2018: L&amp;rsquo;appel à commentaire est maintenant terminé. Merci à tous pour vos contributions. Vous pouvez bien sûr continuer à nous faire part de vos suggestions et interrogations. La suite des travaux prévue est la suivante: * Prise en compte de tous les commentaires et préparation d&amp;rsquo;une version pour validation * Validation officielle de la politique lors d&amp;rsquo;une réunion interministérielle * Publication de la version validée fin février</description>
     </item>
     
     <item>

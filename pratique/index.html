@@ -71,10 +71,10 @@
 
       <div class="site-banner-note">
         <p>
-          <strong>Version :</strong> v0.2
+          <strong>Version :</strong> v0.3
         </p>
         <p>
-          <strong>Statut :</strong> Appel à commentaires
+          <strong>Statut :</strong> Fin de l’appel à commentaires
         </p>
 
       </div>
@@ -107,7 +107,7 @@
 
         <li class="nav-item">
           <a class="nav-link is-active" href="https://disic.github.io/politique-de-contribution-open-source/pratique/">
-          Meilleures pratiques
+          Bonnes pratiques
         </a>
         </li>
         <li class="nav-item">
@@ -119,6 +119,12 @@
         <li class="nav-item">
           <a class="nav-link" href="https://disic.github.io/politique-de-contribution-open-source/gouvernance/">
           Gouvernance
+        </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://disic.github.io/politique-de-contribution-open-source/faq/">
+          <abbr title="Foire aux questions">FAQ</abbr>
         </a>
         </li>
 
@@ -144,7 +150,7 @@
                     <ul>
                       <li><a href="#en-résumé">En résumé</a></li>
                       <li><a href="#système-de-suivi-de-version">Système de suivi de version</a></li>
-                      <li><a href="#aide-au-choix-de-la-plateforme">Aide au choix de la plateforme</a></li>
+                      <li><a href="#aide-au-choix-d-une-plateforme-web">Aide au choix d&rsquo;une plateforme Web</a></li>
                       <li><a href="#gestion-des-comptes-personnels-et-d-organisation">Gestion des comptes personnels et d&rsquo;organisation</a></li>
                       <li><a href="#inventaire-des-comptes-d-organisation">Inventaire des comptes d&rsquo;organisation</a></li>
                       <li><a href="#distinction-des-contributions-personnelles-professionnelles">Distinction des contributions personnelles / professionnelles</a></li>
@@ -204,24 +210,28 @@
 
             <p>L&rsquo;utilisation d&rsquo;un système de suivi de version distribué tel que git est recommandée. Les systèmes svn ou cvs sont déconseillés.</p>
 
-            <h2 id="aide-au-choix-de-la-plateforme">Aide au choix de la plateforme</h2>
+            <h2 id="aide-au-choix-d-une-plateforme-web">Aide au choix d&rsquo;une plateforme Web</h2>
 
-            <p>En plus du système de suivi de version de code source, une plateforme propose un ensemble d&rsquo;outils collaboratifs associés et vise une communauté de développeurs. Ces plateformes peuvent être hébergées par un tiers ou par une adminsitration.</p>
+            <p>En plus du système de suivi de version du code source, une plateforme Web propose une panoplie d&rsquo;outils collaboratifs associés et vise à mobiliser une communauté de développeurs. Ces plateformes peuvent être hébergées par un tiers ou
+              par l&rsquo;administration.</p>
 
-            <p>Des exemples de plateformes hébergées par un tiers sont :</p>
+            <p>Exemples de plateformes Web hébergées par un tiers :</p>
 
             <ul>
-              <li>Github : <a href="https://github.com/">https://github.com/</a></li>
-              <li>Gitlab : <a href="http://gitlab.com/">http://gitlab.com/</a></li>
-              <li>Framagit : <a href="http://framagit.org/">http://framagit.org/</a> (gitlab)</li>
-              <li>Adullact : <a href="http://gitlab.adullact.net/">http://gitlab.adullact.net/</a> (gitlab)</li>
-              <li>FSFE : <a href="https://git.fsfe.org/">https://git.fsfe.org/</a> (gitea)</li>
-              <li>FSF : <a href="https://git.savannah.gnu.org">https://git.savannah.gnu.org</a> (raw)</li>
+              <li>Github : <a href="https://github.com">https://github.com</a></li>
+              <li>Gitlab : <a href="http://gitlab.com">http://gitlab.com</a> (version entreprise)</li>
+              <li>Framagit : <a href="http://framagit.org">http://framagit.org</a> - utilisant <a href="https://about.gitlab.com/installation/">Gitlab</a></li>
+              <li>Adullact : <a href="http://gitlab.adullact.net">http://gitlab.adullact.net</a> - utilisant <a href="https://about.gitlab.com/installation/">Gitlab</a></li>
+              <li>FSFE : <a href="https://git.fsfe.org">https://git.fsfe.org</a> - utilisant <a href="https://gitea.io/">Gitea</a></li>
+              <li>FSF : <a href="https://git.savannah.gnu.org/cgit/">https://git.savannah.gnu.org/cgit/</a> - utilisant <a href="https://git.zx2c4.com/cgit/">cgit</a></li>
             </ul>
 
-            <p>Certaines sont libres, d&rsquo;autres publient leurs données anonymisées en open-data, leur portée géographique peut varier&hellip; La liste est incomplète.</p>
+            <p>Le code source de github.com n&rsquo;est pas libre tout comme certains modules de gitlab.com ; certaines plateformes publient des données anonymisées en open data ; leurs portées géographiques peuvent varier, de même que le nombre de développeurs
+              qui l&rsquo;utilisent. La liste est incomplète. Actuellement, github.com permet d&rsquo;atteindre la plus grande communauté de développeurs au plan international.</p>
 
-            <p>Actuellement, github offre la plus grande communuauté de développeurs au plan international.</p>
+            <p>Le choix de créer un compte d&rsquo;organisation au sein d&rsquo;une plateforme Web existante relève de l&rsquo;administration, qui peut également héberger sa propre forge publique.</p>
+
+            <p>Le positionnement d&rsquo;un projet sur une forge doit se faire en fonction du niveau de collaboration attendu et des interfaces avec les dépots privés et le reste de la plateforme de développement.</p>
 
             <h2 id="gestion-des-comptes-personnels-et-d-organisation">Gestion des comptes personnels et d&rsquo;organisation</h2>
 
@@ -234,7 +244,7 @@
             <p>Des réflexions sont en cours sur la capacité de proposer un inventaire automatique tant du point de vue des dépôts d&rsquo;organisation que de l&rsquo;inventaire des services.</p>
 
             <blockquote>
-              <p>Spécifiquement pour Github, référencer le compte d&rsquo;organisation comme un compte gouvernemental</p>
+              <p>Pour référencer le compte d&rsquo;organisation comme un compte gouvernemental dans Github :</p>
 
               <ul>
                 <li>Inscrivez vous si ce n&rsquo;est pas déjà fait dans la communauté <a href="https://github.com/government/welcome">https://github.com/government/welcome</a></li>
@@ -264,7 +274,7 @@
 
             <p><code>git config --get user.email</code></p>
 
-            <p>Les pseudonymes sont gérés de la même manière. Un email (ou alias) doit donc être mis à disposition par le ministère pour permettre l&rsquo;utilisation du pseudonyme.</p>
+            <p>Les pseudonymes sont gérés de la même manière. Une adresse électronique (ou alias) doit donc être mise à disposition par le ministère pour permettre l&rsquo;utilisation du pseudonyme.</p>
 
             <h2 id="aide-au-choix-de-la-licence">Aide au choix de la licence</h2>
 
@@ -383,7 +393,15 @@
                       <li><a href="http://pear.php.net/manual/en/standards.php">http://pear.php.net/manual/en/standards.php</a></li>
                     </ul>
                   </li>
-                  <li>choisir (pour un nouveau projet) et respecter une unique convention de nommage pour les constantes, les variables, les fonctions, <em>etc.</em>, respectueuse de la <em>convention de codage</em> utilisée pour le projet (voir [<a href="https://en.wikipedia.org/wiki/Naming_convention_(programming)]()">https://en.wikipedia.org/wiki/Naming_convention_(programming)]()</a>)</li>
+                  <li>choisir (pour un nouveau projet) et respecter une unique convention de nommage pour les constantes, les variables, les fonctions, <em>etc.</em>, respectueuse de la <em>convention de codage</em> utilisée pour le projet - voir <a href="https://fr.wikipedia.org/wiki/Convention_de_nommage">https://fr.wikipedia.org/wiki/Convention_de_nommage</a></li>
+                </ul>
+              </li>
+              <li>Respecter les référentiels en vigueur dans l&rsquo;administration
+
+                <ul>
+                  <li><a href="http://references.modernisation.gouv.fr/interoperabilite">Référentiel général d&rsquo;interopérabilité</a></li>
+                  <li><a href="http://references.modernisation.gouv.fr/rgaa-accessibilite/">Référentiel général d&rsquo;accessibilité pour les administrations</a></li>
+                  <li><a href="https://www.ssi.gouv.fr/administration/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/">Référentiel général de sécurité</a></li>
                 </ul>
               </li>
               <li>Découper et factoriser tant que possible le code en paquetages/bibliothèques/modules internes au projet afin de maximiser la réutilisation de code mais aussi d&rsquo;isoler les éventuelles sources d&rsquo;erreur; avoir recours à des dépôts
@@ -411,7 +429,7 @@
             <h2 id="sécurité">Sécurité</h2>
 
             <p>Il est recommandé d&rsquo;identifier un responsable de la sécurité du projet qui sera garant de vérifier le respect des bonnes pratiques mises en œuvre durant le développement, et de traiter les éventuels incidents de sécurité. Il est également
-              préférable d&rsquo;avoir recours à une adresse mail dédiée, à destination du responsable identifié au moins, pour traiter des incidents de sécurité qui se produiraient ou qui seraient découverts par un tiers.</p>
+              préférable d&rsquo;avoir recours à une adresse électronique dédiée, à destination du responsable identifié au moins, pour traiter des incidents de sécurité qui se produiraient ou qui seraient découverts par un tiers.</p>
 
             <h3 id="développement-sécurisé">Développement sécurisé</h3>
 
@@ -471,10 +489,12 @@ privilège</em>)</li>
 
             <ul>
               <li>Utiliser, le cas échéant, des logiciels et des bibliothèques tierces maintenus et à jour des correctifs sécurité; préférer des bibliothèques (re)connues, et les plus simples possibles</li>
-              <li>Utiliser les services d&rsquo;analyse de code offerts par la plateforme d&rsquo;hébergement (e.g. Github) et traiter systématiquement avant intégration les problèmes remontés</li>
-              <li>Ne pousser que des <em>commits</em> de code qui compilent, testés et fonctionnels, accompagnés des tests unitaires correspondants; certaines plateformes, comme Github, offrent la possibilité de rejouer automatiquement les tests unitaires
-                d&rsquo;un projet afin d&rsquo;assurer la non-régression (e.g <a href="https://docs.travis-ci.com/">Travis</a>, <a href="https://github.com/servo/homu">Homu</a>)</li>
-              <li>Créer un <em>tag</em> (e.g. v2.0.1) pour chaque version (e.g. 2.0.1), et le signer cryptographiquement (voir <a href="https://github.com/blog/2144-gpg-signature-verification">GPG signature verification</a>)</li>
+              <li>Utiliser les services d&rsquo;analyse de code offerts par la plateforme d&rsquo;hébergement et traiter systématiquement avant intégration les problèmes remontés</li>
+              <li>Ne pousser que des <em>commits</em> de code qui compilent, testés et fonctionnels, accompagnés des tests unitaires correspondants ; certaines plateformes offrent la possibilité de rejouer automatiquement les tests unitaires d&rsquo;un projet
+                afin d&rsquo;assurer la non-régression (e.g <a href="https://docs.travis-ci.com/">Travis</a>,
+                <a href="https://github.com/servo/homu">Homu</a>)</li>
+              <li>Créer un <em>tag</em> (e.g. v2.0.1) pour chaque version (e.g. 2.0.1), et le signer cryptographiquement (voir <a href="https://github.com/blog/2144-gpg-signature-verification">GPG signature
+verification</a>)</li>
               <li>Respecter les recommandations et bonnes pratiques de sécurité émises par l&rsquo;ANSSI applicables au projet
 
                 <ul>
@@ -513,13 +533,13 @@ privilège</em>)</li>
 
           <div class="info-doc">
             <p>
-              <strong>Statut :</strong> Appel à commentaires
+              <strong>Statut :</strong> Fin de l’appel à commentaires
             </p>
             <p>
-              <strong>Version :</strong> v0.2
+              <strong>Version :</strong> v0.3
             </p>
             <p>
-              <strong>Publiée le :</strong> 26/01/2018
+              <strong>Publiée le :</strong> 29/01/2018
             </p>
             <p>
               <strong>Licence :</strong> Licence Ouverte 2.0
