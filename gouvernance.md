@@ -23,11 +23,12 @@ L'ensemble des contributeurs avec les droits d'écriture sont listés dans le fi
 
 ## Gestion des versions
 
-Celle-ci peut être modifiée pour des changements mineurs (coquilles, etc.) sans mise à jour de version.
+La politique de contribution open source peut être modifiée pour des changements légers (coquilles, etc.) sans mise à jour de version.
 
 Des compléments et ajustements peuvent être effectués avec une mise à jour du MINEUR du numéro de version directement par la DINSIC et la revue d'un ministère.
 
 Des modifications de règles ou ajouts de règles substantielles nécessitent l'accord de la DINSIC et de 3 ministères au moins pour être validées avec une mise à jour du MAJEUR du numéro de version.
 
-Toutes les modifications peuvent être faites au fil de l'eau. Les discussions et commentaires sont tracées dans les commentaires de la *pull request*.
+Chaque mise à jour de la version, mineure ou majeure, entraîne l'ajout d'un tag sur le commit correspondant.  Par exemple, la version `0.3` est taggée `v0.3` suivant le schéma `v[MAJEUR].[MINEUR]`.
 
+Toutes les modifications peuvent être faites au fil de l'eau. Les discussions et commentaires sont tracées dans les commentaires de la *pull request*.
