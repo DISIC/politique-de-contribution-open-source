@@ -59,7 +59,7 @@ d'organisation que de l'inventaire des services.
 
 ## Distinction des contributions personnelles / professionnelles
 
-Utilisation du compte professionnel, par exemple avec un mail en ```.gouv.fr``` ou ```.cnrs.fr```.
+Utilisation du compte professionnel, par exemple avec une adresse électronique en ```.gouv.fr``` ou ```.cnrs.fr```.
 
 Créer le dépôt, configuré de la manière suivante :
 
