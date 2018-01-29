@@ -4,12 +4,18 @@ weight: 50
 menuName: gouvernance
 ---
 
-Deux types d'organisations sont distinguées :
+## Parties prenantes 
+
+La DINSIC maintient ce document et en est responsable (elle est propriétaire du dépôt pour la gestion des droits d'écriture) mais l'élaboration de celui-ci a vocation à être collaborative et les entités auxquelles il s'applique sont toutes invitées à participer à son évolution.
+
+Deux types d'organisations sont distingués :
 
 * Interministériel : DINSIC et ANSSI
 * Ministère
 
-avec un seul rôle par organisation (droit d'écriture sur cette politique). La DINSIC est propriétaire du dépôt pour la gestion des droits d'écriture et est la responsable de cette politique de contribution.
+avec un seul rôle par organisation (droit d'écriture sur cette politique). L'ensemble des contributeurs avec les droits d'écriture sont listés dans le fichier [MAINTAINERS](MAINTAINERS)
+
+## Gestion des numéros de version
 
 Celle-ci peut être modifiée pour des changements mineurs (coquilles, etc.) sans mise à jour version (les numéros de PATCH de semver sont ignorés).
 
@@ -19,4 +25,4 @@ Des modifications de règles ou ajout de règles substantielles nécessitent l'a
 
 Toutes les modifications peuvent être faites au fil de l'eau. Les discussions et commentaires sont tracées dans les commentaires de la pull request.
 
-L'ensemble des contributeurs avec les droits d'écriture sont listés dans le fichier [MAINTAINERS](MAINTAINERS)
+

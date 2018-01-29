@@ -6,7 +6,7 @@ menuName: faq
 
 ## Suis-je concerné(e) par cette politique de contribution open source ?
 
-Comme indiqué dans l'introduction, si la loi République Numérique s'applique à toute l'administration, le périmètre de la DINSIC se concentre sur la fonction publique d'État (avec quelques exceptions selon le décret n° 2014-879 du 1er août 2014). Si vous faites partie d'une collectivité territoriale, cette politique ne vous concerne pas, bien que la loi République Numérique s'applique. Si vous faites partie d'un opérateur ou d'un établissement public sous la tutelle d'un ministère, vous êtes concernés.
+Comme indiqué dans l'introduction, si la loi République Numérique s'applique à toute l'administration, le périmètre de la DINSIC se concentre sur la fonction publique d'État (avec quelques exceptions selon le décret n° 2014-879 du 1er août 2014). Si vous faites partie d'une collectivité territoriale, cette politique ne vous concerne pas, bien que la loi République Numérique s'applique. Si vous faites partie d'un opérateur ou d'un établissement public sous la tutelle d'un ministère, vous êtes concerné.
 
 
 ### et si j'appartiens à un établissement de recherche ?
@@ -16,7 +16,7 @@ La loi République Numérique s'applique de la même manière.
 
 ### et si je suis salarié d'une ESN / SSII ?
 
-Si vous intervenez dans le cadre d'un marché public, vous êtes concernés. Toutefois, le détail des obligations contractuelles dépendra du CCTP et du CCAP.
+Si vous intervenez dans le cadre d'un marché public, vous êtes concerné. Toutefois, le détail des obligations contractuelles dépendra du CCTP et du CCAP.
 
 
 ### et si je suis indépendant / auto-entrepreneur ?
@@ -79,4 +79,4 @@ Si vous faites partie de l'administration, vous pouvez contacter l'adresse élec
 
 ## Puis-je coder dans une langue autre que le Français ?
 
-Le nom des variables et des fonctions, ainsi que les commentaires de code peuvent être rédigés dans la langue de la communauté de développeurs visée. Toutefois, la documentation utilisateur devra être disponible en Français.
+Le nom des variables et des fonctions, ainsi que les commentaires de code peuvent être rédigés dans la langue de la communauté de développeurs visée. Toutefois, la documentation utilisateur devra être disponible en français.
