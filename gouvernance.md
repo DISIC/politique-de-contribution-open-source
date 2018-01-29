@@ -4,12 +4,17 @@ weight: 50
 menuName: gouvernance
 ---
 
+## Parties prenantes 
+
+La DINSIC maintient ce document et en est responsable (elle est propriétaire du dépôt pour la gestion des droits d'écriture) mais l'élaboration de celui-ci a vocation à être collaborative et les entités auxquelles il s'applique sont toutes invitées à participer à son évolution.
+
 Deux types d'organisations sont distinguées :
 
 * Interministériel : DINSIC et ANSSI
 * Ministère
 
-avec un seul rôle par organisation (droit d'écriture sur cette politique). La DINSIC est propriétaire du dépôt pour la gestion des droits d'écriture et est la responsable de cette politique de contribution.
+avec un seul rôle par organisation (droit d'écriture sur cette politique). L'ensemble des contributeurs avec les droits d'écriture sont listés dans le fichier [MAINTAINERS](MAINTAINERS).
+
 
 ## Gestion des contributions et maintenance
 
@@ -18,8 +23,6 @@ Toutes les contributions sont les bienvenues.  Elles sont faites via une *pull r
 Les `pull request` apportant des modifications **mineures** peuvent ensuite être fusionnées sur la branche `master` par l'un des mainteneurs.
 
 Les `pull request` apportant des modifications **majeures** doivent au préalable être approuvées par au moins trois mainteneurs via le système de vote des issues github.
-
-L'ensemble des contributeurs avec les droits d'écriture sont listés dans le fichier [MAINTAINERS](MAINTAINERS).
 
 ## Gestion des versions
 
