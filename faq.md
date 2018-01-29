@@ -34,7 +34,7 @@ L'obligation d'ouverture des codes est liée à la loi République Numérique. D
 Si vous faites partie de l'administration, vous pouvez contacter l'adresse électronique de contact proposée dans la politique.
 
 
-## Quelle adresse électronique utiliser pour contribuer à un projet&nbsp;?
+## Quelle adresse électronique utiliser pour contribuer à un projet ?
 
 Tout est détaillé dans la page `Ouverture / Attribuer les contributions aux individus`
 
