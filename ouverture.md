@@ -8,9 +8,9 @@ menuName: ouverture
 
 ### Principe de subsidiarité
 
-La politique peut être instanciée localement avec une priorité plus forte.
+La politique peut être adaptée localement avec une priorité plus forte.
 
-Voir la section [instanciation](Instanciation.md) si vous souhaitez décliner cette politique au sein de votre organisation.
+Voir la section [adaptation](adaptation.md) si vous souhaitez adapter cette politique à votre organisation.
 
 ### Assistance sur la politique de contribution
 

@@ -34,7 +34,7 @@ ou contractuels) ou prestataires.
 
 Cette politique de contribution s'applique au système d'information et de communication de l'État 
 conformément à l'article 1er du [décret n° 2014-879 du 1er août 2014][DecretDINSIC link]. Chaque administration de l'État 
-a la possibilité d'instancier sa propre politique de contribution pour la préciser et l'amender. 
+a la possibilité d'adapter cette politique de contribution à ses besoins. 
 
 Sont concernés l'ensemble des codes sources :
 
@@ -51,7 +51,7 @@ La politique de contribution est composée de :
 
  * [Principes d’ouverture des codes sources]({{< relref "ouverture.md" >}} )
  * [Modalités et bonnes pratiques]({{< relref "pratique.md" >}})
- * [Instanciation de politique de contribution ministérielle]({{< relref "instanciation.md" >}})
+ * [Instanciation de politique de contribution ministérielle]({{< relref "adaptation.md" >}})
  * [Gouvernance associée]({{< relref "gouvernance.md" >}})
 
 ## Responsabilité du document
