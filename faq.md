@@ -29,7 +29,7 @@ Si vous travaillez pour une administration au périmètre de la DINSIC, vous êt
 L'obligation d'ouverture des codes est liée à la loi République Numérique. Différents décrets d'application séquencent les obligations d'ouverture.
 
 
-## J'ai besoin d'une aide juridique sur une licence open-source, qui puis-je contacter ? 
+## J'ai besoin d'une aide juridique sur une licence Open Source, qui puis-je contacter ? 
 
 Si vous faites partie de l'administration, vous pouvez contacter l'adresse email de contact proposée dans la politique.
 
