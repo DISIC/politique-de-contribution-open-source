@@ -10,6 +10,7 @@ __Historique et versions__
 | --------|-------------------------------------------------|------------|
 | 0.1     | Initialisation                                  | 01/11/2017 |
 | 0.2     | Ouverture de l'appel à commentaires             | 06/12/2017 |
+| 0.3     | Fin de l'appel à commentaires                   | 28/01/2018 |
 
 Ce document est en *ALPHA*, ie sous modification intensive sans nécessairement de changement de numéro de version.
 
