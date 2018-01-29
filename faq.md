@@ -1,7 +1,7 @@
 ---
 title: Foire aux questions
-weight: 50
-menuName: FAQ
+weight: 70
+menuName: faq
 ---
 
 * Suis-je concerné(e) par cette politique de contribution open source ?
