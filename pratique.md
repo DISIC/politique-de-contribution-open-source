@@ -159,12 +159,14 @@ L'ouverture du code vient par ailleurs amplifier l'importance de certaines de ce
 
 ## Sécurité
 
+### Interlocuteur identifié
+
  Il est recommandé d'identifier un responsable de la sécurité du
  projet qui sera garant de vérifier le respect des bonnes pratiques
  mises en œuvre durant le développement, et de traiter les éventuels
  incidents de sécurité. Il est également préférable d'avoir recours à
  une adresse électronique dédiée, à destination du responsable identifié au
- moins, pour traiter des incidents de sécurité qui se produiraient ou
+ moins, pour traiter des incidents de sécurité ou des problèmes liés à la propriété intellectuelle
  qui seraient découverts par un tiers.
 
 ### Développement sécurisé
@@ -177,30 +179,22 @@ L'ouverture du code vient par ailleurs amplifier l'importance de certaines de ce
      * [Importance des langages pour la sécurité](https://www.ssi.gouv.fr/agence/publication/mind-your-languages-nouvel-article-sur-limportance-des-langages-pour-la-securite/)
      * [Sécurité et langage Java](https://www.ssi.gouv.fr/javasec/)
      * [Sécurité et langages fonctionnels](https://www.ssi.gouv.fr/lafosec/)
- * Éliminer tous les messages de *debug* (par compilation
+
+* Éliminer tous les messages de *debug* (par compilation
    conditionnelle ou par un contrôle via une variable à l'exécution) et toute
    information inutile pour l'utilisateur dans les messages d'erreur
    (e.g.  trace d'appel Java/PHP/Python) lors de la mise en production
+
  * Éliminer tout le code mort (*i.e.* code non appelé/non
    atteignable) car il pourrait prêter à confusion et/ou laisser
-   penser qu'il est toujours fonctionnel et testé ; ce code, non
+   penser qu'il est toujours fonctionnel et testé ; ce code, non
    maintenu, pourrait être réintégré à tort par un développeur
- * Restreindre au strict nécessaire les droits/privilèges attribués
-   à chaque module/processus (*i.e.* appliquer une politique de *moindre
-   privilège*)
- * Les appels à des fonctions d'exécution de commande système (`exec`,
-   `system`, *etc*) doivent être proscrits ; si un usage légitime se
-   présente:
-     * isoler cet appel dans un module/processus disposant
-       **uniquement** des privilèges **strictement nécessaires** aux
-       commandes exécutées
-     * effectuer un contrôle très strict (e.g. par liste blanche), à défaut d'avoir des
-       commandes constantes/fixes, de tous les paramètres passés afin
-       d'empêcher l'exécution de commandes arbitraires par un
-       attaquant
- * Toutes les entrées externes (e.g. de l'utilisateur) doivent être
-   filtrées en explicitant uniquement les cas acceptés (filtrage par
-   liste blanche) **avant** leur manipulation/stockage
+ 
+ * Toutes les entrées externes (e.g. de l’utilisateur) doivent être contrôlées avant leur utilisation ou leur stockage, selon les bonnes pratiques de sécurité en fonction de leur destination.
+ 
+### Ne pas compter sur la sécurité par l'obscurité
+
+La sécurité par l'obscurité est globalement reconnue comme une pratique insuffisante, mais dans le cas d'un projet dont le code est ouvert, cette stratégie est caduque. Elle doit donc être remplacée par d'autres stratégies plus robustes comme par exemple la défense en profondeur.
 
 ### Données secrètes/sensibles, cryptographie
 
