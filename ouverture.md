@@ -20,18 +20,17 @@ Contacter `opensource @ data.gouv.fr` pour toute question sur cette politique.
 
 ### Attribuer les contributions aux individus
 
-Reconnaissance individuelle des développeurs : utilisation de leur adresse électronique pour tracer leurs contributions.
+Afin de reconnaître la paternité des contributions, l'adresse électronique individuelle du développeur est utilisée:
 
  * Pour les agents : utilisation de l'adresse électronique professionnelle.
  * Pour les prestataires de services, utilisation de l'adresse électronique de leur société d'attachement (pas d'adresse prestataire fournie par l'administration)
 
-Possibilité d'utiliser des pseudonymes.
-
-Pas d'utilisation d'adresses électroniques génériques ou anonymes.
+Toutefois, au cas où un développeur ne souhaiterait pas voir son identité publiée, il peut utiliser un pseudonyme.
+En revanche, l'utilisation d'adresses électroniques génériques ou anonymes est à proscrire.
  
 ### Distinguer les contributions professionnelles et personnelles
 
-Possibilité de contribuer sur un même projet dans le cadre du milieu professionnel ou à titre personnel. L'adresse électronique professionnelle doit être utilisée sur le temps professionnel.
+Il est possible pour un développeur de contribuer sur un même projet dans le cadre du milieu professionnel et à titre personnel, l'État reconnaissant aux développeurs la propriété sur les contributions réalisées en dehors du temps de travail. Les contributions réalisées sur le temps professionnel doivent être associées à une adresse électronique professionnelle.
 
 ## Contribuer à des projets tiers
 
