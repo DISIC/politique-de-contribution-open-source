@@ -207,10 +207,22 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
      * [Importance des langages pour la sécurité](https://www.ssi.gouv.fr/agence/publication/mind-your-languages-nouvel-article-sur-limportance-des-langages-pour-la-securite/)
      * [Sécurité et langage Java](https://www.ssi.gouv.fr/javasec/)
      * [Sécurité et langages fonctionnels](https://www.ssi.gouv.fr/lafosec/)
+
+* Éliminer tous les messages de *debug* (par compilation
+   conditionnelle ou par un contrôle via une variable à l'exécution) et toute
+   information inutile pour l'utilisateur dans les messages d'erreur
+   (e.g.  trace d'appel Java/PHP/Python) lors de la mise en production
+
+ * Éliminer tout le code mort (*i.e.* code non appelé/non
+   atteignable) car il pourrait prêter à confusion et/ou laisser
+   penser qu'il est toujours fonctionnel et testé ; ce code, non
+   maintenu, pourrait être réintégré à tort par un développeur
+ 
+ * Toutes les entrées externes (e.g. de l’utilisateur) doivent être contrôlées avant leur utilisation ou leur stockage, selon les bonnes pratiques de sécurité en fonction de leur destination.
  
 ### Ne pas compter sur la sécurité par l'obscurité
 
-La sécurité par l'obscurité est globalement reconnue comme une pratique insuffisante, mais dans le cas d'un projet dont le code est ouvert, cette stratégie complètement caduque. Elle doit donc être remplacée par d'autres stratégies plus robustes.
+La sécurité par l'obscurité est globalement reconnue comme une pratique insuffisante, mais dans le cas d'un projet dont le code est ouvert, cette stratégie est caduque. Elle doit donc être remplacée par d'autres stratégies plus robustes comme par exemple la défense en profondeur.
 
 ### Données secrètes/sensibles, cryptographie
 
