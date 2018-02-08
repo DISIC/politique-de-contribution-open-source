@@ -12,7 +12,7 @@ __Historique et versions__
 | 0.2     | Ouverture de l'appel à commentaires             | 06/12/2017 |
 | 0.3     | Fin de l'appel à commentaires                   | 28/01/2018 |
 
-Ce document est en *ALPHA*, ie sous modification intensive sans nécessairement de changement de numéro de version.
+Ce document est en __beta__, c'est à dire avec des modifications possibles sans nécessairement de changement de numéro de version.
 
 ## Objectifs
 
