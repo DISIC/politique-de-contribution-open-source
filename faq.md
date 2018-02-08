@@ -27,9 +27,11 @@ Si vous travaillez pour une administration relevant du périmètre de la DINSIC,
 
 ### Quels sont les codes qui ont vocation à être ouverts ?
 
-L'obligation d'ouverture des codes est liée à la loi République Numérique. Tout code écrit dans le cadre d'une mission de service publique est potentiellement communicable, aux exceptions suivantes près : 
+L'obligation d'ouverture des codes est liée à la loi République Numérique qui prévoit une ouverture progressive jusqu'au 7 octobre 2018. A
+cette date, une ouverture par défaut est prévue pour tous les codes qui revêtent un intérêt économique, social, 
+sanitaire ou environnemental. Tout code écrit dans le cadre d'une mission de service publique est potentiellement communicable et réutilisable à d'autres fins, aux exceptions suivantes près : 
 
-- Le code doit être achevé
+- Le code doit être achevé (i.e. mis en production)
 - Sa communication ne doit pas porter atteinte à : 
     - Un secret protégé par la loi (secret commercial ou industriel d'un tiers, etc.)
     - La sûreté de l'État, la sécurité publique, des personnes  ou des systèmes d'information des administrations
@@ -37,7 +39,7 @@ L'obligation d'ouverture des codes est liée à la loi République Numérique. T
 
 ### J'ai un doute sur l'ouverture d'un code source, vers qui puis-je me renseigner ?
 
-Si vous faites partie de l'administration, vous pouvez contacter l'adresse électronique de contact proposée dans la politique.
+Vous pouvez contacter l'adresse électronique de contact proposée dans la politique.
 
 
 ## Licences
@@ -50,7 +52,7 @@ N'hésitez pas à revenir vers nous en utilisant l'adresse de contact pour toute
 
 ### J'ai besoin d'une aide juridique sur une licence Open Source, qui puis-je contacter ?
 
-Si vous faites partie de l'administration, vous pouvez contacter l'adresse électronique de contact proposée dans la politique.
+Vous pouvez contacter l'adresse électronique de contact proposée dans la politique.
 
 ## Identité électronque
 
@@ -85,6 +87,11 @@ Bien qu'une pré-autorisation par défaut soit proposée par la DINSIC, il peut 
 Si votre administration dispose d'un compte sur une autre plate-forme, contactez le responsable de ce compte. Si ce n'est pas le cas, contactez l'adresse électronique de contact proposée dans la politique.
 
 ### Je n'ose pas faire mon premier commit en public, puis-je obtenir de l'aide ?
+
+Si vous avez une contribution disponible sur un dépôt privé, il est possible et encouragé de demander une revue par les pairs. Nous vous
+conseillons d'identifier quelqu'un au plus proche de votre structure qui a déjà contribué publiquement pour qu'il puisse vous aider. Si 
+toutefois vous ne parvenez pas à identifier quelqu'un, vous pouvez contacter l'adresse électronique de contact proposée dans la politique
+pour que nous puissions vous aider à trouver des pairs.
 
 ### Puis-je coder dans une langue autre que le français ?
 
