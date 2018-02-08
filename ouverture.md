@@ -8,9 +8,9 @@ menuName: ouverture
 
 ### Principe de subsidiarité
 
-La politique peut être instanciée localement avec une priorité plus forte.
+La politique peut être adaptée localement avec une priorité plus forte.
 
-Voir la section [instanciation](Instanciation.md) si vous souhaitez décliner cette politique au sein de votre organisation.
+Voir la section [adaptation](adaptation.md) si vous souhaitez adapter cette politique à votre organisation.
 
 ### Assistance sur la politique de contribution
 
@@ -37,12 +37,12 @@ Possibilité de contribuer sur un même projet dans le cadre du milieu professio
 
 ### Autorisation par défaut de contribuer à des projets sous licence FSF ou OSI
 
-Les licences validées par les organismes Free Software Foundation et Open Source Initiative et recensées sur leurs pages respectives :
+Les licences validées par les organismes Free Software Foundation et Open Source Initiative sont recensées sur leurs pages respectives :
 
  * FSF : https://www.gnu.org/licenses/license-list.fr.html (en excluant les licences non libres présentées comme telles) ;
  * OSI : https://opensource.org/licenses/alphabetical.
 
-À l'inverse les licences de type beerware ne rentrent pas dans le cadre de l'autorisation par défaut (et ne devraient pas être utilisées).
+À l'inverse les licences de type gratuiciel (*freeware*) ne rentrent pas dans le cadre de l'autorisation par défaut.
 
 ### Signature des *Corporate Contributor License Agreement*
 

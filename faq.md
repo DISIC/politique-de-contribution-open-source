@@ -6,7 +6,7 @@ menuName: faq
 
 ## Suis-je concerné(e) par cette politique de contribution open source ?
 
-Comme indiqué dans l'introduction, si la loi République Numérique s'applique à toute l'administration, le périmètre de la DINSIC se concentre sur la fonction publique d'État (avec quelques exceptions selon le décret n° 2014-879 du 1er août 2014). Si vous faites partie d'une collectivité territoriale, cette politique ne vous concerne pas, bien que la loi République Numérique s'applique. Si vous faites partie d'un opérateur ou d'un établissement public sous la tutelle d'un ministère, vous êtes concernés.
+Comme indiqué dans l'introduction, si la loi République Numérique s'applique à toute l'administration, le périmètre de la DINSIC se concentre sur la fonction publique d'État (avec quelques exceptions selon le décret n° 2014-879 du 1er août 2014). Si vous faites partie d'une collectivité territoriale, cette politique ne vous concerne pas, bien que la loi République Numérique s'applique. Si vous faites partie d'un opérateur ou d'un établissement public sous la tutelle d'un ministère, vous êtes concerné.
 
 
 ### et si j'appartiens à un établissement de recherche ?
@@ -63,7 +63,7 @@ N'hésitez pas à revenir vers nous en utilisant l'adresse de contact pour toute
 
 ## Dois-je obtenir une validation avant de publier du code ?
 
-Bien qu'une pré-autorisation par défaut soit proposée par la DINSIC, il peut être nécessaire d'obtenir l'accord de votre supérieur hierarchique.
+Bien qu'une pré-autorisation par défaut soit proposée par la DINSIC, il peut être nécessaire d'obtenir l'accord de votre supérieur hiérarchique.
 
 
 ## Mon administration n'a pas de compte d'organisation sur le service en ligne d'hébergement de code que je souhaite utiliser. Que faire ?
@@ -77,6 +77,6 @@ Bien qu'une pré-autorisation par défaut soit proposée par la DINSIC, il peut 
 Si vous faites partie de l'administration, vous pouvez contacter l'adresse électronique de contact proposée dans la politique.
 
 
-## Puis-je coder dans une langue autre que le Français ?
+## Puis-je coder dans une langue autre que le français ?
 
-Le nom des variables et des fonctions, ainsi que les commentaires de code peuvent être rédigés dans la langue de la communauté de développeurs visée. Toutefois, la documentation utilisateur devra être disponible en Français.
+Le nom des variables et des fonctions, ainsi que les commentaires de code peuvent être rédigés dans la langue de la communauté de développeurs visée. Toutefois, la documentation utilisateur devra être disponible en français.
