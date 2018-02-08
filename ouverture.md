@@ -45,9 +45,17 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
 
 ### Signature des *Corporate Contributor License Agreement*
 
-À ce stade aucun corporate contributor license agreement (CLA) n'a été signé avec des communautés, ce qui permettrait de faciliter et de pré-autoriser la signature de CLA individuels.
+La DINSIC prend en charge de signer les accords de contributions spécifiques (Corporate Contributor License Agreement ou CCLA) avec les
+communautés ou les entreprises qui l'exigent, afin de permettre les contributions des agents à titre professionnel aux projets concernés. Si
+cela est demandé par l'autre partie, elle maintiendra les listes d'individus couverts par l'accord. Une autre possibilité est que l'accord
+de CCLA soit un pré-requis à la signature d'un Contributor License Agreement individuel (iCLA). Dans ce cas, la signature d'un CCLA par la
+DINSIC vaudra pré-autorisaiton pour la signature d'iCLA.
 
-La DINSIC prendra contact et établira les communautés prioritaires avec qui ces contributions seront facilitées.
+Si vous souhaitez contribuer à un projet réclamant ce type de formalisme, que ce soit pour signer un CCLA, vous rajouter à la liste des contributeurs autorisés, ou vérifier la possibilité de signer un iCLA, contactez l'adresse d'assistance indiquée plus haut.
+
+Liste des CCLA signés:
+
+ * A ce stade, aucun CCLA n'a encore été signé par la DINSIC.
 
 ## Contribuer en publiant un nouveau projet
 
