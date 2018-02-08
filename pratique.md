@@ -45,23 +45,23 @@ d'organisation que de l'inventaire des services.
 
 ## Distinction des contributions personnelles / professionnelles
 
-Utilisation du compte professionnel, par exemple avec une adresse électronique en ```.gouv.fr``` ou ```.cnrs.fr```.
+La distinction entre contributions personnelles et professionnelles se base sur l'adresse électronique associée.
+Le contributeur doit donc changer celle-ci en fonction de la situation où il se trouve. 
+Dans le cas de l'utilisation de `git`, cela peut se faire simplement :
 
-Créer le dépôt, configuré de la manière suivante :
-
-* Dépôt professionnel
+* Pour une contribution professionnelle :
 
 `git config user.email <prenom.nom@ministere.gouv.fr>`
 
-* Dépôt personnel
+* Pour une contribution personnelle : 
 
 `git config user.email <email@perso.fr>`
 
-Afin de vérifier que la commande a bien été prise en compte :
+Pour connaître l'adresse électronique actuellement utilisée :
 
 `git config --get user.email`
 
-Les pseudonymes sont gérés de la même manière. Une adresse électronique (ou alias) doit donc être mise à disposition par le ministère pour permettre l'utilisation du pseudonyme.
+Dans les cas où le contributeur ne souhaite pas voir son identité personnelle attachée à sa contribution, une adresse électronique (ou alias) devra être mise à disposition par le ministère pour permettre l'utilisation d'un pseudonyme. Attention certains projets open source peuvent refuser les contributions sous pseudonyme.
 
 ## Aide au choix de la licence
 
