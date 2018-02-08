@@ -61,7 +61,7 @@ Pour connaître l'adresse électronique actuellement utilisée :
 
 `git config --get user.email`
 
-Dans les cas où le contributeur ne souhaite pas voir son identité personnelle attachée à sa contribution, une adresse électronique (ou alias) devra être mise à disposition par le ministère pour permettre l'utilisation d'un pseudonyme. On notera cependant que certains projets open source refusent les contributions anonymes ou sous pseudonyme.
+Dans les cas où le contributeur ne souhaite pas voir son identité personnelle attachée à sa contribution, une adresse électronique (ou alias) devra être mise à disposition par le ministère pour permettre l'utilisation d'un pseudonyme. Attention certains projets open source peuvent refuser les contributions sous pseudonyme.
 
 ## Aide au choix de la licence
 
