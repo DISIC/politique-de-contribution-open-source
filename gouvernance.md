@@ -29,6 +29,6 @@ Seules la DINSIC et l'ANSSI peuvent fusionner sur la branche `master`qui corresp
 
  * A chaque fusion sur la branche `master`un tag est ajouté suivant le schéma `v[MAJEUR].[MINEUR]` en fonction des *pull requests* approuvées sur la branche `next`. 
 
- * La politique de contribution open-source peut être modifiée pour des changements légers (coquilles, etc.) sans mise à jour version (les numéros de PATCH de semver sont ignorés) directement sur la branche `master`.
+ * La politique de contribution open source peut être modifiée pour des changements légers (coquilles, etc.) sans mise à jour version (les numéros de PATCH de semver sont ignorés) directement sur la branche `master`.
 
 Toutes les modifications peuvent être faites au fil de l'eau. Les discussions et commentaires sont tracées dans les commentaires de la *pull request*.
