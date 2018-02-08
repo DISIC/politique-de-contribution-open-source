@@ -146,44 +146,17 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
 
 ## Bonnes pratiques de développement
 
- * Ecrire du code lisible et intelligible
-   * choisir (pour un nouveau projet) et respecter une unique
-     convention de développement (*coding style*) au sein d'un même projet
-     * [https://github.com/google/styleguide](https://github.com/google/styleguide)
-     * [https://www.gnu.org/prep/standards/](https://www.gnu.org/prep/standards/)
-     * [https://www.kernel.org/doc/Documentation/process/coding-style.rst](https://www.kernel.org/doc/Documentation/process/coding-style.rst)
-     * [http://www.php-fig.org/psr/psr-2/](http://www.php-fig.org/psr/psr-2/)
-     * [http://pear.php.net/manual/en/standards.php](http://pear.php.net/manual/en/standards.php)
-   * choisir (pour un nouveau projet) et respecter une unique
-     convention de nommage pour les constantes, les variables, les
-     fonctions, *etc.*, respectueuse de la *convention de codage*
-     utilisée pour le projet - voir [https://fr.wikipedia.org/wiki/Convention_de_nommage](https://fr.wikipedia.org/wiki/Convention_de_nommage)
- * Respecter les référentiels en vigueur dans l'administration
-   * [Référentiel général d'interopérabilité](http://references.modernisation.gouv.fr/interoperabilite)
-   * [Référentiel général d'accessibilité pour les administrations](http://references.modernisation.gouv.fr/rgaa-accessibilite/)
-   * [Référentiel général de sécurité](https://www.ssi.gouv.fr/administration/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/)
- * Découper et factoriser tant que possible le code en
-   paquetages/bibliothèques/modules internes au projet afin de
-   maximiser la réutilisation de code mais aussi d'isoler les
-   éventuelles sources d'erreur; avoir recours à des dépôts distincts
-   facilite ce cloisonnement
- * Documenter, hors du code et des commentaires
-     * l'architecture logicielle du projet (*i.e.* découpage en modules
-       fonctionnels et/ou avec des privilèges particuliers)
-     * les interfaces exposées par chaque module, la nature et le
-       format des informations échangées/stockées
-     * les processus d'installation, de configuration et de mise en
-       production
- * Commenter le code pour les comportements non triviaux comme :
-     * les effets de bord sur des paramètres passés par référence à
-       une fonction
-     * les conditions d'usage qui ne peuvent être assurées par un
-       typage approprié et les effets associés en cas de non-respect ;
-       par exemple, une fonction qui réalise une division pour
-       laquelle la charge incombe à l'appelant de vérifier que le
-       dénominateur n'est pas nul sous peine de générer une erreur à
-       l'exécution
+Les bonnes pratiques de développement courantes s'appliquent également en contexte de développement ouvert, et notamment celles liées au respect des référentiels en vigueur dans l'administration
+ * [Référentiel général d'interopérabilité](http://references.modernisation.gouv.fr/interoperabilite)
+ * [Référentiel général d'accessibilité pour les administrations](http://references.modernisation.gouv.fr/rgaa-accessibilite/)
+ * [Référentiel général de sécurité](https://www.ssi.gouv.fr/administration/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/)
 
+L'ouverture du code vient par ailleurs amplifier l'importance de certaines de ces bonnes pratiques : 
+
+* **Documentation**, à l'intérieur du code (commentaires et messages de *commit*) et hors du code.
+* **Conformité juridique** dans l'utilisation de bibliothèques tierces. La très grande majorité des développements actuels reposant sur des bibliothèques Open Source tierces, il est nécessaire de s'assurer de la compatibilité de leurs licences respectives et du respect des obligations de celles-ci.
+* **Modularisation des développements** afin de maximiser la réutilisation de code mais aussi d'isoler les éventuelles sources d'erreur
+* **Respect d'une unique convention de développement** par projet.  
 
 ## Sécurité
 
