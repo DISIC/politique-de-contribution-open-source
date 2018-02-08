@@ -46,9 +46,8 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
 
 ### Signature des *Corporate Contributor License Agreement*
 
-À ce stade aucun corporate contributor license agreement (CLA) n'a été signé avec des communautés, ce qui permettrait de faciliter et de pré-autoriser la signature de CLA individuels.
-
-La DINSIC prendra contact et établira les communautés prioritaires avec qui ces contributions seront facilitées.
+La DINSIC se charge de signer les accords de contributions spécifiques et de tenir à jour les listes d'individus couverts par ceux-ci.
+Si vous souhaitez contribuer à un projet réclamant ce type de formalisme, contactez l'adresse d'assistance indiquée plus haut.
 
 ## Contribuer en publiant un nouveau projet
 
