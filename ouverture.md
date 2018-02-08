@@ -42,7 +42,7 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
  * FSF : https://www.gnu.org/licenses/license-list.fr.html (en excluant les licences non libres présentées comme telles) ;
  * OSI : https://opensource.org/licenses/alphabetical.
 
-À l'inverse les licences de type beerware ne rentrent pas dans le cadre de l'autorisation par défaut (et ne devraient pas être utilisées).
+À l'inverse les licences non retenues par ces organismes (comme la *Beerware*) ne rentrent pas dans le cadre de l'autorisation par défaut. Un tableau consolidé des licences validées par l'un ou l'autre organisme est maintenu sur le site [https://spdx.org/licenses/](https://spdx.org/licenses)
 
 ### Signature des *Corporate Contributor License Agreement*
 
