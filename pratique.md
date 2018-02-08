@@ -28,10 +28,9 @@ Le positionnement d'un projet sur une forge doit se faire en fonction du niveau 
 
 ## Gestion des comptes personnels et d'organisation
 
-Utilisation de dépôts au sein de comptes d'organisation. Les dépôts de comptes personnels sont à proscrire et ne doivent
-être utilisés que pour des développements personnels.
+Tous les projets initiés par une administration doivent être publiés dans des dépôts au sein de comptes d'organisation. Les dépôts de comptes personnels ne doivent être utilisés que pour des fourches (*forks*) techniques temporaires ou des développements personnels.
  
-Il est recommandé d'avoir deux propriétaires (owner) par dépôt.
+Il est recommandé d'avoir deux propriétaires par dépôt.
 
 ## Inventaire des comptes d'organisation
 
