@@ -145,10 +145,11 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
 
 ## Bonnes pratiques de développement
 
-Les bonnes pratiques de développement courantes s'appliquent également en contexte de développement ouvert, et notamment celles liées au respect des référentiels en vigueur dans l'administration
- * [Référentiel général d'interopérabilité](http://references.modernisation.gouv.fr/interoperabilite)
- * [Référentiel général d'accessibilité pour les administrations](http://references.modernisation.gouv.fr/rgaa-accessibilite/)
- * [Référentiel général de sécurité](https://www.ssi.gouv.fr/administration/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/)
+Les bonnes pratiques de développement courantes s'appliquent également en contexte de développement ouvert, et notamment celles liées au respect des référentiels en vigueur dans l'administration :
+
+* [Référentiel général d'interopérabilité](http://references.modernisation.gouv.fr/interoperabilite)
+* [Référentiel général d'accessibilité pour les administrations](http://references.modernisation.gouv.fr/rgaa-accessibilite/)
+* [Référentiel général de sécurité](https://www.ssi.gouv.fr/administration/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/)
 
 L'ouverture du code vient par ailleurs amplifier l'importance de certaines de ces bonnes pratiques : 
 
