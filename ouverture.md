@@ -20,18 +20,17 @@ Contacter `opensource @ data.gouv.fr` pour toute question sur cette politique.
 
 ### Attribuer les contributions aux individus
 
-Reconnaissance individuelle des développeurs : utilisation de leur adresse électronique pour tracer leurs contributions.
+Afin de reconnaître la paternité des contributions, l'adresse électronique individuelle du développeur est utilisée:
 
  * Pour les agents : utilisation de l'adresse électronique professionnelle.
  * Pour les prestataires de services, utilisation de l'adresse électronique de leur société d'attachement (pas d'adresse prestataire fournie par l'administration)
 
-Possibilité d'utiliser des pseudonymes.
-
-Pas d'utilisation d'adresses électroniques génériques ou anonymes.
+Toutefois, au cas où un développeur ne souhaiterait pas voir son identité publiée, il peut utiliser un pseudonyme.
+En revanche, l'utilisation d'adresses électroniques génériques ou anonymes est à proscrire.
  
 ### Distinguer les contributions professionnelles et personnelles
 
-Possibilité de contribuer sur un même projet dans le cadre du milieu professionnel ou à titre personnel. L'adresse électronique professionnelle doit être utilisée sur le temps professionnel.
+Il est possible pour un développeur de contribuer sur un même projet dans le cadre du milieu professionnel et à titre personnel, l'État reconnaissant aux développeurs la propriété sur les contributions réalisées en dehors du temps de travail. Les contributions réalisées sur le temps professionnel doivent être associées à une adresse électronique professionnelle.
 
 ## Contribuer à des projets tiers
 
@@ -42,13 +41,21 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
  * FSF : https://www.gnu.org/licenses/license-list.fr.html (en excluant les licences non libres présentées comme telles) ;
  * OSI : https://opensource.org/licenses/alphabetical.
 
-À l'inverse les licences de type beerware ne rentrent pas dans le cadre de l'autorisation par défaut (et ne devraient pas être utilisées).
+À l'inverse les licences non retenues par ces organismes (comme la *Beerware*) ne rentrent pas dans le cadre de l'autorisation par défaut. Un tableau consolidé des licences validées par l'un ou l'autre organisme est maintenu sur le site [https://spdx.org/licenses/](https://spdx.org/licenses)
 
 ### Signature des *Corporate Contributor License Agreement*
 
-À ce stade aucun corporate contributor license agreement (CLA) n'a été signé avec des communautés, ce qui permettrait de faciliter et de pré-autoriser la signature de CLA individuels.
+La DINSIC prend en charge de signer les accords de contributions spécifiques (Corporate Contributor License Agreement ou CCLA) avec les
+communautés ou les entreprises qui l'exigent, afin de permettre les contributions des agents à titre professionnel aux projets concernés. Si
+cela est demandé par l'autre partie, elle maintiendra les listes d'individus couverts par l'accord. Une autre possibilité est que l'accord
+de CCLA soit un pré-requis à la signature d'un Contributor License Agreement individuel (iCLA). Dans ce cas, la signature d'un CCLA par la
+DINSIC vaudra pré-autorisaiton pour la signature d'iCLA.
 
-La DINSIC prendra contact et établira les communautés prioritaires avec qui ces contributions seront facilitées.
+Si vous souhaitez contribuer à un projet réclamant ce type de formalisme, que ce soit pour signer un CCLA, vous rajouter à la liste des contributeurs autorisés, ou vérifier la possibilité de signer un iCLA, contactez l'adresse d'assistance indiquée plus haut.
+
+Liste des CCLA signés:
+
+ * A ce stade, aucun CCLA n'a encore été signé par la DINSIC.
 
 ## Contribuer en publiant un nouveau projet
 

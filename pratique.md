@@ -28,10 +28,9 @@ Le positionnement d'un projet sur une forge doit se faire en fonction du niveau 
 
 ## Gestion des comptes personnels et d'organisation
 
-Utilisation de dépôts au sein de comptes d'organisation. Les dépôts de comptes personnels sont à proscrire et ne doivent
-être utilisés que pour des développements personnels.
+Tous les projets initiés par une administration doivent être publiés dans des dépôts au sein de comptes d'organisation. Les dépôts de comptes personnels ne doivent être utilisés que pour des fourches (*forks*) techniques temporaires ou des développements personnels.
  
-Il est recommandé d'avoir deux propriétaires (owner) par dépôt.
+Il est recommandé d'avoir deux propriétaires par dépôt.
 
 ## Inventaire des comptes d'organisation
 
@@ -45,23 +44,23 @@ d'organisation que de l'inventaire des services.
 
 ## Distinction des contributions personnelles / professionnelles
 
-Utilisation du compte professionnel, par exemple avec une adresse électronique en ```.gouv.fr``` ou ```.cnrs.fr```.
+La distinction entre contributions personnelles et professionnelles se base sur l'adresse électronique associée.
+Le contributeur doit donc changer celle-ci en fonction de la situation où il se trouve. 
+Dans le cas de l'utilisation de `git`, cela peut se faire simplement :
 
-Créer le dépôt, configuré de la manière suivante :
-
-* Dépôt professionnel
+* Pour une contribution professionnelle :
 
 `git config user.email <prenom.nom@ministere.gouv.fr>`
 
-* Dépôt personnel
+* Pour une contribution personnelle : 
 
 `git config user.email <email@perso.fr>`
 
-Afin de vérifier que la commande a bien été prise en compte :
+Pour connaître l'adresse électronique actuellement utilisée :
 
 `git config --get user.email`
 
-Les pseudonymes sont gérés de la même manière. Une adresse électronique (ou alias) doit donc être mise à disposition par le ministère pour permettre l'utilisation du pseudonyme.
+Dans les cas où le contributeur ne souhaite pas voir son identité personnelle attachée à sa contribution, une adresse électronique (ou alias) devra être mise à disposition par le ministère pour permettre l'utilisation d'un pseudonyme. Attention certains projets open source peuvent refuser les contributions sous pseudonyme.
 
 ## Aide au choix de la licence
 
@@ -114,7 +113,6 @@ doit disposer de son auteur, de son identifiant de licence SPDX, ainsi que d'une
   * SPDX-License-Identifier: BSD-2-Clause
   * License-Filename: LICENSES/BSD-2-Clause_Alice.txt
   */
-
 ```
 
 ou dans le cas d'un projet faisant un suivi automatique de ses contributeurs :
@@ -146,53 +144,29 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
 
 ## Bonnes pratiques de développement
 
- * Ecrire du code lisible et intelligible
-   * choisir (pour un nouveau projet) et respecter une unique
-     convention de développement (*coding style*) au sein d'un même projet
-     * [https://github.com/google/styleguide](https://github.com/google/styleguide)
-     * [https://www.gnu.org/prep/standards/](https://www.gnu.org/prep/standards/)
-     * [https://www.kernel.org/doc/Documentation/process/coding-style.rst](https://www.kernel.org/doc/Documentation/process/coding-style.rst)
-     * [http://www.php-fig.org/psr/psr-2/](http://www.php-fig.org/psr/psr-2/)
-     * [http://pear.php.net/manual/en/standards.php](http://pear.php.net/manual/en/standards.php)
-   * choisir (pour un nouveau projet) et respecter une unique
-     convention de nommage pour les constantes, les variables, les
-     fonctions, *etc.*, respectueuse de la *convention de codage*
-     utilisée pour le projet - voir [https://fr.wikipedia.org/wiki/Convention_de_nommage](https://fr.wikipedia.org/wiki/Convention_de_nommage)
- * Respecter les référentiels en vigueur dans l'administration
-   * [Référentiel général d'interopérabilité](http://references.modernisation.gouv.fr/interoperabilite)
-   * [Référentiel général d'accessibilité pour les administrations](http://references.modernisation.gouv.fr/rgaa-accessibilite/)
-   * [Référentiel général de sécurité](https://www.ssi.gouv.fr/administration/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/)
- * Découper et factoriser tant que possible le code en
-   paquetages/bibliothèques/modules internes au projet afin de
-   maximiser la réutilisation de code mais aussi d'isoler les
-   éventuelles sources d'erreur; avoir recours à des dépôts distincts
-   facilite ce cloisonnement
- * Documenter, hors du code et des commentaires
-     * l'architecture logicielle du projet (*i.e.* découpage en modules
-       fonctionnels et/ou avec des privilèges particuliers)
-     * les interfaces exposées par chaque module, la nature et le
-       format des informations échangées/stockées
-     * les processus d'installation, de configuration et de mise en
-       production
- * Commenter le code pour les comportements non triviaux comme :
-     * les effets de bord sur des paramètres passés par référence à
-       une fonction
-     * les conditions d'usage qui ne peuvent être assurées par un
-       typage approprié et les effets associés en cas de non-respect ;
-       par exemple, une fonction qui réalise une division pour
-       laquelle la charge incombe à l'appelant de vérifier que le
-       dénominateur n'est pas nul sous peine de générer une erreur à
-       l'exécution
+Les bonnes pratiques de développement courantes s'appliquent également en contexte de développement ouvert, et notamment celles liées au respect des référentiels en vigueur dans l'administration :
 
+* [Référentiel général d'interopérabilité](http://references.modernisation.gouv.fr/interoperabilite)
+* [Référentiel général d'accessibilité pour les administrations](http://references.modernisation.gouv.fr/rgaa-accessibilite/)
+* [Référentiel général de sécurité](https://www.ssi.gouv.fr/administration/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/)
+
+L'ouverture du code vient par ailleurs amplifier l'importance de certaines de ces bonnes pratiques : 
+
+* **Documentation**, à l'intérieur du code (commentaires et messages de *commit*) et hors du code.
+* **Conformité juridique** dans l'utilisation de bibliothèques tierces. La très grande majorité des développements actuels reposant sur des bibliothèques Open Source tierces, il est nécessaire de s'assurer de la compatibilité de leurs licences respectives et du respect des obligations de celles-ci.
+* **Modularisation des développements** afin de maximiser la réutilisation de code mais aussi d'isoler les éventuelles sources d'erreur
+* **Respect d'une unique convention de développement** par projet.  
 
 ## Sécurité
+
+### Interlocuteur identifié
 
  Il est recommandé d'identifier un responsable de la sécurité du
  projet qui sera garant de vérifier le respect des bonnes pratiques
  mises en œuvre durant le développement, et de traiter les éventuels
  incidents de sécurité. Il est également préférable d'avoir recours à
  une adresse électronique dédiée, à destination du responsable identifié au
- moins, pour traiter des incidents de sécurité qui se produiraient ou
+ moins, pour traiter des incidents de sécurité ou des problèmes liés à la propriété intellectuelle
  qui seraient découverts par un tiers.
 
 ### Développement sécurisé
@@ -205,30 +179,22 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
      * [Importance des langages pour la sécurité](https://www.ssi.gouv.fr/agence/publication/mind-your-languages-nouvel-article-sur-limportance-des-langages-pour-la-securite/)
      * [Sécurité et langage Java](https://www.ssi.gouv.fr/javasec/)
      * [Sécurité et langages fonctionnels](https://www.ssi.gouv.fr/lafosec/)
- * Éliminer tous les messages de *debug* (par compilation
+
+* Éliminer tous les messages de *debug* (par compilation
    conditionnelle ou par un contrôle via une variable à l'exécution) et toute
    information inutile pour l'utilisateur dans les messages d'erreur
    (e.g.  trace d'appel Java/PHP/Python) lors de la mise en production
+
  * Éliminer tout le code mort (*i.e.* code non appelé/non
    atteignable) car il pourrait prêter à confusion et/ou laisser
-   penser qu'il est toujours fonctionnel et testé ; ce code, non
+   penser qu'il est toujours fonctionnel et testé ; ce code, non
    maintenu, pourrait être réintégré à tort par un développeur
- * Restreindre au strict nécessaire les droits/privilèges attribués
-   à chaque module/processus (*i.e.* appliquer une politique de *moindre
-   privilège*)
- * Les appels à des fonctions d'exécution de commande système (`exec`,
-   `system`, *etc*) doivent être proscrits ; si un usage légitime se
-   présente:
-     * isoler cet appel dans un module/processus disposant
-       **uniquement** des privilèges **strictement nécessaires** aux
-       commandes exécutées
-     * effectuer un contrôle très strict (e.g. par liste blanche), à défaut d'avoir des
-       commandes constantes/fixes, de tous les paramètres passés afin
-       d'empêcher l'exécution de commandes arbitraires par un
-       attaquant
- * Toutes les entrées externes (e.g. de l'utilisateur) doivent être
-   filtrées en explicitant uniquement les cas acceptés (filtrage par
-   liste blanche) **avant** leur manipulation/stockage
+ 
+ * Toutes les entrées externes (e.g. de l’utilisateur) doivent être contrôlées avant leur utilisation ou leur stockage, selon les bonnes pratiques de sécurité en fonction de leur destination.
+ 
+### Ne pas compter sur la sécurité par l'obscurité
+
+La sécurité par l'obscurité est globalement reconnue comme une pratique insuffisante, mais dans le cas d'un projet dont le code est ouvert, cette stratégie est caduque. Elle doit donc être remplacée par d'autres stratégies plus robustes comme par exemple la défense en profondeur.
 
 ### Données secrètes/sensibles, cryptographie
 
