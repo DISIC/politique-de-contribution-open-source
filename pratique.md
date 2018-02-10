@@ -113,7 +113,6 @@ doit disposer de son auteur, de son identifiant de licence SPDX, ainsi que d'une
   * SPDX-License-Identifier: BSD-2-Clause
   * License-Filename: LICENSES/BSD-2-Clause_Alice.txt
   */
-
 ```
 
 ou dans le cas d'un projet faisant un suivi automatique de ses contributeurs :
