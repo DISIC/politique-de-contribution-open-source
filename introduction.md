@@ -11,8 +11,9 @@ __Historique et versions__
 | 0.1     | Initialisation                                  | 01/11/2017 |
 | 0.2     | Ouverture de l'appel à commentaires             | 06/12/2017 |
 | 0.3     | Fin de l'appel à commentaires                   | 28/01/2018 |
+| 1.0RC01 | Projet soumi à validation                       | 10/02/2018 |
 
-Ce document est en __beta__, c'est à dire avec des modifications possibles sans nécessairement de changement de numéro de version.
+Ce document est en cours de validation. Il reste pour l'instant en __beta__, et peut évoluer encore fréquemment.
 
 ## Objectifs
 
