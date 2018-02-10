@@ -79,11 +79,11 @@ Ce document a été élaboré grâce aux nombreux travaux ci-dessous :
  * Linux Foundation Open Source Guides : 
  <br>[https://www.linuxfoundation.org/resources/open-source-guides/](https://www.linuxfoundation.org/resources/open-source-guides/)
  * Core Infrastructure Initiative : 
- <br>[https://bestpractices.coreinfrastructure.org/](https://bestpractices.coreinfrastructure.org/)
+ <br>[https://bestpractices.coreinfrastructure.org](https://bestpractices.coreinfrastructure.org/)
  * Open Source Guides : 
- <br>[https://opensource.guide/](https://opensource.guide/)
+ <br>[https://opensource.guide](https://opensource.guide/)
  * FSFE software reuse : 
- <br>[https://reuse.software/](https://reuse.software/)
+ <br>[https://reuse.software](https://reuse.software/)
  * Google Open Source : 
  <br>[http://opensource.google.com](http://opensource.google.com)
 
