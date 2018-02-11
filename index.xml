@@ -17,7 +17,7 @@
       
       <guid>https://disic.github.io/politique-de-contribution-open-source/introduction/</guid>
       <description>Historique et versions
-   Version Commentaire Date     0.1 Initialisation 01/11/2017   0.2 Ouverture de l&amp;rsquo;appel à commentaires 06/12/2017   0.3 Fin de l&amp;rsquo;appel à commentaires 28/01/2018    Ce document est en ALPHA, ie sous modification intensive sans nécessairement de changement de numéro de version.
+   Version Commentaire Date     0.1 Initialisation 01/11/2017   0.2 Ouverture de l&amp;rsquo;appel à commentaires 06/12/2017   0.3 Fin de l&amp;rsquo;appel à commentaires 28/01/2018    Ce document est en beta, c&amp;rsquo;est à dire avec des modifications possibles sans nécessairement de changement de numéro de version.
 Objectifs Conformément à la Loi pour une République numérique du 7 octobre 2016, les codes sources sont des documents administratifs communicables et réutilisables.</description>
     </item>
     
@@ -30,7 +30,7 @@ Objectifs Conformément à la Loi pour une République numérique du 7 octobre 2
       <description>Préambule Principe de subsidiarité La politique peut être instanciée localement avec une priorité plus forte.
 Voir la section instanciation si vous souhaitez décliner cette politique au sein de votre organisation.
 Assistance sur la politique de contribution Contacter opensource @ data.gouv.fr pour toute question sur cette politique.
-Principe de reconnaissance des contributions Attribuer les contributions aux individus Reconnaissance individuelle des développeurs : utilisation de leur adresse électronique pour tracer leurs contributions.</description>
+Principe de reconnaissance des contributions Attribuer les contributions aux individus Afin de reconnaître la paternité des contributions, l&amp;rsquo;adresse électronique individuelle du développeur est utilisée:</description>
     </item>
     
     <item>
@@ -48,10 +48,9 @@ Principe de reconnaissance des contributions Attribuer les contributions aux ind
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://disic.github.io/politique-de-contribution-open-source/gouvernance/</guid>
-      <description>Deux types d&amp;rsquo;organisations sont distinguées :
- Interministériel : DINSIC et ANSSI Ministère  avec un seul rôle par organisation (droit d&amp;rsquo;écriture sur cette politique). La DINSIC est propriétaire du dépôt pour la gestion des droits d&amp;rsquo;écriture et est la responsable de cette politique de contribution.
-Celle-ci peut être modifiée pour des changements mineurs (coquilles, etc.) sans mise à jour version (les numéros de PATCH de semver sont ignorés).
-Des compléments et ajustements peuvent être effectués avec une mise à jour du MINEUR du numéro de version directement par la DINSIC et la revue d&amp;rsquo;1 ministère</description>
+      <description>La DINSIC maintient ce document et en est responsable (elle est propriétaire du dépôt et de la gestion des droits d&amp;rsquo;écriture). L&amp;rsquo;élaboration de cette politique a vocation à être collaborative et les entités auxquelles elle s&amp;rsquo;applique sont toutes invitées à participer à son évolution.
+Deux types d&amp;rsquo;organisations sont distinguées :
+ Interministériel : DINSIC et ANSSI Ministèriel  avec un seul rôle par organisation (droit d&amp;rsquo;écriture sur cette politique). L&amp;rsquo;ensemble des contributeurs avec les droits d&amp;rsquo;écriture sont listés dans le fichier MAINTAINERS.</description>
     </item>
     
     <item>
@@ -60,7 +59,8 @@ Des compléments et ajustements peuvent être effectués avec une mise à jour d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://disic.github.io/politique-de-contribution-open-source/faq/</guid>
-      <description>Suis-je concerné(e) par cette politique de contribution open source ? Comme indiqué dans l&amp;rsquo;introduction, si la loi République Numérique s&amp;rsquo;applique à toute l&amp;rsquo;administration, le périmètre de la DINSIC se concentre sur la fonction publique d&amp;rsquo;Etat (avec quelques exceptions selon le décret n° 2014-879 du 1er août 2014). Si vous faites partie d&amp;rsquo;une collectivité territoriale, cette politique ne vous concerne pas, bien que la loi République Numérique s&amp;rsquo;applique. Si vous faites partie d&amp;rsquo;un opérateur ou d&amp;rsquo;un établissement public sous la tutelle d&amp;rsquo;un ministère, vous êtes concernés.</description>
+      <description>Périmètre Suis-je concerné(e) par cette politique de contribution open source ?  Comme indiqué dans l&amp;rsquo;introduction, si la loi République Numérique s&amp;rsquo;applique à toute l&amp;rsquo;administration, le périmètre de la DINSIC se concentre sur la fonction publique d&amp;rsquo;État (avec quelques exceptions selon le décret n° 2014-879 du 1er août 2014).
+Si vous faites partie d&amp;rsquo;une collectivité territoriale, cette politique ne vous concerne pas, bien que la loi République Numérique s&amp;rsquo;applique.</description>
     </item>
     
     <item>
@@ -80,7 +80,8 @@ Ce document est un travail en cours et une première version est planifiée pour
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://disic.github.io/politique-de-contribution-open-source/pratique/</guid>
-      <description>En résumé  Utilisation nécessaire d&amp;rsquo;un système de suivi de version distribué (git, bitkeeper, mercurial) Aide au choix d&amp;rsquo;une plateforme de publication Gestion des comptes personnels et d&amp;rsquo;organisation Inventaire des comptes d&amp;rsquo;organisation Distinction des contributions professionnelles / personnelles Aide au choix de la licence Gestion des versions Fichiers par défaut dans un dépôt (repository) Entêtes (headers) de fichiers sources Traçabilité des développements (DCO) Outillage  Système de suivi de version L&amp;rsquo;utilisation d&amp;rsquo;un système de suivi de version distribué tel que git est recommandée.</description>
+      <description>Système de suivi de version de code source L&amp;rsquo;utilisation d&amp;rsquo;un système de suivi de version distribué tel que git est recommandée. Les systèmes svn ou cvs sont déconseillés.
+Aide au choix d&amp;rsquo;une plateforme Web En plus du système de suivi de version du code source, une plateforme Web propose une panoplie d&amp;rsquo;outils collaboratifs associés et vise à mobiliser une communauté de développeurs. Ces plateformes peuvent être hébergées par un tiers ou par l&amp;rsquo;administration.</description>
     </item>
     
   </channel>

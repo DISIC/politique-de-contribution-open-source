@@ -9,7 +9,7 @@ En faisant une contribution à ce projet, j’atteste que :
     de la soumettre sous la licence applicable au projet; ou que
 
 (b) Ma contribution s’appuie sur des travaux antérieurs qui, à ma connaissance,
-    sont couverts par une licence open-source et que j’ai le droit sous cette
+    sont couverts par une licence open source et que j’ai le droit sous cette
     licence de soumettre cette contribution avec mes modifications, créées en
     tout ou partie par moi, sous la licence applicable au projet; ou que
 

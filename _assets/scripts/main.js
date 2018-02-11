@@ -23,7 +23,7 @@ jQuery(document).ready(function($) {
 
     /*
      * jQuery simple and accessible hide-show system (collapsible regions), using ARIA
-     * @version v1.7.0   
+     * @version v1.7.0
      * Website: https://a11y.nicolas-hoffmann.net/hide-show/
      * License MIT: https://github.com/nico3333fr/jquery-accessible-hide-show-aria/blob/master/LICENSE
      */
@@ -51,7 +51,7 @@ jQuery(document).ready(function($) {
                 $to_expand = $this.next(".js-to_expand"),
                 $expandmore_text = $this.html();
 
-            $this.html('<button type="button" class="' + $hideshow_prefix_classes + 'expandmore__button js-expandmore-button">' + $expandmore_text + '</button>');
+            $this.html('<button type="button" class="' + $hideshow_prefix_classes + 'expandmore__button js-expandmore-button"><span class="expand-sign" aria-hidden="true"></span>' + $expandmore_text + '</button>');
             var $button = $this.children('.js-expandmore-button');
 
             $to_expand.addClass($hideshow_prefix_classes + 'expandmore__to_expand').stop().delay(delay).queue(function() {
@@ -155,12 +155,23 @@ jQuery(document).ready(function($) {
 });
 
 // menu-simple
+// thanks to http://www.a11ymatters.com/pattern/mobile-nav/
+
 $(document).ready(function(){
-  $('#toggle-menu').click(function(e) {
-    e.preventDefault();
-    $('.nav-main-list').toggleClass('is-open');
-    $(this).toggleClass('is-open');
-  });
+
+    var toggle = document.querySelector('#toggle-menu');
+    var menu = document.querySelector('.nav-main-list');
+    var menuItems = document.querySelectorAll('.nav-main-list li a');
+
+    toggle.addEventListener('click', function(){
+      if (menu.classList.contains('is-open')) {
+        this.setAttribute('aria-expanded', 'false');
+        menu.classList.remove('is-open');
+      } else {
+        menu.classList.add('is-open');
+        this.setAttribute('aria-expanded', 'true');
+      }
+    });
 });
 
 /*!
@@ -412,80 +423,3 @@ $(document).ready(function(){
         }
     }
 }());
-
-/*!
-  Scampi textarea-counter
-  Décompte les caractères restants dans les éléments textarea disposant d’un maxlength
-  Ajoute des attributs aria pour annoncer le nombre de caractères restant
-*/
-
-function textareaCounter() {
-  var $textAreaField = $("textarea[maxlength]");
-  var stepPolite     = 100;
-  var stepAssertive  = 20;
-
-  $textAreaField.each(function (index, textarea) {
-
-    var maxLength      = $(textarea).attr("maxlength");
-    var messageLength  = $(textarea).val().length;
-    var activeValue    = countRest(maxLength, messageLength);
-    var $textarea      = undefined;
-    var $paragraph     = undefined;
-
-    $(textarea).after('<p class="textarea-counter"><span class="textarea-counter-nb">' + activeValue +'</span> caractères restants</p>');
-
-    $(textarea).on("input", function (e) {
-      $textarea = $(e.currentTarget);
-      $paragraph = $textarea.next('p.textarea-counter');
-      updateValue($textarea, $paragraph);
-    });
-
-  });
-
-  function countRest(maxlength, messageLength) {
-    return maxlength - messageLength;
-  }
-
-  function countStepPolite(maxLengthValue) {
-    return maxLengthValue - stepPolite;
-  }
-
-  function countStepAssertive(maxLengthValue) {
-    return maxLengthValue - stepAssertive;
-  }
-
-  function updateAria(maxLengthValue, messageLength, $paragraph) {
-    politeFlag    = countStepPolite(maxLengthValue);
-    assertiveFlag = countStepAssertive(maxLengthValue);
-
-    if (messageLength < politeFlag) {
-      $paragraph
-        .removeAttr('aria-live')
-        .removeAttr('aria-atomic');
-    }
-    else if (messageLength >= politeFlag && messageLength < assertiveFlag) {
-      $paragraph.attr({
-        'aria-live': 'polite',
-        'aria-atomic': 'true'
-      });
-    }
-    else if (messageLength >= assertiveFlag) {
-      $paragraph.attr({
-        'aria-live': 'assertive',
-        'aria-atomic': 'true'
-      });
-    }
-  }
-
-  function updateValue($textarea, $paragraph) {
-    var maxLength = $textarea.attr("maxlength");
-    var messageLength = $textarea.val().length;
-    $paragraph.find('.textarea-counter-nb').text(countRest(maxLength, messageLength));
-    updateAria(maxLength, messageLength, $paragraph);
-  }
-
-}
-
-$(document).ready(function(){
-  textareaCounter();
-});

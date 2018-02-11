@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*! Scampi core */
-/*! v0.2.1 */
+/*! v0.2.2 */
 /*! Licence MIT ou CeCILL-B */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -578,27 +578,34 @@ kbd kbd {
 }
 
 .breadcrumb {
+  margin: .5em 0;
   font-size: .875em;
   line-height: 1.25;
-  margin: .5em 0;
 }
 
-.breadcrumb a {
-  color: #3e3c3d;
-  padding-right: .5em;
+.breadcrumb-list {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+  margin-left: 0;
 }
 
-.breadcrumb span {
+.breadcrumb-list .breadcrumb-item {
   display: inline-block;
   padding-right: .5em;
 }
 
-.breadcrumb span::after {
-  content: "›";
+.breadcrumb-list .breadcrumb-item:not(:first-of-type) span[aria-hidden="true"]::after {
+  padding-right: .5em;
   font-size: 1.25em;
+  content: "›";
 }
 
-.breadcrumb strong {
+.breadcrumb-list .breadcrumb-item a {
+  color: #3e3c3d;
+}
+
+.breadcrumb-list .breadcrumb-item strong {
   color: #0081D5;
   font-weight: bold;
 }
@@ -1353,7 +1360,6 @@ input[type="button"].btn-block {
 
 .icon {
   font-family: 'fonticon';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1364,240 +1370,24 @@ input[type="button"].btn-block {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-doc:before {
+.icon-download:before {
   content: "\e900";
 }
 
-.icon-compte:before {
-  content: "\e801";
-}
-
-.icon-calendar:before {
-  content: "\e800";
-}
-
-.icon-asso:before {
-  content: "\e632";
-}
-
-.icon-param:before {
-  content: "\e633";
-}
-
-.icon-pending:before {
-  content: "\e634";
-}
-
-.icon-balloon:before {
-  content: "\e635";
-}
-
-.icon-attention2:before {
-  content: "\e630";
-}
-
-.icon-attention:before {
-  content: "\e627";
-}
-
-.icon-trash:before {
-  content: "\e628";
-}
-
-.icon-close2:before {
-  content: "\e629";
-}
-
-.icon-star:before {
-  content: "\e62a";
-}
-
-.icon-partage:before {
-  content: "\e62b";
-}
-
-.icon-more2:before {
-  content: "\e62c";
-}
-
-.icon-triangle:before {
-  content: "\e62d";
-}
-
-.icon-next:before {
-  content: "\e62e";
-}
-
-.icon-edit:before {
-  content: "\e62f";
-}
-
-.icon-more:before {
-  content: "\e626";
-}
-
-.icon-home:before {
-  content: "\e625";
-}
-
-.icon-google-plus:before {
-  content: "\e624";
-}
-
-.icon-format:before {
-  content: "\e622";
-}
-
-.icon-rss:before {
-  content: "\e623";
-}
-
-.icon-web:before {
-  content: "\e61f";
-}
-
-.icon-rappel:before {
-  content: "\e621";
-}
-
-.icon-info2:before {
-  content: "\e61c";
-}
-
-.icon-aSavoir:before {
-  content: "\e61d";
-}
-
-.icon-aNoter:before {
-  content: "\e61e";
-}
-
-.icon-attention:before {
-  content: "\e615";
-}
-
-.icon-folder:before {
-  content: "\e619";
-}
-
-.icon-user:before {
-  content: "\e61a";
-}
-
-.icon-arobase:before {
-  content: "\e61b";
-}
-
-.icon-danger:before {
-  content: "\e615";
-}
-
-.icon-warning:before {
-  content: "\e616";
-}
-
-.icon-info:before {
-  content: "\e617";
-}
-
-.icon-success:before {
-  content: "\e618";
-}
-
-.icon-formulaire:before {
-  content: "\e614";
-}
-
-.icon-mairie:before {
-  content: "\e613";
-}
-
-.icon-message:before {
-  content: "\e620";
-}
-
-.icon-ecrire:before {
-  content: "\e60f";
-}
-
-.icon-horaires:before {
-  content: "\e610";
-}
-
-.icon-phone:before {
-  content: "\e611";
-}
-
-.icon-pieton:before {
-  content: "\e612";
-}
-
-.icon-menu:before {
-  content: "\e60e";
-}
-
-.icon-external-link:before {
-  content: "\e60c";
-}
-
-.icon-download:before {
-  content: "\e60d";
-}
-
-.icon-comment:before {
-  content: "\e60b";
-}
-
-.icon-chevron-up:before {
-  content: "\e60a";
-}
-
-.icon-chevron-down:before {
-  content: "\e608";
-}
-
-.icon-chevron-back:before {
-  content: "\e609";
-}
-
-.icon-chevron:before {
-  content: "\e607";
-}
-
-.icon-search:before {
-  content: "\e600";
-}
-
-.icon-twitter:before {
-  content: "\e601";
-}
-
-.icon-facebook:before {
-  content: "\e602";
-}
-
-.icon-print:before {
-  content: "\e605";
-}
-
-.icon-mail:before {
-  content: "\e604";
-}
-
-.icon-help:before {
-  content: "\e603";
-}
-
-.icon-close:before {
-  content: "\e606";
+.icon-external:before {
+  content: "\e901";
 }
 
 .svg-icon {
-  width: 0.75em;
-  height: 0.75em;
+  width: .875em;
+  height: .875em;
   display: inline-block;
-  margin-left: 0.25em;
   vertical-align: middle;
+  fill: currentColor;
+}
+
+a .svg-icon {
+  text-decoration: none;
 }
 
 .table {
@@ -1963,6 +1753,99 @@ input[type="button"].btn-block {
   }
 }
 
+.js-to_expand[aria-hidden=true],
+.js-to_expand[data-hidden=true] {
+  display: none;
+}
+
+.expandmore__button {
+  background: transparent;
+  font-size: inherit;
+  color: inherit;
+  border: 0;
+}
+
+.expandmore__button:focus {
+  outline: thin dotted;
+  border-color: #0081D5;
+}
+
+.expand-sign:before,
+.expand-sign:before {
+  content: "▶";
+}
+
+.expandmore__button[aria-expanded=true] .expand-sign:before,
+.expandmore__button[data-expanded=true] .expand-sign:before {
+  content: "▶";
+}
+
+.no-js .js-expandmore-all {
+  display: none;
+}
+
+.expandmore__button {
+  text-align: left;
+  padding: 0.2em 0;
+  position: relative;
+}
+
+.expandmore__button .expand-sign:before {
+  content: none;
+}
+
+.question {
+  margin-bottom: 1.3em;
+}
+
+.question h3 {
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.question h4 {
+  font-size: 1.1em;
+  background-color: #ecedef;
+  padding: .1em .2em;
+  display: inline-block;
+}
+
+.question .expandmore__button {
+  border-left: 3px solid #dfdfe4;
+  padding: 0.3em 1.2em 0.3em 1.2em;
+  display: block;
+}
+
+.question .expandmore__button[aria-expanded=true] {
+  border-color: #0081D5;
+  background-color: #ecedef;
+}
+
+.question .expandmore__button[aria-expanded=true] .expand-sign:before,
+.question .expandmore__button[aria-expanded=true] .expand-sign:after {
+  position: absolute;
+  top: .6em;
+  left: -2px;
+  color: #0081D5;
+  line-height: 1;
+}
+
+.question .expandmore__button[aria-expanded=true] .expand-sign:after {
+  left: -7px;
+  content: "▶";
+  color: #fff;
+}
+
+.question .js-to_expand {
+  padding: .5em 1em 0.5em 1.2em;
+  border-left: 3px solid #0081D5;
+  background-color: #fafafb;
+}
+
+.question .js-to_expand :last-child {
+  margin: 0;
+}
+
 .site-banner {
   margin: 0 1em;
   padding: .5em 0;
@@ -2262,7 +2145,7 @@ blockquote,
   margin: 0 0 1em;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1.25em;
-  font-style: "normal";
+  font-style: normal;
   border-left: 5px solid #d1d1d8;
   font-size: 1em;
 }
