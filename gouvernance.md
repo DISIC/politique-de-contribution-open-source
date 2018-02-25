@@ -1,7 +1,9 @@
 ---
 title: Gouvernance de la politique de contribution interministérielle
-weight: 50
-menuName: gouvernance
+menu: 
+  main:
+    name: "Gouvernance"
+    weight: 50
 ---
 
 La DINSIC maintient ce document et en est responsable (elle est propriétaire du dépôt et de la gestion des droits d'écriture). L'élaboration de cette politique a vocation à être collaborative et les entités auxquelles elle s'applique sont toutes invitées à participer à son évolution.
