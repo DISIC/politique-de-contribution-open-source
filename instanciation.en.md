@@ -1,26 +1,26 @@
 ---
-title: en / Instanciation des politiques de contribution ministérielles
+title: Instantiation of Departmental Contribution Policies
 menu: 
   main:
     name: "Instanciation"
     weight: 40
 ---
 
-## En résumé
+## In summary
 
- * Possibilité d'instancier et de reprendre cette politique
- * Contacter la politique « mère » pour informer de la déclinaison
- * Fournir obligatoirement un moyen de contact pour la politique instanciée
+ * Ability to instantiate and ammend this policy
+ * Contact the "parent" policy to inform about the declination
+ * Provide a mean of contact for the instantiated policy
 
-## Inventaires des politiques ministérielles instanciées
+## Inventories of instantiated departmental policies
 
- * Aucune politique ministérielle instanciée à ce jour
- * Exemple : <Ministère XXX> : [http://reference.url/politique-ministerielle](http://reference.url/politique-ministerielle)
+ * No ministerial policy instantiated to date
+ * Example: <Ministry XXX>: [http: //reference.url/ministerialpolicy] (http: //reference.url/ministerialpolicy)
  
-## Procédure d'instanciation
+## Instantiation procedure
  
- 1. Fourcher ce dépot pour initier votre politique ministérielle
- 2. Faire une pull request sur ce fichier pour lister la politique de contribution fille et son URL
- 3. Contacter le support de cette politique et valider le moyen de contact principal de la politique fille
+ 1. Fork this repository to initiate your departmental policy
+ 2. Make a pull request on this file to list the child contribution policy and its URL
+ 3. Contact the support of this policy and validate the main contact of the child policy
  
-N'hésitez pas à prendre contact avec nous pour toute question.
+Do not hesitate to contact us for any questions.
