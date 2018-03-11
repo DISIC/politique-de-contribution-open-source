@@ -1,249 +1,250 @@
 ---
-title: en / Bonnes pratiques
+title: Good practices
 menu: 
   main:
-    name: "Good practices"
+    name: "practices"
     weight: 40
 ---
 
-## Système de suivi de version de code source
+## Source code version tracking system
 
-L'utilisation d'un système de suivi de version distribué tel que git est recommandée. Les systèmes svn ou cvs sont déconseillés.
+Using a distributed version tracking system such as git is recommended. Svn or cvs systems are deprecated.
 
-## Aide au choix d'une plateforme Web 
+## Help in choosing a web platform
 
-En plus du système de suivi de version du code source, une plateforme Web propose une panoplie d'outils collaboratifs associés et vise à mobiliser une communauté de développeurs.  Ces plateformes peuvent être hébergées par un tiers ou par l'administration.
+In addition to the source code version tracking system, a web platform offers a range of associated collaborative tools and aims to mobilize
+a community of developers. These platforms may be hosted by a third party or by the administration.
 
-Exemples de plateformes Web hébergées par un tiers :
+Examples of web platforms hosted by a third party:
 
- * Github : https://github.com
- * Gitlab : http://gitlab.com (version entreprise)
- * Framagit : http://framagit.org - utilisant [Gitlab](https://about.gitlab.com/installation/)
- * Adullact : http://gitlab.adullact.net - utilisant [Gitlab](https://about.gitlab.com/installation/)
- * FSFE : https://git.fsfe.org - utilisant [Gitea](https://gitea.io/)
- * FSF : https://git.savannah.gnu.org/cgit/ - utilisant [cgit](https://git.zx2c4.com/cgit/)
+ * Github: https://github.com
+ * Gitlab: http://gitlab.com (company version)
+ * Framagit: http://framagit.org - using [Gitlab] (https://about.gitlab.com/installation/)
+ * Adullact: http://gitlab.adullact.net - using [Gitlab] (https://about.gitlab.com/installation/)
+ * FSFE: https://git.fsfe.org - using [Gitea] (https://gitea.io/)
+ * FSF: https://git.savannah.gnu.org/cgit/ - using [cgit] (https://git.zx2c4.com/cgit/)
 
-Le code source de github.com n'est pas libre tout comme certains modules de gitlab.com ; certaines plateformes publient des données anonymisées en open data ; leurs portées géographiques peuvent varier, de même que le nombre de développeurs qui l'utilisent.  La liste est incomplète.
+The source code of github.com is not free just like some modules of gitlab.com; some platforms publish anonymous data in open data; 
+their geographic scope may vary, as well as the number of developers who use it. The list is incomplete.
 
-Le choix de créer un compte d'organisation au sein d'une plateforme Web existante relève de l'administration, qui peut également héberger sa propre forge publique.
+The choice to create an organizational account within an existing Web platform is the responsibility of the administration, which can also
+host its own public forge.
 
-Le positionnement d'un projet sur une forge doit se faire en fonction du niveau de collaboration attendu et des interfaces avec les dépots privés et le reste de la plateforme de développement.
+Choosing a forge for a project must be done according to the level of collaboration expected and the interfaces with the private repositories and the rest of the development platform.
 
-## Gestion des comptes personnels et d'organisation
+## Management of personal and organizatios accounts
 
-Tous les projets initiés par une administration doivent être publiés dans des dépôts au sein de comptes d'organisation. Les dépôts de comptes personnels ne doivent être utilisés que pour des fourches (*forks*) techniques temporaires ou des développements personnels.
+All projects initiated by an administration must be published in repositories under an organization accounts. Personal account repositories
+should only be used for temporary technical forks or personal developments.
  
-Il est recommandé d'avoir deux propriétaires par dépôt.
+It is recommended to have two owners by repository.
 
-## Inventaire des comptes d'organisation
+## Inventory of organization accounts
 
-Des réflexions sont en cours sur la capacité de proposer un inventaire automatique tant du point de vue des dépôts
-d'organisation que de l'inventaire des services.
+Work is underway on the ability to provide an automatic inventory both from the point of view of 
+organizations' repositories than services' inventory
 
-> Pour référencer le compte d'organisation comme un compte gouvernemental dans Github :
+> To reference the organization account as a government account in Github:
 >
->  * Inscrivez vous si ce n'est pas déjà fait dans la communauté [https://github.com/government/welcome](https://github.com/government/welcome)
->  * Référencez votre compte d'organisation en l'ajoutant sur la page : [https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml](https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) conformément à la page [https://government.github.com/community/](https://government.github.com/community/)
+> * Register if you have not done so already in the community [https://github.com/government/welcome](https://github.com/government/welcome)
+> * Reference your organization account by adding it on the page: [https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml](https:// github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) as per [https://government.github.com/community/](https://government.github .com / community /)
 
-## Distinction des contributions personnelles / professionnelles
+## Distinction of personal / professional contributions
 
-La distinction entre contributions personnelles et professionnelles se base sur l'adresse électronique associée.
-Le contributeur doit donc changer celle-ci en fonction de la situation où il se trouve. 
-Dans le cas de l'utilisation de `git`, cela peut se faire simplement :
+The distinction between personal and professional contributions is based on the associated email address.
+The contributor must change its email accordingly.
 
-* Pour une contribution professionnelle :
+In the case of using `git`, this can be done easily:
 
-`git config user.email <prenom.nom@ministere.gouv.fr>`
+* For a professional contribution:
 
-* Pour une contribution personnelle : 
+`git config user.email <firstname.lastname@ministere.gouv.fr>`
+
+* For a personal contribution:
 
 `git config user.email <email@perso.fr>`
 
-Pour connaître l'adresse électronique actuellement utilisée :
+To find the email address currently used:
 
 `git config --get user.email`
 
-Dans les cas où le contributeur ne souhaite pas voir son identité personnelle attachée à sa contribution, une adresse électronique (ou alias) devra être mise à disposition par le ministère pour permettre l'utilisation d'un pseudonyme. Attention certains projets open source peuvent refuser les contributions sous pseudonyme.
+In cases where the contributor does not wish to see his personal identity attached to his contribution, an email address (or alias) need to
+be made available by the department to allow the use of a pseudonym. Beware some open source projects may refuse contributions under 
+pseudonym.
 
-## Aide au choix de la licence
+## Help in choosing the license
 
-Le choix d'une licence est aussi le choix d'une communauté de développeurs et d'un écosystème d'outils associés. Une fois la famille de licence trouvée, c'est avant tout la communauté visée qui détermine le choix.
+The choice of a license is also the choice of a community of developers and an ecosystem of associated tools. Once the license family is 
+chosen, it is primarily the targeted developer's community that determines the choice.
 
-Les licences recommandées par défaut sont :
+The recommended licenses by default are:
 
-  * Permissive : Apache 2.0
-  * Avec obligation de réciprocité : GNU GPL v3 (standard, lesser ou affero en fonction)
+  * Permissive: Apache 2.0
+  * Reciprocal: GNU GPL v3 (standard, lesser or affero in function)
 
- > Multilicensing : il est possible de fournir un logiciel sous plusieurs licenses simultanément, bien que cela puisse entraîner de la confusion.
+ > Multilicensing: It is possible to provide software under several licenses simultaneously, although this can lead to confusion.
 
-## Gestion des versions
+## Version Management
 
-Avoir une politique de gestion des versions est recommandé. Le guide de versioning sémantique (https://semver.org/lang/fr/) est un bon exemple à suivre.
+Having a versioning policy is recommended. The semantic versioning guide (https://semver.org/lang/en/) is a good example to follow.
 
-## Fichiers présents dans le dépôt
+## Files in the repository
 
-Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING et LICENSE.
+Make sure you have at least the README, CONTRIBUTING, and LICENSE files.
 
-* README : description du projet. Peut décrire l'objectif et l'administration à l'origine de la publication.
+* README: description of the project. Can describe the purpose and the administration behind the publication.
 
-* CONTRIBUTING : guide de contribution, comment s'impliquer et identification du processus de contribution et des licences associées. Exemple: [https://github.com/moby/moby/blob/master/CONTRIBUTING.md](https://github.com/moby/moby/blob/master/CONTRIBUTING.md)
+* CONTRIBUTING: contribution guide, how to get involved and identification of the contribution process and associated licenses. Example: [https://github.com/moby/moby/blob/master/CONTRIBUTING.md](https://github.com/moby/moby/blob/master/CONTRIBUTING.md)
 
-* LICENSE : licence de publication du logiciel.
+* LICENSE: software license.
 
-* MAINTAINERS : liste des mainteneurs du projet (avec des droits de vote ou de commit généralement). Exemple: [https://github.com/moby/moby/blob/master/MAINTAINERS](https://github.com/moby/moby/blob/master/MAINTAINERS)
+* MAINTAINERS: list of project maintainers (usually with voting or commit rights). Example: [https://github.com/moby/moby/blob/master/MAINTAINERS](https://github.com/moby/moby/blob/master/MAINTAINERS)
 
-* ROADMAP : feuille de route publique.
+* ROADMAP: public road map.
 
-* CONDUCT : un code de conduite pour réguler la communauté de contributeurs. Des exemples peuvent être trouvés :  [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/) et [https://github.com/18F/code-of-conduct](https://github.com/18F/code-of-conduct).
+* CONDUCT: a code of conduct to regulate the community of contributors. Examples can be found: [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/) and [https://github.com/18F/code-of- conduct] (https://github.com/18F/code-of-conduct).
 
-* GOVERNANCE : décrit la gouvernance du projet, les rôles et les drois de votes. Un exemple est disponible dans ce dépôt [gouvernance.md]({{< relref "gouvernance.md" >}})
+* GOVERNANCE: describes project governance, roles and voting rights. An example is available in this repository [governance.md] ({{<relref "governance.md">}})
 
-* NFR : choix d'architecture technique du projet qui ne correspondent pas à des exigences fonctionnelles.
+* NFR: choice of technical architecture of the project that do not correspond to functional requirements.
 
-Ces fichiers doivent être en texte simple ou avec du marquage minimum (ie Markdown). Il n'est pas recommandé d'utiliser des formats binaires (ie PDF)
+These files must be in plain text or with minimum marking (ie Markdown). It is not recommended to use binary formats (ie PDF)
 
-## Entête des fichiers sources
+## Heads source files
 
-Conformément aux recommandations détaillées dans [https://software.reuse](https://software.reuse) chaque fichier de code source
-doit disposer de son auteur, de son identifiant de licence SPDX, ainsi que d'une copie de la licence dans le repository local.
+According to the detailed recommendations in [https: //software.reuse] (https: //software.reuse) each source code file
+must have its author, SPDX license ID, and a copy of the license in the local repository.
 
-  *  Exemples d'entête de fichier (headers) :
+  * Examples of file header (headers):
 
-```
- /*
+`` `
+ / *
   * Copyright (c) 2017 Alice Commit <alice@example.com>
-  * 
+  *
   * SPDX-License-Identifier: BSD-2-Clause
-  * License-Filename: LICENSES/BSD-2-Clause_Alice.txt
-  */
-```
+  * License-Filename: LICENSES / BSD-2-Clause_Alice.txt
+  * /
+`` `
 
-ou dans le cas d'un projet faisant un suivi automatique de ses contributeurs :
+or in the case of a project that automatically tracks its contributors:
 
-```
- /*
-  * This file is part of project X. It's copyrighted by the contributors
-  * recorded in the version control history of the file, available from
+`` `
+ / *
+  * This file is part of the project X. It's copyrighted by the contributors
+  * recorded in the version of the history of the file, available from
   * its original location http://git.example.com/X/filename.c
-  * 
+  *
   * SPDX-License-Identifier: BSD-2-Clause
-  * License-Filename: LICENSES/BSD-2-Clause_Charlie.txt
-  */
-```
+  * License-Filename: LICENSES / BSD-2-Clause_Charlie.txt
+  * /
+`` `
 
-Ces identifiants permettent de générer automatiquement des inventaires des licences sous la forme de « Bill of Material », afin de
-garantir la conformité du logiciel.
+To ensure software compliance, these identifiers enable to generate automatically inventories of licenses in the form of "Bill of Material".
 
-L'ensemble des identifiants SPDX est disponible à cette adresse : [https://spdx.org/licenses/](https://spdx.org/licenses/)
+The complete list of SPDX identifiers is available at this address: [https://spdx.org/licenses/](https://spdx.org/licenses/)
 
-## Traçabilité des developpements (DCO)
+## Traceability of development (COD)
 
-Afin de garantir l'origine des contributions soumises, la mise en œuvre d'un Developer's Certificate of Origin est recommandée.  
-Une traduction française est mise à disposition [DCO-Fr.txt](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt)
+In order to guarantee the origin of the contributions submitted, the implementation of a Developer's Certificate of Origin is recommended.
+A French translation is made available [DCO-Fr.txt] (https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt)
 
-Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
+For now, the sign-off is only in English using the command
 
 `git commit --signoff`
 
-## Bonnes pratiques de développement
+## Development practices
 
-Les bonnes pratiques de développement courantes s'appliquent également en contexte de développement ouvert, et notamment celles liées au respect des référentiels en vigueur dans l'administration :
+Best development practices also apply in the context of open development, and in particular those related to the normative documents enforced within the administration:
 
-* [Référentiel général d'interopérabilité](http://references.modernisation.gouv.fr/interoperabilite)
-* [Référentiel général d'accessibilité pour les administrations](http://references.modernisation.gouv.fr/rgaa-accessibilite/)
-* [Référentiel général de sécurité](https://www.ssi.gouv.fr/administration/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/)
+* [General reference of interoperability] (http://references.modernisation.gouv.fr/interoperabilite)
+* [General accessibility reference framework for administrations] (http://references.modernisation.gouv.fr/rgaa-accessibilite/)
+* [General Security Reference] (https://www.ssi.gouv.fr/administration/reglementation/numerique-confidence/the-referentiel-general-de-securite-rgs/)
 
-L'ouverture du code vient par ailleurs amplifier l'importance de certaines de ces bonnes pratiques : 
+Opening the code also amplifies the importance of some of these best practices:
 
-* **Documentation**, à l'intérieur du code (commentaires et messages de *commit*) et hors du code.
-* **Conformité juridique** dans l'utilisation de bibliothèques tierces. La très grande majorité des développements actuels reposant sur des bibliothèques Open Source tierces, il est nécessaire de s'assurer de la compatibilité de leurs licences respectives et du respect des obligations de celles-ci.
-* **Modularisation des développements** afin de maximiser la réutilisation de code mais aussi d'isoler les éventuelles sources d'erreur
-* **Respect d'une unique convention de développement** par projet.  
+* ** Documentation **, inside the code (comments and messages of * commit *) and outside the code.
+* ** Legal compliance ** in the use of third-party libraries. The vast majority of current developments are based on third-party open source libraries, hence it is necessary to ensure the compatibility with their respective licenses and comply with their obligations.
+* ** Modularization of developments ** to maximize code reuse but also to isolate any sources of error
+* ** Respect of a unique coding guideline ** per project.
 
-## Sécurité
+## Security
 
-### Interlocuteur identifié
+### Identified interlocutor
 
- Il est recommandé d'identifier un responsable de la sécurité du
- projet qui sera garant de vérifier le respect des bonnes pratiques
- mises en œuvre durant le développement, et de traiter les éventuels
- incidents de sécurité. Il est également préférable d'avoir recours à
- une adresse électronique dédiée, à destination du responsable identifié au
- moins, pour traiter des incidents de sécurité ou des problèmes liés à la propriété intellectuelle
- qui seraient découverts par un tiers.
-
-### Développement sécurisé
-
- * Écrire du code qui respecte des pratiques de sécurité reconnues et
-   qui ne fait pas usage de constructions dangereuses dans le langage utilisé
-     * [SEI CERT Coding Standards](https://wiki.sei.cmu.edu/confluence/display/seccode/SEI+CERT+Coding+Standards)
-     * [PHP The Right Way](http://eilgin.github.io/php-the-right-way/)
-     * [Secure Coding Guidelines for Java SE](http://www.oracle.com/technetwork/java/seccodeguide-139067.html)
-     * [Importance des langages pour la sécurité](https://www.ssi.gouv.fr/agence/publication/mind-your-languages-nouvel-article-sur-limportance-des-langages-pour-la-securite/)
-     * [Sécurité et langage Java](https://www.ssi.gouv.fr/javasec/)
-     * [Sécurité et langages fonctionnels](https://www.ssi.gouv.fr/lafosec/)
-
-* Éliminer tous les messages de *debug* (par compilation
-   conditionnelle ou par un contrôle via une variable à l'exécution) et toute
-   information inutile pour l'utilisateur dans les messages d'erreur
-   (e.g.  trace d'appel Java/PHP/Python) lors de la mise en production
-
- * Éliminer tout le code mort (*i.e.* code non appelé/non
-   atteignable) car il pourrait prêter à confusion et/ou laisser
-   penser qu'il est toujours fonctionnel et testé ; ce code, non
-   maintenu, pourrait être réintégré à tort par un développeur
+ It is recommended to identify a person in charge of the security of the
+ project that will ensure compliance with best practices
+ implemented during development, and to treat potential
+ security incidents. It is also better to use
+ a dedicated e-mail address to deal with security incidents or intellectual property issues
+ which would be discovered by a third party.
  
- * Toutes les entrées externes (e.g. de l’utilisateur) doivent être contrôlées avant leur utilisation ou leur stockage, selon les bonnes pratiques de sécurité en fonction de leur destination.
+ ### Secure development
+
+ * Write code that follows recognized security practices and
+   that does not make use of dangerous constructions in the language used
+     * [SEI CERT Coding Standards] (https://wiki.sei.cmu.edu/confluence/display/seccode/SEI+CERT+Coding+Standards)
+     * PHP The Right Way (http://eilgin.github.io/php-the-right-way/)
+     * [Secure Coding Guidelines for Java SE] (http://www.oracle.com/technetwork/java/seccodeguide-139067.html)
+     * [Importance of languages ​​for security] (https://www.ssi.gouv.fr/agence/publication/mind-your-languages-new-article-on-the-importance-of-languages-for-security/ )
+     * [Security and Java language] (https://www.ssi.gouv.fr/javasec/)
+     * [Security and functional languages] (https://www.ssi.gouv.fr/lafosec/)
+
+* Eliminate all * debug * messages (by compilation
+   conditional or through a run-time variable) and any
+   unnecessary information for the user in error messages
+   (e.g. Java / PHP / Python call trace) when going into production
+
+ * Eliminate all dead code (* i.e. * code not called / no
+   achievable) as it could be confusing and / or
+   think that it is still functional and tested; this code, no
+   maintained, could be wrongly reinstated by a developer
  
-### Ne pas compter sur la sécurité par l'obscurité
+ * All external inputs (e.g. user) must be checked before use or storage, according to good safety practices and in function of their destination.
+ 
+### Do not rely on security by obscurity
 
-La sécurité par l'obscurité est globalement reconnue comme une pratique insuffisante, mais dans le cas d'un projet dont le code est ouvert, cette stratégie est caduque. Elle doit donc être remplacée par d'autres stratégies plus robustes comme par exemple la défense en profondeur.
+Obscurity is generally recognized as an insufficient practice, but in the case of a project with open code, this strategy is deprecated. It must therefore be replaced by other more robust strategies such as defense in depth.
 
-### Données secrètes/sensibles, cryptographie
+### Secret / sensitive data, cryptography
 
- * Aucun élément secret (tel qu'un mot de passe ou une clé
-   cryptographique) ne doit être stocké dans le code ou dans les
-   commentaires; avoir recours à des fichiers de configuration qui ne
-   sont pas versionnés (*cf* `.gitignore`)
- * Aucun élément secret ne doit être écrit par le programme en clair dans un fichier (y
-   compris un fichier de journalisation) ou dans une base de données,
-   toujours préférer une version hachée par une fonction de hachage
-   reconnue à l'état de l'art et correctement utilisée (*i.e* salée
-   pour chaque entrée)
-     * [Référentiel général de sécurité - Annexe B3](https://www.ssi.gouv.fr/uploads/2014/11/RGS_v-2-0_B3.pdf)
- * Aucun élément secret ne doit transiter en clair sur le réseau
- * Ne pas implémenter soi-même de mécanisme cryptographique mais
-   utiliser des bibliothèques reconnues en utilisant des paramètres
-   et des suites cryptographiques robustes
-     * [Recommandations de sécurité relatives à TLS](https://www.ssi.gouv.fr/nt-tls/)
-     * [Référentiel général de sécurité - Annexe B3](https://www.ssi.gouv.fr/uploads/2014/11/RGS_v-2-0_B3.pdf)
-
-
-### Outils de développement et dépendances
-
- * Utiliser, le cas échéant, des logiciels et des bibliothèques
-   tierces maintenus et à jour des correctifs sécurité; préférer des
-   bibliothèques (re)connues, et les plus simples possibles
- * Utiliser les services d'analyse de code offerts par la plateforme
-   d'hébergement et traiter systématiquement avant intégration les
-   problèmes remontés
- * Ne pousser que des *commits* de code qui compilent, testés et
-   fonctionnels, accompagnés des tests unitaires correspondants ;
-   certaines plateformes offrent la possibilité de rejouer
-   automatiquement les tests unitaires d'un projet afin d'assurer la
-   non-régression (e.g [Travis](https://docs.travis-ci.com/),
-   [Homu](https://github.com/servo/homu))
- * Créer un *tag* (e.g. v2.0.1) pour chaque version (e.g. 2.0.1), et
-   le signer cryptographiquement (voir [GPG signature
-   verification](https://github.com/blog/2144-gpg-signature-verification))
- * Respecter les recommandations et bonnes pratiques de sécurité émises
-   par l'ANSSI applicables au projet
-     * [Bonnes pratiques de l'ANSSI](https://www.ssi.gouv.fr/administration/bonnes-pratiques/)
-     * [Guide de sécurité méthodologie agile ANSSI / DINSIC](https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf)
+ * No secret items (such as a password or key
+   cryptographic) should only be stored in the code or in the
+   comments; use configuration files that 
+   are not versioned (* cf * `.gitignore`)
+ * No secret element should be written by the program in clear in a file (including
+   including a log file) or in a database,
+   always prefer a hashed version with a state of the art hash function
+   (* i.e * salt   for each entry)
+     * [General Security Reference System - Annex B3] (https://www.ssi.gouv.fr/uploads/2014/11/RGS_v-2-0_B3.pdf)
+ * No secret element must transit in clear on the network
+ * Do not implement a cryptographic mechanism yourself but
+   use recognized libraries using parameters
+   and robust cryptographic suites
+     * [Security Recommendations for TLS] (https://www.ssi.gouv.fr/nt-tls/)
+     * [General Security Reference System - Annex B3] (https://www.ssi.gouv.fr/uploads/2014/11/RGS_v-2-0_B3.pdf)
 
 
+### Development tools and dependencies
 
-## Outillage
+ * Use software and libraries where appropriate
+   third parties maintained and up-to-date security patches; prefer
+   libraries (re) known, and the simplest possible
+ * Use the code analysis services offered by the platform
+   and systematically process problems brought up before integration
+ * Only push * commits * of code that compile, are tested, and
+   functional, accompanied by corresponding unit tests;
+   some platforms offer the opportunity to replay
+   automatically the unit tests of a project to ensure the
+   non-regression (e.g. [Travis] (https://docs.travis-ci.com/),
+   [Homu] (https://github.com/servo/homu))
+ * Create a * tag * (e.g. v2.0.1) for each version (e.g. 2.0.1), and
+   sign it cryptographically (see [GPG signature
+   verification] (https://github.com/blog/2144-gpg-signature-verification))
+ * Respect the recommendations and good safety practices issued
+   by the ANSSI applicable to the project
+     * [Good practices of ANSSI] (https://www.ssi.gouv.fr/administration/bonnes-pratiques/)
+     * [ANSSI / DINSIC agile methodology security guide] (https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf)
 
-La politique de contribution n'a pas vocation à proposer un outillage particulier. Toutefois spécifiquement pour la gestion
-de code ouvert, vous pourrez trouver les outils référencés sur https://www.linuxfoundation.org/tools-managing-open-source-programs/#1 utiles.
+## Tools
+
+The contribution policy is not intended to offer specific tools. However specifically for managing open code, you can find the referenced tools on https://www.linuxfoundation.org/tools-managing-open-source-programs/#1 useful.
