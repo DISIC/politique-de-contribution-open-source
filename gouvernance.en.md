@@ -1,36 +1,37 @@
 ---
-title: en / Gouvernance de la politique de contribution interministérielle
+title: Governance of the Interdepartmental Contribution Policy
 menu: 
   main:
-    name: "Governance"
+    name: "governance"
     weight: 50
 ---
 
-La DINSIC maintient ce document et en est responsable (elle est propriétaire du dépôt et de la gestion des droits d'écriture). L'élaboration de cette politique a vocation à être collaborative et les entités auxquelles elle s'applique sont toutes invitées à participer à son évolution.
+The DINSIC maintains this document and is responsible for it (it owns the repository and manages the permissions). The development of this 
+policy aims to be collaborative and the entities to which it applies are all invited to participate in its development.
 
-Deux types d'organisations sont distinguées :
+Two types of organizations are distinguished:
 
-* Interministériel : DINSIC et ANSSI
-* Ministèriel
+* Interdepartmental: DINSIC and ANSSI
+* Ministry
 
-avec un seul rôle par organisation (droit d'écriture sur cette politique). L'ensemble des contributeurs avec les droits d'écriture sont listés dans le fichier [MAINTAINERS](MAINTAINERS).
+with only one role per organization (write right on this policy). All contributors with write rights are listed in the [MAINTAINERS] file.
 
-## Gestion des contributions
+## Management of contributions
 
-Toutes les contributions sont les bienvenues.  Elles sont faites via une *pull request* sur la branche `next` qui est la branche d'élaboration d'une nouvelle version de la politique.
+All contributions are welcome. They are made via a *pull request* on the branch `next` which is the branch of the next version of the policy.
 
- * les `pull request` apportant des modifications **majeures** doivent être approuvées par au moins trois organisations ministérielles et l'ANSSI. 
+ * pull request with **major** changes must be approved by at least three ministerial organizations and the ANSSI.
 
- * les `pull request` apportant des modifications **mineures** doivent être approuvées par au moins une organisation ministérielle.
+ * pull requests with **minor** changes must be approved by at least one departmental organization.
  
-Tous les mainteneurs ont la possibilité de fusionnner les *pull requests* sur la branche `next`. Si plusieurs mainteneurs appartiennent à un même ministère, leur validation ne compte que pour une organisation.
+All maintainers have the ability to merge *pull requests* on the `next` branch. If several maintainers belong to the same department, their validation only counts for one organization.
 
-## Gestion des versions
+## Version Management
 
-Seules la DINSIC et l'ANSSI peuvent fusionner sur la branche `master`qui correspond à la version validée :
+Only the DINSIC and the ANSSI can merge to the `master` branch which corresponds to the validated version:
 
- * A chaque fusion sur la branche `master`un tag est ajouté suivant le schéma `v[MAJEUR].[MINEUR]` en fonction des *pull requests* approuvées sur la branche `next`. 
+ * At each merge on the `master` branch a tag is added according to the` v [MAJOR] v. [MINOR] `scheme according to the approved * pull requests * on the` next` branch.
 
- * La politique de contribution open source peut être modifiée pour des changements légers (coquilles, etc.) sans mise à jour version (les numéros de PATCH de semver sont ignorés) directement sur la branche `master`.
+ * The open source contribution policy can be modified for slight changes (typos, etc.) without updating the version (semver PATCH numbers are ignored) directly on the `master` branch.
 
-Toutes les modifications peuvent être faites au fil de l'eau. Les discussions et commentaires sont tracées dans les commentaires de la *pull request*.
+All modifications can be done at any given time. Discussions and comments are logged in the comments of the * pull request *.
