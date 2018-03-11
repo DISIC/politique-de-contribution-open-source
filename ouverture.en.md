@@ -1,87 +1,104 @@
 ---
-title: en / Principes d’ouverture des codes sources
+title: Opening Principles of source codes
 menu: 
   main:
-    name: "Opening"
+    name: "Open"
     weight: 20 
 ---
 
-## Préambule
+## Preamble
 
-### Principe de subsidiarité
+### Principle of subsidiarity
 
-La politique peut être instanciée localement avec une priorité plus forte.
+Politics can be instantiated locally with a higher priority.
 
-Voir la section [instanciation](Instanciation.md) si vous souhaitez décliner cette politique au sein de votre organisation.
+See the [instantiation] section (Instanciation.md) if you want to decline this policy within your organization.
 
-### Assistance sur la politique de contribution
+### Contribution Policy Assistance
 
-Contacter `opensource @ data.gouv.fr` pour toute question sur cette politique.
+Contact `opensource @ data.gouv.fr` for any questions about this policy.
 
-## Principe de reconnaissance des contributions
+## Principle of attribution of contributions
 
-### Attribuer les contributions aux individus
+### Attribute contributions to individuals
 
-Afin de reconnaître la paternité des contributions, l'adresse électronique individuelle du développeur est utilisée:
+In order to recognize authorship, the developer's individual email address is used:
 
- * Pour les agents : utilisation de l'adresse électronique professionnelle.
- * Pour les prestataires de services, utilisation de l'adresse électronique de leur société d'attachement (pas d'adresse prestataire fournie par l'administration)
+ * For agents: use of the professional email address.
+ * For service providers, use the email address of their company (no contractor email address provided by the administration)
 
-Toutefois, au cas où un développeur ne souhaiterait pas voir son identité publiée, il peut utiliser un pseudonyme.
-En revanche, l'utilisation d'adresses électroniques génériques ou anonymes est à proscrire.
+If a developer does not wish to see his identity published, he can use a pseudonym.
+On the other hand, the use of generic or anonymous email addresses should be avoided.
  
-### Distinguer les contributions professionnelles et personnelles
+### Differenciate professional and personal contributions
 
-Il est possible pour un développeur de contribuer sur un même projet dans le cadre du milieu professionnel et à titre personnel, l'État reconnaissant aux développeurs la propriété sur les contributions réalisées en dehors du temps de travail. Les contributions réalisées sur le temps professionnel doivent être associées à une adresse électronique professionnelle.
+It is possible for a developer to contribute on the same project professionnaly and privately.
+The State is recognizing developers' property on contributions made outside of working time. Contributions made to the
+professional time must be associated with a professional email address.
 
-## Contribuer à des projets tiers
+## Contribute to third-party projects
 
-### Autorisation par défaut de contribuer à des projets sous licence FSF ou OSI
+### Default permission to contribute to FSF or OSI licensed projects
 
-Les licences validées par les organismes Free Software Foundation et Open Source Initiative et recensées sur leurs pages respectives :
+Contributions to existing projects with FSF or OSI licenses are allowed by default.
+Licenses validated by the Free Software Foundation and Open Source Initiative and listed on their respective pages:
 
- * FSF : https://www.gnu.org/licenses/license-list.fr.html (en excluant les licences non libres présentées comme telles) ;
- * OSI : https://opensource.org/licenses/alphabetical.
+ * FSF: https://www.gnu.org/licenses/license-list.fr.html (excluding non-free licenses presented as such);
+ * OSI: https://opensource.org/licenses/alphabetical.
 
-À l'inverse les licences non retenues par ces organismes (comme la *Beerware*) ne rentrent pas dans le cadre de l'autorisation par défaut. Un tableau consolidé des licences validées par l'un ou l'autre organisme est maintenu sur le site [https://spdx.org/licenses/](https://spdx.org/licenses)
 
-### Signature des *Corporate Contributor License Agreement*
+Conversely, licenses not retained by these organizations (such as * Beerware *) do not fall under the default authorization.
+A consolidated table of licenses validated by one or the other organization is maintained on the site
+[https://spdx.org/licenses/](https://spdx.org/licenses)
 
-La DINSIC prend en charge de signer les accords de contributions spécifiques (Corporate Contributor License Agreement ou CCLA) avec les
-communautés ou les entreprises qui l'exigent, afin de permettre les contributions des agents à titre professionnel aux projets concernés. Si
-cela est demandé par l'autre partie, elle maintiendra les listes d'individus couverts par l'accord. Une autre possibilité est que l'accord
-de CCLA soit un pré-requis à la signature d'un Contributor License Agreement individuel (iCLA). Dans ce cas, la signature d'un CCLA par la
-DINSIC vaudra pré-autorisaiton pour la signature d'iCLA.
+### Signature of * Corporate Contributor License Agreement *
 
-Si vous souhaitez contribuer à un projet réclamant ce type de formalisme, que ce soit pour signer un CCLA, vous rajouter à la liste des contributeurs autorisés, ou vérifier la possibilité de signer un iCLA, contactez l'adresse d'assistance indiquée plus haut.
+The DINSIC is responsible for signing the Corporate Contributor License Agreement (CCLA) with the
+communities or companies that require it, in order to allow the professional contributions of the civil servant. If this is requested by
+the other party, it will maintain a lists of individuals covered by the agreement. Another possibility is that the CCLA is a prerequisite
+for signing an individual Contributor License Agreement (iCLA). In this case, the signature of a CCLA by the
+DINSIC will serve as a pre-authorization to sign iCLA.
 
-Liste des CCLA signés:
+If you wish to contribute to a project requiring this type of formalism, whether it is to sign a CCLA, add you to the list of authorized
+contributors, or check the possibility of signing an iCLA, contact the assistance address indicated above.
 
- * A ce stade, aucun CCLA n'a encore été signé par la DINSIC.
+List of CCLAs signed:
 
-## Contribuer en publiant un nouveau projet
+ * At this stage, no CCLA has been signed by DINSIC.
 
-### La publication du code source ne crée ni obligation ni garantie
+## Contribute by publishing a new project
 
-* Aucune obligation de support et de prise en compte des demandes des utilisateurs ni plus généralement d'obligation d'animer la communauté. 
-* Pas de garanties au-delà de ce qui est prévu par la licence.
+### The publication of the source code creates neither obligation nor guarantee
 
-### Autorisation par défaut de contribuer un nouveau projet avec les licences du décret
+* No obligation to support and take into account the requests of the users nor more generally obligation to animate the community.
+* No guarantees beyond what is provided by the license.
 
-L'État n'a pas vocation à être éditeur de logiciels. En dehors des trois exceptions prévues à la loi pour une République numérique pour lesquelles vous pouvez contacter l'adresse électronique de support en cas de question, il n'y a pas d'autorisation préalable à demander auprès de la DINSIC. Pour autant, veuillez vous référer à votre supérieur hiérarchique avant la publication d'un nouveau projet dans le compte de votre organisation.
+### Default permission to contribute a new project under the licenses listed by the decree
 
-Pour rappel, les licences à utiliser sont disponibles par décret sur le site : http://www.data.gouv.fr/fr/licences.
+The state is not intended to be a software editor. Apart from the three exceptions of the digital Republic law for which you can contact the
+support e-mail address in case of question, there is no prior authorization required from DINSIC. However, please refer to your supervisor
+before publishing a new project in your organization's account.
 
-### Éléments à considérer dans le choix de la licence libre
+As a reminder, the licenses to use are available by decree on the site: http://www.data.gouv.fr/fr/licences.
 
-Pour les cas où l'administration a des raisons de garantir que les modifications apportées par un tiers au logiciel libre qu'elle publie sont accessibles sous les mêmes conditions, elle envisagera une licence à réciprocité.  En particulier, s'il s'agit d'un logiciel qui est à la base d'un service en ligne pour lequel elle souhaite se prémunir de toute réappropriation, elle pourra considérer la licence GNU Affero General Public License.  Dans les autres cas, elle considérera les licences permissives.
+### Elements to consider when choosing a free/open-source software license
 
-Le choix de la licence d'un projet devra également prendre en compte celles des composants Open Source tiers constituant son cadre technique, selon les modalités de leurs relations techniques.
+When the Administration has reason to ensure that third-party modifications to the software are accessible
+under the same conditions, it will consider a reciprocal license. In particular, if it is a software that is the basis of an online service
+for which it wishes to prevent any re-appropriation, it may consider the GNU Affero General Public License. In other cases, it will
+consider permissive licenses.
 
-L'écosystème où s'insère le projet pourra aussi aiguiller le choix de la licence, dans la limite de la latitude laissée par les critères précédents.
+The choice of the license of a project need also to take into account the third-party components included in its
+technical framework, according to the modalities of their technical relations.
 
-À noter que les solutions logicielles sont souvent modulaires et que la question de la licence peut se poser à plusieurs niveaux.  Par exemple, pour une solution de site web, les modules de l'interface web pourront être publiés sous une licence différente de celle qui couvre le code source côté serveur.
+The ecosystem where the project is located may also guide the choice of the license, within the limits of the previous
+criteria.
 
-### Certification de l'origine des contributions (DCO)
+Note that software solutions are often modular and the issue of licensing can arise at many levels. For example, for a website solution,
+the modules of the web interface may be published under a different license than the server-side source code.
 
-Les projets publiés par l'État n'exigent pas de droits spécifiques des contributeurs en dehors de ceux accordés par leurs licences respectives (pas d'utilisation de CLA). En revanche, il est demandé aux contributeurs de signer un Certificat d'origine des contributions (*Developer Certificate of Origin*). Afin de s'insérer dans les standards en usage, il a été choisi d'utiliser une traduction française du texte utilisé pour le noyau Linux et repris par de nombreux autres projets.
+### Certification of the origin of the contributions (COD)
+
+Projects published by the State do not require specific rights of contributors apart from those granted by their respective licenses
+(no use of CLA). On the other hand, contributors are requested to sign a Certificate of Origin of Contributions (* Developer Certificate
+of Origin *). A French translation is available in this repository.
