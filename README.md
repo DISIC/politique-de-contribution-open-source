@@ -2,12 +2,7 @@
 
 Bienvenue sur la politique de contribution aux logiciels libres de la DINSIC.
 
-Ce document est un travail en cours et une première version est planifiée pour fin février 2018.
-
-> MISE A JOUR du 28 janvier 2018: L'appel à commentaire est maintenant terminé. Merci à tous pour vos contributions. Vous pouvez bien sûr continuer à nous faire part de vos suggestions et interrogations. La suite des travaux prévue est la suivante:
-> * Prise en compte de tous les commentaires et préparation d'une version pour validation
-> * Validation officielle de la politique lors d'une réunion interministérielle
-> * Publication de la version validée fin février
+> MISE A JOUR du 13 mars 2018: La politique de contribution aux logiciels libre a été validée au CSIC Tech du 15 février 2018.
 
 L'objectif de ce document est de décrire COMMENT ouvrir les codes sources en respectant les bonnes pratiques.
 
