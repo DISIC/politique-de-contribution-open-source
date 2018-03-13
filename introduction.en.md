@@ -14,7 +14,7 @@ __History and versions__
 | 0.2     | Opening of the call for comments | 06/12/2017 |
 | 0.3     | End of the call for comments     | 28/01/2018 |
 | 1.0RC01 | Project submitted to validation  | 02/10/2018 |
-| 1.0     | Validation in CSIC Tech          | 16/02/2018 |
+| 1.0     | Validated                        | 16/02/2018 |
 
 ## Objectives
 
