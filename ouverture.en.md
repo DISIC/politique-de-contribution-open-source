@@ -24,8 +24,8 @@ Contact `opensource @ data.gouv.fr` for any questions about this policy.
 
 In order to recognize authorship, the developer's individual email address is used:
 
- * For agents: use of the professional email address.
- * For service providers, use the email address of their company (no contractor email address provided by the administration)
+* For agents: use of the professional email address.
+* For service providers, use the email address of their company (no contractor email address provided by the administration)
 
 If a developer does not wish to see his identity published, he can use a pseudonym.
 On the other hand, the use of generic or anonymous email addresses should be avoided.
@@ -43,8 +43,8 @@ professional time must be associated with a professional email address.
 Contributions to existing projects with FSF or OSI licenses are allowed by default.
 Licenses validated by the Free Software Foundation and Open Source Initiative and listed on their respective pages:
 
- * FSF: https://www.gnu.org/licenses/license-list.fr.html (excluding non-free licenses presented as such);
- * OSI: https://opensource.org/licenses/alphabetical.
+* FSF: https://www.gnu.org/licenses/license-list.fr.html (excluding non-free licenses presented as such);
+* OSI: https://opensource.org/licenses/alphabetical.
 
 
 Conversely, licenses not retained by these organizations (such as * Beerware *) do not fall under the default authorization.
@@ -64,7 +64,7 @@ contributors, or check the possibility of signing an iCLA, contact the assistanc
 
 List of CCLAs signed:
 
- * At this stage, no CCLA has been signed by DINSIC.
+* At this stage, no CCLA has been signed by DINSIC.
 
 ## Contribute by publishing a new project
 
