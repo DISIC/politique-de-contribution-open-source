@@ -2,7 +2,7 @@
 title: Good practices
 menu: 
   main:
-    name: "practices"
+    name: "Practices"
     weight: 40
 ---
 

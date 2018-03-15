@@ -2,7 +2,7 @@
 title: Opening Principles of source codes
 menu: 
   main:
-    name: "Open"
+    name: "Opening"
     weight: 20 
 ---
 

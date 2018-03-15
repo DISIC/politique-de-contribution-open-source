@@ -2,7 +2,7 @@
 title: Governance of the Interdepartmental Contribution Policy
 menu: 
   main:
-    name: "governance"
+    name: "Governance"
     weight: 50
 ---
 
