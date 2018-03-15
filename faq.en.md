@@ -61,7 +61,7 @@ Please email the contact address provided in this policy.
 
 {{%question "How to choose among the different licenses offered?" %}}
 
-See [Opening / Default Authorization to Contribute to FSF or OSI Licensed Projects] ({{<relref "opening.md # permission-by-fail-to-contribute-to-projects-sublicense-fsf- or-osi ">}}) and [Opening / Authorization to contribute a new project with decree licenses] ({{<relref" opening.md # authorization-by-fail-to-contribute-a-new- project-with-the-licenses-of-the decree ">}}).
+See [Opening / Default Authorization to Contribute to FSF or OSI Licensed Projects]({{<relref "ouverture.en.md#permission-by-fail-to-contribute-to-projects-sublicense-fsf- or-osi">}}) and [Opening / Authorization to contribute a new project with decree licenses]({{<relref "ouverture.en.md#authorization-by-fail-to-contribute-a-new- project-with-the-licenses-of-the decree">}}).
 
 Feel free to come back to us using the contact address for any questions or advice.
 
@@ -77,11 +77,11 @@ Please email the contact address provided in this policy.
 
 {{%question "Which e-mail address should I use to contribute to a project?" %}}
 
-Everything is detailed in the page [Opening / Assigning Contributions to Individuals] ({{<relref "opening.md # assign-contributions-to-individuals">}}).
+Everything is detailed in the page [Opening / Assigning Contributions to Individuals]({{<relref "ouverture.en.md#assign-contributions-to-individuals">}}).
 
 #### and if I am an employee of an outsourcing company?
 
-Everything is detailed in the page [Opening / Assigning Contributions to Individuals] ({{<relref "opening.md # assign-contributions-to-individuals">}}).
+Everything is detailed in the page [Opening / Assigning Contributions to Individuals]({{<relref "ouverture.en.md#assign-contributions-to-individuals">}}).
 
 
 #### and if I am self-employed / self-entrepreneur?

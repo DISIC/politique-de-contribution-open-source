@@ -55,7 +55,7 @@ The contribution policy is composed of:
  * [Principles of opening of source codes]({{<relref "ouverture.en.md">}})
  * [Modalities and good practices]({{<relref "pratique.en.md">}})
  * [Ministerial Contribution Policy Instantiation]({{<relref "instanciation.en.md">}})
- * [Associated governance]({{<relref "governance.en.md">}})
+ * [Associated governance]({{<relref "gouvernance.en.md">}})
 
 ## Responsibility of the document
 
