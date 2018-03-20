@@ -1,4 +1,4 @@
-# Open-source contribution policy
+# Open Source contribution policy
 
 Welcome to the DINSIC Free Software Contribution Policy.
 

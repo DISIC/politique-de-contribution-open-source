@@ -1,6 +1,6 @@
 ---
 title: Contribution Policy for Free Software of the State
-menu: 
+menu:
   main:
     name: "Introduction"
     weight: 10
@@ -19,11 +19,11 @@ __History and versions__
 ## Objectives
 
 Under the Law for a Digital Republic of [October 7, 2016][LoiRepNum link], source codes are administrative documents
-that are communicable and reusable. In the case where it is possible to choose an open-source license, the decree
+that are communicable and reusable. In the case where it is possible to choose an Open Source license, the decree
 [n ° 2017-638 of April 27, 2017][DecretLicences link] specifies the families of licenses that can be used. The detailled list
 of the licenses and their versions are available on the website [data.gouv.fr][Licenses link].
 
-The objectives of this interdepartmental open-source contribution policy are:
+The objectives of this interdepartmental Open Source contribution policy are:
 
  * set the rules and principles for opening source codes
  * support the ministries and share good practices
