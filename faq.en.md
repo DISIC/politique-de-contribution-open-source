@@ -32,7 +32,7 @@ If you are involved in a public contract, you are concerned. However, the detail
 
 #### and if I am self-employed / self-entrepreneur?
 
-If you work for an administration within the scope of DINSIC, you are also concerned.
+If you work for an administration within the scope of the DINSIC, you are also concerned.
 
 {{%/question%}}
 

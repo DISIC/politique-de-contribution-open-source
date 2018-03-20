@@ -64,7 +64,7 @@ contributors, or check the possibility of signing an iCLA, contact the assistanc
 
 List of CCLAs signed:
 
-* At this stage, no CCLA has been signed by DINSIC.
+* At this stage, no CCLA has been signed by the DINSIC.
 
 ## Contribute by publishing a new project
 
@@ -76,7 +76,7 @@ List of CCLAs signed:
 ### Default permission to contribute a new project under the licenses listed by the decree
 
 The state is not intended to be a software editor. Apart from the three exceptions of the Law for a Digital Republic for which you can contact the
-support e-mail address in case of question, there is no prior authorization required from DINSIC. However, please refer to your supervisor
+support e-mail address in case of question, there is no prior authorization required from the DINSIC. However, please refer to your supervisor
 before publishing a new project in your organization's account.
 
 As a reminder, the licenses to use are available by decree on the site: http://www.data.gouv.fr/fr/licences.

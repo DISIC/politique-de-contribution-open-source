@@ -59,7 +59,7 @@ The contribution policy is composed of:
 
 ## Responsibility of the document
 
-DINSIC produces and maintains this document; it ensures its implementation and the associated support. For any questions, or requests
+The DINSIC produces and maintains this document; it ensures its implementation and the associated support. For any questions, or requests
 for changes, please refer to the * Governance * section.
 
 This document is published under the [Open License 2.0][LO link]
