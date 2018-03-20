@@ -1,9 +1,9 @@
 ---
 title: Opening Principles of source codes
-menu: 
+menu:
   main:
     name: "Opening"
-    weight: 20 
+    weight: 20
 ---
 
 ## Preamble
@@ -29,7 +29,7 @@ In order to recognize authorship, the developer's individual email address is us
 
 If a developer does not wish to see his identity published, he can use a pseudonym.
 On the other hand, the use of generic or anonymous email addresses should be avoided.
- 
+
 ### Differenciate professional and personal contributions
 
 It is possible for a developer to contribute on the same project professionnaly and privately.
@@ -75,7 +75,7 @@ List of CCLAs signed:
 
 ### Default permission to contribute a new project under the licenses listed by the decree
 
-The state is not intended to be a software editor. Apart from the three exceptions of the digital Republic law for which you can contact the
+The state is not intended to be a software editor. Apart from the three exceptions of the Law for a Digital Republic for which you can contact the
 support e-mail address in case of question, there is no prior authorization required from DINSIC. However, please refer to your supervisor
 before publishing a new project in your organization's account.
 
