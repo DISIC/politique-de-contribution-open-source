@@ -1,18 +1,18 @@
 ---
 title: Frequently Asked Questions
-menu: 
+menu:
   main:
     name: <abbr title="Frequently asked questions">FAQ</abbr>
     weight: 70
 layout: faq
 ---
 
-## Perimeter
+## Scope
 
 
 {{%question "Am I affected by this open source contribution policy?"%}}
 
-As stated in the introduction, if the Digital Republic Law applies to the entire administration, the scope of the DINSIC focuses on the 
+As stated in the introduction, if the Digital Republic Law applies to the entire administration, the scope of the DINSIC focuses on the
 central administrations (with some exceptions according to Decree No. 2014-879 of August 1 2014).
 
 If you are part of a local authority, this policy does not apply to you, even though the Digital Republic Law applies.

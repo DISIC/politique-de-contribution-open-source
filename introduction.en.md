@@ -32,7 +32,7 @@ The objectives of this interdepartmental Open Source contribution policy are:
 This document is intended for developers or their managers, whether they are public servants (officials
 or contractual) or service providers.
 
-## Perimeter
+## Scope
 
 This contribution policy applies to the state's information and communication system
 in accordance with Article 1 of [Decree No. 2014-879 of 1 August 2014] [DecretDINSIC link]. Each state administration
@@ -44,7 +44,7 @@ Source codes covered by this policy are the ones:
  * developed on behalf of the administration.
 
 This contribution policy aims at * new * developments. For the opening of existing source codes, additional actions will be needed,
-such as defining the perimeter, reviewing quality and security, and ensuring compliance specifically on intellectual property.
+such as defining the scope, reviewing quality and security, and ensuring compliance specifically on intellectual property.
 
 Public hospital and local governments are outside the scope of this contribution policy.
 
