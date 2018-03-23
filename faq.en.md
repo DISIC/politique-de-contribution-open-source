@@ -1,28 +1,28 @@
 ---
 title: Frequently Asked Questions
-menu: 
+menu:
   main:
     name: <abbr title="Frequently asked questions">FAQ</abbr>
     weight: 70
 layout: faq
 ---
 
-## Perimeter
+## Scope
 
 
 {{%question "Am I affected by this open source contribution policy?"%}}
 
-As stated in the introduction, if the Digital Republic Law applies to the entire administration, the scope of the DINSIC focuses on the 
+As stated in the introduction, if the Law for a Digital Republic applies to the entire administration, the scope of the DINSIC focuses on the
 central administrations (with some exceptions according to Decree No. 2014-879 of August 1 2014).
 
-If you are part of a local authority, this policy does not apply to you, even though the Digital Republic Law applies.
+If you are part of a local authority, this policy does not apply to you, even though the Law for a Digital Republic applies.
 
 If you are part of an operator or a public institution under the tutelage of a ministry, you are concerned.
 
 
 #### and if I belong to a research institution?
 
-The Digital Republic Law applies in the same way.
+The Law for a Digital Republic applies in the same way.
 
 
 #### and if I am an employee of an outsourcing company?
@@ -32,7 +32,7 @@ If you are involved in a public contract, you are concerned. However, the detail
 
 #### and if I am self-employed / self-entrepreneur?
 
-If you work for an administration within the scope of DINSIC, you are also concerned.
+If you work for an administration within the scope of the DINSIC, you are also concerned.
 
 {{%/question%}}
 

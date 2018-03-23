@@ -1,4 +1,4 @@
-# Open-source contribution policy
+# Open Source contribution policy
 
 Welcome to the DINSIC Free Software Contribution Policy.
 
@@ -6,7 +6,7 @@ Welcome to the DINSIC Free Software Contribution Policy.
 
 The purpose of this document is to describe HOW to open source codes according to best practices.
 
-To know which source codes should be open, please refer to the Digital Republic law.
+To know which source codes should be open, please refer to the Law for a Digital Republic.
 
 This document is published under the [Open License 2.0] [LO link].
 
