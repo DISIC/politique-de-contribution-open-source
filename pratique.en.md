@@ -32,7 +32,7 @@ host its own public forge.
 
 Choosing a forge for a project must be done according to the level of collaboration expected and the interfaces with the private repositories and the rest of the development platform.
 
-## Management of personal and organizatios accounts
+## Management of personal and organizations accounts
 
 All projects initiated by an administration must be published in repositories under an organization accounts. Personal account repositories
 should only be used for temporary technical forks or personal developments.
