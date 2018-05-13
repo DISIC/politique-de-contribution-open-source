@@ -53,8 +53,8 @@ Public hospital and local governments are outside the scope of this contribution
 The contribution policy is composed of:
 
  * [Principles of opening of source codes]({{<relref "ouverture.en.md">}})
- * [Modalities and good practices]({{<relref "pratique.en.md">}})
- * [Ministerial Contribution Policy Instantiation]({{<relref "instanciation.en.md">}})
+ * [Best practices]({{<relref "pratique.en.md">}})
+ * [Local Contribution Policy Instantiation]({{<relref "instanciation.en.md">}})
  * [Associated governance]({{<relref "gouvernance.en.md">}})
 
 ## Responsibility of the document
