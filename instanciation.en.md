@@ -1,5 +1,5 @@
 ---
-title: Instantiate a local Contribution Policies
+title: Instantiate a local Contribution Policy
 menu: 
   main:
     name: "Instantiate"
