@@ -12,7 +12,7 @@ menu:
 
 Politics can be instantiated locally with a higher priority.
 
-See the [instantiation] section (Instanciation.md) if you want to decline this policy within your organization.
+See the [instantiation](Instanciation.md) section  if you want to decline this policy within your organization.
 
 ### Contribution Policy Assistance
 
