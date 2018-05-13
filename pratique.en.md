@@ -136,7 +136,7 @@ To ensure software compliance, these identifiers enable to generate automaticall
 
 The complete list of SPDX identifiers is available at this address: [https://spdx.org/licenses/](https://spdx.org/licenses/)
 
-## Traceability of development (COD)
+## Traceability of development (DCO)
 
 In order to guarantee the origin of the contributions submitted, the implementation of a Developer's Certificate of Origin is recommended.
 A French translation is made available [DCO-Fr.txt](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt)
@@ -155,10 +155,10 @@ Best development practices also apply in the context of open development, and in
 
 Opening the code also amplifies the importance of some of these best practices:
 
-* ** Documentation **, inside the code (comments and messages of * commit *) and outside the code.
-* ** Legal compliance ** in the use of third-party libraries. The vast majority of current developments are based on third-party open source libraries, hence it is necessary to ensure the compatibility with their respective licenses and comply with their obligations.
-* ** Modularization of developments ** to maximize code reuse but also to isolate any sources of error
-* ** Respect of a unique coding guideline ** per project.
+* **Documentation**, inside the code (comments and messages of * commit *) and outside the code.
+* **Legal compliance** in the use of third-party libraries. The vast majority of current developments are based on third-party open source libraries, hence it is necessary to ensure the compatibility with their respective licenses and comply with their obligations.
+* **Modularization of developments** to maximize code reuse but also to isolate any sources of error
+* **Respect of a unique coding guideline** per project.
 
 ## Security
 
@@ -182,12 +182,12 @@ which would be discovered by a third party.
   * [Security and Java language](https://www.ssi.gouv.fr/javasec/)
   * [Security and functional languages](https://www.ssi.gouv.fr/lafosec/)
 
-* Eliminate all * debug * messages (by compilation
+* Eliminate all *debug* messages (by compilation
 conditional or through a run-time variable) and any
 unnecessary information for the user in error messages
 (e.g. Java / PHP / Python call trace) when going into production
 
-* Eliminate all dead code (* i.e. * code not called / no
+* Eliminate all dead code (*i.e.* code not called / no
 achievable) as it could be confusing and / or
 think that it is still functional and tested; this code, no
 maintained, could be wrongly reinstated by a developer
@@ -203,17 +203,15 @@ Obscurity is generally recognized as an insufficient practice, but in the case o
 * No secret items (such as a password or key
 cryptographic) should only be stored in the code or in the
 comments; use configuration files that 
-are not versioned (* cf * `.gitignore`)
+are not versioned (*cf* `.gitignore`)
 
 * No secret element should be written by the program in clear in a file (including
 including a log file) or in a database,
 always prefer a hashed version with a state of the art hash function
-(* i.e * salt   for each entry)
+(*i.e* salt   for each entry)
   * [General Security Reference System - Annex B3](https://www.ssi.gouv.fr/uploads/2014/11/RGS_v-2-0_B3.pdf)
 * No secret element must transit in clear on the network
-* Do not implement a cryptographic mechanism yourself but
-use recognized libraries using parameters
-and robust cryptographic suites
+* Do not implement a cryptographic mechanism yourself but use recognized libraries using parameters and robust cryptographic suites
   * [Security Recommendations for TLS](https://www.ssi.gouv.fr/nt-tls/)
   * [General Security Reference System - Annex B3](https://www.ssi.gouv.fr/uploads/2014/11/RGS_v-2-0_B3.pdf)
 
@@ -227,19 +225,18 @@ libraries (re) known, and the simplest possible
 * Use the code analysis services offered by the platform
 and systematically process problems brought up before integration
 
-* Only push * commits * of code that compile, are tested, and
+* Only push *commits* of code that compile, are tested, and
 functional, accompanied by corresponding unit tests;
 some platforms offer the opportunity to replay
 automatically the unit tests of a project to ensure the
 non-regression (e.g. [Travis](https://docs.travis-ci.com/),
 [Homu](https://github.com/servo/homu))
 
-* Create a * tag * (e.g. v2.0.1) for each version (e.g. 2.0.1), and
+* Create a *tag* (e.g. v2.0.1) for each version (e.g. 2.0.1), and
 sign it cryptographically (see [GPG signature
 verification](https://github.com/blog/2144-gpg-signature-verification))
 
-* Respect the recommendations and good safety practices issued
-by the ANSSI applicable to the project
+* Respect the recommendations and good safety practices issued by the ANSSI applicable to the project
    * [Good practices of ANSSI](https://www.ssi.gouv.fr/administration/bonnes-pratiques/)
    * [ANSSI / DINSIC agile methodology security guide](https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf)
 
