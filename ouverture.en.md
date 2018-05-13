@@ -97,8 +97,8 @@ criteria.
 Note that software solutions are often modular and the issue of licensing can arise at many levels. For example, for a website solution,
 the modules of the web interface may be published under a different license than the server-side source code.
 
-### Certification of the origin of the contributions (COD)
+### Developer Certificate of Origin (DCO)
 
 Projects published by the State do not require specific rights of contributors apart from those granted by their respective licenses
-(no use of CLA). On the other hand, contributors are requested to sign a Certificate of Origin of Contributions (* Developer Certificate
-of Origin *). A French translation is available in this repository.
+(no use of CLA). On the other hand, contributors are requested to sign a Certificate of Origin of Contributions (*Developer Certificate
+of Origin*). A French translation is available in this repository.
