@@ -51,7 +51,7 @@ Conversely, licenses not retained by these organizations (such as * Beerware *) 
 A consolidated table of licenses validated by one or the other organization is maintained on the site
 [https://spdx.org/licenses/](https://spdx.org/licenses)
 
-### Signature of * Corporate Contributor License Agreement *
+### Signature of *Corporate Contributor License Agreement*
 
 The DINSIC is responsible for signing the Corporate Contributor License Agreement (CCLA) with the
 communities or companies that require it, in order to allow the professional contributions of the civil servant. If this is requested by
