@@ -14,7 +14,7 @@ Two types of organizations are distinguished:
 * Interdepartmental: DINSIC and ANSSI
 * Ministry
 
-with only one role per organization (write right on this policy). All contributors with write rights are listed in the [MAINTAINERS] file.
+with only one role per organization (write permission on this policy). All contributors with write permissions are listed in the [MAINTAINERS](MAINTAINERS) file.
 
 ## Management of contributions
 
@@ -30,8 +30,8 @@ All maintainers have the ability to merge *pull requests* on the `next` branch. 
 
 Only the DINSIC and the ANSSI can merge to the `master` branch which corresponds to the validated version:
 
-* At each merge on the `master` branch a tag is added according to the` v [MAJOR] v. [MINOR] `scheme according to the approved * pull requests * on the` next` branch.
+* At each merge on the `master` branch a tag is added according to the` v [MAJOR] v. [MINOR] `scheme according to the approved *pull requests* on the` next` branch.
 
 * The open source contribution policy can be modified for slight changes (typos, etc.) without updating the version (semver PATCH numbers are ignored) directly on the `master` branch.
 
-All modifications can be done at any given time. Discussions and comments are logged in the comments of the * pull request *.
+All modifications can be done at any given time. Discussions and comments are logged in the comments of the *pull request*.
