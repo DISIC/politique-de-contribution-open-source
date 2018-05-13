@@ -51,7 +51,7 @@ Any code written as part of a public service mission is publishable and reusable
 
 {{% /question %}}
 
-{{%q uestion "I have a doubt about opening a source code, who can I contact?" %}}
+{{% question "I have a doubt about opening a source code, who can I contact?" %}}
 
 Please email the contact address provided in this policy.
 
@@ -60,23 +60,23 @@ Please email the contact address provided in this policy.
 
 ## Licenses
 
-{{%question "How to choose among the different licenses offered?" %}}
+{{% question "How to choose among the different licenses offered?" %}}
 
 See [Opening / Default Authorization to Contribute to FSF or OSI Licensed Projects]({{<relref "ouverture.en.md#permission-by-fail-to-contribute-to-projects-sublicense-fsf- or-osi">}}) and [Opening / Authorization to contribute a new project with decree licenses]({{<relref "ouverture.en.md#authorization-by-fail-to-contribute-a-new- project-with-the-licenses-of-the decree">}}).
 
 Feel free to come back to us using the contact address for any questions or advice.
 
-{{%/question%}}
+{{% /question %}}
 
-{{%question "I need legal help on an open source license, who can I contact?" %}}
+{{% question "I need legal help on an open source license, who can I contact?" %}}
 
 Please email the contact address provided in this policy.
 
-{{%/question%}}
+{{% /question %}}
 
 ## Electronic identity
 
-{{%question "Which e-mail address should I use to contribute to a project?" %}}
+{{% question "Which e-mail address should I use to contribute to a project?" %}}
 
 Everything is detailed in the page [Opening / Assigning Contributions to Individuals]({{<relref "ouverture.en.md#assign-contributions-to-individuals">}}).
 
@@ -89,34 +89,34 @@ Everything is detailed in the page [Opening / Assigning Contributions to Individ
 
 In this case, your identity is what really counts and it is the same to use a professional or personal email address. Choose what you want.
 
-{{%/question%}}
+{{% /question %}}
 
 
-{{%question "Should I use my professionnal email if I have been contributing to a project for a long time on my own?" %}}
+{{% question "Should I use my professionnal email if I have been contributing to a project for a long time on my own?" %}}
 
 If the contributions are made in the professional context, you are actually asked to use your professional email address.
 
-{{%/question%}}
+{{% /question %}}
 
 ## Miscellaneous
 
-{{%question "Do I need to get validation before I publish code?" %}}
+{{% question "Do I need to get validation before I publish code?" %}}
 
 Although a pre-authorization by default is proposed by the DINSIC, it may be necessary to obtain the approval of your supervisor (the same way you have validated your training proposed by the training department). For the publication of a new code base and not a contribution to an existing code, you will need to obtain a repository on your organization's account.
 
-{{%/question%}}
+{{% /question %}}
 
 
-{{%question "My administration does not have an organization account on the online code hosting service I want to use. What should I do?" %}}
+{{% question "My administration does not have an organization account on the online code hosting service I want to use. What should I do?" %}}
 
 If your administration has an account on another platform, contact the manager of this account.
 
 If it is not the case, contact the support email address provided in this policy.
 
-{{%/question%}}
+{{% /question %}}
 
 
-{{%question "I do not dare to make my first commit in public, can I get help?" %}}
+{{% question "I do not dare to make my first commit in public, can I get help?" %}}
 
 If you have a contribution available on a private repository, it is possible and encouraged to request a peer review.
 
@@ -124,11 +124,11 @@ We advise you to identify someone who is closest to your organization and has al
 
 If you can not identify someone, you can contact the support email address provided in the policy, so that we can help you find peers.
 
-{{%/question%}}
+{{% /question %}}
 
 
 {{% question "Can I code in a language other than French?" %}}
 
 The names of variables and functions, as well as code comments, can be written in the language of the intended developer community. However, the user documentation must be available in French.
 
-{{%/question%}}
+{{% /question %}}
