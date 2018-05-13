@@ -1,8 +1,8 @@
 ---
-title: Good practices
+title: Best practices
 menu: 
   main:
-    name: "Practices"
+    name: "Best practices"
     weight: 40
 ---
 
