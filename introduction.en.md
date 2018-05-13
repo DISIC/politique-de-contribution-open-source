@@ -43,7 +43,7 @@ Source codes covered by this policy are the ones:
  * developed internally by the administration
  * developed on behalf of the administration.
 
-This contribution policy aims at * new * developments. For the opening of existing source codes, additional actions will be needed,
+This contribution policy aims at *new* developments. For the opening of existing source codes, additional actions will be needed,
 such as defining the scope, reviewing quality and security, and ensuring compliance specifically on intellectual property.
 
 Public hospital and local governments are outside the scope of this contribution policy.
@@ -60,7 +60,7 @@ The contribution policy is composed of:
 ## Responsibility of the document
 
 The DINSIC produces and maintains this document; it ensures its implementation and the associated support. For any questions, or requests
-for changes, please refer to the * Governance * section.
+for changes, please refer to the *Governance* section.
 
 This document is published under the [Open License 2.0][LO link]
 
