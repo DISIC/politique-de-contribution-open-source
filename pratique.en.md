@@ -3,7 +3,7 @@ title: Best practices
 menu: 
   main:
     name: "Best practices"
-    weight: 40
+    weight: 30
 ---
 
 ## Source code version tracking system
