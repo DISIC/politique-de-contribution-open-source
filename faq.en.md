@@ -10,7 +10,7 @@ layout: faq
 ## Scope
 
 
-{{%question "Am I affected by this open source contribution policy?"%}}
+{{% question "Am I affected by this open source contribution policy?"%}}
 
 As stated in the introduction, if the Law for a Digital Republic applies to the entire administration, the scope of the DINSIC focuses on the
 central administrations (with some exceptions according to Decree No. 2014-879 of August 1 2014).
@@ -34,27 +34,28 @@ If you are involved in a public contract, you are concerned. However, the detail
 
 If you work for an administration within the scope of the DINSIC, you are also concerned.
 
-{{%/question%}}
+{{% /question %}}
 
-{{%question "Which codes are intended to be open?" %}}
+{{% question "Which codes are intended to be open?" %}}
 
 The obligation to open the codes is related to the Digital Republic lw which plans a gradual opening until October 7, 2018. At
 this date, all codes that have economic, social, sanitary or environmental value must be opened by default.
 
 Any code written as part of a public service mission is publishable and reusable for other purposes, except for the following:
+
 - The code must be completed (i.e. put into production)
 - This communication must not undermine:
     - A secret protected by law (commercial or industrial secret of a third party, etc.)
     - State security, and public security of people or government information systems
     - Research or prevention of offenses of any kind
 
-{{%/question%}}
+{{% /question %}}
 
-{{%question "I have a doubt about opening a source code, who can I contact?" %}}
+{{%q uestion "I have a doubt about opening a source code, who can I contact?" %}}
 
 Please email the contact address provided in this policy.
 
-{{%/question%}}
+{{% /question %}}
 
 
 ## Licenses
