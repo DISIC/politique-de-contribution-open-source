@@ -1,8 +1,8 @@
 ---
-title: Instantiation of Departmental Contribution Policies
+title: Instantiate a local Contribution Policies
 menu: 
   main:
-    name: "Instanciation"
+    name: "Instantiate"
     weight: 40
 ---
 
