@@ -35,7 +35,7 @@ or contractual) or service providers.
 ## Scope
 
 This contribution policy applies to the state's information and communication system
-in accordance with Article 1 of [Decree No. 2014-879 of 1 August 2014] [DecretDINSIC link]. Each state administration
+in accordance with Article 1 of [Decree No. 2014-879 of 1 August 2014][DecretDINSIC link]. Each state administration
 has the opportunity to instantiate its own contribution policy to clarify and amend it.
 
 Source codes covered by this policy are the ones:
