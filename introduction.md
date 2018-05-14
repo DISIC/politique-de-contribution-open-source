@@ -11,8 +11,8 @@ __Historique et versions__
 | 0.1     | Initialisation                                  | 01/11/2017 |
 | 0.2     | Ouverture de l'appel à commentaires             | 06/12/2017 |
 | 0.3     | Fin de l'appel à commentaires                   | 28/01/2018 |
-
-Ce document est en __beta__, c'est à dire avec des modifications possibles sans nécessairement de changement de numéro de version.
+| 1.0RC01 | Projet soumi à validation                       | 10/02/2018 |
+| 1.0     | Validation en CSIC Tech                         | 16/02/2018 |
 
 ## Objectifs
 

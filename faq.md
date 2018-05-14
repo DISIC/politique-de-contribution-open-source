@@ -103,7 +103,7 @@ Si les contributions se font dans le cadre professionnel, il vous est effectivem
 
 {{% question "Dois-je obtenir une validation avant de publier du code ?" %}}
 
-Bien qu'une pré-autorisation par défaut soit proposée par la DINSIC, il peut être nécessaire d'obtenir l'accord de votre supérieur hiérarchique.
+Bien qu'une pré-autorisation par défaut soit proposée par la DINSIC, il peut être nécessaire d'obtenir l'accord de votre supérieur hiérarchique (au même titre que vous faites valider vos formations proposées par le service formation). Pour la publication d'une nouvelle base de code et pas une contribution à un code existant, vous devrez obtenir un dépôt sur le compte de votre organisation.
 
 {{% /question %}}
 
