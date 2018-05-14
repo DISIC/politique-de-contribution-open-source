@@ -1,7 +1,9 @@
 ---
 title: Foire aux questions
-weight: 70
-menuName: faq
+menu: 
+  main:
+    name: <abbr title="Foire aux questions">FAQ</abbr>
+    weight: 70
 layout: faq
 ---
 

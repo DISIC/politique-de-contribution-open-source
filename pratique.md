@@ -1,6 +1,9 @@
 ---
 title: Bonnes pratiques
-menuName: pratique
+menu: 
+  main:
+    name: "Bonnes pratiques"
+    weight: 40
 ---
 
 ## Système de suivi de version de code source
@@ -49,16 +52,13 @@ Le contributeur doit donc changer celle-ci en fonction de la situation où il se
 Dans le cas de l'utilisation de `git`, cela peut se faire simplement :
 
 * Pour une contribution professionnelle :
-
-`git config user.email <prenom.nom@ministere.gouv.fr>`
+<br>`git config user.email <prenom.nom@ministere.gouv.fr>`
 
 * Pour une contribution personnelle : 
-
-`git config user.email <email@perso.fr>`
+<br>`git config user.email <email@perso.fr>`
 
 Pour connaître l'adresse électronique actuellement utilisée :
-
-`git config --get user.email`
+<br>`git config --get user.email`
 
 Dans les cas où le contributeur ne souhaite pas voir son identité personnelle attachée à sa contribution, une adresse électronique (ou alias) devra être mise à disposition par le ministère pour permettre l'utilisation d'un pseudonyme. Attention certains projets open source peuvent refuser les contributions sous pseudonyme.
 
@@ -146,9 +146,9 @@ Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
 
 Les bonnes pratiques de développement courantes s'appliquent également en contexte de développement ouvert, et notamment celles liées au respect des référentiels en vigueur dans l'administration :
 
-* [Référentiel général d'interopérabilité](http://references.modernisation.gouv.fr/interoperabilite)
-* [Référentiel général d'accessibilité pour les administrations](http://references.modernisation.gouv.fr/rgaa-accessibilite/)
-* [Référentiel général de sécurité](https://www.ssi.gouv.fr/administration/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/)
+* [Référentiel général d'interopérabilité (RGI)](http://references.modernisation.gouv.fr/interoperabilite )
+* [Référentiel général d'accessibilité pour les administrations (RGAA)](http://references.modernisation.gouv.fr/rgaa-accessibilite/)
+* [Référentiel général de sécurité (RGS)](https://www.ssi.gouv.fr/administration/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/)
 
 L'ouverture du code vient par ailleurs amplifier l'importance de certaines de ces bonnes pratiques : 
 

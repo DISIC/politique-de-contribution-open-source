@@ -1,7 +1,9 @@
 ---
 title: Principes d’ouverture des codes sources
-weight: 20 
-menuName: ouverture
+menu: 
+  main:
+    name: "Ouverture"
+    weight: 20 
 ---
 
 ## Préambule
