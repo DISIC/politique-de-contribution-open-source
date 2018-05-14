@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*! Scampi core */
-/*! v0.2.2 */
+/*! v0.3 */
 /*! Licence MIT ou CeCILL-B */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -260,7 +260,7 @@ html {
 
 html {
   font-size: 100%;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
@@ -666,6 +666,51 @@ kbd kbd {
 a.btn.disabled,
 fieldset[disabled] a.btn {
   pointer-events: none;
+}
+
+.btn {
+  color: #595b6a;
+  background-color: #ecedef;
+  border-color: #ccc;
+}
+
+.btn:hover {
+  color: #595b6a;
+  background-color: #d1d1d8;
+  border-color: #adadad;
+}
+
+.btn:focus, .btn.focus {
+  color: #595b6a;
+  background-color: #d1d1d8;
+  border-color: #adadad;
+}
+
+.btn:active, .btn.active,
+.open > .btn.dropdown-toggle {
+  color: #595b6a;
+  background-color: #d1d1d8;
+  border-color: #adadad;
+  background-image: none;
+}
+
+.btn:active:hover, .btn:active:focus, .btn:active.focus, .btn.active:hover, .btn.active:focus, .btn.active.focus,
+.open > .btn.dropdown-toggle:hover,
+.open > .btn.dropdown-toggle:focus,
+.open > .btn.dropdown-toggle.focus {
+  color: #595b6a;
+  background-color: #bdbec7;
+  border-color: #8c8c8c;
+}
+
+.btn.disabled:focus, .btn.disabled.focus, .btn:disabled:focus, .btn:disabled.focus {
+  background-color: #ecedef;
+  border-color: #ccc;
+}
+
+.btn.disabled:hover, .btn:disabled:hover {
+  background-color: #ecedef;
+  border-color: #ccc;
 }
 
 .btn-primary {
@@ -1384,6 +1429,7 @@ input[type="button"].btn-block {
   display: inline-block;
   vertical-align: middle;
   fill: currentColor;
+  margin-top: -.15em;
 }
 
 a .svg-icon {
@@ -1648,6 +1694,10 @@ a .svg-icon {
   text-decoration: none;
 }
 
+.nav-main .nav-link abbr[title] {
+  border-bottom: 0;
+}
+
 .nav-main .nav-link.is-active {
   background-color: #0081D5;
   color: #fff;
@@ -1662,6 +1712,10 @@ a .svg-icon {
   height: 2px;
   margin-left: 0em;
   background: #fff;
+}
+
+.nav-main .nav-link.is-active:hover {
+  background-color: #0081D5;
 }
 
 @media (min-width: 48em) {
@@ -1770,13 +1824,18 @@ a .svg-icon {
   border-color: #0081D5;
 }
 
-.expand-sign:before,
-.expand-sign:before {
+.expandmore__symbol {
+  width: .85em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.expandmore__symbol:before {
   content: "▶";
 }
 
-.expandmore__button[aria-expanded=true] .expand-sign:before,
-.expandmore__button[data-expanded=true] .expand-sign:before {
+.expandmore__button[aria-expanded=true] .expandmore__symbol:before,
+.expandmore__button[data-expanded=true] .expandmore__symbol:before {
   content: "▶";
 }
 
@@ -1816,13 +1875,21 @@ a .svg-icon {
   display: block;
 }
 
+.question .expandmore__symbol {
+  display: none;
+}
+
 .question .expandmore__button[aria-expanded=true] {
   border-color: #0081D5;
   background-color: #ecedef;
 }
 
-.question .expandmore__button[aria-expanded=true] .expand-sign:before,
-.question .expandmore__button[aria-expanded=true] .expand-sign:after {
+.question .expandmore__button[aria-expanded=true] .expandmore__symbol {
+  display: block;
+}
+
+.question .expandmore__button[aria-expanded=true] .expandmore__symbol:after,
+.question .expandmore__button[aria-expanded=true] .expandmore__symbol:before {
   position: absolute;
   top: .6em;
   left: -2px;
@@ -1830,7 +1897,7 @@ a .svg-icon {
   line-height: 1;
 }
 
-.question .expandmore__button[aria-expanded=true] .expand-sign:after {
+.question .expandmore__button[aria-expanded=true] .expandmore__symbol:after {
   left: -7px;
   content: "▶";
   color: #fff;
@@ -2083,6 +2150,10 @@ body {
   body {
     padding: 1em;
   }
+}
+
+pre {
+  padding: .5em;
 }
 
 h1 {
@@ -2385,7 +2456,5 @@ table td {
 .container {
   padding: 0;
 }
-
-/*! Scampi debug */
 
 /*# sourceMappingURL=maps/styles.css.map */

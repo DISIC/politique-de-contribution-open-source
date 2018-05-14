@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Best practices | Modalités d’ouverture des codes sources</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://disic.github.io/politique-de-contribution-open-source/_assets/css/styles.css">
+
+  <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="https://disic.github.io/politique-de-contribution-open-source/favicon.ico">
+  <!--[if IE]>
+  <link rel="shortcut icon" href="https://disic.github.io/politique-de-contribution-open-source/favicon.ico">
+  <![endif]-->
+
+  <link rel="apple-touch-icon" href="https://disic.github.io/politique-de-contribution-open-source/_assets/favicon/favicon-152.png">
+
+  <meta name="msapplication-TileColor" content="#0081D5">
+  <meta name="msapplication-TileImage" content="https://disic.github.io/politique-de-contribution-open-source/_assets/favicon/favicon-144.png">
+
+  <link rel="apple-touch-icon" sizes="152x152" href="https://disic.github.io/politique-de-contribution-open-source/_assets/favicon/favicon-152.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://disic.github.io/politique-de-contribution-open-source/_assets/favicon/favicon-144.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://disic.github.io/politique-de-contribution-open-source/_assets/favicon/favicon-120.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://disic.github.io/politique-de-contribution-open-source/_assets/favicon/favicon-114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://disic.github.io/politique-de-contribution-open-source/_assets/favicon/favicon-72.png">
+  <link rel="apple-touch-icon" href="https://disic.github.io/politique-de-contribution-open-source/_assets/favicon/favicon-57.png">
+
+  <meta name="generator" content="Hugo 0.40.3" />
+</head>
+
+<body>
+
+  <!--[if lt IE 8]>
+  <div class="browsehappy">
+    <div class="container" lang="fr">
+      <p>Savez-vous que votre navigateur est obsolète ?<p>
+      <p>Pour naviguer de la manière la plus satisfaisante sur le Web, nous vous recommandons de procéder à une <a href="http://windows.microsoft.com/fr-fr/internet-explorer/download-ie">mise à jour de votre navigateur</a>.
+      <br>Vous pouvez aussi <a href="http://browsehappy.com/">essayer d’autres navigateurs web populaires</a>.</p>
+    </div>
+  </div>
+<![endif]-->
+
+  <div class="container">
+
+    <div class="skip-link">
+      <div class="container">
+        <ul>
+          <li><a href="#content">Skip to content</a></li>
+          <li><a href="#aside">Skip to table of content</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container main-container">
+
+    <header class="site-banner" role="banner">
+      <div class="site-banner-main">
+        <p class="site-title">
+          <strong><a href="https://disic.github.io/politique-de-contribution-open-source/">Modalités d’ouverture des codes sources</a></strong>
+        </p>
+        <p>
+          DINSIC Open-source contribution policy
+        </p>
+      </div>
+
+      <div class="site-banner-note">
+        <p>
+          <strong>Version :</strong> v1.0
+        </p>
+
+        <p>
+
+          <a lang="fr" href="https://disic.github.io/politique-de-contribution-open-source/pratique/">Version française</a>
+
+        </p>
+
+      </div>
+    </header>
+
+    <button id="toggle-menu" class="toggle-menu" aria-label="Show/hide menu">
+    Menu
+  </button>
+
+    <nav role="navigation" class="nav-main" id="nav-main" aria-label="main navigation">
+      <ul class="nav-main-list">
+
+        <li class="nav-item">
+
+          <a class="nav-link" href="https://disic.github.io/politique-de-contribution-open-source/en/">
+        
+          Home
+        </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/politique-de-contribution-open-source/en/introduction/">
+            Introduction
+        </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/politique-de-contribution-open-source/en/ouverture/">
+            Principles
+        </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link is-active" href="/politique-de-contribution-open-source/en/pratique/">
+            Best practices
+        </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/politique-de-contribution-open-source/en/instanciation/">
+            Instantiate
+        </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/politique-de-contribution-open-source/en/gouvernance/">
+            Governance
+        </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/politique-de-contribution-open-source/en/faq/">
+            <abbr title="Frequently asked questions">FAQ</abbr>
+        </a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <main class="main" role="main" id="main">
+
+      <article>
+
+        <header class="article-header">
+          <h1>Best practices</h1>
+        </header>
+
+        <div class="two-columns">
+
+          <aside class="article-aside" id="aside">
+            <div class="aside-toc">
+              <h2 class="h3">Table of content</h2>
+              <nav id="TableOfContents">
+                <ul>
+                  <li>
+                    <ul>
+                      <li><a href="#source-code-version-tracking-system">Source code version tracking system</a></li>
+                      <li><a href="#help-in-choosing-a-web-platform">Help in choosing a web platform</a></li>
+                      <li><a href="#management-of-personal-and-organizations-accounts">Management of personal and organizations accounts</a></li>
+                      <li><a href="#inventory-of-organization-accounts">Inventory of organization accounts</a></li>
+                      <li><a href="#distinction-of-personal-professional-contributions">Distinction of personal / professional contributions</a></li>
+                      <li><a href="#help-in-choosing-the-license">Help in choosing the license</a></li>
+                      <li><a href="#version-management">Version Management</a></li>
+                      <li><a href="#files-in-the-repository">Files in the repository</a></li>
+                      <li><a href="#heads-source-files">Heads source files</a></li>
+                      <li><a href="#traceability-of-development-dco">Traceability of development (DCO)</a></li>
+                      <li><a href="#development-practices">Development practices</a></li>
+                      <li><a href="#security">Security</a>
+                        <ul>
+                          <li><a href="#identified-interlocutor">Identified interlocutor</a></li>
+                          <li><a href="#secure-development">Secure development</a></li>
+                          <li><a href="#do-not-rely-on-security-by-obscurity">Do not rely on security by obscurity</a></li>
+                          <li><a href="#secret-sensitive-data-cryptography">Secret / sensitive data, cryptography</a></li>
+                          <li><a href="#development-tools-and-dependencies">Development tools and dependencies</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#tools">Tools</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+
+              <hr>
+
+              <h2 class="h3">Contribute</h2>
+
+              <p class="contribute">
+                <a class="btn btn-sm btn-secondary" href="https://github.com/DISIC/politique-de-contribution-open-source/issues/">
+  Discuss <span class="sr-only">sur github</span>
+  </a>
+                <a class="btn btn-sm btn-secondary" href="https://github.com/DISIC/politique-de-contribution-open-source/edit/EnglishVersion/pratique.en.md">
+  Suggest a change <span class="sr-only">sur github</span>
+  </a>
+              </p>
+
+            </div>
+          </aside>
+
+          <div class="article" id="content">
+
+            <h2 id="source-code-version-tracking-system">Source code version tracking system</h2>
+
+            <p>Using a distributed version tracking system such as git is recommended. Svn or cvs systems are deprecated.</p>
+
+            <h2 id="help-in-choosing-a-web-platform">Help in choosing a web platform</h2>
+
+            <p>In addition to the source code version tracking system, a web platform offers a range of associated collaborative tools and aims to mobilize a community of developers. These platforms may be hosted by a third party or by the administration.</p>
+
+            <p>Examples of web platforms hosted by a third party:</p>
+
+            <ul>
+              <li>Github: <a href="https://github.com">https://github.com</a></li>
+              <li>Gitlab: <a href="http://gitlab.com">http://gitlab.com</a> (enterprise version)</li>
+              <li>Framagit: <a href="http://framagit.org">http://framagit.org</a> - using <a href="https://about.gitlab.com/installation/">Gitlab</a></li>
+              <li>Adullact: <a href="http://gitlab.adullact.net">http://gitlab.adullact.net</a> - using <a href="https://about.gitlab.com/installation/">Gitlab</a></li>
+              <li>FSFE: <a href="https://git.fsfe.org">https://git.fsfe.org</a> - using <a href="https://gitea.io/">Gitea</a></li>
+              <li>FSF: <a href="https://git.savannah.gnu.org/cgit/">https://git.savannah.gnu.org/cgit/</a> - using <a href="https://git.zx2c4.com/cgit/">cgit</a></li>
+            </ul>
+
+            <p>The source code of github.com is not free just like some modules of gitlab.com; some platforms publish anonymous data in open data; their geographic scope may vary, as well as the number of developers who use it. The list is incomplete.</p>
+
+            <p>The choice to create an organizational account within an existing Web platform is the responsibility of the administration, which can also host its own public forge.</p>
+
+            <p>Choosing a forge for a project must be done according to the level of collaboration expected and the interfaces with the private repositories and the rest of the development platform.</p>
+
+            <h2 id="management-of-personal-and-organizations-accounts">Management of personal and organizations accounts</h2>
+
+            <p>All projects initiated by an administration must be published in repositories under an organization accounts. Personal account repositories should only be used for temporary technical forks or personal developments.</p>
+
+            <p>It is recommended to have two owners by repository.</p>
+
+            <h2 id="inventory-of-organization-accounts">Inventory of organization accounts</h2>
+
+            <p>Work is underway on the ability to provide an automatic inventory both from the point of view of organizations&rsquo; repositories than services&rsquo; inventory</p>
+
+            <blockquote>
+              <p>To reference the organization account as a government account in Github:</p>
+
+              <ul>
+                <li>Register if you have not done so already in the community <a href="https://github.com/government/welcome">https://github.com/government/welcome</a></li>
+                <li>Reference your organization account by adding it on the page: <a href="https:// github.com/github/government.github.com/blob/gh-pages/_data/governments.yml">https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml</a>                  as per <a href="https://government.github .com / community /">https://government.github.com/community/</a></li>
+              </ul>
+            </blockquote>
+
+            <h2 id="distinction-of-personal-professional-contributions">Distinction of personal / professional contributions</h2>
+
+            <p>The distinction between personal and professional contributions is based on the associated email address. The contributor must change its email accordingly.</p>
+
+            <p>In the case of using <code>git</code>, this can be done easily:</p>
+
+            <ul>
+              <li>For a professional contribution:</li>
+            </ul>
+
+            <p><code>git config user.email &lt;firstname.lastname@ministere.gouv.fr&gt;</code></p>
+
+            <ul>
+              <li>For a personal contribution:</li>
+            </ul>
+
+            <p><code>git config user.email &lt;email@perso.fr&gt;</code></p>
+
+            <p>To find the email address currently used:</p>
+
+            <p><code>git config --get user.email</code></p>
+
+            <p>In cases where the contributor does not wish to see his personal identity attached to his contribution, an email address (or alias) need to be made available by the department to allow the use of a pseudonym. Beware some open source projects
+              may refuse contributions under pseudonym.
+            </p>
+
+            <h2 id="help-in-choosing-the-license">Help in choosing the license</h2>
+
+            <p>The choice of a license is also the choice of a community of developers and an ecosystem of associated tools. Once the license family is chosen, it is primarily the targeted developer&rsquo;s community that determines the choice.</p>
+
+            <p>The recommended licenses by default are:</p>
+
+            <ul>
+              <li>Permissive: Apache 2.0</li>
+              <li>Reciprocal: GNU GPL v3 (standard, lesser or affero in function)</li>
+            </ul>
+
+            <blockquote>
+              <p>Multilicensing: It is possible to provide software under several licenses simultaneously, although this can lead to confusion.</p>
+            </blockquote>
+
+            <h2 id="version-management">Version Management</h2>
+
+            <p>Having a versioning policy is recommended. The semantic versioning guide (<a href="https://semver.org/lang/en/">https://semver.org/lang/en/</a>) is a good example to follow.</p>
+
+            <h2 id="files-in-the-repository">Files in the repository</h2>
+
+            <p>Make sure you have at least the README, CONTRIBUTING, and LICENSE files.</p>
+
+            <ul>
+              <li>README: description of the project. Can describe the purpose and the administration behind the publication.</li>
+              <li>CONTRIBUTING: contribution guide, how to get involved and identification of the contribution process and associated licenses. Example: <a href="https://github.com/moby/moby/blob/master/CONTRIBUTING.md">https://github.com/moby/moby/blob/master/CONTRIBUTING.md</a></li>
+              <li>LICENSE: software license.</li>
+              <li>MAINTAINERS: list of project maintainers (usually with voting or commit rights). Example: <a href="https://github.com/moby/moby/blob/master/MAINTAINERS">https://github.com/moby/moby/blob/master/MAINTAINERS</a></li>
+              <li>ROADMAP: public road map.</li>
+              <li>CONDUCT: a code of conduct to regulate the community of contributors. Examples can be found: <a href="https://www.djangoproject.com/conduct/">https://www.djangoproject.com/conduct/</a> and <a href="https://github.com/18F/code-of-conduct">https://github.com/18F/code-of- conduct</a>.</li>
+              <li>GOVERNANCE: describes project governance, roles and voting rights. An example is available in this repository <a href="/politique-de-contribution-open-source/gouvernance/">governance.md</a></li>
+              <li>NFR: choice of technical architecture of the project that do not correspond to functional requirements.</li>
+            </ul>
+
+            <p>These files must be in plain text or with minimum marking (ie Markdown). It is not recommended to use binary formats (ie PDF)</p>
+
+            <h2 id="heads-source-files">Heads source files</h2>
+
+            <p>According to the detailed recommendations in <a href="https: //software.reuse">https: //software.reuse</a> each source code file must have its author, SPDX license ID, and a copy of the license in the local repository.</p>
+
+            <ul>
+              <li>Examples of file header (headers):</li>
+            </ul>
+
+            <pre><code> / *
+  * Copyright (c) 2017 Alice Commit &lt;alice@example.com&gt;
+  *
+  * SPDX-License-Identifier: BSD-2-Clause
+  * License-Filename: LICENSES / BSD-2-Clause_Alice.txt
+  * /
+</code></pre>
+
+            <p>or in the case of a project that automatically tracks its contributors:</p>
+
+            <pre><code> / *
+  * This file is part of the project X. It's copyrighted by the contributors
+  * recorded in the version of the history of the file, available from
+  * its original location http://git.example.com/X/filename.c
+  *
+  * SPDX-License-Identifier: BSD-2-Clause
+  * License-Filename: LICENSES / BSD-2-Clause_Charlie.txt
+  * /
+</code></pre>
+
+            <p>To ensure software compliance, these identifiers enable to generate automatically inventories of licenses in the form of &ldquo;Bill of Material&rdquo;.</p>
+
+            <p>The complete list of SPDX identifiers is available at this address: <a href="https://spdx.org/licenses/">https://spdx.org/licenses/</a></p>
+
+            <h2 id="traceability-of-development-dco">Traceability of development (DCO)</h2>
+
+            <p>In order to guarantee the origin of the contributions submitted, the implementation of a Developer&rsquo;s Certificate of Origin is recommended. A French translation is made available <a href="https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt">DCO-Fr.txt</a></p>
+
+            <p>For now, the sign-off is only in English using the command</p>
+
+            <p><code>git commit --signoff</code></p>
+
+            <h2 id="development-practices">Development practices</h2>
+
+            <p>Best development practices also apply in the context of open development, and in particular those related to the normative documents enforced within the administration:</p>
+
+            <ul>
+              <li><a href="http://references.modernisation.gouv.fr/interoperabilite">General reference of interoperability</a></li>
+              <li><a href="http://references.modernisation.gouv.fr/rgaa-accessibilite/">General accessibility reference framework for administrations</a></li>
+              <li><a href="https://www.ssi.gouv.fr/administration/reglementation/numerique-confidence/the-referentiel-general-de-securite-rgs/">General Security Reference</a></li>
+            </ul>
+
+            <p>Opening the code also amplifies the importance of some of these best practices:</p>
+
+            <ul>
+              <li><strong>Documentation</strong>, inside the code (comments and messages of * commit *) and outside the code.</li>
+              <li><strong>Legal compliance</strong> in the use of third-party libraries. The vast majority of current developments are based on third-party open source libraries, hence it is necessary to ensure the compatibility with their respective licenses
+                and comply with their obligations.</li>
+              <li><strong>Modularization of developments</strong> to maximize code reuse but also to isolate any sources of error</li>
+              <li><strong>Respect of a unique coding guideline</strong> per project.</li>
+            </ul>
+
+            <h2 id="security">Security</h2>
+
+            <h3 id="identified-interlocutor">Identified interlocutor</h3>
+
+            <p>It is recommended to identify a person in charge of the security of the project that will ensure compliance with best practices implemented during development, and to treat potential security incidents. It is also better to use a dedicated
+              e-mail address to deal with security incidents or intellectual property issues which would be discovered by a third party.</p>
+
+            <h3 id="secure-development">Secure development</h3>
+
+            <ul>
+              <li>
+                <p>Write code that follows recognized security practices and that does not make use of dangerous constructions in the language used</p>
+
+                <ul>
+                  <li><a href="https://wiki.sei.cmu.edu/confluence/display/seccode/SEI+CERT+Coding+Standards">SEI CERT Coding Standards</a></li>
+                  <li>PHP The Right Way (<a href="http://eilgin.github.io/php-the-right-way/">http://eilgin.github.io/php-the-right-way/</a>)</li>
+                  <li><a href="http://www.oracle.com/technetwork/java/seccodeguide-139067.html">Secure Coding Guidelines for Java SE</a></li>
+                  <li><a href="https://www.ssi.gouv.fr/agence/publication/mind-your-languages-new-article-on-the-importance-of-languages-for-security/">Importance of languages ​​for security</a></li>
+                  <li><a href="https://www.ssi.gouv.fr/javasec/">Security and Java language</a></li>
+                  <li><a href="https://www.ssi.gouv.fr/lafosec/">Security and functional languages</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <p>Eliminate all <em>debug</em> messages (by compilation conditional or through a run-time variable) and any unnecessary information for the user in error messages (e.g. Java / PHP / Python call trace) when going into production</p>
+              </li>
+
+              <li>
+                <p>Eliminate all dead code (<em>i.e.</em> code not called / no achievable) as it could be confusing and / or think that it is still functional and tested; this code, no maintained, could be wrongly reinstated by a developer</p>
+              </li>
+
+              <li>
+                <p>All external inputs (e.g. user) must be checked before use or storage, according to good safety practices and in function of their destination.</p>
+              </li>
+            </ul>
+
+            <h3 id="do-not-rely-on-security-by-obscurity">Do not rely on security by obscurity</h3>
+
+            <p>Obscurity is generally recognized as an insufficient practice, but in the case of a project with open code, this strategy is deprecated. It must therefore be replaced by other more robust strategies such as defense in depth.</p>
+
+            <h3 id="secret-sensitive-data-cryptography">Secret / sensitive data, cryptography</h3>
+
+            <ul>
+              <li>
+                <p>No secret items (such as a password or key cryptographic) should only be stored in the code or in the comments; use configuration files that are not versioned (<em>cf</em> <code>.gitignore</code>)</p>
+              </li>
+
+              <li>
+                <p>No secret element should be written by the program in clear in a file (including including a log file) or in a database, always prefer a hashed version with a state of the art hash function (
+                  <em>i.e</em> salt for each entry)</p>
+
+                <ul>
+                  <li><a href="https://www.ssi.gouv.fr/uploads/2014/11/RGS_v-2-0_B3.pdf">General Security Reference System - Annex B3</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <p>No secret element must transit in clear on the network</p>
+              </li>
+
+              <li>
+                <p>Do not implement a cryptographic mechanism yourself but use recognized libraries using parameters and robust cryptographic suites</p>
+
+                <ul>
+                  <li><a href="https://www.ssi.gouv.fr/nt-tls/">Security Recommendations for TLS</a></li>
+                  <li><a href="https://www.ssi.gouv.fr/uploads/2014/11/RGS_v-2-0_B3.pdf">General Security Reference System - Annex B3</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <h3 id="development-tools-and-dependencies">Development tools and dependencies</h3>
+
+            <ul>
+              <li>
+                <p>Use software and libraries where appropriate third parties maintained and up-to-date security patches; prefer libraries (re) known, and the simplest possible</p>
+              </li>
+
+              <li>
+                <p>Use the code analysis services offered by the platform and systematically process problems brought up before integration</p>
+              </li>
+
+              <li>
+                <p>Only push <em>commits</em> of code that compile, are tested, and functional, accompanied by corresponding unit tests; some platforms offer the opportunity to replay automatically the unit tests of a project to ensure the non-regression
+                  (e.g. <a href="https://docs.travis-ci.com/">Travis</a>,
+                  <a href="https://github.com/servo/homu">Homu</a>)</p>
+              </li>
+
+              <li>
+                <p>Create a <em>tag</em> (e.g. v2.0.1) for each version (e.g. 2.0.1), and sign it cryptographically (see <a href="https://github.com/blog/2144-gpg-signature-verification">GPG signature
+verification</a>)</p>
+              </li>
+
+              <li>
+                <p>Respect the recommendations and good safety practices issued by the ANSSI applicable to the project</p>
+
+                <ul>
+                  <li><a href="https://www.ssi.gouv.fr/administration/bonnes-pratiques/">Good practices of ANSSI</a></li>
+                  <li><a href="https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf">ANSSI / DINSIC agile methodology security guide</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <h2 id="tools">Tools</h2>
+
+            <p>The contribution policy is not intended to offer specific tools. However specifically for managing open code, you can find the referenced tools on <a href="https://www.linuxfoundation.org/tools-managing-open-source-programs/#1">https://www.linuxfoundation.org/tools-managing-open-source-programs/#1</a>              useful.</p>
+
+          </div>
+        </div>
+
+      </article>
+
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+
+      <div class="footer-links">
+        <ul class="container">
+          <li><a href="#">Aide</a></li>
+          <li><a href="#">Accessibillité</a></li>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Contribuer</a></li>
+          <li><a href="#">Nous contacter</a></li>
+
+        </ul>
+      </div>
+
+      <div class="big-footer">
+        <div class="big-footer-inner">
+
+          <div class="info-doc">
+
+            <p>
+              <strong>Version :</strong> v1.0
+            </p>
+            <p>
+              <strong>Published :</strong> 15/05/2018 12:00
+            </p>
+            <p>
+              <strong>Licence :</strong> Licence Ouverte 2.0
+            </p>
+            <p>
+              <strong>Repository :</strong>
+              <a href="https://github.com/DISIC/politique-de-contribution-open-source">github/disic</a>
+            </p>
+          </div>
+
+          <div class="big-footer-txt">
+            <p lang="fr">
+              Site temporaire<br> La version finalisée sera publiée sur un site de la DINSIC.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </footer>
+
+  </div>
+
+  <script src="https://disic.github.io/politique-de-contribution-open-source/_assets/scripts/vendors/jquery.min.js"></script>
+  <script src="https://disic.github.io/politique-de-contribution-open-source/_assets/scripts/main.js"></script>
+
+</body>
+
+</html>

@@ -1,48 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://disic.github.io/politique-de-contribution-open-source/introduction/</loc>
-  </url>
-  
-  <url>
-    <loc>https://disic.github.io/politique-de-contribution-open-source/ouverture/</loc>
-  </url>
-  
-  <url>
-    <loc>https://disic.github.io/politique-de-contribution-open-source/instanciation/</loc>
-  </url>
-  
-  <url>
-    <loc>https://disic.github.io/politique-de-contribution-open-source/gouvernance/</loc>
-  </url>
-  
-  <url>
-    <loc>https://disic.github.io/politique-de-contribution-open-source/faq/</loc>
-  </url>
-  
-  <url>
-    <loc>https://disic.github.io/politique-de-contribution-open-source/readme/</loc>
-  </url>
-  
-  <url>
-    <loc>https://disic.github.io/politique-de-contribution-open-source/pratique/</loc>
-  </url>
-  
-  <url>
-    <loc>https://disic.github.io/politique-de-contribution-open-source/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://disic.github.io/politique-de-contribution-open-source/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://disic.github.io/politique-de-contribution-open-source/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://disic.github.io/politique-de-contribution-open-source/fr/sitemap.xml</loc>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://disic.github.io/politique-de-contribution-open-source/en/sitemap.xml</loc>
+		
+	</sitemap>
+	
+</sitemapindex>

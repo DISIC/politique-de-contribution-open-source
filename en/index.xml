@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modalités d’ouverture des codes sources</title>
+    <link>https://disic.github.io/politique-de-contribution-open-source/en/</link>
+    <description>Recent content on Modalités d’ouverture des codes sources</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="https://disic.github.io/politique-de-contribution-open-source/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://disic.github.io/politique-de-contribution-open-source/en/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://disic.github.io/politique-de-contribution-open-source/en/readme/</guid>
+      <description>Open Source contribution policy Welcome to the DINSIC Free Software Contribution Policy.
+ UPDATE March 13, 2018: The document has been validated at the February 15th, 2018 CSIC Tech.
+ The purpose of this document is to describe HOW to open source codes according to best practices.
+To know which source codes should be open, please refer to the Law for a Digital Republic.
+This document is published under the Open License 2.</description>
+    </item>
+    
+    <item>
+      <title>Best practices</title>
+      <link>https://disic.github.io/politique-de-contribution-open-source/en/pratique/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://disic.github.io/politique-de-contribution-open-source/en/pratique/</guid>
+      <description>Source code version tracking system Using a distributed version tracking system such as git is recommended. Svn or cvs systems are deprecated.
+Help in choosing a web platform In addition to the source code version tracking system, a web platform offers a range of associated collaborative tools and aims to mobilize a community of developers. These platforms may be hosted by a third party or by the administration.
+Examples of web platforms hosted by a third party:</description>
+    </item>
+    
+    <item>
+      <title>Contribution Policy for Free Software of the State</title>
+      <link>https://disic.github.io/politique-de-contribution-open-source/en/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://disic.github.io/politique-de-contribution-open-source/en/introduction/</guid>
+      <description>History and versions
+   Version Comment Date     0.1 Initialization 01/11/2017   0.2 Opening of the call for comments 06/12/2017   0.3 End of the call for comments 28/01/2018   1.0RC01 Project submitted to validation 02/10/2018   1.0 Validated 16/02/2018    Objectives Under the Law for a Digital Republic of October 7, 2016, source codes are administrative documents that are communicable and reusable.</description>
+    </item>
+    
+    <item>
+      <title>Frequently Asked Questions</title>
+      <link>https://disic.github.io/politique-de-contribution-open-source/en/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://disic.github.io/politique-de-contribution-open-source/en/faq/</guid>
+      <description>Scope Am I affected by this open source contribution policy?  As stated in the introduction, if the Law for a Digital Republic applies to the entire administration, the scope of the DINSIC focuses on the central administrations (with some exceptions according to Decree No. 2014-879 of August 1 2014).
+If you are part of a local authority, this policy does not apply to you, even though the Law for a Digital Republic applies.</description>
+    </item>
+    
+    <item>
+      <title>Governance of the Interdepartmental Contribution Policy</title>
+      <link>https://disic.github.io/politique-de-contribution-open-source/en/gouvernance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://disic.github.io/politique-de-contribution-open-source/en/gouvernance/</guid>
+      <description>The DINSIC maintains this document and is responsible for it (it owns the repository and manages the permissions). The development of this policy aims to be collaborative and the entities to which it applies are all invited to participate in its development.
+Two types of organizations are distinguished:
+ Interdepartmental: DINSIC and ANSSI Ministry  with only one role per organization (write permission on this policy). All contributors with write permissions are listed in the MAINTAINERS file.</description>
+    </item>
+    
+    <item>
+      <title>Instantiate a local Contribution Policy</title>
+      <link>https://disic.github.io/politique-de-contribution-open-source/en/instanciation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://disic.github.io/politique-de-contribution-open-source/en/instanciation/</guid>
+      <description>In summary  Ability to instantiate and ammend this policy Contact the &amp;ldquo;parent&amp;rdquo; policy to inform about the declination Provide a mean of contact for the instantiated policy  Inventories of instantiated departmental policies  No ministerial policy instantiated to date Example: &amp;lt; Ministry XXX &amp;gt;: http: //reference.url/ministerialpolicy  Instantiation procedure  Fork this repository to initiate your departmental policy Make a pull request on this file to list the child contribution policy and its URL Contact the support of this policy and validate the main contact of the child policy  Do not hesitate to contact us for any questions.</description>
+    </item>
+    
+    <item>
+      <title>Opening Principles of source codes</title>
+      <link>https://disic.github.io/politique-de-contribution-open-source/en/ouverture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://disic.github.io/politique-de-contribution-open-source/en/ouverture/</guid>
+      <description>Preamble Principle of subsidiarity Politics can be instantiated locally with a higher priority.
+See the instantiation section if you want to decline this policy within your organization.
+Contribution Policy Assistance Contact opensource @ data.gouv.fr for any questions about this policy.
+Principle of attribution of contributions Attribute contributions to individuals In order to recognize authorship, the developer&amp;rsquo;s individual email address is used:
+ For agents: use of the professional email address.</description>
+    </item>
+    
+  </channel>
+</rss>
