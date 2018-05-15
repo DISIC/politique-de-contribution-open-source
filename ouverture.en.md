@@ -30,9 +30,9 @@ In order to recognize authorship, the developer's individual email address is us
 If a developer does not wish to see his identity published, he can use a pseudonym.
 On the other hand, the use of generic or anonymous email addresses should be avoided.
 
-### Differenciate professional and personal contributions
+### Differentiate professional and personal contributions
 
-It is possible for a developer to contribute on the same project professionnaly and privately.
+It is possible for a developer to contribute on the same project professionally and privately.
 The State is recognizing developers' property on contributions made outside of working time. Contributions made to the
 professional time must be associated with a professional email address.
 

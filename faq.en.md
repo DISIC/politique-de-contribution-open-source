@@ -38,7 +38,7 @@ If you work for an administration within the scope of the DINSIC, you are also c
 
 {{% question "Which codes are intended to be open?" %}}
 
-The obligation to open the codes is related to the Digital Republic lw which plans a gradual opening until October 7, 2018. At
+The obligation to open the codes is related to the Digital Republic law which plans a gradual opening until October 7, 2018. At
 this date, all codes that have economic, social, sanitary or environmental value must be opened by default.
 
 Any code written as part of a public service mission is publishable and reusable for other purposes, except for the following:

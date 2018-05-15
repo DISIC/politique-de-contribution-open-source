@@ -8,7 +8,7 @@ menu:
 
 ## In summary
 
-* Ability to instantiate and ammend this policy
+* Ability to instantiate and amend this policy
 * Contact the "parent" policy to inform about the declination
 * Provide a mean of contact for the instantiated policy
 
