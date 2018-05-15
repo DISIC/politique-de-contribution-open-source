@@ -98,7 +98,7 @@ Make sure you have at least the README, CONTRIBUTING, and LICENSE files.
 * MAINTAINERS: list of project maintainers (usually with voting or commit rights). Example: [https://github.com/moby/moby/blob/master/MAINTAINERS](https://github.com/moby/moby/blob/master/MAINTAINERS)
 * ROADMAP: public road map.
 * CONDUCT: a code of conduct to regulate the community of contributors. Examples can be found: [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/) and [https://github.com/18F/code-of- conduct](https://github.com/18F/code-of-conduct).
-* GOVERNANCE: describes project governance, roles and voting rights. An example is available in this repository [governance.md]({{<relref "gouvernance.md">}})
+* GOVERNANCE: describes project governance, roles and voting rights. An example is available in this repository [gouvernance.md]({{<relref "gouvernance.md">}})
 * NFR: choice of technical architecture of the project that do not correspond to functional requirements.
 
 These files must be in plain text or with minimum marking (ie Markdown). It is not recommended to use binary formats (ie PDF)
