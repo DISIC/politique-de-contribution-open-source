@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <title>Modalités d’ouverture des codes sources</title>
+  <title>Governance of the Interdepartmental Contribution Policy | Modalités d’ouverture des codes sources</title>
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,8 +47,8 @@
     <div class="skip-link">
       <div class="container">
         <ul>
-          <li><a href="#content">Aller au contenu</a></li>
-          <li><a href="#aside">Aller à la table des matières</a></li>
+          <li><a href="#content">Skip to content</a></li>
+          <li><a href="#aside">Skip to table of content</a></li>
         </ul>
       </div>
     </div>
@@ -63,7 +63,7 @@
           <strong><a href="https://disic.github.io/politique-de-contribution-open-source/">Modalités d’ouverture des codes sources</a></strong>
         </p>
         <p>
-          Politique de contribution open-source de la DINSIC
+          DINSIC Open-source contribution policy
         </p>
       </div>
 
@@ -74,61 +74,61 @@
 
         <p>
 
-          <a lang="en" href="https://disic.github.io/politique-de-contribution-open-source/en/readme/">English version</a>
+          <a lang="fr" href="https://disic.github.io/politique-de-contribution-open-source/gouvernance/">Version française</a>
 
         </p>
 
       </div>
     </header>
 
-    <button id="toggle-menu" class="toggle-menu" aria-label="afficher/masquer le menu">
+    <button id="toggle-menu" class="toggle-menu" aria-label="Show/hide menu">
     Menu
   </button>
 
-    <nav role="navigation" class="nav-main" id="nav-main" aria-label="menu principal">
+    <nav role="navigation" class="nav-main" id="nav-main" aria-label="main navigation">
       <ul class="nav-main-list">
 
         <li class="nav-item">
 
-          <a class="nav-link" href="https://disic.github.io/politique-de-contribution-open-source/">
+          <a class="nav-link" href="https://disic.github.io/politique-de-contribution-open-source/en/">
         
-          Accueil
+          Home
         </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/politique-de-contribution-open-source/introduction/">
+          <a class="nav-link" href="/politique-de-contribution-open-source/en/introduction/">
             Introduction
         </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/politique-de-contribution-open-source/ouverture/">
-            Ouverture
+          <a class="nav-link" href="/politique-de-contribution-open-source/en/ouverture/">
+            Principles
         </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/politique-de-contribution-open-source/pratique/">
-            Bonnes pratiques
+          <a class="nav-link" href="/politique-de-contribution-open-source/en/pratique/">
+            Best practices
         </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/politique-de-contribution-open-source/instanciation/">
-            Instanciation
+          <a class="nav-link" href="/politique-de-contribution-open-source/en/instanciation/">
+            Instantiate
         </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/politique-de-contribution-open-source/gouvernance/">
-            Gouvernance
+          <a class="nav-link is-active" href="/politique-de-contribution-open-source/en/gouvernance/">
+            Governance
         </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/politique-de-contribution-open-source/faq/">
-            <abbr title="Foire aux questions">FAQ</abbr>
+          <a class="nav-link" href="/politique-de-contribution-open-source/en/faq/">
+            <abbr title="Frequently asked questions">FAQ</abbr>
         </a>
         </li>
 
@@ -140,30 +140,35 @@
       <article>
 
         <header class="article-header">
-          <h1></h1>
+          <h1>Governance of the Interdepartmental Contribution Policy</h1>
         </header>
 
         <div class="two-columns">
 
           <aside class="article-aside" id="aside">
             <div class="aside-toc">
-              <h2 class="h3">Table des matières</h2>
+              <h2 class="h3">Table of content</h2>
               <nav id="TableOfContents">
                 <ul>
-                  <li><a href="#modalités-d-ouverture-des-codes-sources">Modalités d&rsquo;ouverture des codes sources</a></li>
+                  <li>
+                    <ul>
+                      <li><a href="#management-of-contributions">Management of contributions</a></li>
+                      <li><a href="#version-management">Version Management</a></li>
+                    </ul>
+                  </li>
                 </ul>
               </nav>
 
               <hr>
 
-              <h2 class="h3">Contribuer</h2>
+              <h2 class="h3">Contribute</h2>
 
               <p class="contribute">
                 <a class="btn btn-sm btn-secondary" href="https://github.com/DISIC/politique-de-contribution-open-source/issues/">
-  Discuter <span class="sr-only">sur github</span>
+  Discuss <span class="sr-only">sur github</span>
   </a>
-                <a class="btn btn-sm btn-secondary" href="https://github.com/DISIC/politique-de-contribution-open-source/edit/next/README.md">
-  Suggérer une modification <span class="sr-only">sur github</span>
+                <a class="btn btn-sm btn-secondary" href="https://github.com/DISIC/politique-de-contribution-open-source/edit/EnglishVersion/gouvernance.en.md">
+  Suggest a change <span class="sr-only">sur github</span>
   </a>
               </p>
 
@@ -172,19 +177,49 @@
 
           <div class="article" id="content">
 
-            <h1 id="modalités-d-ouverture-des-codes-sources">Modalités d&rsquo;ouverture des codes sources</h1>
+            <p>The DINSIC maintains this document and is responsible for it (it owns the repository and manages the permissions). The development of this policy aims to be collaborative and the entities to which it applies are all invited to participate
+              in its development.</p>
 
-            <p>Bienvenue sur la politique de contribution aux logiciels libres de la DINSIC.</p>
+            <p>Two types of organizations are distinguished:</p>
 
-            <blockquote>
-              <p>MISE A JOUR du 13 mars 2018: La politique de contribution aux logiciels libre a été validée au CSIC Tech du 15 février 2018.</p>
-            </blockquote>
+            <ul>
+              <li>Interdepartmental: DINSIC and ANSSI</li>
+              <li>Ministry</li>
+            </ul>
 
-            <p>L&rsquo;objectif de ce document est de décrire COMMENT ouvrir les codes sources en respectant les bonnes pratiques.</p>
+            <p>with only one role per organization (write permission on this policy). All contributors with write permissions are listed in the <a href="MAINTAINERS">MAINTAINERS</a> file.</p>
 
-            <p>Pour savoir quels sont les codes sources qui doivent être ouverts, veuillez vous référer à la loi pour une République numérique.</p>
+            <h2 id="management-of-contributions">Management of contributions</h2>
 
-            <p>Ce document est publié sous la <a href="https://github.com/DISIC/politique-de-contribution-open-source/raw/master/LICENSE.pdf">Licence Ouverte 2.0</a>.</p>
+            <p>All contributions are welcome. They are made via a <em>pull request</em> on the branch <code>next</code> which is the branch of the next version of the policy.</p>
+
+            <ul>
+              <li>
+                <p>pull request with <strong>major</strong> changes must be approved by at least three ministerial organizations and the ANSSI.</p>
+              </li>
+
+              <li>
+                <p>pull requests with <strong>minor</strong> changes must be approved by at least one departmental organization.</p>
+              </li>
+            </ul>
+
+            <p>All maintainers have the ability to merge <em>pull requests</em> on the <code>next</code> branch. If several maintainers belong to the same department, their validation only counts for one organization.</p>
+
+            <h2 id="version-management">Version Management</h2>
+
+            <p>Only the DINSIC and the ANSSI can merge to the <code>master</code> branch which corresponds to the validated version:</p>
+
+            <ul>
+              <li>
+                <p>At each merge on the <code>master</code> branch a tag is added according to the<code>v [MAJOR] v. [MINOR]</code>scheme according to the approved <em>pull requests</em> on the<code>next</code> branch.</p>
+              </li>
+
+              <li>
+                <p>The open source contribution policy can be modified for slight changes (typos, etc.) without updating the version (semver PATCH numbers are ignored) directly on the <code>master</code> branch.</p>
+              </li>
+            </ul>
+
+            <p>All modifications can be done at any given time. Discussions and comments are logged in the comments of the <em>pull request</em>.</p>
 
           </div>
         </div>
@@ -215,13 +250,13 @@
               <strong>Version :</strong> v1.0
             </p>
             <p>
-              <strong>Publié le :</strong> 15/05/2018 12:00
+              <strong>Published :</strong> 15/05/2018 12:00
             </p>
             <p>
               <strong>Licence :</strong> Licence Ouverte 2.0
             </p>
             <p>
-              <strong>Dépôt :</strong>
+              <strong>Repository :</strong>
               <a href="https://github.com/DISIC/politique-de-contribution-open-source">github/disic</a>
             </p>
           </div>

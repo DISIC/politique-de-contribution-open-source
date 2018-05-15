@@ -19,11 +19,11 @@ $(document).ready(function(){
   }
 });
 
-jQuery(document).ready(function($) {
+jQuery(document).ready(function ($) {
 
     /*
      * jQuery simple and accessible hide-show system (collapsible regions), using ARIA
-     * @version v1.7.0
+     * @version v1.8.0   
      * Website: https://a11y.nicolas-hoffmann.net/hide-show/
      * License MIT: https://github.com/nico3333fr/jquery-accessible-hide-show-aria/blob/master/LICENSE
      */
@@ -43,7 +43,7 @@ jQuery(document).ready(function($) {
 
 
     if ($expandmore.length) { // if there are at least one :)
-        $expandmore.each(function(index_to_expand) {
+        $expandmore.each(function (index_to_expand) {
             var $this = $(this),
                 index_lisible = index_to_expand + 1,
                 options = $this.data(),
@@ -51,10 +51,10 @@ jQuery(document).ready(function($) {
                 $to_expand = $this.next(".js-to_expand"),
                 $expandmore_text = $this.html();
 
-            $this.html('<button type="button" class="' + $hideshow_prefix_classes + 'expandmore__button js-expandmore-button"><span class="expand-sign" aria-hidden="true"></span>' + $expandmore_text + '</button>');
+            $this.html('<button type="button" class="' + $hideshow_prefix_classes + 'expandmore__button js-expandmore-button"><span class="' + $hideshow_prefix_classes + 'expandmore__symbol" aria-hidden="true"></span>' + $expandmore_text + '</button>');
             var $button = $this.children('.js-expandmore-button');
 
-            $to_expand.addClass($hideshow_prefix_classes + 'expandmore__to_expand').stop().delay(delay).queue(function() {
+            $to_expand.addClass($hideshow_prefix_classes + 'expandmore__to_expand').stop().delay(delay).queue(function () {
                 var $this = $(this);
                 if ($this.hasClass('js-first_load')) {
                     $this.removeClass('js-first_load');
@@ -82,7 +82,7 @@ jQuery(document).ready(function($) {
     }
 
 
-    $body.on('click', '.js-expandmore-button', function(event) {
+    $body.on('click', '.js-expandmore-button', function (event) {
         var $this = $(this),
             $destination = $('#' + $this.attr(attr_control));
 
@@ -104,7 +104,7 @@ jQuery(document).ready(function($) {
 
     });
 
-    $body.on('click keydown', '.js-expandmore', function(event) {
+    $body.on('click keydown', '.js-expandmore', function (event) {
         var $this = $(this),
             $target = $(event.target),
             $button_in = $this.find('.js-expandmore-button');
@@ -125,7 +125,7 @@ jQuery(document).ready(function($) {
 
     });
 
-    $body.on('click keydown', '.js-expandmore-all', function(event) {
+    $body.on('click keydown', '.js-expandmore-all', function (event) {
         var $this = $(this),
             is_expanded = $this.attr('data-expand'),
             $all_buttons = $('.js-expandmore-button'),
