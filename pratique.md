@@ -101,7 +101,7 @@ Ces fichiers doivent être en texte simple ou avec du marquage minimum (ie Markd
 
 ## Entête des fichiers sources
 
-Conformément aux recommandations détaillées dans [https://software.reuse](https://software.reuse) chaque fichier de code source
+Conformément aux recommandations détaillées dans [https://reuse.software](https://reuse.software) chaque fichier de code source
 doit disposer de son auteur, de son identifiant de licence SPDX, ainsi que d'une copie de la licence dans le repository local.
 
   *  Exemples d'entête de fichier (headers) :
