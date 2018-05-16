@@ -105,7 +105,7 @@ These files must be in plain text or with minimum marking (ie Markdown). It is n
 
 ## Heads source files
 
-According to the detailed recommendations in [https: //software.reuse](https: //software.reuse) each source code file
+According to the detailed recommendations in [https://reuse.software](https://reuse.software) each source code file
 must have its author, SPDX license ID, and a copy of the license in the local repository.
 
   * Examples of file header (headers):
