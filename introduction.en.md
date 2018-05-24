@@ -71,7 +71,7 @@ This document was developed thanks to the many works below:
  * Open Government Partnership collaboration:
  <br> [https://github.com/DISIC/foss-contrib-policy-template](https://github.com/DISIC/foss-contrib-policy-template)
  * USA 18F Open Source Policy:
- <br> [https://github.com/18F/open-source-policy/blob/master/CONTRIBUTING.md](https://github.com/18F/open-source-policy/blob/master/CONTRIBUTING .md)
+ <br> [https://github.com/18F/open-source-policy/blob/master/CONTRIBUTING.md](https://github.com/18F/open-source-policy/blob/master/CONTRIBUTING.md)
  * Whitehouse Source Code Policy:
  <br> [https://sourcecode.cio.gov](https://sourcecode.cio.gov)
  * UK GDS (Government Digital Service):
@@ -79,7 +79,7 @@ This document was developed thanks to the many works below:
  * Canada British Columbia:
  <br> [https://github.com/bcgov/BC-Policy-Framework-For-GitHub](https://github.com/bcgov/BC-Policy-Framework-For-GitHub)
  * Australia Digital Transformation Agency:
- <br> [https://www.dta.gov.au/standard/8-make-source-code-open/](https://www.dta.gov.au/standard/8-make-source- open-code/)
+ <br> [https://www.dta.gov.au/standard/8-make-source-code-open/](https://www.dta.gov.au/standard/8-make-source-open-code/)
  * Linux Foundation Open Source Guides:
  <br> [https://www.linuxfoundation.org/resources/open-source-guides/](https://www.linuxfoundation.org/resources/open-source-guides/)
  * Core Infrastructure Initiative:
