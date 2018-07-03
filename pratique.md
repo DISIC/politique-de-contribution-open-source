@@ -23,6 +23,10 @@ Exemples de plateformes Web hébergées par un tiers :
  * FSFE : https://git.fsfe.org - utilisant [Gitea](https://gitea.io/)
  * FSF : https://git.savannah.gnu.org/cgit/ - utilisant [cgit](https://git.zx2c4.com/cgit/)
 
+Tous les établissements de la communauté de l'enseignement et de la recherche (ESR) peuvent utiliser
+la forge [sourcesup](http://sourcesup.renater.fr/). Cette forge propose l'intégration de besoins spécifiques
+à la communauté des chercheurs comme l'authentification via les comptes de la [fédération d'identités de l'ESR](https://services.renater.fr/new/sourcesup/authentification).
+
 Le code source de github.com n'est pas libre tout comme certains modules de gitlab.com ; certaines plateformes publient des données anonymisées en open data ; leurs portées géographiques peuvent varier, de même que le nombre de développeurs qui l'utilisent.  La liste est incomplète.
 
 Le choix de créer un compte d'organisation au sein d'une plateforme Web existante relève de l'administration, qui peut également héberger sa propre forge publique.
