@@ -18,6 +18,7 @@ Exemples de plateformes Web hébergées par un tiers :
 
  * Github : https://github.com
  * Gitlab : http://gitlab.com (version entreprise)
+ * Bitbucket : https://bitbucket.org
  * Framagit : http://framagit.org - utilisant [Gitlab](https://about.gitlab.com/installation/)
  * Adullact : http://gitlab.adullact.net - utilisant [Gitlab](https://about.gitlab.com/installation/)
  * FSFE : https://git.fsfe.org - utilisant [Gitea](https://gitea.io/)
