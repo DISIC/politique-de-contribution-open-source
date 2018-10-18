@@ -40,8 +40,8 @@ Il est possible pour un développeur de contribuer sur un même projet dans le c
 
 Les licences validées par les organismes Free Software Foundation et Open Source Initiative et recensées sur leurs pages respectives :
 
- * FSF : https://www.gnu.org/licenses/license-list.fr.html (en excluant les licences non libres présentées comme telles) ;
- * OSI : https://opensource.org/licenses/alphabetical.
+ * FSF : [https://www.gnu.org/licenses/license-list.fr.html](https://www.gnu.org/licenses/license-list.fr.html) (en excluant les licences non libres présentées comme telles) ;
+ * OSI : [https://opensource.org/licenses/alphabetical](https://opensource.org/licenses/alphabetical).
 
 À l'inverse les licences non retenues par ces organismes (comme la *Beerware*) ne rentrent pas dans le cadre de l'autorisation par défaut. Un tableau consolidé des licences validées par l'un ou l'autre organisme est maintenu sur le site [https://spdx.org/licenses/](https://spdx.org/licenses)
 
@@ -70,7 +70,7 @@ Liste des CCLA signés:
 
 L'État n'a pas vocation à être éditeur de logiciels. En dehors des trois exceptions prévues à la loi pour une République numérique pour lesquelles vous pouvez contacter l'adresse électronique de support en cas de question, il n'y a pas d'autorisation préalable à demander auprès de la DINSIC. Pour autant, veuillez vous référer à votre supérieur hiérarchique avant la publication d'un nouveau projet dans le compte de votre organisation.
 
-Pour rappel, les licences à utiliser sont disponibles par décret sur le site : http://www.data.gouv.fr/fr/licences.
+Pour rappel, les licences à utiliser sont disponibles par décret sur le site : [http://www.data.gouv.fr/fr/licences](http://www.data.gouv.fr/fr/licences).
 
 ### Éléments à considérer dans le choix de la licence libre
 

@@ -43,8 +43,8 @@ professional time must be associated with a professional email address.
 Contributions to existing projects with FSF or OSI licenses are allowed by default.
 Licenses validated by the Free Software Foundation and Open Source Initiative and listed on their respective pages:
 
-* FSF: https://www.gnu.org/licenses/license-list.fr.html (excluding non-free licenses presented as such);
-* OSI: https://opensource.org/licenses/alphabetical.
+* FSF: [https://www.gnu.org/licenses/license-list.fr.html](https://www.gnu.org/licenses/license-list.fr.html) (excluding non-free licenses presented as such);
+* OSI: [https://opensource.org/licenses/alphabetical](https://opensource.org/licenses/alphabetical).
 
 
 Conversely, licenses not retained by these organizations (such as * Beerware *) do not fall under the default authorization.
@@ -79,7 +79,7 @@ The state is not intended to be a software editor. Apart from the three exceptio
 support e-mail address in case of question, there is no prior authorization required from the DINSIC. However, please refer to your supervisor
 before publishing a new project in your organization's account.
 
-As a reminder, the licenses to use are available by decree on the site: http://www.data.gouv.fr/fr/licences.
+As a reminder, the licenses to use are available by decree on the site: [http://www.data.gouv.fr/fr/licences](http://www.data.gouv.fr/fr/licences).
 
 ### Elements to consider when choosing a free/open-source software license
 
