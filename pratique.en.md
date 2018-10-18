@@ -17,12 +17,12 @@ a community of developers. These platforms may be hosted by a third party or by 
 
 Examples of web platforms hosted by a third party:
 
-* Github: https://github.com
-* Gitlab: http://gitlab.com (enterprise version)
-* Framagit: http://framagit.org - using [Gitlab](https://about.gitlab.com/installation/)
-* Adullact: http://gitlab.adullact.net - using [Gitlab](https://about.gitlab.com/installation/)
-* FSFE: https://git.fsfe.org - using [Gitea](https://gitea.io/)
-* FSF: https://git.savannah.gnu.org/cgit/ - using [cgit](https://git.zx2c4.com/cgit/)
+* Github: [https://github.com](https://github.com)
+* Gitlab: [http://gitlab.com](http://gitlab.com) (enterprise version)
+* Framagit: [http://framagit.org](http://framagit.org) - using [Gitlab](https://about.gitlab.com/installation/)
+* Adullact: [http://gitlab.adullact.net](http://gitlab.adullact.net) - using [Gitlab](https://about.gitlab.com/installation/)
+* FSFE: [https://git.fsfe.org](https://git.fsfe.org) - using [Gitea](https://gitea.io/)
+* FSF: [https://git.savannah.gnu.org/cgit/](https://git.savannah.gnu.org/cgit/) - using [cgit](https://git.zx2c4.com/cgit/)
 
 The source code of github.com is not free just like some modules of gitlab.com; some platforms publish anonymous data in open data; 
 their geographic scope may vary, as well as the number of developers who use it. The list is incomplete.
@@ -242,4 +242,4 @@ verification](https://github.com/blog/2144-gpg-signature-verification))
 
 ## Tools
 
-The contribution policy is not intended to offer specific tools. However specifically for managing open code, you can find the referenced tools on https://www.linuxfoundation.org/tools-managing-open-source-programs/#1 useful.
+The contribution policy is not intended to offer specific tools. However specifically for managing open code, you can find the referenced tools on [https://www.linuxfoundation.org/tools-managing-open-source-programs/](https://www.linuxfoundation.org/tools-managing-open-source-programs/#1) useful.

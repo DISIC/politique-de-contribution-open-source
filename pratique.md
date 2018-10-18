@@ -243,4 +243,4 @@ La sécurité par l'obscurité est globalement reconnue comme une pratique insuf
 ## Outillage
 
 La politique de contribution n'a pas vocation à proposer un outillage particulier. Toutefois spécifiquement pour la gestion
-de code ouvert, vous pourrez trouver les outils référencés sur https://www.linuxfoundation.org/tools-managing-open-source-programs/#1 utiles.
+de code ouvert, vous pourrez trouver les outils référencés sur [https://www.linuxfoundation.org/tools-managing-open-source-programs/](https://www.linuxfoundation.org/tools-managing-open-source-programs/#1) utiles.
