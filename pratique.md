@@ -16,8 +16,8 @@ En plus du système de suivi de version du code source, une plateforme Web propo
 
 Exemples de plateformes Web hébergées par un tiers :
 
- * Github : https://github.com
- * Gitlab : http://gitlab.com (version entreprise)
+ * GitHub : https://github.com
+ * GitLab : http://gitlab.com (version entreprise)
  * Bitbucket : https://bitbucket.org
  * Framagit : http://framagit.org - utilisant [Gitlab](https://about.gitlab.com/installation/)
  * Adullact : http://gitlab.adullact.net - utilisant [Gitlab](https://about.gitlab.com/installation/)
@@ -41,7 +41,7 @@ Il est recommandé d'avoir deux propriétaires par dépôt.
 Des réflexions sont en cours sur la capacité de proposer un inventaire automatique tant du point de vue des dépôts
 d'organisation que de l'inventaire des services.
 
-> Pour référencer le compte d'organisation comme un compte gouvernemental dans Github :
+> Pour référencer le compte d'organisation comme un compte gouvernemental dans GitHub :
 >
 >  * Inscrivez vous si ce n'est pas déjà fait dans la communauté [https://github.com/government/welcome](https://github.com/government/welcome)
 >  * Référencez votre compte d'organisation en l'ajoutant sur la page : [https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml](https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) conformément à la page [https://government.github.com/community/](https://government.github.com/community/)
