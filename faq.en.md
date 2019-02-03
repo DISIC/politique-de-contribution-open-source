@@ -12,8 +12,7 @@ layout: faq
 
 {{% question "Am I affected by this open source contribution policy?"%}}
 
-As stated in the introduction, if the Law for a Digital Republic applies to the entire administration, the scope of the DINSIC focuses on the
-central administrations (with some exceptions according to Decree No. 2014-879 of August 1 2014).
+As stated in the introduction, if the Law for a Digital Republic applies to the entire administration, the scope of the DINSIC focuses on the central administrations (with some exceptions according to Decree No. 2014-879 of August 1 2014).
 
 If you are part of a local authority, this policy does not apply to you, even though the Law for a Digital Republic applies.
 
@@ -38,8 +37,7 @@ If you work for an administration within the scope of the DINSIC, you are also c
 
 {{% question "Which codes are intended to be open?" %}}
 
-The obligation to open the codes is related to the Digital Republic law which plans a gradual opening until October 7, 2018. At
-this date, all codes that have economic, social, sanitary or environmental value must be opened by default.
+The obligation to open the codes is related to the Digital Republic law which plans a gradual opening until October 7, 2018. At this date, all codes that have economic, social, sanitary or environmental value must be opened by default.
 
 Any code written as part of a public service mission is publishable and reusable for other purposes, except for the following:
 

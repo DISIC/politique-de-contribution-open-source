@@ -27,8 +27,7 @@ Afin de reconnaître la paternité des contributions, l'adresse électronique in
  * Pour les agents : utilisation de l'adresse électronique professionnelle.
  * Pour les prestataires de services, utilisation de l'adresse électronique de leur société d'attachement (pas d'adresse prestataire fournie par l'administration)
 
-Toutefois, au cas où un développeur ne souhaiterait pas voir son identité publiée, il peut utiliser un pseudonyme.
-En revanche, l'utilisation d'adresses électroniques génériques ou anonymes est à proscrire.
+Toutefois, au cas où un développeur ne souhaiterait pas voir son identité publiée, il peut utiliser un pseudonyme.  En revanche, l'utilisation d'adresses électroniques génériques ou anonymes est à proscrire.
  
 ### Distinguer les contributions professionnelles et personnelles
 
@@ -47,15 +46,11 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
 
 ### Signature des *Corporate Contributor License Agreement*
 
-La DINSIC prend en charge de signer les accords de contributions spécifiques (Corporate Contributor License Agreement ou CCLA) avec les
-communautés ou les entreprises qui l'exigent, afin de permettre les contributions des agents à titre professionnel aux projets concernés. Si
-cela est demandé par l'autre partie, elle maintiendra les listes d'individus couverts par l'accord. Une autre possibilité est que l'accord
-de CCLA soit un pré-requis à la signature d'un Contributor License Agreement individuel (iCLA). Dans ce cas, la signature d'un CCLA par la
-DINSIC vaudra pré-autorisaiton pour la signature d'iCLA.
+La DINSIC prend en charge de signer les accords de contributions spécifiques (Corporate Contributor License Agreement ou CCLA) avec les communautés ou les entreprises qui l'exigent, afin de permettre les contributions des agents à titre professionnel aux projets concernés. Si cela est demandé par l'autre partie, elle maintiendra les listes d'individus couverts par l'accord. Une autre possibilité est que l'accord de CCLA soit un pré-requis à la signature d'un Contributor License Agreement individuel (iCLA). Dans ce cas, la signature d'un CCLA par la DINSIC vaudra pré-autorisaiton pour la signature d'iCLA.
 
 Si vous souhaitez contribuer à un projet réclamant ce type de formalisme, que ce soit pour signer un CCLA, vous rajouter à la liste des contributeurs autorisés, ou vérifier la possibilité de signer un iCLA, contactez l'adresse d'assistance indiquée plus haut.
 
-Liste des CCLA signés:
+Liste des CCLA signés :
 
  * A ce stade, aucun CCLA n'a encore été signé par la DINSIC.
 
@@ -63,7 +58,7 @@ Liste des CCLA signés:
 
 ### La publication du code source ne crée ni obligation ni garantie
 
-* Aucune obligation de support et de prise en compte des demandes des utilisateurs ni plus généralement d'obligation d'animer la communauté. 
+* Aucune obligation de support et de prise en compte des demandes des utilisateurs ni plus généralement d'obligation d'animer la communauté.
 * Pas de garanties au-delà de ce qui est prévu par la licence.
 
 ### Autorisation par défaut de contribuer un nouveau projet avec les licences du décret

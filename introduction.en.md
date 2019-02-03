@@ -18,10 +18,7 @@ __History and versions__
 
 ## Objectives
 
-Under the Law for a Digital Republic of [October 7, 2016][LoiRepNum link], source codes are administrative documents
-that are communicable and reusable. In the case where it is possible to choose an Open Source license, the decree
-[n ° 2017-638 of April 27, 2017][DecretLicences link] specifies the families of licenses that can be used. The detailed list
-of the licenses and their versions are available on the website [data.gouv.fr][Licenses link].
+Under the Law for a Digital Republic of [October 7, 2016][LoiRepNum link], source codes are administrative documents that are communicable and reusable. In the case where it is possible to choose an Open Source license, the decree [n ° 2017-638 of April 27, 2017][DecretLicences link] specifies the families of licenses that can be used. The detailed list of the licenses and their versions are available on the website [data.gouv.fr][Licenses link].
 
 The objectives of this interdepartmental Open Source contribution policy are:
 
@@ -34,17 +31,14 @@ or contractual) or service providers.
 
 ## Scope
 
-This contribution policy applies to the state's information and communication system
-in accordance with Article 1 of [Decree No. 2014-879 of 1 August 2014][DecretDINSIC link]. Each state administration
-has the opportunity to instantiate its own contribution policy to clarify and amend it.
+This contribution policy applies to the state's information and communication system in accordance with Article 1 of [Decree No. 2014-879 of 1 August 2014][DecretDINSIC link]. Each state administration has the opportunity to instantiate its own contribution policy to clarify and amend it.
 
 Source codes covered by this policy are the ones:
 
  * developed internally by the administration
  * developed on behalf of the administration.
 
-This contribution policy aims at *new* developments. For the opening of existing source codes, additional actions will be needed,
-such as defining the scope, reviewing quality and security, and ensuring compliance specifically on intellectual property.
+This contribution policy aims at *new* developments. For the opening of existing source codes, additional actions will be needed, such as defining the scope, reviewing quality and security, and ensuring compliance specifically on intellectual property.
 
 Public hospital and local governments are outside the scope of this contribution policy.
 
@@ -59,8 +53,7 @@ The contribution policy is composed of:
 
 ## Responsibility of the document
 
-The DINSIC produces and maintains this document; it ensures its implementation and the associated support. For any questions, or requests
-for changes, please refer to the *Governance* section.
+The DINSIC produces and maintains this document; it ensures its implementation and the associated support. For any questions, or requests for changes, please refer to the *Governance* section.
 
 This document is published under the [Open License 2.0][LO link]
 

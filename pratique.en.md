@@ -12,8 +12,7 @@ Using a distributed version tracking system such as git is recommended. Svn or c
 
 ## Help in choosing a web platform
 
-In addition to the source code version tracking system, a web platform offers a range of associated collaborative tools and aims to mobilize
-a community of developers. These platforms may be hosted by a third party or by the administration.
+In addition to the source code version tracking system, a web platform offers a range of associated collaborative tools and aims to mobilize a community of developers. These platforms may be hosted by a third party or by the administration.
 
 Examples of web platforms hosted by a third party:
 
@@ -24,25 +23,21 @@ Examples of web platforms hosted by a third party:
 * FSFE: [https://git.fsfe.org](https://git.fsfe.org) - using [Gitea](https://gitea.io/)
 * FSF: [https://git.savannah.gnu.org/cgit/](https://git.savannah.gnu.org/cgit/) - using [cgit](https://git.zx2c4.com/cgit/)
 
-The source code of github.com is not free just like some modules of gitlab.com; some platforms publish anonymous data in open data; 
-their geographic scope may vary, as well as the number of developers who use it. The list is incomplete.
+The source code of github.com is not free just like some modules of gitlab.com; some platforms publish anonymous data in open data; their geographic scope may vary, as well as the number of developers who use it. The list is incomplete.
 
-The choice to create an organizational account within an existing Web platform is the responsibility of the administration, which can also
-host its own public forge.
+The choice to create an organizational account within an existing Web platform is the responsibility of the administration, which can also host its own public forge.
 
 Choosing a forge for a project must be done according to the level of collaboration expected and the interfaces with the private repositories and the rest of the development platform.
 
 ## Management of personal and organizations accounts
 
-All projects initiated by an administration must be published in repositories under an organization accounts. Personal account repositories
-should only be used for temporary technical forks or personal developments.
+All projects initiated by an administration must be published in repositories under an organization accounts. Personal account repositories should only be used for temporary technical forks or personal developments.
  
 It is recommended to have two owners by repository.
 
 ## Inventory of organization accounts
 
-Work is underway on the ability to provide an automatic inventory both from the point of view of 
-organizations' repositories than services' inventory
+Work is underway on the ability to provide an automatic inventory both from the point of view of organizations' repositories than services' inventory
 
 > To reference the organization account as a government account in Github:
 >
@@ -51,8 +46,7 @@ organizations' repositories than services' inventory
 
 ## Distinction of personal / professional contributions
 
-The distinction between personal and professional contributions is based on the associated email address.
-The contributor must change its email accordingly.
+The distinction between personal and professional contributions is based on the associated email address.  The contributor must change its email accordingly.
 
 In the case of using `git`, this can be done easily:
 
@@ -68,14 +62,11 @@ To find the email address currently used:
 
 `git config --get user.email`
 
-In cases where the contributor does not wish to see his personal identity attached to his contribution, an email address (or alias) need to
-be made available by the department to allow the use of a pseudonym. Beware some open source projects may refuse contributions under 
-pseudonym.
+In cases where the contributor does not wish to see his personal identity attached to his contribution, an email address (or alias) need to be made available by the department to allow the use of a pseudonym. Beware some open source projects may refuse contributions under pseudonym.
 
 ## Help in choosing the license
 
-The choice of a license is also the choice of a community of developers and an ecosystem of associated tools. Once the license family is 
-chosen, it is primarily the targeted developer's community that determines the choice.
+The choice of a license is also the choice of a community of developers and an ecosystem of associated tools. Once the license family is chosen, it is primarily the targeted developer's community that determines the choice.
 
 The recommended licenses by default are:
 
@@ -101,12 +92,11 @@ Make sure you have at least the README, CONTRIBUTING, and LICENSE files.
 * GOVERNANCE: describes project governance, roles and voting rights. An example is available in this repository [gouvernance.md]({{<relref "gouvernance.md">}})
 * NFR: choice of technical architecture of the project that do not correspond to functional requirements.
 
-These files must be in plain text or with minimum marking (ie Markdown). It is not recommended to use binary formats (ie PDF)
+These files must be in plain text or with minimum marking (ie Markdown). It is not recommended to use binary formats (ie PDF).
 
 ## Heads source files
 
-According to the detailed recommendations in [https://reuse.software](https://reuse.software) each source code file
-must have its author, SPDX license ID, and a copy of the license in the local repository.
+According to the detailed recommendations in [https://reuse.software](https://reuse.software) each source code file must have its author, SPDX license ID, and a copy of the license in the local repository.
 
   * Examples of file header (headers):
 
@@ -138,8 +128,7 @@ The complete list of SPDX identifiers is available at this address: [https://spd
 
 ## Traceability of development (DCO)
 
-In order to guarantee the origin of the contributions submitted, the implementation of a Developer's Certificate of Origin is recommended.
-A French translation is made available [DCO-Fr.txt](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt)
+In order to guarantee the origin of the contributions submitted, the implementation of a Developer's Certificate of Origin is recommended.  A French translation is made available [DCO-Fr.txt](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt)
 
 For now, the sign-off is only in English using the command
 
@@ -164,17 +153,11 @@ Opening the code also amplifies the importance of some of these best practices:
 
 ### Identified interlocutor
 
-It is recommended to identify a person in charge of the security of the
-project that will ensure compliance with best practices
-implemented during development, and to treat potential
-security incidents. It is also better to use
-a dedicated e-mail address to deal with security incidents or intellectual property issues
-which would be discovered by a third party.
+It is recommended to identify a person in charge of the security of the project that will ensure compliance with best practices implemented during development, and to treat potential security incidents. It is also better to use a dedicated e-mail address to deal with security incidents or intellectual property issues which would be discovered by a third party.
  
 ### Secure development
 
-* Write code that follows recognized security practices and
-  that does not make use of dangerous constructions in the language used
+* Write code that follows recognized security practices and that does not make use of dangerous constructions in the language used
   * [SEI CERT Coding Standards](https://wiki.sei.cmu.edu/confluence/display/seccode/SEI+CERT+Coding+Standards)
   * PHP The Right Way (http://eilgin.github.io/php-the-right-way/)
   * [Secure Coding Guidelines for Java SE](http://www.oracle.com/technetwork/java/seccodeguide-139067.html)
@@ -182,15 +165,9 @@ which would be discovered by a third party.
   * [Security and Java language](https://www.ssi.gouv.fr/javasec/)
   * [Security and functional languages](https://www.ssi.gouv.fr/lafosec/)
 
-* Eliminate all *debug* messages (by compilation
-conditional or through a run-time variable) and any
-unnecessary information for the user in error messages
-(e.g. Java / PHP / Python call trace) when going into production
+* Eliminate all *debug* messages (by compilation conditional or through a run-time variable) and any unnecessary information for the user in error messages (e.g. Java / PHP / Python call trace) when going into production
 
-* Eliminate all dead code (*i.e.* code not called / no
-achievable) as it could be confusing and / or
-think that it is still functional and tested; this code, no
-maintained, could be wrongly reinstated by a developer
+* Eliminate all dead code (*i.e.* code not called / no achievable) as it could be confusing and / or think that it is still functional and tested; this code, no maintained, could be wrongly reinstated by a developer
  
 * All external inputs (e.g. user) must be checked before use or storage, according to good safety practices and in function of their destination.
  
@@ -200,15 +177,9 @@ Obscurity is generally recognized as an insufficient practice, but in the case o
 
 ### Secret / sensitive data, cryptography
 
-* No secret items (such as a password or key
-cryptographic) should only be stored in the code or in the
-comments; use configuration files that 
-are not versioned (*cf* `.gitignore`)
+* No secret items (such as a password or key cryptographic) should only be stored in the code or in the comments; use configuration files that are not versioned (*cf* `.gitignore`)
 
-* No secret element should be written by the program in clear in a file (including
-including a log file) or in a database,
-always prefer a hashed version with a state of the art hash function
-(*i.e* salt   for each entry)
+* No secret element should be written by the program in clear in a file (including including a log file) or in a database, always prefer a hashed version with a state of the art hash function (*i.e* salt for each entry)
   * [General Security Reference System - Annex B3](https://www.ssi.gouv.fr/uploads/2014/11/RGS_v-2-0_B3.pdf)
 * No secret element must transit in clear on the network
 * Do not implement a cryptographic mechanism yourself but use recognized libraries using parameters and robust cryptographic suites
@@ -218,19 +189,11 @@ always prefer a hashed version with a state of the art hash function
 
 ### Development tools and dependencies
 
-* Use software and libraries where appropriate
-third parties maintained and up-to-date security patches; prefer
-libraries (re) known, and the simplest possible
+* Use software and libraries where appropriate third parties maintained and up-to-date security patches; prefer libraries (re) known, and the simplest possible
 
-* Use the code analysis services offered by the platform
-and systematically process problems brought up before integration
+* Use the code analysis services offered by the platform and systematically process problems brought up before integration
 
-* Only push *commits* of code that compile, are tested, and
-functional, accompanied by corresponding unit tests;
-some platforms offer the opportunity to replay
-automatically the unit tests of a project to ensure the
-non-regression (e.g. [Travis](https://docs.travis-ci.com/),
-[Homu](https://github.com/servo/homu))
+* Only push *commits* of code that compile, are tested, and functional, accompanied by corresponding unit tests; some platforms offer the opportunity to replay automatically the unit tests of a project to ensure the non-regression (e.g. [Travis](https://docs.travis-ci.com/), [Homu](https://github.com/servo/homu))
 
 * Create a *tag* (e.g. v2.0.1) for each version (e.g. 2.0.1), and
 sign it cryptographically (see [GPG signature

@@ -6,8 +6,7 @@ menu:
     weight: 50
 ---
 
-The DINSIC maintains this document and is responsible for it (it owns the repository and manages the permissions). The development of this 
-policy aims to be collaborative and the entities to which it applies are all invited to participate in its development.
+The DINSIC maintains this document and is responsible for it (it owns the repository and manages the permissions). The development of this policy aims to be collaborative and the entities to which it applies are all invited to participate in its development.
 
 Two types of organizations are distinguished:
 
