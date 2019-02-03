@@ -35,6 +35,8 @@ All projects initiated by an administration must be published in repositories un
  
 It is recommended to have two owners by repository.
 
+It is recommended that usernames of the organization accounts' owners are publicly accessible.
+
 ## Inventory of organization accounts
 
 Work is underway on the ability to provide an automatic inventory both from the point of view of organizations' repositories than services' inventory
