@@ -13,7 +13,7 @@ Two types of organizations are distinguished:
 * Interdepartmental: DINSIC and ANSSI
 * Ministry
 
-with only one role per organization (write permission on this policy). All contributors with write permissions are listed in the [MAINTAINERS](MAINTAINERS) file.
+with only one role per organization (write permission on this policy). All contributors with write permissions are listed in the [MAINTAINERS](/MAINTAINERS) file.
 
 ## Management of contributions
 
