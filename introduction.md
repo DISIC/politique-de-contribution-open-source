@@ -18,27 +18,21 @@ __Historique et versions__
 
 ## Objectifs
 
-Conformément à la Loi pour une République numérique du [7 octobre 2016][LoiRepNum link], les codes sources sont des documents 
-administratifs communicables et réutilisables. Dans le cas où il est possible de choisir une licence libre, le décret
-[n° 2017-638 du 27 avril 2017][DecretLicences link] précise les familles de licences qui peuvent être utilisées. La liste 
-détaillée des licences avec leurs versions est disponible sur le site [data.gouv.fr][Licenses link].
+Conformément à la Loi pour une République numérique du [7 octobre 2016][LoiRepNum link], les codes sources sont des documents administratifs communicables et réutilisables. Dans le cas où il est possible de choisir une licence libre, le décret [n° 2017-638 du 27 avril 2017][DecretLicences link] précise les familles de licences qui peuvent être utilisées. La liste détaillée des licences avec leurs versions est disponible sur le site [data.gouv.fr][Licenses link].
 
-Les objectifs de cette politique interministérielle de contribution aux logiciels libres sont de :
+Les objectifs de cette politique interministérielle de contribution aux logiciels libres sont de :
 
  * fixer les règles et principes à respecter pour l'ouverture des codes sources
  * accompagner les ministères et partager les bonnes pratiques 
  * définir la gouvernance des politiques de contribution de l'État.
 
-Ce document est à destination des développeurs ou de leurs responsables, qu'ils soient agents publics (titulaires 
-ou contractuels) ou prestataires.
+Ce document est à destination des développeurs ou de leurs responsables, qu'ils soient agents publics (titulaires ou contractuels) ou prestataires.
 
 ## Périmètre
 
-Cette politique de contribution s'applique au système d'information et de communication de l'État 
-conformément à l'article 1er du [décret n° 2014-879 du 1er août 2014][DecretDINSIC link]. Chaque administration de l'État 
-a la possibilité d'instancier sa propre politique de contribution pour la préciser et l'amender. 
+Cette politique de contribution s'applique au système d'information et de communication de l'État conformément à l'article 1er du [décret n° 2014-879 du 1er août 2014][DecretDINSIC link]. Chaque administration de l'État a la possibilité d'instancier sa propre politique de contribution pour la préciser et l'amender.
 
-Sont concernés l'ensemble des codes sources :
+Sont concernés l'ensemble des codes sources :
 
  *  développés en interne par l'administration
  *  développés pour le compte de l'administration.
@@ -49,7 +43,7 @@ Les fonctions publiques hospitalières et territoriales sont hors périmètre de
 
 ## Structure du document
 
-La politique de contribution est composée de :
+La politique de contribution est composée de :
 
  * [Principes d’ouverture des codes sources]({{< relref "ouverture.md" >}} )
  * [Modalités et bonnes pratiques]({{< relref "pratique.md" >}})
@@ -64,7 +58,7 @@ Ce document est publié sous la [**Licence Ouverte 2.0**][LO link]
 
 ## Références externes
 
-Ce document a été élaboré grâce aux nombreux travaux ci-dessous :
+Ce document a été élaboré grâce aux nombreux travaux ci-dessous :
 
  * [Open Government Partnership collaboration](https://github.com/DISIC/foss-contrib-policy-template)
  * [USA 18F Open Source Policy](https://github.com/18F/open-source-policy/blob/master/CONTRIBUTING.md)
@@ -78,7 +72,7 @@ Ce document a été élaboré grâce aux nombreux travaux ci-dessous :
  * [FSFE software reuse](https://reuse.software)
  * [Google Open Source](http://opensource.google.com)
 
-Un travail est également en cours par le gouvernement du Canada : [https://github.com/canada-ca/Open_First_Whitepaper](https://github.com/canada-ca/Open_First_Whitepaper)
+Un travail est également en cours par le gouvernement du Canada : [https://github.com/canada-ca/Open_First_Whitepaper](https://github.com/canada-ca/Open_First_Whitepaper)
 
 [Logo LO]: https://www.etalab.gouv.fr/wp-content/uploads/2011/10/licence-ouverte-open-licence.gif
 [LO link]: https://github.com/DISIC/politique-de-contribution-open-source/raw/master/LICENSE.pdf
