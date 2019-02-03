@@ -35,6 +35,8 @@ Tous les projets initiés par une administration doivent être publiés dans des
 
 Il est recommandé d'avoir deux propriétaires par dépôt.
 
+Il est recommandé que les noms d'utilisateurs des propriétaires des comptes d'organisation apparaissent publiquement.
+
 ## Inventaire des comptes d'organisation
 
 Des réflexions sont en cours sur la capacité de proposer un inventaire automatique tant du point de vue des dépôts d'organisation que de l'inventaire des services.
