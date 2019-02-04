@@ -19,9 +19,9 @@ with only one role per organization (write permission on this policy). All contr
 
 All contributions are welcome. They are made via a *pull request* on the branch `next` which is the branch of the next version of the policy.
 
-* pull request with **major** changes must be approved by at least three ministerial organizations and the ANSSI.
+* pull request with **major** changes must be approved by at least three other ministerial organizations and the ANSSI.
 
-* pull requests with **minor** changes must be approved by at least one departmental organization.
+* pull requests with **minor** changes must be approved by at least one other departmental organization.
  
 All maintainers have the ability to merge *pull requests* on the `next` branch. If several maintainers belong to the same department, their validation only counts for one organization.
 

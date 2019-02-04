@@ -19,9 +19,9 @@ avec un seul rôle par organisation (droit d'écriture sur cette politique). L'e
 
 Toutes les contributions sont les bienvenues.  Elles sont faites via une *pull request* sur la branche `next` qui est la branche d'élaboration d'une nouvelle version de la politique.
 
- * les `pull request` apportant des modifications **majeures** doivent être approuvées par au moins trois organisations ministérielles et l'ANSSI. 
+ * les `pull request` apportant des modifications **majeures** doivent être approuvées par au moins trois autres organisations ministérielles et l'ANSSI.
 
- * les `pull request` apportant des modifications **mineures** doivent être approuvées par au moins une organisation ministérielle.
+ * les `pull request` apportant des modifications **mineures** doivent être approuvées par au moins une autre organisation ministérielle.
  
 Tous les mainteneurs ont la possibilité de fusionnner les *pull requests* sur la branche `next`. Si plusieurs mainteneurs appartiennent à un même ministère, leur validation ne compte que pour une organisation.
 
