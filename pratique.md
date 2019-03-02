@@ -8,7 +8,7 @@ menu:
 
 ## Système de suivi de version de code source
 
-L'utilisation d'un système de suivi de version distribué tel que git est recommandée. Les systèmes svn ou cvs sont déconseillés.
+L'utilisation d'un système de suivi de version distribué tel que Git est recommandée. Les systèmes SVN ou CVS sont déconseillés.
 
 ## Aide au choix d'une plateforme Web
 
@@ -16,7 +16,7 @@ En plus du système de suivi de version du code source, une plateforme Web propo
 
 Exemples de plateformes Web hébergées par un tiers :
 
- * Github : https://github.com
+ * GitHub : https://github.com
  * Gitlab : http://gitlab.com (version entreprise)
  * Framagit : http://framagit.org - utilisant [Gitlab](https://about.gitlab.com/installation/)
  * Adullact : http://gitlab.adullact.net - utilisant [Gitlab](https://about.gitlab.com/installation/)
@@ -27,7 +27,7 @@ Le code source de github.com n'est pas libre tout comme certains modules de gitl
 
 Le choix de créer un compte d'organisation au sein d'une plateforme Web existante relève de l'administration, qui peut également héberger sa propre forge publique.
 
-Le positionnement d'un projet sur une forge doit se faire en fonction du niveau de collaboration attendu et des interfaces avec les dépots privés et le reste de la plateforme de développement.
+Le positionnement d'un projet sur une forge doit se faire en fonction du niveau de collaboration attendu et des interfaces avec les dépôts privés et le reste de la plateforme de développement.
 
 ## Gestion des comptes personnels et d'organisation
 
@@ -70,7 +70,7 @@ Les licences recommandées par défaut sont :
   * Permissive : Apache 2.0
   * Avec obligation de réciprocité : GNU GPL v3 (standard, lesser ou affero en fonction)
 
- > Multilicensing : il est possible de fournir un logiciel sous plusieurs licenses simultanément, bien que cela puisse entraîner de la confusion.
+ > Multilicensing : il est possible de fournir un logiciel sous plusieurs licences simultanément, bien que cela puisse entraîner de la confusion.
 
 ## Gestion des versions
 
@@ -92,7 +92,7 @@ Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING et LICENSE.
 
 * CONDUCT : un code de conduite pour réguler la communauté de contributeurs. Des exemples peuvent être trouvés :  [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/) et [https://github.com/18F/code-of-conduct](https://github.com/18F/code-of-conduct).
 
-* GOVERNANCE : décrit la gouvernance du projet, les rôles et les drois de votes. Un exemple est disponible dans ce dépôt [gouvernance.md]({{< relref "gouvernance.md" >}})
+* GOVERNANCE : décrit la gouvernance du projet, les rôles et les droits de votes. Un exemple est disponible dans ce dépôt [gouvernance.md]({{< relref "gouvernance.md" >}})
 
 * NFR : choix d'architecture technique du projet qui ne correspondent pas à des exigences fonctionnelles.
 
@@ -100,7 +100,7 @@ Ces fichiers doivent être en texte simple ou avec du marquage minimum (ie Markd
 
 ## Entête des fichiers sources
 
-Conformément aux recommandations détaillées dans [https://reuse.software](https://reuse.software) chaque fichier de code source doit disposer de son auteur, de son identifiant de licence SPDX, ainsi que d'une copie de la licence dans le repository local.
+Conformément aux recommandations détaillées dans [https://reuse.software](https://reuse.software) chaque fichier de code source doit disposer de son auteur, de son identifiant de licence SPDX, ainsi que d'une copie de la licence dans le dépôt local.
 
   *  Exemples d'entête de fichier (headers) :
 
