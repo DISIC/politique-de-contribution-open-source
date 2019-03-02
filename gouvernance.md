@@ -13,7 +13,7 @@ Deux types d'organisations sont distinguées :
 * Interministériel : DINSIC et ANSSI
 * Ministèriel
 
-avec un seul rôle par organisation (droit d'écriture sur cette politique). L'ensemble des contributeurs avec les droits d'écriture sont listés dans le fichier [MAINTAINERS](MAINTAINERS).
+avec un seul rôle par organisation (droit d'écriture sur cette politique). L'ensemble des contributeurs avec les droits d'écriture sont listés dans le fichier [MAINTAINERS](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/MAINTAINERS).
 
 ## Gestion des contributions
 
