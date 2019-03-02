@@ -148,10 +148,22 @@ Les bonnes pratiques de développement courantes s'appliquent également en cont
 
 L'ouverture du code vient par ailleurs amplifier l'importance de certaines de ces bonnes pratiques :
 
-* **Documentation**, à l'intérieur du code (commentaires et messages de *commit*) et hors du code.
 * **Conformité juridique** dans l'utilisation de bibliothèques tierces. La très grande majorité des développements actuels reposant sur des bibliothèques Open Source tierces, il est nécessaire de s'assurer de la compatibilité de leurs licences respectives et du respect des obligations de celles-ci.
 * **Modularisation des développements** afin de maximiser la réutilisation de code mais aussi d'isoler les éventuelles sources d'erreur
 * **Respect d'une unique convention de développement** par projet.
+* **Documentation**, à l'intérieur du code (commentaires et messages de *commit*) et hors du code (voir ci-après).
+
+## Bonnes pratiques de documentation
+
+Les recommandations ci-dessous fixent un idéal, pas un ensemble d'obligations.  Néanmoins, la qualité d'un projet Open Source étant étroitement corrélée à la qualité de sa documentation, on y prêter une attention particulière.
+
+- La documentation est publiée sous [**Licence Ouverte 2.0**][LO link].
+- Elle est à jour avec la version du logiciel qu'elle documente.
+- Elle propose un manuel utilisateur et un guide du contributeur.
+- Elle est lisible en ligne (site web) et hors-ligne (document PDF).
+- Elle est rédigée dans un français et/ou un anglais corrects.
+- Elle propose plusieurs niveaux d'appropriations (FAQ, tutoriels, manuel approfondi, etc.)
+- Elle contient le moins possible de références culturelles ou contextuels risquant de devenir incompréhensibles.
 
 ## Sécurité
 
