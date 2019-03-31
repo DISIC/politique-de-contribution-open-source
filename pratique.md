@@ -16,14 +16,15 @@ En plus du système de suivi de version du code source, une plateforme Web propo
 
 Exemples de plateformes Web hébergées par un tiers :
 
- * GitHub : https://github.com
- * Gitlab : http://gitlab.com (version entreprise)
- * Framagit : http://framagit.org - utilisant [Gitlab](https://about.gitlab.com/installation/)
- * Adullact : http://gitlab.adullact.net - utilisant [Gitlab](https://about.gitlab.com/installation/)
- * FSFE : https://git.fsfe.org - utilisant [Gitea](https://gitea.io/)
- * FSF : https://git.savannah.gnu.org/cgit/ - utilisant [cgit](https://git.zx2c4.com/cgit/)
+* GitHub : https://github.com
+* Gitlab : http://gitlab.com (version entreprise)
+* Bitbucket : https://bitbucket.org
+* Framagit : http://framagit.org - utilisant [Gitlab](https://about.gitlab.com/installation/)
+* Adullact : http://gitlab.adullact.net - utilisant [Gitlab](https://about.gitlab.com/installation/)
+* FSFE : https://git.fsfe.org - utilisant [Gitea](https://gitea.io/)
+* FSF : https://git.savannah.gnu.org/cgit/ - utilisant [cgit](https://git.zx2c4.com/cgit/)
 
-Le code source de github.com n'est pas libre tout comme certains modules de gitlab.com ; certaines plateformes publient des données anonymisées en open data ; leurs portées géographiques peuvent varier, de même que le nombre de développeurs qui l'utilisent.  La liste est incomplète.
+Les codes source de github.com et bitbucket.org ne sont pas libres, tout comme certains modules de gitlab.com ; certaines plateformes publient des données anonymisées en open data ; leurs portées géographiques peuvent varier, de même que le nombre de développeurs qui l'utilisent.  La liste est incomplète.
 
 Le choix de créer un compte d'organisation au sein d'une plateforme Web existante relève de l'administration, qui peut également héberger sa propre forge publique.
 
