@@ -16,11 +16,11 @@ In addition to the source code version tracking system, a web platform offers a 
 
 Examples of web platforms hosted by a third party:
 
-* Github: [https://github.com](https://github.com)
-* Gitlab: [http://gitlab.com](http://gitlab.com) (enterprise version)
+* GitHub: [https://github.com](https://github.com)
+* GitLab: [http://gitlab.com](http://gitlab.com) (enterprise version)
 * Bitbucket : https://bitbucket.org
-* Framagit: [http://framagit.org](http://framagit.org) - using [Gitlab](https://about.gitlab.com/installation/)
-* Adullact: [http://gitlab.adullact.net](http://gitlab.adullact.net) - using [Gitlab](https://about.gitlab.com/installation/)
+* Framagit: [http://framagit.org](http://framagit.org) - using [GitLab](https://about.gitlab.com/installation/)
+* Adullact: [http://gitlab.adullact.net](http://gitlab.adullact.net) - using [GitLab](https://about.gitlab.com/installation/)
 * FSFE: [https://git.fsfe.org](https://git.fsfe.org) - using [Gitea](https://gitea.io/)
 * FSF: [https://git.savannah.gnu.org/cgit/](https://git.savannah.gnu.org/cgit/) - using [cgit](https://git.zx2c4.com/cgit/)
 
