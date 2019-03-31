@@ -51,10 +51,10 @@ Des réflexions sont en cours sur la capacité de proposer un inventaire automat
 La distinction entre contributions personnelles et professionnelles se base sur l'adresse électronique associée.  Le contributeur doit donc changer celle-ci en fonction de la situation où il se trouve.  Dans le cas de l'utilisation de `git`, cela peut se faire simplement :
 
 * Pour une contribution professionnelle :
-<br>`git config user.email <prenom.nom@ministere.gouv.fr>`
+<br>`git config user.email "prenom.nom@ministere.gouv.fr"`
 
 * Pour une contribution personnelle :
-<br>`git config user.email <email@perso.fr>`
+<br>`git config user.email "email@perso.fr"`
 
 Pour connaître l'adresse électronique actuellement utilisée :
 <br>`git config --get user.email`

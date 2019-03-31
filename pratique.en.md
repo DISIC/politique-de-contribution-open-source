@@ -54,11 +54,11 @@ In the case of using `git`, this can be done easily:
 
 * For a professional contribution:
 
-`git config user.email <firstname.lastname@ministere.gouv.fr>`
+`git config user.email "firstname.lastname@ministere.gouv.fr"`
 
 * For a personal contribution:
 
-`git config user.email <email@perso.fr>`
+`git config user.email "email@perso.fr"`
 
 To find the email address currently used:
 
