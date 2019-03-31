@@ -16,10 +16,11 @@ In addition to the source code version tracking system, a web platform offers a 
 
 Examples of web platforms hosted by a third party:
 
-* Github: [https://github.com](https://github.com)
-* Gitlab: [http://gitlab.com](http://gitlab.com) (enterprise version)
-* Framagit: [http://framagit.org](http://framagit.org) - using [Gitlab](https://about.gitlab.com/installation/)
-* Adullact: [http://gitlab.adullact.net](http://gitlab.adullact.net) - using [Gitlab](https://about.gitlab.com/installation/)
+* GitHub: [https://github.com](https://github.com)
+* GitLab: [http://gitlab.com](http://gitlab.com) (enterprise version)
+* Bitbucket : https://bitbucket.org
+* Framagit: [http://framagit.org](http://framagit.org) - using [GitLab](https://about.gitlab.com/installation/)
+* Adullact: [http://gitlab.adullact.net](http://gitlab.adullact.net) - using [GitLab](https://about.gitlab.com/installation/)
 * FSFE: [https://git.fsfe.org](https://git.fsfe.org) - using [Gitea](https://gitea.io/)
 * FSF: [https://git.savannah.gnu.org/cgit/](https://git.savannah.gnu.org/cgit/) - using [cgit](https://git.zx2c4.com/cgit/)
 
@@ -41,7 +42,7 @@ It is recommended that usernames of the organization accounts' owners are public
 
 Work is underway on the ability to provide an automatic inventory both from the point of view of organizations' repositories than services' inventory
 
-> To reference the organization account as a government account in Github:
+> To reference the organization account as a government account in GitHub:
 >
 > * Register if you have not done so already in the community [https://github.com/government/welcome](https://github.com/government/welcome)
 > * Reference your organization account by adding it on the page: [https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml](https:// github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) as per [https://government.github.com/community/](https://government.github .com / community /)

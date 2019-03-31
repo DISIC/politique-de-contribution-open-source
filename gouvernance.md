@@ -23,7 +23,7 @@ Toutes les contributions sont les bienvenues.  Elles sont faites via une *pull r
 
  * les `pull request` apportant des modifications **mineures** doivent être approuvées par au moins une autre organisation ministérielle.
  
-Tous les mainteneurs ont la possibilité de fusionnner les *pull requests* sur la branche `next`. Si plusieurs mainteneurs appartiennent à un même ministère, leur validation ne compte que pour une organisation.
+Tous les mainteneurs ont la possibilité de fusionner les *pull requests* sur la branche `next`. Si plusieurs mainteneurs appartiennent à un même ministère, leur validation ne compte que pour une organisation.
 
 ## Gestion des versions
 
