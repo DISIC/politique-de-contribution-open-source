@@ -132,7 +132,7 @@ The names of variables and functions, as well as code comments, can be written i
 {{% /question %}}
 
 
-{{% question "Why not asking for CLAs?" %}}
+{{% question "Why not asking for CLAs for my project?" %}}
 
 CLAs (Contributor License Agreements) create an asymmetry in the relationship between projects and their contributors: they are a possible deterrent for contribution and have a somehow negative impact on reputation of the project. Furthermore, they're not necessary for the project to switch to another Open Source license, as this can be achieved with the approval of the community of contributors, a DCO being usefull in such case. The utility of CLAs pertains to cases that are out of the scope of the Law for a Digital Republic.
 
