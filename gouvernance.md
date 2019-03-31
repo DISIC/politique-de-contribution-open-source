@@ -11,17 +11,17 @@ La DINSIC maintient ce document et en est responsable (elle est propriétaire du
 Deux types d'organisations sont distinguées :
 
 * Interministériel : DINSIC et ANSSI
-* Ministèriel
+* Ministériel
 
-avec un seul rôle par organisation (droit d'écriture sur cette politique). L'ensemble des contributeurs avec les droits d'écriture sont listés dans le fichier [MAINTAINERS](MAINTAINERS).
+avec un seul rôle par organisation (droit d'écriture sur cette politique). L'ensemble des contributeurs avec les droits d'écriture sont listés dans le fichier [MAINTAINERS](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/MAINTAINERS).
 
 ## Gestion des contributions
 
 Toutes les contributions sont les bienvenues.  Elles sont faites via une *pull request* sur la branche `next` qui est la branche d'élaboration d'une nouvelle version de la politique.
 
- * les `pull request` apportant des modifications **majeures** doivent être approuvées par au moins trois organisations ministérielles et l'ANSSI. 
+ * les `pull request` apportant des modifications **majeures** doivent être approuvées par au moins trois autres organisations ministérielles et l'ANSSI.
 
- * les `pull request` apportant des modifications **mineures** doivent être approuvées par au moins une organisation ministérielle.
+ * les `pull request` apportant des modifications **mineures** doivent être approuvées par au moins une autre organisation ministérielle.
  
 Tous les mainteneurs ont la possibilité de fusionner les *pull requests* sur la branche `next`. Si plusieurs mainteneurs appartiennent à un même ministère, leur validation ne compte que pour une organisation.
 

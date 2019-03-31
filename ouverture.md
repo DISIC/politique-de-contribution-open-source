@@ -27,8 +27,7 @@ Afin de reconnaître la paternité des contributions, l'adresse électronique in
  * Pour les agents : utilisation de l'adresse électronique professionnelle.
  * Pour les prestataires de services, utilisation de l'adresse électronique de leur société d'attachement (pas d'adresse prestataire fournie par l'administration)
 
-Toutefois, au cas où un développeur ne souhaiterait pas voir son identité publiée, il peut utiliser un pseudonyme.
-En revanche, l'utilisation d'adresses électroniques génériques ou anonymes est à proscrire.
+Toutefois, au cas où un développeur ne souhaiterait pas voir son identité publiée, il peut utiliser un pseudonyme.  En revanche, l'utilisation d'adresses électroniques génériques ou anonymes est à proscrire.
  
 ### Distinguer les contributions professionnelles et personnelles
 
@@ -40,8 +39,8 @@ Il est possible pour un développeur de contribuer sur un même projet dans le c
 
 Les licences validées par les organismes Free Software Foundation et Open Source Initiative et recensées sur leurs pages respectives :
 
- * FSF : https://www.gnu.org/licenses/license-list.fr.html (en excluant les licences non libres présentées comme telles) ;
- * OSI : https://opensource.org/licenses/alphabetical.
+ * FSF : [https://www.gnu.org/licenses/license-list.fr.html](https://www.gnu.org/licenses/license-list.fr.html) (en excluant les licences non libres présentées comme telles) ;
+ * OSI : [https://opensource.org/licenses/alphabetical](https://opensource.org/licenses/alphabetical).
 
 À l'inverse les licences non retenues par ces organismes (comme la *Beerware*) ne rentrent pas dans le cadre de l'autorisation par défaut. Un tableau consolidé des licences validées par l'un ou l'autre organisme est maintenu sur le site [https://spdx.org/licenses/](https://spdx.org/licenses)
 
@@ -55,7 +54,7 @@ DINSIC vaudra pré-autorisation pour la signature d'iCLA.
 
 Si vous souhaitez contribuer à un projet réclamant ce type de formalisme, que ce soit pour signer un CCLA, vous rajouter à la liste des contributeurs autorisés, ou vérifier la possibilité de signer un iCLA, contactez l'adresse d'assistance indiquée plus haut.
 
-Liste des CCLA signés:
+Liste des CCLA signés :
 
  * A ce stade, aucun CCLA n'a encore été signé par la DINSIC.
 
@@ -63,14 +62,14 @@ Liste des CCLA signés:
 
 ### La publication du code source ne crée ni obligation ni garantie
 
-* Aucune obligation de support et de prise en compte des demandes des utilisateurs ni plus généralement d'obligation d'animer la communauté. 
+* Aucune obligation de support et de prise en compte des demandes des utilisateurs ni plus généralement d'obligation d'animer la communauté.
 * Pas de garanties au-delà de ce qui est prévu par la licence.
 
 ### Autorisation par défaut de contribuer un nouveau projet avec les licences du décret
 
 L'État n'a pas vocation à être éditeur de logiciels. En dehors des trois exceptions prévues à la loi pour une République numérique pour lesquelles vous pouvez contacter l'adresse électronique de support en cas de question, il n'y a pas d'autorisation préalable à demander auprès de la DINSIC. Pour autant, veuillez vous référer à votre supérieur hiérarchique avant la publication d'un nouveau projet dans le compte de votre organisation.
 
-Pour rappel, les licences à utiliser sont disponibles par décret sur le site : http://www.data.gouv.fr/fr/licences.
+Pour rappel, les licences à utiliser sont disponibles par décret sur le site : [http://www.data.gouv.fr/fr/licences](http://www.data.gouv.fr/fr/licences).
 
 ### Éléments à considérer dans le choix de la licence libre
 

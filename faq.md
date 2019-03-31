@@ -37,14 +37,12 @@ Si vous travaillez pour une administration relevant du périmètre de la DINSIC,
 
 {{% question "Quels sont les codes qui ont vocation à être ouverts ?" %}}
 
-L'obligation d'ouverture des codes est liée à la loi République Numérique qui prévoit une ouverture progressive jusqu'au 7 octobre 2018. A
-cette date, une ouverture par défaut est prévue pour tous les codes qui revêtent un intérêt économique, social, 
-sanitaire ou environnemental. 
+L'obligation d'ouverture des codes est liée à la loi République Numérique qui prévoit une ouverture progressive jusqu'au 7 octobre 2018. A cette date, une ouverture par défaut est prévue pour tous les codes qui revêtent un intérêt économique, social, sanitaire ou environnemental.
 
-Tout code écrit dans le cadre d'une mission de service publique est potentiellement communicable et réutilisable à d'autres fins, aux exceptions suivantes près : 
+Tout code écrit dans le cadre d'une mission de service publique est potentiellement communicable et réutilisable à d'autres fins, aux exceptions suivantes près :
 
 - Le code doit être achevé (i.e. mis en production)
-- Sa communication ne doit pas porter atteinte à : 
+- Sa communication ne doit pas porter atteinte à : 
     - Un secret protégé par la loi (secret commercial ou industriel d'un tiers, etc.)
     - La sûreté de l'État, la sécurité publique, des personnes  ou des systèmes d'information des administrations
     - La recherche ou la prévention d'infractions de toute nature

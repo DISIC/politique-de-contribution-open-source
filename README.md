@@ -8,6 +8,8 @@ L'objectif de ce document est de décrire COMMENT ouvrir les codes sources en re
 
 Pour savoir quels sont les codes sources qui doivent être ouverts, veuillez vous référer à la loi pour une République numérique.
 
+Vous trouverez dans le fichier [comptes-organismes-publics](comptes-organismes-publics) une liste de points d'accès à des codes sources d'organismes publics. Cette liste est en construction, n'hésitez pas à la compléter. Le dépôt [data-codes-sources-fr](https://github.com/etalab/data-codes-sources-fr) permet de collecter des données sur l'ensemble des dépôts de code accessibles via cette liste.
+
 Ce document est publié sous la [Licence Ouverte 2.0][LO link].
 
 [LO link]: https://github.com/DISIC/politique-de-contribution-open-source/raw/master/LICENSE.pdf
