@@ -136,3 +136,10 @@ pour que nous puissions vous aider à trouver des pairs.
 Le nom des variables et des fonctions, ainsi que les commentaires de code peuvent être rédigés dans la langue de la communauté de développeurs visée. Toutefois, la documentation utilisateur devra être disponible en français.
 
 {{% /question %}}
+
+
+{{% question ""Pourquoi ne puis-je pas demander un CLA sur mon projet ?" %}}
+
+Les CLA (Contributor License Agreements) déséquilibrent la relation entre les projets et leurs contributeurs : ils constituent ainsi un frein à l'implication de ces derniers et impactent de façon plutôt négative l'image du projet. Ils ne sont par ailleurs pas nécessaires pour permettre un changement de licence Open Source : un DCO facilite ce type de changement, en accord avec l'ensemble des contributeurs du projet. L'utilité des CLA s'applique à des cas de figure a priori hors du champ de la loi pour une République Numérique.
+
+{{% /question %}}
