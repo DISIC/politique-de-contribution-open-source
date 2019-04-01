@@ -136,7 +136,7 @@ Le nom des variables et des fonctions, ainsi que les commentaires de code peuven
 {{% /question %}}
 
 
-{{% question ""Pourquoi ne devrais-je pas demander un CLA sur mon projet ?" %}}
+{{% question "Pourquoi ne devrais-je pas demander un CLA sur mon projet ?" %}}
 
 Pour la plupart des projets logiciels de l'administration, un CLA (Contributor License Agreements) risque de décourager les contributions extérieurs.  Le besoin de CLA est parfois invoqué pour faciliter un changement de licence, mais il n'est pas indispensable pour cette opération.
 
