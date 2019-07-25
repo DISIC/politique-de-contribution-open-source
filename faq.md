@@ -60,7 +60,7 @@ Vous pouvez contacter l'adresse électronique de contact proposée dans la polit
 
 {{% question "Comment choisir parmi les différentes licences proposées ?" %}}
 
-Voir [Ouverture / Autorisation par défaut de contribuer à des projets sous licence FSF ou OSI]({{< relref "ouverture.md#autorisation-par-défaut-de-contribuer-à-des-projets-sous-licence-fsf-ou-osi" >}} ) et [Ouverture / Autorisation par défaut de contribuer un nouveau projet avec les licences du décret]({{< relref "ouverture.md#autorisation-par-défaut-de-contribuer-un-nouveau-projet-avec-les-licences-du-décret" >}} ).
+Voir [Ouverture / Autorisation par défaut de contribuer à des projets sous licence FSF ou OSI](ouverture.md#autorisation-par-défaut-de-contribuer-à-des-projets-sous-licence-fsf-ou-osi) et [Ouverture / Autorisation par défaut de contribuer un nouveau projet avec les licences du décret](ouverture.md#autorisation-par-défaut-de-contribuer-un-nouveau-projet-avec-les-licences-du-décret).
 
 N'hésitez pas à revenir vers nous en utilisant l'adresse de contact pour toute question ou conseil.
 
@@ -77,11 +77,11 @@ Vous pouvez contacter l'adresse électronique de contact proposée dans la polit
 
 {{% question "Quelle adresse électronique utiliser pour contribuer à un projet ?" %}}
 
-Tout est détaillé dans la page [Ouverture / Attribuer les contributions aux individus]({{< relref "ouverture.md#attribuer-les-contributions-aux-individus" >}} ).
+Tout est détaillé dans la page [Ouverture / Attribuer les contributions aux individus](ouverture.md#attribuer-les-contributions-aux-individus).
 
 #### et si je suis salarié d'une ESN / SSII ?
 
-Tout est détaillé dans la page [Ouverture / Attribuer les contributions aux individus]({{< relref "ouverture.md#attribuer-les-contributions-aux-individus" >}} ).
+Tout est détaillé dans la page [Ouverture / Attribuer les contributions aux individus](ouverture.md#attribuer-les-contributions-aux-individus).
 
 
 #### et si je suis indépendant / auto-entrepreneur ?
