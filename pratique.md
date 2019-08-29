@@ -97,7 +97,7 @@ Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING et LICENSE.
 
 * NFR : choix d'architecture technique du projet qui ne correspondent pas à des exigences fonctionnelles.
 
-Ces fichiers doivent être en texte simple ou avec du marquage minimum (ie Markdown). Il n'est pas recommandé d'utiliser des formats binaires (ie PDF)
+Ces fichiers doivent être en texte simple ou avec du marquage minimum (ie Markdown). Il n'est pas recommandé d'utiliser des formats binaires (ie PDF).
 
 ## Entête des fichiers sources
 
