@@ -83,6 +83,8 @@ Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING et LICENSE.
 
 * README : description du projet. Peut décrire l'objectif et l'administration à l'origine de la publication.
 
+* INSTALL : description de la procédure d'installation d'un logiciel.
+
 * CONTRIBUTING : guide de contribution, comment s'impliquer et identification du processus de contribution et des licences associées. Exemple: [https://github.com/moby/moby/blob/master/CONTRIBUTING.md](https://github.com/moby/moby/blob/master/CONTRIBUTING.md)
 
 * LICENSE : licence de publication du logiciel.
