@@ -138,13 +138,15 @@ Ces identifiants permettent de générer automatiquement des inventaires des lic
 
 L'ensemble des identifiants SPDX est disponible à cette adresse : [https://spdx.org/licenses/](https://spdx.org/licenses/)
 
-## Traçabilité des developpements (DCO)
+## Traçabilité des développements (DCO)
 
-Afin de garantir l'origine des contributions soumises, la mise en œuvre d'un Developer's Certificate of Origin est recommandée.  Une traduction française est mise à disposition [DCO-Fr.txt](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt)
+Il est recommandé pour les projets de proposer aux contributeurs de signer un _Developer's Certificate of Origin_.  Celui permettant de s'assurer que le contributeur a les droits sur le code source qu'il propose et qu'il accepte l'usage qui en sera fait.  Vous pouvez inclure un fichier `DCO.txt` s'inspirant de [celui-ci](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt) (en français) ou de [celui-là](https://developercertificate.org/) (en anglais).
 
-Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
+Pour accepter le DCO, il suffit que le contributeur signe chaque commit avec la commande:
 
-`git commit --signoff`
+> `git commit --signoff` (ou `git commit -s`)
+
+Une procédure de DCO est de préférence instaurée au début du projet et elle est clairement indiquée dans un fichier `CONTRIBUTING` du dépôt.
 
 ## Bonnes pratiques de développement
 
