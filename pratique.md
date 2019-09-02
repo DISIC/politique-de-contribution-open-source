@@ -81,25 +81,25 @@ Avoir une politique de gestion des versions est recommandé. Le guide de version
 
 Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING et LICENSE.
 
-* README : description du projet. Peut décrire l'objectif et l'administration à l'origine de la publication.
+* AUTHORS : décrit la liste des auteurs du programme.
 
-* INSTALL : description de la procédure d'installation d'un logiciel.
+* CODE\_OF\_CONDUCT : un code de conduite pour réguler la communauté de contributeurs. Des exemples peuvent être trouvés :  [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/) et [https://github.com/18F/code-of-conduct](https://github.com/18F/code-of-conduct).
 
 * CONTRIBUTING : guide de contribution, comment s'impliquer et identification du processus de contribution et des licences associées. Exemple: [https://github.com/moby/moby/blob/master/CONTRIBUTING.md](https://github.com/moby/moby/blob/master/CONTRIBUTING.md)
+
+* GOVERNANCE : décrit la gouvernance du projet, les rôles et les droits de votes. Un exemple est disponible dans ce dépôt [gouvernance.md](gouvernance.md).
+
+* INSTALL : description de la procédure d'installation d'un logiciel.
 
 * LICENSE : licence de publication du logiciel.
 
 * MAINTAINERS : liste des mainteneurs du projet (avec des droits de vote ou de commit généralement). Exemple: [https://github.com/moby/moby/blob/master/MAINTAINERS](https://github.com/moby/moby/blob/master/MAINTAINERS)
 
-* ROADMAP : feuille de route publique.
-
-* CODE\_OF\_CONDUCT : un code de conduite pour réguler la communauté de contributeurs. Des exemples peuvent être trouvés :  [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/) et [https://github.com/18F/code-of-conduct](https://github.com/18F/code-of-conduct).
-
-* GOVERNANCE : décrit la gouvernance du projet, les rôles et les droits de votes. Un exemple est disponible dans ce dépôt [gouvernance.md](gouvernance.md).
-
-* AUTHORS : décrit la liste des auteurs du programme.
-
 * NFR : choix d'architecture technique du projet qui ne correspondent pas à des exigences fonctionnelles.
+
+* README : description du projet. Peut décrire l'objectif et l'administration à l'origine de la publication.
+
+* ROADMAP : feuille de route publique.
 
 Ces fichiers doivent être en texte simple ou avec du marquage minimum (ie Markdown). Il n'est pas recommandé d'utiliser des formats binaires (ie PDF).
 
