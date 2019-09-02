@@ -30,6 +30,8 @@ Le choix de créer un compte d'organisation au sein d'une plateforme Web existan
 
 Le positionnement d'un projet sur une forge doit se faire en fonction du niveau de collaboration attendu et des interfaces avec les dépôts privés et le reste de la plateforme de développement.
 
+Pour connaître la forge sur laquelle publier votre code source, contactez le [mainteneur](MAINTAINERS) de cette politique correspondant à votre ministère.  Si vous ne savez pas qui contacter, écrivez à `opensource@data.gouv.fr`.
+
 ## Gestion des comptes personnels et d'organisation
 
 Tous les projets initiés par une administration doivent être publiés dans des dépôts au sein de comptes d'organisation. Les dépôts de comptes personnels ne doivent être utilisés que pour des fourches (*forks*) techniques temporaires ou des développements personnels.
