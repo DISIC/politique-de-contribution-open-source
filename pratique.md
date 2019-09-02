@@ -40,12 +40,13 @@ Il est recommandé que les noms d'utilisateurs des propriétaires des comptes d'
 
 ## Inventaire des comptes d'organisation
 
-Des réflexions sont en cours sur la capacité de proposer un inventaire automatique tant du point de vue des dépôts d'organisation que de l'inventaire des services.
+Une liste des inventaires des comptes d'organisation connus à ce jour est disponible dans le fichier [comptes-organismes-publics](comptes-organismes-publics): si vous avez connaissance d'un compte d'organisation d'un organisme public qui n'y figure pas, vous pouvez soumettre une proposition via une _pull request_.
 
-> Pour référencer le compte d'organisation comme un compte gouvernemental dans GitHub :
->
->  * Inscrivez vous si ce n'est pas déjà fait dans la communauté [https://github.com/government/welcome](https://github.com/government/welcome)
->  * Référencez votre compte d'organisation en l'ajoutant sur la page : [https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml](https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) conformément à la page [https://government.github.com/community/](https://government.github.com/community/)
+Vous pouvez aussi référencer un compte d'organisation comme un compte gouvernemental dans GitHub :
+
+1. Inscrivez vous si ce n'est pas déjà fait dans la communauté [https://github.com/government/welcome](https://github.com/government/welcome) ;
+
+2. Référencez votre compte d'organisation en l'ajoutant sur la page : [https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml](https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) conformément à la page [https://government.github.com/community/](https://government.github.com/community/).
 
 ## Distinction des contributions personnelles / professionnelles
 
