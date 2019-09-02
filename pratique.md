@@ -84,7 +84,7 @@ Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING et LICENSE.
 
 * AUTHORS : décrit la liste des auteurs du programme.
 
-* CODE\_OF\_CONDUCT : un code de conduite pour réguler la communauté de contributeurs. Des exemples peuvent être trouvés :  [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/) et [https://github.com/18F/code-of-conduct](https://github.com/18F/code-of-conduct).
+* CODE\_OF\_CONDUCT : un code de conduite pour réguler la communauté de contributeurs.  Voici quelques exemples :  [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/), [https://github.com/18F/code-of-conduct](https://github.com/18F/code-of-conduct), [Contributor Covenant](https://www.contributor-covenant.org/), [Charte de GNU pour une communication bienveillante](https://www.gnu.org/philosophy/kind-communication.fr.html), etc.
 
 * CONTRIBUTING : guide de contribution, comment s'impliquer et identification du processus de contribution et des licences associées. Exemple: [https://github.com/moby/moby/blob/master/CONTRIBUTING.md](https://github.com/moby/moby/blob/master/CONTRIBUTING.md)
 
