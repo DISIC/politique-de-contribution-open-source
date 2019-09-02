@@ -51,7 +51,7 @@ Tout code écrit dans le cadre d'une mission de service publique est potentielle
 
 {{% question "J'ai un doute sur l'ouverture d'un code source, vers qui puis-je me renseigner ?" %}}
 
-Vous pouvez contacter l'adresse électronique de contact proposée dans la politique.
+Vous pouvez contacter l'adresse électronique de contact proposée dans la politique de votre ministère ou `opensource@data.gouv.fr`.
 
 {{% /question %}}
 
@@ -68,7 +68,7 @@ N'hésitez pas à revenir vers nous en utilisant l'adresse de contact pour toute
 
 {{% question "J'ai besoin d'une aide juridique sur une licence Open Source, qui puis-je contacter ?" %}}
 
-Vous pouvez contacter l'adresse électronique de contact proposée dans la politique.
+Vous pouvez contacter l'adresse électronique de contact proposée dans la politique de votre ministère ou `opensource@data.gouv.fr`.
 
 {{% /question %}}
 
@@ -124,7 +124,7 @@ Si vous avez une contribution disponible sur un dépôt privé, il est possible 
 Nous vous conseillons d'identifier quelqu'un au plus proche de votre structure qui a déjà contribué publiquement pour qu'il puisse vous aider. 
 
 Si toutefois vous ne parvenez pas à identifier quelqu'un, vous pouvez contacter l'adresse électronique de contact proposée dans la politique
-pour que nous puissions vous aider à trouver des pairs.
+pour que nous puissions vous aider à trouver des pairs (`opensource@data.gouv.fr`).
 
 {{% /question %}}
 

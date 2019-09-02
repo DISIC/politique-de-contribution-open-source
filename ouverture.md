@@ -16,7 +16,7 @@ Voir la section [instanciation](Instanciation.md) si vous souhaitez décliner ce
 
 ### Assistance sur la politique de contribution
 
-Contacter `opensource @ data.gouv.fr` pour toute question sur cette politique.
+Contacter `opensource@data.gouv.fr` pour toute question sur cette politique.
 
 ## Principe de reconnaissance des contributions
 
