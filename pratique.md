@@ -97,6 +97,8 @@ Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING et LICENSE.
 
 * GOVERNANCE : décrit la gouvernance du projet, les rôles et les droits de votes. Un exemple est disponible dans ce dépôt [gouvernance.md](gouvernance.md).
 
+* AUTHORS : décrit la liste des auteurs du programme.
+
 * NFR : choix d'architecture technique du projet qui ne correspondent pas à des exigences fonctionnelles.
 
 Ces fichiers doivent être en texte simple ou avec du marquage minimum (ie Markdown). Il n'est pas recommandé d'utiliser des formats binaires (ie PDF).
