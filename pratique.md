@@ -140,7 +140,7 @@ L'ensemble des identifiants SPDX est disponible à cette adresse : [https://spd
 
 ## Traçabilité des développements (DCO)
 
-Il est recommandé pour les projets de proposer aux contributeurs de signer un _Developer's Certificate of Origin_.  Celui permettant de s'assurer que le contributeur a les droits sur le code source qu'il propose et qu'il accepte l'usage qui en sera fait.  Vous pouvez inclure un fichier `DCO.txt` s'inspirant de [celui-ci](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt) (en français) ou de [celui-là](https://developercertificate.org/) (en anglais).
+Il est recommandé pour les projets de proposer aux contributeurs de signer un _Developer's Certificate of Origin_.  Il permet au contributeur d'attester de l'originalité de sa contribution en plus du respect des licences des connaissances antérieures utilisées et qu'il accepte l'usage qui en sera fait.  Une traduction du DCO est disponible [ici](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt) et l'original est accessible [là](https://developercertificate.org/) (en anglais).
 
 Pour accepter le DCO, il suffit que le contributeur signe chaque commit avec la commande:
 
