@@ -16,7 +16,7 @@ Voir la section [instanciation](Instanciation.md) si vous souhaitez décliner ce
 
 ### Assistance sur la politique de contribution
 
-Contacter `opensource @ data.gouv.fr` pour toute question sur cette politique.
+Contacter `opensource@data.gouv.fr` pour toute question sur cette politique.
 
 ## Principe de reconnaissance des contributions
 
@@ -46,11 +46,7 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
 
 ### Signature des *Corporate Contributor License Agreement*
 
-La DINSIC prend en charge de signer les accords de contributions spécifiques (Corporate Contributor License Agreement ou CCLA) avec les
-communautés ou les entreprises qui l'exigent, afin de permettre les contributions des agents à titre professionnel aux projets concernés. Si
-cela est demandé par l'autre partie, elle maintiendra les listes d'individus couverts par l'accord. Une autre possibilité est que l'accord
-de CCLA soit un pré-requis à la signature d'un Contributor License Agreement individuel (iCLA). Dans ce cas, la signature d'un CCLA par la
-DINSIC vaudra pré-autorisation pour la signature d'iCLA.
+La DINSIC prend en charge de signer les accords de contributions spécifiques (Corporate Contributor License Agreement ou CCLA) avec les communautés ou les entreprises qui l'exigent, afin de permettre les contributions des agents à titre professionnel aux projets concernés. Si cela est demandé par l'autre partie, elle maintiendra les listes d'individus couverts par l'accord. Une autre possibilité est que l'accord de CCLA soit un pré-requis à la signature d'un Contributor License Agreement individuel (iCLA). Dans ce cas, la signature d'un CCLA par la DINSIC vaudra pré-autorisation pour la signature d'iCLA.
 
 Si vous souhaitez contribuer à un projet réclamant ce type de formalisme, que ce soit pour signer un CCLA, vous rajouter à la liste des contributeurs autorisés, ou vérifier la possibilité de signer un iCLA, contactez l'adresse d'assistance indiquée plus haut.
 
@@ -80,6 +76,14 @@ Le choix de la licence d'un projet devra également prendre en compte celles des
 L'écosystème où s'insère le projet pourra aussi aiguiller le choix de la licence, dans la limite de la latitude laissée par les critères précédents.
 
 À noter que les solutions logicielles sont souvent modulaires et que la question de la licence peut se poser à plusieurs niveaux.  Par exemple, pour une solution de site web, les modules de l'interface web pourront être publiés sous une licence différente de celle qui couvre le code source côté serveur.
+
+### Distribution des logiciels sous forme de paquets
+
+Le code source des logiciels est souvent empaqueté de façon à être utilisé dans d'autres projets.  Chaque écosystème utilise son système de distributions de paquets: modules `npm` ou `pypi`, images `docker`, fichiers `deb`, etc.
+
+Il est recommandé de distribuer, en plus du code source des logiciels, les paquets qui facilitent leur réutilisation.
+
+Pour connaître les sites sur lesquels publier vos paquets, contactez le [mainteneur](MAINTAINERS) de cette politique correspondant à votre ministère.  Si vous ne savez pas qui contacter, écrivez à `opensource@data.gouv.fr`.
 
 ### Certification de l'origine des contributions (DCO)
 

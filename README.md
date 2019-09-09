@@ -12,4 +12,6 @@ Vous trouverez dans le fichier [comptes-organismes-publics](comptes-organismes-p
 
 Ce document est publié sous la [Licence Ouverte 2.0][LO link].
 
+Il est aussi téléchargeable [au format PDF](docs/pocos-dinsic-stable.pdf).
+
 [LO link]: https://github.com/DISIC/politique-de-contribution-open-source/raw/master/LICENSE.pdf

@@ -30,6 +30,8 @@ Le choix de créer un compte d'organisation au sein d'une plateforme Web existan
 
 Le positionnement d'un projet sur une forge doit se faire en fonction du niveau de collaboration attendu et des interfaces avec les dépôts privés et le reste de la plateforme de développement.
 
+Pour connaître la forge sur laquelle publier votre code source, contactez le [mainteneur](MAINTAINERS) de cette politique correspondant à votre ministère.  Si vous ne savez pas qui contacter, écrivez à `opensource@data.gouv.fr`.
+
 ## Gestion des comptes personnels et d'organisation
 
 Tous les projets initiés par une administration doivent être publiés dans des dépôts au sein de comptes d'organisation. Les dépôts de comptes personnels ne doivent être utilisés que pour des fourches (*forks*) techniques temporaires ou des développements personnels.
@@ -40,12 +42,13 @@ Il est recommandé que les noms d'utilisateurs des propriétaires des comptes d'
 
 ## Inventaire des comptes d'organisation
 
-Des réflexions sont en cours sur la capacité de proposer un inventaire automatique tant du point de vue des dépôts d'organisation que de l'inventaire des services.
+Une liste des inventaires des comptes d'organisation connus à ce jour est disponible dans le fichier [comptes-organismes-publics](comptes-organismes-publics): si vous avez connaissance d'un compte d'organisation d'un organisme public qui n'y figure pas, vous pouvez soumettre une proposition via une _pull request_.
 
-> Pour référencer le compte d'organisation comme un compte gouvernemental dans GitHub :
->
->  * Inscrivez vous si ce n'est pas déjà fait dans la communauté [https://github.com/government/welcome](https://github.com/government/welcome)
->  * Référencez votre compte d'organisation en l'ajoutant sur la page : [https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml](https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) conformément à la page [https://government.github.com/community/](https://government.github.com/community/)
+Vous pouvez aussi référencer un compte d'organisation comme un compte gouvernemental dans GitHub :
+
+1. Inscrivez vous si ce n'est pas déjà fait dans la communauté [https://github.com/government/welcome](https://github.com/government/welcome) ;
+
+2. Référencez votre compte d'organisation en l'ajoutant sur la page : [https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml](https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) conformément à la page [https://government.github.com/community/](https://government.github.com/community/).
 
 ## Distinction des contributions personnelles / professionnelles
 
@@ -81,21 +84,25 @@ Avoir une politique de gestion des versions est recommandé. Le guide de version
 
 Assurez-vous d'avoir au minimum les fichiers README, CONTRIBUTING et LICENSE.
 
-* README : description du projet. Peut décrire l'objectif et l'administration à l'origine de la publication.
+* AUTHORS : décrit la liste des auteurs du programme.
+
+* CODE\_OF\_CONDUCT : un code de conduite pour réguler la communauté de contributeurs.  Voici quelques exemples :  [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/), [https://github.com/18F/code-of-conduct](https://github.com/18F/code-of-conduct), [Contributor Covenant](https://www.contributor-covenant.org/), [Charte de GNU pour une communication bienveillante](https://www.gnu.org/philosophy/kind-communication.fr.html), etc.
 
 * CONTRIBUTING : guide de contribution, comment s'impliquer et identification du processus de contribution et des licences associées. Exemple: [https://github.com/moby/moby/blob/master/CONTRIBUTING.md](https://github.com/moby/moby/blob/master/CONTRIBUTING.md)
+
+* GOVERNANCE : décrit la gouvernance du projet, les rôles et les droits de votes. Un exemple est disponible dans ce dépôt [gouvernance.md](gouvernance.md).
+
+* INSTALL : description de la procédure d'installation d'un logiciel.
 
 * LICENSE : licence de publication du logiciel.
 
 * MAINTAINERS : liste des mainteneurs du projet (avec des droits de vote ou de commit généralement). Exemple: [https://github.com/moby/moby/blob/master/MAINTAINERS](https://github.com/moby/moby/blob/master/MAINTAINERS)
 
-* ROADMAP : feuille de route publique.
-
-* CONDUCT : un code de conduite pour réguler la communauté de contributeurs. Des exemples peuvent être trouvés :  [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/) et [https://github.com/18F/code-of-conduct](https://github.com/18F/code-of-conduct).
-
-* GOVERNANCE : décrit la gouvernance du projet, les rôles et les droits de votes. Un exemple est disponible dans ce dépôt [gouvernance.md](gouvernance.md).
-
 * NFR : choix d'architecture technique du projet qui ne correspondent pas à des exigences fonctionnelles.
+
+* README : description du projet. Peut décrire l'objectif et l'administration à l'origine de la publication.
+
+* ROADMAP : feuille de route publique.
 
 Ces fichiers doivent être en texte simple ou avec du marquage minimum (ie Markdown). Il n'est pas recommandé d'utiliser des formats binaires (ie PDF).
 
@@ -131,13 +138,15 @@ Ces identifiants permettent de générer automatiquement des inventaires des lic
 
 L'ensemble des identifiants SPDX est disponible à cette adresse : [https://spdx.org/licenses/](https://spdx.org/licenses/)
 
-## Traçabilité des developpements (DCO)
+## Traçabilité des développements (DCO)
 
-Afin de garantir l'origine des contributions soumises, la mise en œuvre d'un Developer's Certificate of Origin est recommandée.  Une traduction française est mise à disposition [DCO-Fr.txt](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt)
+Il est recommandé pour les projets de proposer aux contributeurs de signer un _Developer's Certificate of Origin_.  Il permet au contributeur d'attester de l'originalité de sa contribution en plus du respect des licences des connaissances antérieures utilisées et qu'il accepte l'usage qui en sera fait.  Une traduction du DCO est disponible [ici](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt) et l'original est accessible [là](https://developercertificate.org/) (en anglais).
 
-Pour l'instant, le sign-off ne se fait qu'en anglais en utilisant la commande
+Pour accepter le DCO, il suffit que le contributeur signe chaque commit avec la commande:
 
-`git commit --signoff`
+> `git commit --signoff` (ou `git commit -s`)
+
+Une procédure de DCO est de préférence instaurée au début du projet et elle est clairement indiquée dans un fichier `CONTRIBUTING` du dépôt.
 
 ## Bonnes pratiques de développement
 
