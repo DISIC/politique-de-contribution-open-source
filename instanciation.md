@@ -19,7 +19,7 @@ menu:
  
 ## Procédure d'instanciation
  
- 1. Fourcher ce dépot pour initier votre politique ministérielle
+ 1. Fourcher ce dépôt pour initier votre politique ministérielle
  2. Faire une pull request sur ce fichier pour lister la politique de contribution fille et son URL
  3. Contacter le support de cette politique (`opensource@data.gouv.fr`) et valider le moyen de contact principal de la politique fille
  
