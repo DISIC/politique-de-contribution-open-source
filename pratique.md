@@ -46,7 +46,9 @@ Pour la gestion des dépôts, il est recommandé d’avoir deux propriétaires e
 
 ## Inventaire des comptes d’organisation
 
-Une liste des inventaires des comptes d’organisation connus à ce jour est disponible dans le fichier [comptes-organismes-publics](comptes-organismes-publics): si vous avez connaissance d’un compte d’organisation d’un organisme public qui n’y figure pas, vous pouvez soumettre une proposition via une _pull request_.
+Une liste des forges publiques et des comptes d’organisation connus à ce jour est lisible dans le fichier [comptes-organismes-publics](comptes-organismes-publics) : si vous avez connaissance d’une forge ou d’un compte d’organisation d’un organisme public qui n’y figure pas, vous pouvez soumettre une proposition via une _pull request_.
+
+Cette liste alimente le site [code.etalab.gouv.fr](https://code.etalab.gouv.fr) qui permet de chercher des dépôts dans l’ensemble de ces forges et comptes d’organisation.
 
 Vous pouvez aussi référencer un compte d’organisation comme un compte gouvernemental dans GitHub :
 
