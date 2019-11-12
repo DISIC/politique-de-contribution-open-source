@@ -39,8 +39,10 @@ Tous les projets initiés par une administration doivent être publiés dans des
 Voici les recommandations pour la gestion des comptes d'organisation ou des groupes :
 
 - faire apparaître les noms d’utilisateurs des propriétaires ;
+- faire apparaître au moins une adresse e-mail de contact ;
 - faire apparaître le nom de domaine associé au compte d’organisation ;
-- si la plateforme le permet, faire vérifier le nom de domaine associé au compte.
+- si la plateforme le permet, faire vérifier le nom de domaine associé au compte ;
+- renseigner une description de l’organisation et une image l’identifiant.
 
 Pour la gestion des dépôts, il est recommandé d’avoir deux propriétaires et de faire apparaître le nom d’utilisateur d’au moins un propriétaire.
 
