@@ -36,13 +36,21 @@ Pour connaître la forge sur laquelle publier votre code source, contactez le [m
 
 Tous les projets initiés par une administration doivent être publiés dans des dépôts au sein de comptes d’organisation. Les dépôts de comptes personnels ne doivent être utilisés que pour des fourches (*forks*) techniques temporaires ou des développements personnels.
 
-Il est recommandé d’avoir deux propriétaires par dépôt.
+Voici les recommandations pour la gestion des comptes d'organisation ou des groupes :
 
-Il est recommandé que les noms d’utilisateurs des propriétaires des comptes d’organisation apparaissent publiquement.
+- faire apparaître les noms d’utilisateurs des propriétaires ;
+- faire apparaître au moins une adresse e-mail de contact ;
+- faire apparaître le nom de domaine associé au compte d’organisation ;
+- si la plateforme le permet, faire vérifier le nom de domaine associé au compte ;
+- renseigner une description de l’organisation et une image l’identifiant.
+
+Pour la gestion des dépôts, il est recommandé d’avoir deux propriétaires et de faire apparaître le nom d’utilisateur d’au moins un propriétaire.
 
 ## Inventaire des comptes d’organisation
 
-Une liste des inventaires des comptes d’organisation connus à ce jour est disponible dans le fichier [comptes-organismes-publics](comptes-organismes-publics): si vous avez connaissance d’un compte d’organisation d’un organisme public qui n’y figure pas, vous pouvez soumettre une proposition via une _pull request_.
+Une liste des forges publiques et des comptes d’organisation connus à ce jour est lisible dans le fichier [comptes-organismes-publics](comptes-organismes-publics) : si vous avez connaissance d’une forge ou d’un compte d’organisation d’un organisme public qui n’y figure pas, vous pouvez soumettre une proposition via une _pull request_.
+
+Cette liste alimente le site [code.etalab.gouv.fr](https://code.etalab.gouv.fr) qui permet de chercher des dépôts dans l’ensemble de ces forges et comptes d’organisation.
 
 Vous pouvez aussi référencer un compte d’organisation comme un compte gouvernemental dans GitHub :
 
@@ -210,7 +218,6 @@ La sécurité par l’obscurité est globalement reconnue comme une pratique ins
  * Ne pas implémenter soi-même de mécanisme cryptographique mais utiliser des bibliothèques reconnues en utilisant des paramètres et des suites cryptographiques robustes
      * [Recommandations de sécurité relatives à TLS](https://www.ssi.gouv.fr/nt-tls/)
      * [Référentiel général de sécurité - Annexe B3](https://www.ssi.gouv.fr/uploads/2014/11/RGS_v-2-0_B3.pdf)
-
 
 ### Outils de développement et dépendances
 
