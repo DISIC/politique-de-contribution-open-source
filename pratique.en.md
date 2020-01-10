@@ -156,10 +156,22 @@ Best development practices also apply in the context of open development, and in
 
 Opening the code also amplifies the importance of some of these best practices:
 
-* **Documentation**, inside the code (comments and messages of * commit *) and outside the code.
 * **Legal compliance** in the use of third-party libraries. The vast majority of current developments are based on third-party open source libraries, hence it is necessary to ensure the compatibility with their respective licenses and comply with their obligations.
 * **Modularization of developments** to maximize code reuse but also to isolate any sources of error
 * **Respect of a unique coding guideline** per project.
+* **Documentation**, inside the code (comments and messages of * commit *) and outside the code (see below).
+
+## Documentation good practices
+
+The recommendations below are not mandatory rules but define a goal.  The quality of an open source project is closely related to the quality of its documentation, paying attention to this list is heavily recommended.
+
+- The documentation is published under [**Licence Ouverte 2.0**][LO link].
+- It is in sync with the software.
+- It proposes a user manuel and a developer manual.
+- It is available online (as a website) and offline (as a PFD document).
+- It is written in proper french and/or proper english.
+- It meets several expectations (FAQ, tutorials, reference manual, etc.)
+- It contains zero or very few cultural or contextual references which may become obscure to future users.
 
 ## Security
 

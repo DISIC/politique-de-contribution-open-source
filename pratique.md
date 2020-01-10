@@ -180,7 +180,7 @@ Les recommandations ci-dessous fixent un idéal, pas un ensemble d’obligations
 - Elle propose un manuel utilisateur et un guide du contributeur.
 - Elle est lisible en ligne (site web) et hors-ligne (document PDF).
 - Elle est rédigée dans un français et/ou un anglais corrects.
-- Elle propose plusieurs niveaux d’appropriations (FAQ, tutoriels, manuel approfondi, etc.)
+- Elle cible plusieurs attentes (FAQ, tutoriels, manuel approfondi, etc.)
 - Elle contient le moins possible de références culturelles ou contextuels risquant de devenir incompréhensibles.
 
 ## Sécurité
