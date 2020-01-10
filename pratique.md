@@ -92,8 +92,6 @@ Avoir une politique de gestion des versions est recommandé. Le guide de version
 
 Assurez-vous d’avoir au minimum les fichiers README, CONTRIBUTING et LICENSE.
 
-* AUTHORS : décrit la liste des auteurs du programme.
-
 * CODE\_OF\_CONDUCT : un code de conduite pour réguler la communauté de contributeurs.  Voici quelques exemples :  [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/), [https://github.com/18F/code-of-conduct](https://github.com/18F/code-of-conduct), [Contributor Covenant](https://www.contributor-covenant.org/), [Charte de GNU pour une communication bienveillante](https://www.gnu.org/philosophy/kind-communication.fr.html), etc.
 
 * CONTRIBUTING : guide de contribution, comment s’impliquer et identification du processus de contribution et des licences associées. Exemple: [https://github.com/moby/moby/blob/master/CONTRIBUTING.md](https://github.com/moby/moby/blob/master/CONTRIBUTING.md)
@@ -148,7 +146,7 @@ L’ensemble des identifiants SPDX est disponible à cette adresse : [https://s
 
 ## Traçabilité des développements (DCO)
 
-Il est recommandé pour les projets de proposer aux contributeurs de signer un _Developer's Certificate of Origin_.  Il permet au contributeur d’attester de l’originalité de sa contribution en plus du respect des licences des connaissances antérieures utilisées et qu’il accepte l’usage qui en sera fait.  Une traduction du DCO est disponible [ici](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt) et l’original est accessible [là](https://developercertificate.org/) (en anglais).
+Il est recommandé de proposer aux contributeurs de signer un _Developer's Certificate of Origin_.  Il permet au contributeur d’attester de l’originalité de sa contribution en plus du respect des licences des connaissances antérieures utilisées et qu’il accepte l’usage qui en sera fait.  Une traduction du DCO est disponible [ici](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt) et l’original est accessible [là](https://developercertificate.org/) (en anglais).
 
 Pour accepter le DCO, il suffit que le contributeur signe chaque commit avec la commande:
 

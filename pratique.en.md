@@ -30,6 +30,8 @@ The choice to create an organizational account within an existing Web platform i
 
 Choosing a forge for a project must be done according to the level of collaboration expected and the interfaces with the private repositories and the rest of the development platform.
 
+To know on which forge you should publish your source code, contact the [maintaineur](MAINTAINERS) of this policy from your ministry. If you don't know who you should get in touch with, send an email to `opensource@data.gouv.fr`.
+
 ## Management of personal and organizations accounts
 
 All projects initiated by an administration must be published in repositories under an organization accounts. Personal account repositories should only be used for temporary technical forks or personal developments.
@@ -95,14 +97,23 @@ Having a versioning policy is recommended. The semantic versioning guide (https:
 
 Make sure you have at least the README, CONTRIBUTING, and LICENSE files.
 
-* README: description of the project. Can describe the purpose and the administration behind the publication.
+* CODE\_OF\_CONDUCT : a code of conduct to regulate the community of contributors. Examples can be found: [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/) and [https://github.com/18F/code-of- conduct](https://github.com/18F/code-of-conduct).
+
 * CONTRIBUTING: contribution guide, how to get involved and identification of the contribution process and associated licenses. Example: [https://github.com/moby/moby/blob/master/CONTRIBUTING.md](https://github.com/moby/moby/blob/master/CONTRIBUTING.md)
-* LICENSE: software license.
-* MAINTAINERS: list of project maintainers (usually with voting or commit rights). Example: [https://github.com/moby/moby/blob/master/MAINTAINERS](https://github.com/moby/moby/blob/master/MAINTAINERS)
-* ROADMAP: public road map.
-* CONDUCT: a code of conduct to regulate the community of contributors. Examples can be found: [https://www.djangoproject.com/conduct/](https://www.djangoproject.com/conduct/) and [https://github.com/18F/code-of- conduct](https://github.com/18F/code-of-conduct).
+
 * GOVERNANCE: describes project governance, roles and voting rights. An example is available in this repository [gouvernance.md](gouvernance.md).
+
+* INSTALL: install instructions.
+
+* LICENSE: software license.
+
+* MAINTAINERS: list of project maintainers (usually with voting or commit rights). Example: [https://github.com/moby/moby/blob/master/MAINTAINERS](https://github.com/moby/moby/blob/master/MAINTAINERS)
+
 * NFR: choice of technical architecture of the project that do not correspond to functional requirements.
+
+* README: description of the project. Can describe the purpose and the administration behind the publication.
+
+* ROADMAP: public road map.
 
 These files must be in plain text or with minimum marking (ie Markdown). It is not recommended to use binary formats (ie PDF).
 
@@ -140,11 +151,13 @@ The complete list of SPDX identifiers is available at this address: [https://spd
 
 ## Traceability of development (DCO)
 
-In order to guarantee the origin of the contributions submitted, the implementation of a Developer's Certificate of Origin is recommended.  A French translation is made available [DCO-Fr.txt](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt)
+It is recommended to propose to contributors to sign a  _Developer's Certificate of Origin_. It allows her to attest that her contribution is genuine, respectful of previous works and that she accepts futur use for it under the project's license. A French translation is made available [DCO-Fr.txt](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/DCO-fr.txt) and the english version is readble [here](https://developercertificate.org/).
 
-For now, the sign-off is only in English using the command
+In order to accept the DCO, the contributor only needs to sign off her commits with the command:
 
-`git commit --signoff`
+> `git commit --signoff` (or `git commit -s`)
+
+A DCO procedure should preferrably be set at the beginning of the project and it should be clearly stated in the  `CONTRIBUTING` file of the repository.
 
 ## Development practices
 
