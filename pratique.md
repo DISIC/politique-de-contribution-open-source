@@ -173,7 +173,7 @@ L’ouverture du code vient par ailleurs amplifier l’importance de certaines d
 
 ## Bonnes pratiques de documentation
 
-Les recommandations ci-dessous fixent un idéal, pas un ensemble d’obligations.  Néanmoins, la qualité d’un projet Open Source étant étroitement corrélée à la qualité de sa documentation, on y prêter une attention particulière.
+Les recommandations ci-dessous fixent un idéal, pas un ensemble d’obligations.  Néanmoins, la qualité d’un projet Open Source étant étroitement corrélée à la qualité de sa documentation, on y prêtera une attention particulière.
 
 - La documentation est publiée sous [**Licence Ouverte 2.0**][LO link].
 - Elle est à jour avec la version du logiciel qu’elle documente.
