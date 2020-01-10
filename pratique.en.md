@@ -33,19 +33,28 @@ Choosing a forge for a project must be done according to the level of collaborat
 ## Management of personal and organizations accounts
 
 All projects initiated by an administration must be published in repositories under an organization accounts. Personal account repositories should only be used for temporary technical forks or personal developments.
- 
-It is recommended to have two owners by repository.
 
-It is recommended that usernames of the organization accounts' owners are publicly accessible.
+Here are the recommendations for managing organization accounts or groups:
+
+- make the users and owners publicly visible;
+- publish at least one email address as the contact email;
+- indicate what website is associated with the organization account;
+- if the platform allows it, verified the website associated with the account;
+- add a description and a picture.
+
+To handle repositories, it is recommended to have at least two organization owners and to publish the email address of at least one owner.
 
 ## Inventory of organization accounts
 
-Work is underway on the ability to provide an automatic inventory both from the point of view of organizations' repositories than services' inventory
+A list of known forges and organization accounts from the public sector is readable in the [comptes-organismes-publics](comptes-organismes-publics) file : if you happen to know a forge or an organization account that should appear in this list, please submit a _pull request_.
 
-> To reference the organization account as a government account in GitHub:
->
-> * Register if you have not done so already in the community [https://github.com/government/welcome](https://github.com/government/welcome)
-> * Reference your organization account by adding it on the page: [https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml](https:// github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) as per [https://government.github.com/community/](https://government.github .com / community /)
+This list is used for [code.etalab.gouv.fr](https://code.etalab.gouv.fr) which allows anyone to look for repositories within all forges and organization accounts.
+
+You can also reference an organization account as a government account in GitHub:
+
+1. Register if you have not done so already in the community [https://github.com/government/welcome](https://github.com/government/welcome)
+
+2. Reference your organization account by adding it on the page: [https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml](https:// github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) as per [https://government.github.com/community/](https://government.github .com / community /)
 
 ## Distinction of personal / professional contributions
 
