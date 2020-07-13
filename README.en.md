@@ -1,6 +1,6 @@
 # Open Source contribution policy
 
-Welcome to the DINSIC Free Software Contribution Policy.
+Welcome to the DINUM Free Software Contribution Policy.
 
 > UPDATE March 13, 2018: The document has been validated at the February 15th, 2018 CSIC Tech.
 

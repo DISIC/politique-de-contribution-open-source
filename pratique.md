@@ -225,7 +225,7 @@ La sécurité par l’obscurité est globalement reconnue comme une pratique ins
  * Créer un *tag* (e.g. v2.0.1) pour chaque version (e.g. 2.0.1), et le signer cryptographiquement (voir [GPG signature verification](https://github.com/blog/2144-gpg-signature-verification)).
  * Respecter les recommandations et bonnes pratiques de sécurité émises par l’ANSSI applicables au projet
      * [Bonnes pratiques de l’ANSSI](https://www.ssi.gouv.fr/administration/bonnes-pratiques/)
-     * [Guide de sécurité méthodologie agile ANSSI / DINSIC](https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf)
+     * [Guide de sécurité méthodologie agile ANSSI / DINUM](https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf)
 
 ## Outillage
 

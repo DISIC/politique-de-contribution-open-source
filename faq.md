@@ -11,7 +11,7 @@ layout: faq
 
 ### « Suis-je concerné(e) par cette politique de contribution open source ? »
 
-Comme indiqué dans l'introduction, si la loi République Numérique s'applique à toute l'administration, le périmètre de la DINSIC se concentre sur la fonction publique d'État (avec quelques exceptions selon le décret n° 2014-879 du 1er août 2014). 
+Comme indiqué dans l'introduction, si la loi République Numérique s'applique à toute l'administration, le périmètre de la DINUM se concentre sur la fonction publique d'État (avec quelques exceptions selon le décret n° 2014-879 du 1er août 2014). 
 
 Si vous faites partie d'une collectivité territoriale, cette politique ne vous concerne pas, bien que la loi République Numérique s'applique. 
 
@@ -27,7 +27,7 @@ Si vous intervenez dans le cadre d'un marché public, vous êtes concernés. Tou
 
 #### Et si je suis indépendant / auto-entrepreneur ?
 
-Si vous travaillez pour une administration relevant du périmètre de la DINSIC, vous êtes également concerné.
+Si vous travaillez pour une administration relevant du périmètre de la DINUM, vous êtes également concerné.
 
 ### « Quels sont les codes qui ont vocation à être ouverts ? »
 
@@ -79,7 +79,7 @@ Si les contributions se font dans le cadre professionnel, il vous est effectivem
 
 ### « Dois-je obtenir une validation avant de publier du code ? »
 
-Bien qu'une pré-autorisation par défaut soit proposée par la DINSIC, il peut être nécessaire d'obtenir l'accord de votre supérieur hiérarchique (au même titre que vous faites valider vos formations proposées par le service formation). Pour la publication d'une nouvelle base de code et pas une contribution à un code existant, vous devrez obtenir un dépôt sur le compte de votre organisation.
+Bien qu'une pré-autorisation par défaut soit proposée par la DINUM, il peut être nécessaire d'obtenir l'accord de votre supérieur hiérarchique (au même titre que vous faites valider vos formations proposées par le service formation). Pour la publication d'une nouvelle base de code et pas une contribution à un code existant, vous devrez obtenir un dépôt sur le compte de votre organisation.
 
 ### « Mon administration n'a pas de compte d'organisation sur le service en ligne d'hébergement de code que je souhaite utiliser. Que faire ? »
 

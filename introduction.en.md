@@ -31,7 +31,7 @@ or contractual) or service providers.
 
 ## Scope
 
-This contribution policy applies to the state's information and communication system in accordance with Article 1 of [Decree No. 2014-879 of 1 August 2014][DecretDINSIC link]. Each state administration has the opportunity to instantiate its own contribution policy to clarify and amend it.
+This contribution policy applies to the state's information and communication system in accordance with Article 1 of [Decree No. 2014-879 of 1 August 2014][DecretDINUM link]. Each state administration has the opportunity to instantiate its own contribution policy to clarify and amend it.
 
 Source codes covered by this policy are the ones:
 
@@ -53,7 +53,7 @@ The contribution policy is composed of:
 
 ## Responsibility of the document
 
-The DINSIC produces and maintains this document; it ensures its implementation and the associated support. For any questions, or requests for changes, please refer to the *Governance* section.
+The DINUM produces and maintains this document; it ensures its implementation and the associated support. For any questions, or requests for changes, please refer to the *Governance* section.
 
 This document is published under the [Open License 2.0][LO link]
 
@@ -80,6 +80,6 @@ Work is also underway by the Government of Canada: [https://github.com/canada-ca
 [Logo LO]: https://www.etalab.gouv.fr/wp-content/uploads/2011/10/licence-ouverte-open-licence.gif
 [LO link]: https://github.com/DISIC/politique-de-contribution-open-source/raw/master/LICENSE.pdf
 [LoiRepNum link]: https://www.legifrance.gouv.fr/affichTexte.do;jsessionid=6E9C9BD1F4AAF6E6FD525E8FE902A615.tplgfr26s_2?cidTexte=JORFTEXT000033202746&categorieLien=id
-[DecretDINSIC link]:  https://www.legifrance.gouv.fr/affichTexte.do;jsessionid=6E9C9BD1F4AAF6E6FD525E8FE902A615.tplgfr26s_2?cidTexte=JORFTEXT000029337021&idArticle=&dateTexte=20171101
+[DecretDINUM link]:  https://www.legifrance.gouv.fr/affichTexte.do;jsessionid=6E9C9BD1F4AAF6E6FD525E8FE902A615.tplgfr26s_2?cidTexte=JORFTEXT000029337021&idArticle=&dateTexte=20171101
 [DecretLicences link]: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000034502557&categorieLien=id
 [Licenses link]: https://www.data.gouv.fr/fr/licences

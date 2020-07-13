@@ -46,13 +46,13 @@ Les licences validées par les organismes Free Software Foundation et Open Sourc
 
 ### Signature des *Corporate Contributor License Agreement*
 
-La DINSIC prend en charge de signer les accords de contributions spécifiques (Corporate Contributor License Agreement ou CCLA) avec les communautés ou les entreprises qui l'exigent, afin de permettre les contributions des agents à titre professionnel aux projets concernés. Si cela est demandé par l'autre partie, elle maintiendra les listes d'individus couverts par l'accord. Une autre possibilité est que l'accord de CCLA soit un pré-requis à la signature d'un Contributor License Agreement individuel (iCLA). Dans ce cas, la signature d'un CCLA par la DINSIC vaudra pré-autorisation pour la signature d'iCLA.
+La DINUM prend en charge de signer les accords de contributions spécifiques (Corporate Contributor License Agreement ou CCLA) avec les communautés ou les entreprises qui l'exigent, afin de permettre les contributions des agents à titre professionnel aux projets concernés. Si cela est demandé par l'autre partie, elle maintiendra les listes d'individus couverts par l'accord. Une autre possibilité est que l'accord de CCLA soit un pré-requis à la signature d'un Contributor License Agreement individuel (iCLA). Dans ce cas, la signature d'un CCLA par la DINUM vaudra pré-autorisation pour la signature d'iCLA.
 
 Si vous souhaitez contribuer à un projet réclamant ce type de formalisme, que ce soit pour signer un CCLA, vous rajouter à la liste des contributeurs autorisés, ou vérifier la possibilité de signer un iCLA, contactez l'adresse d'assistance indiquée plus haut.
 
 Liste des CCLA signés :
 
- * A ce stade, aucun CCLA n'a encore été signé par la DINSIC.
+ * A ce stade, aucun CCLA n'a encore été signé par la DINUM.
 
 ## Contribuer en publiant un nouveau projet
 
@@ -63,7 +63,7 @@ Liste des CCLA signés :
 
 ### Autorisation par défaut de contribuer un nouveau projet avec les licences du décret
 
-L'État n'a pas vocation à être éditeur de logiciels. En dehors des trois exceptions prévues à la loi pour une République numérique pour lesquelles vous pouvez contacter l'adresse électronique de support en cas de question, il n'y a pas d'autorisation préalable à demander auprès de la DINSIC. Pour autant, veuillez vous référer à votre supérieur hiérarchique avant la publication d'un nouveau projet dans le compte de votre organisation.
+L'État n'a pas vocation à être éditeur de logiciels. En dehors des trois exceptions prévues à la loi pour une République numérique pour lesquelles vous pouvez contacter l'adresse électronique de support en cas de question, il n'y a pas d'autorisation préalable à demander auprès de la DINUM. Pour autant, veuillez vous référer à votre supérieur hiérarchique avant la publication d'un nouveau projet dans le compte de votre organisation.
 
 Pour rappel, les licences à utiliser sont disponibles par décret sur le site : [http://www.data.gouv.fr/fr/licences](http://www.data.gouv.fr/fr/licences).
 

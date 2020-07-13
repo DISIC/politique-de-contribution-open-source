@@ -1,6 +1,6 @@
 # Modalités d'ouverture des codes sources
 
-Bienvenue sur la politique de contribution aux logiciels libres de la DINSIC.
+Bienvenue sur la politique de contribution aux logiciels libres de la DINUM.
 
 > MISE A JOUR du 13 mars 2018: La politique de contribution aux logiciels libre a été validée au CSIC Tech du 15 février 2018.
 

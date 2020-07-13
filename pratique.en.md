@@ -238,7 +238,7 @@ verification](https://github.com/blog/2144-gpg-signature-verification))
 
 * Respect the recommendations and good safety practices issued by the ANSSI applicable to the project
    * [Good practices of ANSSI](https://www.ssi.gouv.fr/administration/bonnes-pratiques/)
-   * [ANSSI / DINSIC agile methodology security guide](https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf)
+   * [ANSSI / DINUM agile methodology security guide](https://www.ssi.gouv.fr/uploads/2017/07/guide-securite-agile_v0.42_anssi_dinsic.pdf)
 
 ## Tools
 

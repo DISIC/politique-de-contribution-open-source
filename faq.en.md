@@ -11,7 +11,7 @@ layout: faq
 
 ### "Am I affected by this open source contribution policy?"
 
-As stated in the introduction, if the Law for a Digital Republic applies to the entire administration, the scope of the DINSIC focuses on the central administrations (with some exceptions according to Decree No. 2014-879 of August 1 2014).
+As stated in the introduction, if the Law for a Digital Republic applies to the entire administration, the scope of the DINUM focuses on the central administrations (with some exceptions according to Decree No. 2014-879 of August 1 2014).
 
 If you are part of a local authority, this policy does not apply to you, even though the Law for a Digital Republic applies.
 
@@ -28,7 +28,7 @@ If you are involved in a public contract, you are concerned. However, the detail
 
 #### And if I am self-employed / self-entrepreneur?
 
-If you work for an administration within the scope of the DINSIC, you are also concerned.
+If you work for an administration within the scope of the DINUM, you are also concerned.
 
 ### "Which codes are intended to be open?"
 
@@ -80,7 +80,7 @@ If the contributions are made in the professional context, you are actually aske
 
 ### "Do I need to get validation before I publish code?"
 
-Although a pre-authorization by default is proposed by the DINSIC, it may be necessary to obtain the approval of your supervisor (the same way you have validated your training proposed by the training department). For the publication of a new code base and not a contribution to an existing code, you will need to obtain a repository on your organization's account.
+Although a pre-authorization by default is proposed by the DINUM, it may be necessary to obtain the approval of your supervisor (the same way you have validated your training proposed by the training department). For the publication of a new code base and not a contribution to an existing code, you will need to obtain a repository on your organization's account.
 
 ### "My administration does not have an organization account on the online code hosting service I want to use. What should I do?"
 

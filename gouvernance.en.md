@@ -6,11 +6,11 @@ menu:
     weight: 50
 ---
 
-The DINSIC maintains this document and is responsible for it (it owns the repository and manages the permissions). The development of this policy aims to be collaborative and the entities to which it applies are all invited to participate in its development.
+The DINUM maintains this document and is responsible for it (it owns the repository and manages the permissions). The development of this policy aims to be collaborative and the entities to which it applies are all invited to participate in its development.
 
 Two types of organizations are distinguished:
 
-* Interdepartmental: DINSIC and ANSSI
+* Interdepartmental: DINUM and ANSSI
 * Ministry
 
 with only one role per organization (write permission on this policy). All contributors with write permissions are listed in the [MAINTAINERS](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/MAINTAINERS) file.
@@ -27,7 +27,7 @@ All maintainers have the ability to merge *pull requests* on the `next` branch. 
 
 ## Version Management
 
-Only the DINSIC and the ANSSI can merge to the `master` branch which corresponds to the validated version:
+Only the DINUM and the ANSSI can merge to the `master` branch which corresponds to the validated version:
 
 * At each merge on the `master` branch a tag is added according to the` v [MAJOR] v. [MINOR] `scheme according to the approved *pull requests* on the` next` branch.
 

@@ -6,11 +6,11 @@ menu:
     weight: 50
 ---
 
-La DINSIC maintient ce document et en est responsable (elle est propriétaire du dépôt et de la gestion des droits d'écriture). L'élaboration de cette politique a vocation à être collaborative et les entités auxquelles elle s'applique sont toutes invitées à participer à son évolution.
+La DINUM maintient ce document et en est responsable (elle est propriétaire du dépôt et de la gestion des droits d'écriture). L'élaboration de cette politique a vocation à être collaborative et les entités auxquelles elle s'applique sont toutes invitées à participer à son évolution.
 
 Deux types d'organisations sont distinguées :
 
-* Interministériel : DINSIC et ANSSI
+* Interministériel : DINUM et ANSSI
 * Ministériel
 
 avec un seul rôle par organisation (droit d'écriture sur cette politique). L'ensemble des contributeurs avec les droits d'écriture sont listés dans le fichier [MAINTAINERS](https://github.com/DISIC/politique-de-contribution-open-source/blob/master/MAINTAINERS).
@@ -27,7 +27,7 @@ Tous les mainteneurs ont la possibilité de fusionner les *pull requests* sur la
 
 ## Gestion des versions
 
-Seules la DINSIC et l'ANSSI peuvent fusionner sur la branche `master` qui correspond à la version validée :
+Seules la DINUM et l'ANSSI peuvent fusionner sur la branche `master` qui correspond à la version validée :
 
  * À chaque fusion sur la branche `master` un tag est ajouté suivant le schéma `v[MAJEUR].[MINEUR]` en fonction des *pull requests* approuvées sur la branche `next`. 
 

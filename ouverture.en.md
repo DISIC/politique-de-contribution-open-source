@@ -47,13 +47,13 @@ Conversely, licenses not retained by these organizations (such as * Beerware *) 
 
 ### Signature of *Corporate Contributor License Agreement*
 
-The DINSIC is responsible for signing the Corporate Contributor License Agreement (CCLA) with the communities or companies that require it, in order to allow the professional contributions of the civil servant. If this is requested by the other party, it will maintain a lists of individuals covered by the agreement. Another possibility is that the CCLA is a prerequisite for signing an individual Contributor License Agreement (iCLA). In this case, the signature of a CCLA by the DINSIC will serve as a pre-authorization to sign iCLA.
+The DINUM is responsible for signing the Corporate Contributor License Agreement (CCLA) with the communities or companies that require it, in order to allow the professional contributions of the civil servant. If this is requested by the other party, it will maintain a lists of individuals covered by the agreement. Another possibility is that the CCLA is a prerequisite for signing an individual Contributor License Agreement (iCLA). In this case, the signature of a CCLA by the DINUM will serve as a pre-authorization to sign iCLA.
 
 If you wish to contribute to a project requiring this type of formalism, whether it is to sign a CCLA, add you to the list of authorized contributors, or check the possibility of signing an iCLA, contact the assistance address indicated above.
 
 List of CCLAs signed:
 
-* At this stage, no CCLA has been signed by the DINSIC.
+* At this stage, no CCLA has been signed by the DINUM.
 
 ## Contribute by publishing a new project
 
@@ -64,7 +64,7 @@ List of CCLAs signed:
 
 ### Default permission to contribute a new project under the licenses listed by the decree
 
-The state is not intended to be a software editor. Apart from the three exceptions of the Law for a Digital Republic for which you can contact the support e-mail address in case of question, there is no prior authorization required from the DINSIC. However, please refer to your supervisor before publishing a new project in your organization's account.
+The state is not intended to be a software editor. Apart from the three exceptions of the Law for a Digital Republic for which you can contact the support e-mail address in case of question, there is no prior authorization required from the DINUM. However, please refer to your supervisor before publishing a new project in your organization's account.
 
 As a reminder, the licenses to use are available by decree on the site: [http://www.data.gouv.fr/fr/licences](http://www.data.gouv.fr/fr/licences).
 
