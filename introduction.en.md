@@ -15,6 +15,7 @@ __History and versions__
 | 0.3     | End of the call for comments     | 28/01/2018 |
 | 1.0RC01 | Project submitted to validation  | 02/10/2018 |
 | 1.0     | Validated                        | 16/02/2018 |
+| 1.1     | Validated                        | 09/09/2019 |
 
 ## Objectives
 
