@@ -8,6 +8,8 @@ The purpose of this document is to describe HOW to open source codes according t
 
 To know which source codes should be open, please refer to the Law for a Digital Republic.
 
-[comptes-organismes-publics](comptes-organismes-publics) contains a list of URLs for source code of public organizations (work in progress).  The [data-codes-sources-fr](https://github.com/etalab/data-codes-sources-fr) collects metadata for all source code repositories from this list.
+[comptes-organismes-publics](comptes-organismes-publics) contains a list of URLs for source code of public organizations (work in progress).  This list allows to build the [dataset of source code repositories from the public sector](https://www.data.gouv.fr/fr/datasets/inventaire-des-depots-de-code-source-des-organismes-publics), which you can browse on [code.etalab.gouv.fr](https://code.etalab.gouv.fr).
+
+The [data-codes-sources-fr](https://github.com/etalab/data-codes-sources-fr) collects metadata for all source code repositories from this list.
 
 This document is published under the [Open License 2.0](LICENSE.pdf).
