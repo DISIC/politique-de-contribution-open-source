@@ -69,7 +69,9 @@ Pour rappel, les licences à utiliser sont disponibles par décret sur le site :
 
 ### Éléments à considérer dans le choix de la licence libre
 
-Pour les cas où l'administration a des raisons de garantir que les modifications apportées par un tiers au logiciel libre qu'elle publie sont accessibles sous les mêmes conditions, elle envisagera une licence à réciprocité.  En particulier, s'il s'agit d'un logiciel qui est à la base d'un service en ligne pour lequel elle souhaite se prémunir de toute réappropriation, elle pourra considérer la licence GNU Affero General Public License.  Dans les autres cas, elle considérera les licences permissives.
+Les licences permissives doivent être considérées en priorité.
+
+Si la défense de l'intérêt général justifie de garantir que les modifications apportées par un tiers au logiciel libre qu'elle publie soient accessibles sous les mêmes conditions, elle envisagera une licence à réciprocité.  En particulier, s'il s'agit d'un logiciel qui est à la base d'un service en ligne pour lequel elle souhaite se prémunir de toute réappropriation, elle pourra considérer la licence GNU Affero General Public License.
 
 Le choix de la licence d'un projet devra également prendre en compte celles des composants Open Source tiers constituant son cadre technique, selon les modalités de leurs relations techniques.
 

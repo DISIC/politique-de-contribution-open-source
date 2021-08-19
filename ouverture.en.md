@@ -70,7 +70,9 @@ As a reminder, the licenses to use are available by decree on the site: [http://
 
 ### Elements to consider when choosing a free/open-source software license
 
-When the Administration has reason to ensure that third-party modifications to the software are accessible under the same conditions, it will consider a reciprocal license. In particular, if it is a software that is the basis of an online service for which it wishes to prevent any re-appropriation, it may consider the GNU Affero General Public License. In other cases, it will consider permissive licenses.
+Permissive licenses should be considered first.
+
+When, for the sake of public interest, the Administration has reason to ensure that third-party modifications to the software are accessible under the same conditions, it will consider a reciprocal license. In particular, if it is a software that is the basis of an online service for which it wishes to prevent any re-appropriation, it may consider the GNU Affero General Public License.
 
 The choice of the license of a project need also to take into account the third-party components included in its technical framework, according to the modalities of their technical relations.
 
