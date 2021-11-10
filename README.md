@@ -1,3 +1,11 @@
+**Ce dépôt est en voie d'archivage**.
+
+Pour ajouter un compte d'organisation à référencer, voir [ce dépôt](https://git.sr.ht/~etalab/codegouvfr-sources) et envoyer un mail à [logiciels-libres@data.gouv.fr](mailto:logiciels-libres@data.gouv.fr).
+
+Une partie du contenu de la politique de contribution sera prochainement réintégré dans [les guides](https://communs.numerique.gouv.fr/guides/) publiés par le pôle logiciels libres d'Etalab.
+
+Pour vous tenir informés, [inscrivez-vous à la gazette BlueHats](https://infolettres.etalab.gouv.fr/subscribe/bluehats@mail.etalab.studio).
+
 # Modalités d'ouverture des codes sources
 
 Bienvenue sur la politique de contribution aux logiciels libres de la DINUM.

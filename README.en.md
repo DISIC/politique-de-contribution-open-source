@@ -2,6 +2,8 @@
 
 Welcome to the DINUM Free Software Contribution Policy.
 
+> UPDATE November, 2021: This document is being obsoleted by the free software and digital commons action plan: see https://[communs.numerique.gouv.fr](https://communs.numerique.gouv.fr).
+
 > UPDATE March 13, 2018: The document has been validated at the February 15th, 2018 CSIC Tech.
 
 The purpose of this document is to describe HOW to open source codes according to best practices.
